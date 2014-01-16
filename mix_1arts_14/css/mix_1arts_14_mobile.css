@@ -1,0 +1,109 @@
+@media screen {
+    /* BEGIN:mix_1arts_14 (Small)*/
+    .mix_1arts_14_sprite {
+        background: url(../img/global-sprites.png) no-repeat 0 0;
+        display:none;
+        height: 10px;
+        overflow: hidden;
+        text-indent: -1584px;
+        width: 10px;
+    }
+    .mix_1arts_14_sprite.photo-corner {
+        background-position: -85px -40px;
+        height: 40px;
+        width: 40px;
+    }
+    .mix_1arts_14_sprite.video-corner {
+        background-position: -131px -40px;
+        height: 43px;
+        width: 43px;
+    }
+    .mix_1arts_14 > div.first-child div h2 {
+        font-size:16px;
+    }
+    .mix_1arts_14 .mix_1arts_14_thumb {
+        width: 100%;
+    }
+    .mix_1arts_14 .mix_1arts_14_thumb li {
+        height: auto;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+    }
+    .mix_1arts_14 .mix_1arts_14_thumb li img {
+        /*display: none;*/
+		float: left;
+		min-width: 100px;
+		width: 23%;
+		height: auto;
+		margin-right: 10px;
+		border-right:1px solid #CCC;
+		padding-right:10px;
+    }
+    .mix_1arts_14 .mix_1arts_14_thumb li a {
+        width: 100%;
+        text-decoration: none;
+        display: block;
+        /*
+        color: #666;
+        font-size: 0.8em;
+        margin: 0.8em 0; */
+    }
+    .mix_1arts_14 .mix_1arts_14_thumb li a:before,
+    .mix_1arts_14 .mix_1arts_14_thumb li a:after {
+        content: "";
+        display: table;
+    }
+    .mix_1arts_14 .mix_1arts_14_thumb li a:after {
+        clear: both;
+    }
+    .mix_1arts_14 .mix_1arts_14_thumb li a {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+
+    }
+	
+	
+    .mix_1arts_14 .mix_1arts_14_thumb li a p,
+    .mix_1arts_14 .mix_1arts_14_thumb li a h4 {
+        
+        font-size: 16px;
+        font-weight: bold;
+    }
+	
+	.mix_1arts_14 .mix_1arts_14_thumb li a .estadio{
+		height:100%;
+		padding: 10px 0 0px;
+		clear:right;
+		font-weight:bold;
+		font-size:18px;
+	}
+	
+    .mix_1arts_14 .mix_1arts_14_thumb li a i.icon {
+        height: 55px;
+        line-height:55px;
+        position: absolute;
+        top: -5px;
+        right: 0;
+        font-size:34px;
+        color:#a9a9a9;
+        /*text-shadow: 0px 1px 0px #888888;*/
+        filter: dropshadow(color=#888888, offx=0, offy=1);
+    }
+    .mix_1arts_14 .mix_1arts_14_thumb li a h2 {       
+        font-style: italic;
+        font-size: 12px;
+        line-height: 16px;
+		font-weight: normal;
+		float: left;
+    }
+    /* END:mix_1arts_14 (Small)*/
+
+	.mix_1arts_14 .mix_1arts_14_thumb li a span {
+        font-size: 12px;
+		line-height: 15px;
+		display: none;
+    }
+}
+
+

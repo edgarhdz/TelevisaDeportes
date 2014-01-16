@@ -1,0 +1,116 @@
+/* 
+    Document   : wdg_podcast_03
+    Created on : 16/Jun/2013, 04:02:15 PM
+    Author     : Luis Jesús Ruelas Merino
+    Description:
+*/
+@media screen {
+	.wdg_podcast_03{
+		position: relative;
+		/*margin-bottom: 20px;*/
+	}
+	.wdg_podcast_03 .container{
+		margin-top: 10px;
+		height: 192px;
+		overflow: hidden;
+		margin-bottom: 24px;
+	}
+	.wdg_podcast_03 .scroll{
+		height: 192px;
+		overflow: auto;
+		width: 106%;
+	}
+    .wdg_podcast_03 .container_podcast{
+    	height: 51px;
+    	background-clip: border-box;
+		background-color: #E7E7E7 !important;
+		background-origin: padding-box;
+		background-repeat: repeat;
+		background-size: auto auto;
+		text-decoration: none;
+		box-shadow:inset 2px 3px 27px #CBCBCB;
+    }
+    
+    .wdg_podcast_03 .container_podcast div{
+    	float: left;
+    }
+    .wdg_podcast_03 .icon_podcast{
+		padding: 2px 28px 10px;
+		border-right: 1px #ccc solid;
+		background: #F5F5F5;
+	}
+	.wdg_podcast_03 .chapter_name{
+		padding-left: 24px;
+		padding-top: 11px;
+		font-style: italic;
+		font-weight: bold;
+		width: 50%;
+		line-height: 17px;
+		letter-spacing: -1pt;
+	}
+	.wdg_podcast_03 .chapter{
+		padding-top: 1px;
+		float: left;
+		clear: both;
+		width: 100%;
+		font-size: 11px;
+		font-weight: bolder;
+		color: #000;
+	}
+	.wdg_podcast_03 .see_more{
+		line-height: 29px;
+		margin-left: 83px;
+		font-size: 15px;
+		font-weight: bolder;
+		padding-left: 23px;
+		background-clip: border-box;
+		background-color: #E7E7E7 !important;
+		background-origin: padding-box;
+		background-repeat: repeat;
+		background-size: auto auto;
+		text-decoration: none;
+		box-shadow: 2px 3px 27px #CBCBCB inset;
+		cursor: pointer;
+		display: none;
+	}
+	.wdg_podcast_03 .see_less{
+		line-height: 29px;
+		margin-left: 78px;
+		font-size: 15px;
+		font-weight: bolder;
+		padding-left: 23px;
+		background-clip: border-box;
+		background-color: #E7E7E7 !important;
+		background-origin: padding-box;
+		background-repeat: repeat;
+		background-size: auto auto;
+		text-decoration: none;
+		box-shadow: 2px 3px 27px #CBCBCB inset;
+		cursor: pointer;
+		display: none;
+	}
+	.wdg_podcast_03 .container_podcast:last-child{
+		height: 51px;
+	}
+	.wdg_podcast_03 .degraded{
+		bottom:64px;
+	}
+	.wdg_podcast_03 img.podcast_logo {margin-left:24px;}
+	.wdg_podcast_03 strong.podcast_intro {display:block;margin:0 0 24px 24px;font-style:italic; font-size:14px; }
+	.wdg_podcast_03 > div .full-timetable {
+        background: none repeat scroll 0 0 #E6E6E6;
+        box-shadow: 0 0 7px #C0C0C0 inset;
+        display: block;
+        height: 40px;
+        line-height: 40px;                       
+		text-align: center;
+    }
+
+    .wdg_podcast_03 > div .full-timetable span {
+        color: #000000;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    
+}

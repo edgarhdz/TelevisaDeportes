@@ -1,0 +1,11 @@
+@media screen and (min-width: 948px) {
+    .btn_podcast_02 {
+        margin-bottom:24px;
+    }
+    .btn_podcast_02 .btn_podcast_02_text a {
+    	margin-left: 11%;
+    }
+    .btn_podcast_02 .btn_podcast_02_text hr {
+    	background-color: transparent;
+    }
+}

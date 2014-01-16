@@ -1,0 +1,122 @@
+@media screen and (min-width: 624px){
+    .btn_6prog_04{
+        margin-bottom: 36px;
+        overflow: hidden;
+    }
+    .btn_6prog_04 .type1a {
+        padding-left: 0;
+    }
+    .btn_6prog_04 .type1a .title .flechas{
+        display: none !important;
+    }
+    .btn_6prog_04 .type1a ul {
+        margin: 1.563em 0 auto;
+    }
+   
+    .btn_6prog_04 .type1a .carrusel {
+        overflow-y: hidden !important;
+    }
+    .btn_6prog_04 .type1a .carrusel ul {
+        margin-top: 0;
+        overflow-y: hidden !important;
+    }
+    .btn_6prog_04 div.title {
+        margin-bottom: 1.5em;
+    }
+    .btn_6prog_04 div.title:before,
+    .btn_6prog_04 div.title:after {
+        content: "";
+        display: table;
+    }
+    .btn_6prog_04 div.title:after {
+        clear: both;
+    }
+    .btn_6prog_04 div.title {
+        zoom: 1;
+    }
+    .btn_6prog_04 div.title h3 {
+        width: 31%;
+        min-width:165px;
+        float: left;
+        height: 32px;
+        line-height: 25px;
+    }
+    .btn_6prog_04 div.title h3 a {
+        background-image: none !important;
+        padding: 0.45em 1em 0.313em 1.375em;
+        line-height: 24px !important;
+    }
+    .btn_6prog_04 div.title h3 a span.icon {
+        display: none;
+    }
+    
+    /*tablet*/
+    .btn_6prog_04 .type1a .carrusel ul li{
+    	display:block;
+    	width: 137px;
+    	margin: 0 0 24px 25px;
+    	clear:  inherit !important;
+    }
+    
+    .btn_6prog_04 .type1a div ul li {
+    	float: left;
+    }  
+       
+    .btn_6prog_04 .type1a .carrusel ul li a{
+    	margin-bottom:10;
+    	float:none;
+    }
+    .btn_6prog_04 .type1a .carrusel ul li p {
+        font-style: italic;
+        font-size: 11px;
+        font-weight:normal;
+    }
+    .btn_6prog_04 .type1a div ul li a{
+    	border-right:0px solid #ccc;
+    }
+    .btn_6prog_04 .type1a .carrusel ul li h2 a{
+        width: auto;
+        padding-left:0;
+        padding-top:0;
+    }
+     .btn_6prog_04 .type1a .carrusel ul li a img {
+     	width: 136px;
+        height: 106px;
+     	margin-bottom: 8px !important;
+     }
+     .btn_6prog_04 .type1a .carrusel ul li > a{
+    	border-right:0px solid #ccc;    	
+    }
+    .btn_6prog_04 .btn_6prog_04_verMas{
+    	display:none;
+    }
+    /*BEGIN:Bullet*/
+     .btn_6prog_04 .bullets{
+        display: block;
+        width: 100%;
+        border-top: 1px solid #CCC;
+        margin-bottom: 0px;
+        height: 20px;
+    }
+    .btn_6prog_04 .bullets ul{
+
+        width:110px;
+        float: right;
+        margin-top:5px;
+    }
+    .btn_6prog_04 .bullets ul li{
+
+        width:15px;
+        height: 15px;
+        background-color:#CCC;
+        margin-left: 5px;
+        float:left;
+    }
+    .btn_6prog_04 .bullets ul li.selected{
+        background-color:#A70A0B;
+    }
+    /*END:Bullet*/
+  .btn_6prog_04 .tvsa-camera{
+    	display: none;
+    }
+}

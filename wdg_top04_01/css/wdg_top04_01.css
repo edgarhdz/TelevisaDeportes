@@ -1,0 +1,16 @@
+@media screen and (min-width: 948px){
+    /* BEGIN: Global (Large) */
+    .wdg_top04_01 .wdg_top04_01_title{
+        width: 300px;
+    }
+    .wdg_top04_01 .bullets{
+    	display: none;
+    }
+    .wdg_top04_01 .wdg_carousa .arrows{
+		 display:block;		
+    }
+    .wdg_top04_01 .wdg_top04_01_carousel ul li div:last-of-type{
+        display: block;
+    }
+    /* END: Global (Large) */
+}

@@ -1,0 +1,511 @@
+header.main div.section.television .subsections ul.social li.dropdown ul {
+  background: transparent;
+}
+header.main div.top {
+  max-width: 60em;
+}
+header.main div.top a.logo {
+  margin-left: 1.5em;
+}
+header.main div.top a.search {
+  height: 2.4em;
+  right: 0.05em;
+  width: 2.35em;
+}
+header.main div.top .date {
+  color: #fff;
+  display: block;
+  font-size: 0.75em;
+  line-height: 3em;
+  position: absolute;
+  right: 5em;
+  top: 0;
+}
+header.main > nav {
+  max-width: 60em;
+}
+header.main > nav ul[role="menu"] {
+  margin-left: 14.5em;
+}
+header.main > nav ul[role="menu"] li a {
+  font-size: 0.75em;
+}
+header.main .toggleable .wrapper {
+  max-width: 60em;
+}
+header.main .toggleable .featured {
+  width: 45em;
+}
+header.main .toggleable .big-news {
+  display: block;
+}
+header.main .toggleable .match-list {
+  display: block;
+}
+header.main div.section h2 {
+  max-width: 40em;
+}
+header.main div.section h2 a {
+  margin-left: 6.9em;
+}
+header.main div.section .subsections nav ul {
+  width: 55em;
+}
+header.main div.section .subsections ul.social {
+  margin-right: -30em;
+}
+header.main div.section .subsections ul.social li.dropdown > a {
+  display: none;
+}
+header.main div.section .subsections ul.social li.dropdown ul {
+  border-top: 0;
+  display: block;
+  position: static;
+  background-color: transparent;
+}
+header.main div.section .subsections ul.social li.dropdown ul li a {
+  line-height: 2.7em;
+}
+header.main div.section .weather-module {
+  margin: 0 0 0 -30em;
+  width: 60em;
+}
+header.main div.section .dropdown-content .wrapper {
+  max-width: 55em;
+}
+header.main div.section .dropdown-content ul.horizontal li {
+  width: 9.166666666666666em;
+}
+header.main div.search {
+  width: 60em;
+}
+header.main div.search input {
+  padding-top: 0.85em;
+  padding-bottom: 0.85em;
+  right: 3.4em;
+}
+header.main.show-search div.search input {
+  padding-top: 0.85em;
+  padding-bottom: 0.85em;
+}
+section.social div.wrapper {
+  max-width: 80em;
+}
+section.social div.wrapper div {
+  left: 20em;
+}
+footer .makeBookmark span {
+  width: 955px;
+}
+footer div .wrapper,
+footer .blue-row .wrapper,
+footer .dark-row .wrapper {
+  width: 1014px;
+}
+footer .leftBorder {
+  border-left: 1px solid #dadada;
+}
+footer .blue-row ul a {
+  float: none;
+}
+footer .blue-row a {
+  float: right;
+}
+footer .blue-row a .text {
+  display: block;
+  font-size: 0.65em;
+  color: #f39040;
+  margin: 0;
+  float: left;
+  padding: 0 0.313em;
+}
+footer .blue-row .blueSections > li {
+  width: 14em;
+}
+footer .desktopNav ul {
+  width: 955px;
+}
+footer .videopodcast {
+  height: 190px;
+}
+footer .platforms {
+  height: 115px;
+}
+footer .white-row .wrapper {
+  height: 21em;
+  width: 948px;
+}
+footer div.legal div.row div.left {
+  width: auto;
+}
+footer div.legal div.row {
+  width: 90%;
+}
+footer .white-row .column:first-of-type ul:last-child {
+  height: 172px;
+}
+/* BEGIN: sportsresults (Large) */
+.sportsResults > div:first-child {
+  width: 948px;
+}
+/* END: sportsresults (Large) *//* BEGIN: carouseltype2 (Large) */
+.carouseltype2 {
+  /*
+    width: 950px;
+    & > div:first-child {
+        border-bottom: 1px solid #ccc;
+    }
+
+    & > div {
+        & > ul {
+
+            li:nth-child(2) {
+                padding-right: 0.8em;
+                border-right: 1px solid #ccc;
+            }
+
+            li:last-child {
+                padding-right: 0;
+                margin-right: 0;
+                border-right: 0;
+
+                a{
+                    & > div {
+                        left:0.8em;
+                    }
+                }
+            }
+        }
+    }
+    */
+
+}
+/* END: carouseltype2 (Large) *//* BEGIN:type2bhome (Large)*/
+.type2bhome {
+  width: 625px;
+}
+.type2bhome > div.type2bhomeitems {
+  width: 625px;
+  float: left;
+}
+.type2bhome > div.type2bhomeitems > ul > li {
+  float: left;
+  border-left: 1px solid #ccc;
+  padding: 0 8px 0 8px;
+  width: 193px;
+}
+.type2bhome > div.type2bhomeitems > ul > li img {
+  width: auto;
+  height: auto;
+}
+.type2bhome > div.type2bhomeitems > ul li:first-child {
+  padding-left: 0;
+  border: 0;
+}
+.type2bhome > div.type2bhomeitems > ul li:last-child {
+  padding-right: 0;
+}
+.type2bhome .articleBigModule {
+  width: 625px;
+  height: 24.5em;
+  font-size: 0.75em;
+  position: relative;
+  top: 0;
+}
+.type2bhome .articleBigModule h2,
+.type2bhome .articleBigModule h4,
+.type2bhome .articleBigModule p,
+.type2bhome .articleBigModule ul {
+  display: block;
+}
+.type2bhome .articleBigModule h2 {
+  font-size: 1em;
+}
+.type2bhome .articleBigModule h4 {
+  font-size: 1.5em;
+  margin: 0.938em 0 1.438em;
+  padding: 0;
+}
+.type2bhome .articleBigModule p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.type2bhome .articleBigModule li:first-child {
+  margin-bottom: 0.625em;
+}
+.type2bhome .articleBigModule li {
+  color: #666;
+  width: auto;
+}
+.type2bhome .articleBigModule img {
+  float: left;
+  width: auto;
+  height: auto;
+}
+.type2bhome .articleBigModule > div.galleryCaption {
+  width: 29.5%;
+  height: 100%;
+  float: right;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: auto;
+  background-color: transparent;
+}
+.type2bhome .articleBigModule > div.galleryCaption ul:first-child {
+  display: none;
+}
+.type2bhome .articlesThumbList {
+  display: block;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+.type2bhome .articlesThumbList li {
+  /*overflow: hidden;*/
+
+  border: 0;
+  padding: 0 0.8em 0.3em;
+  margin: 1em 0;
+  float: left;
+  width: 29.45%;
+  border-left: 1px solid #ccc;
+  background: transparent;
+}
+.type2bhome .articlesThumbList li a {
+  padding: 0;
+}
+.type2bhome .articlesThumbList li a h4,
+.type2bhome .articlesThumbList li a p {
+  width: 98%;
+  float: none;
+  padding: 0;
+}
+.type2bhome .articlesThumbList li a p {
+  border: 0;
+  position: static;
+  left: 0;
+}
+.type2bhome .articlesThumbList li a h2 {
+  display: block;
+  font-style: italic;
+  font-size: 0.9em;
+  line-height: 3em;
+}
+.type2bhome .articlesThumbList li a img {
+  display: block;
+  width: auto;
+  height: auto;
+  position: static;
+  border: 0;
+}
+.type2bhome .articlesThumbList li span.icon {
+  display: none;
+}
+.type2bhome .articlesThumbList li:first-child {
+  padding-left: 0;
+  border: 0;
+  margin-left: 0;
+}
+.type2bhome .articlesThumbList li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+/* END:type2b (Large)*//* BEGIN: <type3a(large)> */
+.type3 ul li div:last-child {
+  left: 1.8em;
+}
+.type3 ul > li:last-child div:last-child {
+  left: 2.25em;
+}
+/* BEGIN:deportes (Large)*/
+#deportes div.main {
+  width: 948px;
+}
+#deportes div.main #bannerTopDeportes #banner1Deportes {
+  display: block;
+}
+#deportes div.main #bannerTopDeportes #banner2Deportes {
+  display: none;
+}
+#deportes div.main div.container-one:before,
+#deportes div.main div.container-one:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-one:after {
+  clear: both;
+}
+#deportes div.main div.container-one {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-one div.left {
+  clear: none;
+  width: 625px;
+  float: left;
+}
+#deportes div.main div.container-one div.right {
+  clear: none;
+  width: 300px;
+  float: right;
+  margin-top: 0;
+}
+#deportes div.main div.container-one div.right #vivoahora1 {
+  float: none;
+}
+#deportes div.main div.container-one div.right #masleido1 {
+  float: none;
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-one div.right #masleido1 .mostread ul li:nth-child(n-4) {
+  display: block;
+}
+#deportes div.main div.container-one div.right #masleido1 .mostread ul li:nth-child(n+8) {
+  display: none;
+}
+#deportes div.main div.container-two-banner #bannerDeportes1 {
+  display: block;
+}
+#deportes div.main div.container-two-banner #bannerDeportes2 {
+  display: none;
+}
+#deportes div.main div.container-four:before,
+#deportes div.main div.container-four:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-four:after {
+  clear: both;
+}
+#deportes div.main div.container-four {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-four div.left {
+  width: 625px;
+  float: left;
+}
+#deportes div.main div.container-four div.right {
+  width: 300px;
+  margin-top: 0;
+  float: right;
+  clear: none;
+}
+#deportes div.main div.container-four div.right #goles {
+  float: none;
+}
+#deportes div.main div.container-four div.right #goles .customdropdown ul {
+  height: 30em;
+}
+#deportes div.main div.container-four div.right #agenda {
+  margin-top: 3em;
+  float: none;
+}
+#deportes div.main div.container-four div.right #agenda .timetable > ul {
+  height: 35em;
+}
+#deportes div.main div.container-five #bannerDeportes3 {
+  display: block;
+}
+#deportes div.main div.container-five #bannerDeportes4 {
+  display: none;
+}
+#deportes div.main div.container-six:before,
+#deportes div.main div.container-six:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-six:after {
+  clear: both;
+}
+#deportes div.main div.container-six {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-six div.left {
+  float: left;
+}
+#deportes div.main div.container-six div.left div.one #boxeo,
+#deportes div.main div.container-six div.left div.one #nfl {
+  width: 625px;
+  float: none;
+}
+#deportes div.main div.container-six div.right {
+  width: 300px;
+  float: right;
+  clear: none;
+}
+#deportes div.main div.container-six div.right div.left2 {
+  float: none;
+}
+#deportes div.main div.container-six div.right div.left2:before,
+#deportes div.main div.container-six div.right div.left2:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-six div.right div.left2:after {
+  clear: both;
+}
+#deportes div.main div.container-six div.right div.left2 {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-six div.right div.left2 #clasificacion .clasificaction > ul {
+  height: 32.5em;
+}
+#deportes div.main div.container-six div.right div.left2 #opinion {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.right div.left2 #opinion:before,
+#deportes div.main div.container-six div.right div.left2 #opinion:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-six div.right div.left2 #opinion:after {
+  clear: both;
+}
+#deportes div.main div.container-six div.right div.left2 #opinion {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-six div.right div.left2 #opinion .twitterers2 ul li:nth-child(n-4) {
+  display: block;
+}
+#deportes div.main div.container-six div.right div.left2 #opinion .twitterers2 ul li:nth-child(n+3) {
+  display: none;
+}
+#deportes div.main div.container-six div.right div.left2 #twitter {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.right div.left2 #twitter .twitterers > ul {
+  height: 27.3em;
+}
+#deportes div.main div.container-six div.right div.right2 {
+  float: none;
+}
+#deportes div.main div.container-six div.right div.right2:before,
+#deportes div.main div.container-six div.right div.right2:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-six div.right div.right2:after {
+  clear: both;
+}
+#deportes div.main div.container-six div.right div.right2 {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-six div.right div.right2 #encuesta {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.right div.right2 #newsletter {
+  margin-top: 1.5em;
+}
+/* END:deportes (Large)*/

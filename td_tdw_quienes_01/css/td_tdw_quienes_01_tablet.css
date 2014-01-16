@@ -1,0 +1,42 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_tdw_quienes_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_tdw_quienes_01 .c1_0{
+		display:none;
+    }
+	.td_tdw_quienes_01 .main .c1{
+		margin-top:24px;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_tdw_quienes_01 .main .c2,
+	.td_tdw_quienes_01 .main .c3,
+	.td_tdw_quienes_01 .main .c3_b{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_tdw_quienes_01 .main .c2 .c2_2 .art_reltd_01 {
+		border-right: 1px dashed #CCCCCC;
+		width: 297px;
+	}
+	.td_tdw_quienes_01 .main .c2 .c2_3{
+		width:270px;
+	}
+	.td_tdw_quienes_01 .main .c2 .c2_4{
+		clear:both;
+	}
+	/*Ajustes especiales*/
+	.td_tdw_quienes_01 .wdg_matchesresult_01{
+		margin-bottom:24px;
+	}
+	.td_tdw_quienes_01 .c1_1 img{
+		margin-bottom:13px;
+	} 
+	.td_tdw_quienes_01 .c1_1{
+		width: 624px;
+		overflow: hidden;
+	}
+}

@@ -1,0 +1,666 @@
+@media screen{
+	.wdg_hexagonal_estadistics_01{
+		width:624px;
+		position:relative;
+		height:auto;
+        margin-bottom:0px;
+		display: none;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .wdg_hexagonal_estadistics_01_dropdown {
+		background-color: #D3D3D3;
+		box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+		cursor: pointer;
+		float: left;
+		height: 30px;
+		width: 100%;
+		cursor: pointer;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .wdg_hexagonal_estadistics_01_dropdown .wdg_hexagonal_estadistics_01_dropdowncontent p {
+		color: #000;
+		display: inline-block;
+		float: left;
+		font-size: 12px;
+		font-weight: bold;
+		line-height: 33px;
+		margin-left: 20px;
+		width: 246px;
+	}
+	
+	.wdg_hexagonal_estadistics_01 #dropdwon-right {
+		float: right;
+		margin-left: 0;
+		padding-bottom: 0;
+		padding-left: 6px;
+		position: relative;
+		width: 21px;
+		z-index: 1000;
+	}
+	
+	
+	
+	.wdg_hexagonal_estadistics_01 .wdg_hexagonal_estadistics_01_dropdown .wdg_hexagonal_estadistics_01_dropdowncontent span {
+		float: right;
+		margin-right: 9px;
+		margin-top: 10px;
+	}
+	.sprite.dropdown-white {
+		background-position: -188px -6px;
+		height: 7px;
+		width: 12px;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .wdg_hexagonal_estadistics_01_listcontainer {
+		clear: both;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .wdg_hexagonal_estadistics_01_listcontainer ul {
+		background-color: #F5F5F5;
+		cursor: pointer;
+		position: relative;
+		visibility: hidden;
+		z-index: 1000 !important;
+		font-size: 14px;
+		margin: 0;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .wdg_hexagonal_estadistics_01_listcontainer ul li {
+		background-color: rgba(235, 235, 235, 0.6);
+		border-bottom: 1px solid #D3D3D3;
+		box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1) inset;
+		height: 34px;
+		width: 100%;
+		float: left;
+		font-weight: bold;
+		margin: 0;
+		padding: 5px 0 5px 5px;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .wdg_hexagonal_estadistics_01_listcontainer ul li p {
+		font-style: italic;
+		font-weight: bold;
+		line-height: 34px;
+		margin-left: 20px;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .pleca_inferior {
+		border-bottom: 1px solid #CCCCCC;
+		clear: both;
+		height: 30px;
+		position: relative;
+		width: 100%;
+		margin-bottom:10px;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .pleca_inferior h5 {
+		
+		float: left;
+		font-size: 12px;
+		padding: 8px 0 4px 325px;
+		position: relative;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .pleca_inferior  .wdg_hexagonal_estadistics_01_dropdown{
+       
+		float: right;
+		height: 30px;
+		position: relative;
+		width: 34%;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .pleca_inferior .wdg_hexagonal_estadistics_01_dropdown .wdg_hexagonal_estadistics_01_dropdowncontent p {
+		width: 164px;
+	}
+	
+	.wdg_hexagonal_estadistics_01 .pleca_inferior .wdg_hexagonal_estadistics_01_listcontainer ul li {
+		width: 192px;
+	}
+	
+	
+	
+    .wdg_hexagonal_estadistics_01 .line_right_dashed
+    {
+        border-right:0;
+        background:url(../img/dotted-vertical.png) repeat-y 100% 0;
+    }
+    .wdg_hexagonal_estadistics_01 .espaciadoSimple > .resultado
+    {
+        color:#888;
+    }
+    .wdg_hexagonal_estadistics_01 .resultado
+    {
+        position: relative;
+        float: left;
+        width: 54px;
+        font-style: normal!important;
+        height: 24px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .wdg_hexagonal_estadistics_01 .team_space
+    {
+        width: 170px;
+        padding-left: 21px;
+        height: 24px;
+        position: relative;
+        float: left;
+        
+    }
+    .wdg_hexagonal_estadistics_01 .espaciadoDoble
+    {
+        margin-bottom: 29px;
+    }
+    .wdg_hexagonal_estadistics_01 .content_listado div:last-child > div
+    {
+        padding-bottom: 0px!important;
+    }
+    .wdg_hexagonal_estadistics_01 .content_listado div:last-child
+    {
+        
+        padding-bottom: 0px!important;
+        border-bottom: 0px !important;
+    }
+    .wdg_hexagonal_estadistics_01 .espaciadoSimple > div
+    {
+        padding-bottom: 22px;
+    }
+    .wdg_hexagonal_estadistics_01 .espaciadoSimple
+    {
+        padding-bottom: 22px;
+    }
+    .wdg_hexagonal_estadistics_01 .team_space img
+    {
+        float: left;
+        position: relative;
+        margin-right: 13px;
+    }
+    .wdg_hexagonal_estadistics_01 .linea
+    {
+        width: 100%;
+        height: 21px;
+        position: relative;
+        float: left;
+    }
+    
+    
+			
+		
+					.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .encabezado_alineacion_partido .grisPequeno
+					{
+						font-size:8px;
+						color: #666666;
+					}
+					.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .encabezado_alineacion_partido .rojo
+					{
+						
+					}
+					.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .encabezado_alineacion_partido .rojo
+					{
+						margin-left:14px;
+						color: #D9A961;
+						margin-right:5px;
+					}
+					.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .encabezado_alineacion_partido img
+					{
+						float:left;
+						margin-right:4px;
+					}
+					.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .encabezado_alineacion_partido  h2
+					{
+						padding-top:6px;
+						text-transform:uppercase;
+						font-size:12px;
+						float:left;
+					}
+					.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .encabezado_alineacion_partido .jornada
+					{
+						width:100%;
+						height:30px;
+					}
+					.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .encabezado_alineacion_partido .equipos
+					{
+						width:248px;
+						height:auto;
+					}
+					.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .simbolo2
+					{
+						width:54px;
+						border-right:1px dotted #999;
+						height:auto;
+						float:left;
+						font-weight:bold;
+						text-align:center;
+						padding-top:0px;
+						color: #D9A961;						
+						padding-bottom:5px;
+					}
+					.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .simbolo
+					{
+						width:54px;
+						border-right:1px solid #999;
+						height:auto;
+						float:left;
+						font-weight:bold;
+						padding-top:0px;
+						color: #A41D21;
+						padding-bottom:5px;
+						text-align:center;
+					}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .encabezado_alineacion_partido > div
+				{
+					
+					float:left;
+				}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .jugador_info_alineado
+				{
+					padding-left:12px;
+					width:237px;
+					position:relative;
+					float:right;
+				}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .jugador_alineacion_partido .player_alineado h2
+				{
+					font-size:8px;
+					position:relative;
+					padding-bottom: 5px;
+					padding-top: 7px;
+					margin-left:4px;
+					margin-right:3px;
+					float:right;
+					color: #666666;
+				}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido h1
+				{
+					font-size:12px;
+					position:relative;
+					margin-left:2px;
+					padding-bottom: 5px;
+					padding-top: 4px;
+					float:left;
+				}
+				.wdg_hexagonal_estadistics_01 .encabezado_alineacion_partido h3
+				{
+					width:auto;
+					padding-left:25px;
+					padding-top:8px;
+					padding-bottom:8px;
+					float:left;
+				}
+				.wdg_hexagonal_estadistics_01 .banca  
+				{
+					border-bottom:0px !important;;
+				}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .jugador_alineacion_partido .player_alineado img
+				{
+					float:right;
+					position:relative;
+					margin-top:4px;
+					
+				}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .jugador_alineacion_partido .player_alineado
+				{
+					width:100%;
+					height:auto;
+					padding-bottom:5px;
+					border-bottom:1px dotted #888;
+					position:relative;
+					margin-top:3px;
+				}
+				
+				.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .jugador_alineacion_partido
+				{
+					width:100%;
+					text-align:center;
+					height:auto;
+					position:relative;
+					float:left;
+				}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .encabezado_alineacion_partido
+				{
+					width:100%;
+					padding-top:5px;
+					text-align:center;
+					height:auto;
+					position:relative;
+					float:left;
+				}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido   .separadoizquierda
+				{
+					padding-right:6px;
+					border-right:1px dotted #888;
+				}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido   .separadoizquierda_encabezado
+				{
+					padding-right:6px;
+					border-right:0px;
+				}
+				.wdg_hexagonal_estadistics_01 .alineacion_partido   .separadoderecha
+				{
+					padding-left:6px;
+					/*border-right:1px dotted #888;*/
+				}
+			.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido .dt_alineacion_partido
+			{
+				width:100%;
+				height:auto;
+				position:relative;
+				padding-top:8px;
+				
+				float:left;
+				
+				
+			}			
+			.wdg_hexagonal_estadistics_01 .alineacion_partido .equipo_partido
+			{
+				width:305px;
+				height:auto;
+				position:relative;
+				float:left;
+			}
+		.wdg_hexagonal_estadistics_01 .centradoPartido
+		{
+			width:auto;
+			height:auto;
+			margin:0px auto;
+		}
+		.wdg_hexagonal_estadistics_01 .alineacion_partido
+		{
+			width:100%;
+			/*border-top:1px solid #888;
+			
+			border-bottom:1px solid #888;*/
+                        float: left;
+			height:auto;
+			position:relative;
+			padding-bottom:4px;
+		}
+                .wdg_hexagonal_estadistics_01 .simbologia .icon_simbologia h5
+                {
+                    color: #D9A961;
+                }
+		.wdg_hexagonal_estadistics_01 .simbologia .icon_simbologia img,
+		.wdg_hexagonal_estadistics_01 .simbologia .icon_simbologia i,
+		.wdg_hexagonal_estadistics_01 .simbologia .icon_simbologia h5
+		
+		{
+			position:relative;
+			float:left;
+			margin-left:15px;
+		}
+		.wdg_hexagonal_estadistics_01 .simbologia .icon_simbologia h3
+		{
+			position:relative;
+			float:left;
+			padding-top:4px;
+			/*color: #8F8F8F;*/
+			margin-left:17px;
+			font-size:12px;
+			font-weight:normal;
+		}
+		.wdg_hexagonal_estadistics_01 .simbologia .tabla_simbologia > .icon_simbologia
+		{
+			padding-top:8px;
+			padding-bottom:8px;
+			float:left;
+			width:49%;
+		}
+		.wdg_hexagonal_estadistics_01 .simbologia .tabla_simbologia
+		{
+			width:100%;
+			height:auto;
+			float:left;
+			border-bottom:1px solid #CCC;
+			position:relative;
+			padding-bottom:4px;
+			padding-top:4px;
+			
+		}
+		/*.ie8 .wdg_hexagonal_estadistics_01 .simbologia .title_simbologia
+		{
+			background-color: #F5F5F5 !important;
+			z-index:10000 !important;
+			height:20px;
+		}*/
+		.wdg_hexagonal_estadistics_01 h4 
+                {
+			position: relative;
+                        font-size: 13px;
+                        margin-top: 4px;
+		
+		 }
+		  
+		.wdg_hexagonal_estadistics_01 h4.one {
+			margin-top: 0;
+		  }
+		  
+		.wdg_hexagonal_estadistics_01 h4.one:before {
+			content: "";
+			display: block;
+			border-top: solid 1px #CCC;
+			width: 100%;
+			height: 1px;
+			position: absolute;
+			top: 50%;
+			z-index: 1;
+		  }
+		.wdg_hexagonal_estadistics_01 .content_listado{
+                    width: 100%;
+                    height: auto;
+                    position: relative;
+                    float: left;
+                }
+		.wdg_hexagonal_estadistics_01 h4.one span {
+			background: #f5f5f5;
+			padding: 0 20px;
+			position: relative;
+			z-index: 5;
+		  }
+		.wdg_hexagonal_estadistics_01 .title_simbologia2 .head_component
+                {
+                    font-style:normal!important;
+                    font-weight: bold!important;
+                }
+		.wdg_hexagonal_estadistics_01 .title_simbologia2
+		{
+			width:100%;
+			height:28px;
+			position:relative;
+			font-size:18px;
+			font-style:normal!important;
+			/*color:#8F8F8F;*/
+                        margin-bottom: 24px;
+			background-color: #F5F5F5 !important;
+			z-index:10000 !important;
+                        
+			text-align:center;
+
+		}
+		.wdg_hexagonal_estadistics_01 .title_simbologia
+		{
+			width:100%;
+			height:14px;
+			position:relative;
+			font-size:13px;
+			font-style:italic;
+			/*color:#8F8F8F;*/
+			background-color: #F5F5F5 !important;
+			z-index:10000 !important;
+                        
+			text-align:center;
+
+		}
+		.wdg_hexagonal_estadistics_01 .simbologia
+		{
+			width:auto;
+			position:relative;
+			
+
+			height:auto;
+		}
+	.wdg_hexagonal_estadistics_01 .line_left
+	{
+		border-right:1px dotted #CCC;
+	}
+	.wdg_hexagonal_estadistics_01 .lineaBajo
+	{
+		border-bottom:1px solid #CCC;
+	}
+	.wdg_hexagonal_estadistics_01 .lineaBajoTransform
+	{
+		border-bottom:0px;
+		border-top:1px solid #CCC;
+	}
+	.wdg_hexagonal_estadistics_01 .wdg_lineup_01_dropdown {
+        clear: both;
+        width: 100%;
+        height: 100%;
+        background-color: #d3d3d3;
+        box-shadow: inset 0px 0px 12px 4px rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_01_dropdown .wdg_lineup_01_dropdowncontent p {
+        line-height: 34px;
+        margin-left: 20px;
+        font-style: italic;
+        font-size: 15px;
+        color: #666666;
+        font-weight: bold;
+        float: left;
+        width: 70%;
+        display: inline-block;
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_01_dropdown .wdg_lineup_01_dropdowncontent span {
+        margin-top: 13px;
+        margin-right: 15px;
+        opacity: 0.5;
+        float: right;
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_01_listcontainer{
+        clear: both;
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_01_listcontainer ul{
+        background-color: #f5f5f5;
+        z-index: 1000 !important;
+        position: relative;
+        visibility: hidden;
+        cursor: pointer;
+
+    }
+    
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_01_listcontainer ul::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_01_listcontainer ul::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
+    
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_01_listcontainer ul li{
+        width: 100%;
+        height: 34px;
+        /*background-color: rgba(235,235,235,0.6);*/
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+    }  
+    
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_01_listcontainer ul li:hover{
+        background-color: rgba(235,235,235,0.9);  
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_01_listcontainer ul li p{
+        margin-left: 20px;
+        line-height: 34px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+	.wdg_hexagonal_estadistics_01 .wdg_lineup_012_dropdown {
+        clear: both;
+        width: 100%;
+        height: 100%;
+        background-color: #d3d3d3;
+        box-shadow: inset 0px 0px 12px 4px rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_012_dropdown .wdg_lineup_012_dropdowncontent p {
+        line-height: 34px;
+        margin-left: 20px;
+        font-style: italic;
+        font-size: 15px;
+        color: #666666;
+        font-weight: bold;
+        float: left;
+        width: 70%;
+        display: inline-block;
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_012_dropdown .wdg_lineup_012_dropdowncontent span {
+        margin-top: 13px;
+        margin-right: 15px;
+        opacity: 0.5;
+        float: right;
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_012_listcontainer{
+        clear: both;
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_012_listcontainer ul{
+        background-color: #f5f5f5;
+        z-index: 1000 !important;
+        position: relative;
+        visibility: hidden;
+        cursor: pointer;
+
+    }
+    
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_012_listcontainer ul::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_012_listcontainer ul::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
+    
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_012_listcontainer ul li{
+        width: 100%;
+        height: 34px;
+        /*background-color: rgba(235,235,235,0.6);*/
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+    }  
+    
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_012_listcontainer ul li:hover{
+        background-color: rgba(235,235,235,0.9);  
+    }
+    .wdg_hexagonal_estadistics_01 .wdg_lineup_012_listcontainer ul li p{
+        margin-left: 20px;
+        line-height: 34px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .wdg_hexagonal_estadistics_01 .icon_simbologia
+	{
+		
+	}
+    .wdg_hexagonal_estadistics_01 .nomostrar
+	{
+		display:none;
+	}
+    .wdg_hexagonal_estadistics_01 .title{
+    	margin-bottom: 20px;
+    }
+    .wdg_hexagonal_estadistics_01 .title .textcolor-title1{
+    	font-size: 18px;
+		padding-bottom: 11px;
+    }
+}
+

@@ -1,0 +1,97 @@
+@media screen and (min-width: 624px){
+	#wdg_playerdraft_01{
+	    margin-bottom: 36px;
+		max-width: 624px;
+		
+		overflow: hidden;
+	}
+	
+	.wdg_playerdraft_01 .subtitle{
+		border-top: 1px solid #CCC;
+		width:100%;
+		text-align:center;
+		height:20px;
+		float:left;
+		margin-top: 27px;
+		display:block;
+	}
+	
+	.wdg_playerdraft_01 .div1{
+		width:102px;
+		padding:0 28px;
+		padding-left: 21px;
+		padding-right: 25px;
+	}
+	.wdg_playerdraft_01 .div2{
+		width:115px;
+		padding:0 30px;
+		background: url("../img/dotted-vertical.png") repeat-y scroll right center transparent;
+	}
+	.wdg_playerdraft_01 .lineasep{
+		display:none;
+	}
+	.wdg_playerdraft_01 .div3{
+		width:220px;
+		padding:0 39px;
+		height: 60px;
+		text-align:left;
+		line-height: 59px;
+	}
+	.wdg_playerdraft_01 .div3 div{
+		line-height: 53px;			
+	}	
+	.wdg_playerdraft_01 .subtitle .textcolor-title4{
+		font-style:italic;
+		font-size:12px;
+		margin:auto;
+		margin-top: -10px;
+		background-color:#F5F5F5;
+		width:150px;
+		color:#A8A8A8 !important;
+	}
+	
+	.wdg_playerdraft_01 .scroll{
+		/*height:410px;
+		overflow-y: scroll;*/
+    	width: 640px;
+		background:none;
+		padding-top: 0px;
+	}
+	
+	.wdg_playerdraft_01 .titulo{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	.wdg_playerdraft_01 .tblDraft{
+		width:98%;
+	}
+	
+	.wdg_playerdraft_01 .tblDraft td:nth-child(3){
+		background: url("../../img/dotted-vertical.png") repeat-y right !important;
+	}
+	
+	.wdg_playerdraft_01 .tblDraft th:nth-child(4),
+	.wdg_playerdraft_01 .tblDraft th:nth-child(5),
+	.wdg_playerdraft_01 .tblDraft th:nth-child(6),
+	.wdg_playerdraft_01 .tblDraft td:nth-child(4),
+	.wdg_playerdraft_01 .tblDraft td:nth-child(5),
+	.wdg_playerdraft_01 .tblDraft td:nth-child(6){
+		display: table-cell;
+	}
+	/*.wdg_playerdraft_01 .tblDraft th:nth-child(1){
+		padding-right: 58px;
+	}
+	.wdg_playerdraft_01 .tblDraft th:nth-child(2){
+		color: blue !important;
+		padding-right: 58px;
+	}*/
+	.wdg_playerdraft_01 .tblDraft th:nth-child(6){
+		font-weight: normal;
+	}
+	
+	.wdg_playerdraft_01 .tblDraft tr:last-child .separador .dotted-top{
+		background: none !important;
+		border-bottom: 1px solid #D5D5D5;
+	}
+}

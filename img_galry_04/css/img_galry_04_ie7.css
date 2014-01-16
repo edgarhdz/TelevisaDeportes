@@ -1,0 +1,24 @@
+.ie7 .img_galry_04 #videobtn {
+	
+	top: 36.5%;
+}
+
+.ie7 .img_galry_04 #fullGallery {
+	
+	top: 36.5%;
+}
+
+
+.ie7 .img_galry_04 #carrusel2 .selectedGallery{
+		
+	/*background-image:url(../img/image_over.png);
+	background-image: none;
+	background-repeat:no-repeat;
+	background-position:center center;
+	width:137px;
+	height:105px;
+	position:relative;*/
+	
+	display:none;
+}
+

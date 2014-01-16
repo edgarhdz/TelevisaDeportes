@@ -1,0 +1,33 @@
+/*  
+    Document   : td_stats_res_02_mobile.css
+    Created on : 28/08/2013, 12:34:00 am
+    Author     : Luis Jesús Ruelas Merino
+    Description: 
+ */
+@media screen { 
+    
+	/* Encabezado */ 
+    .td_stats_res_02 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_stats_res_02 .main{
+        width: 100%;
+		position:relative;
+		/*overflow:hidden;*/
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_stats_res_02 .main > div{
+		width:100%;
+	}
+	/*Requerido para llenado completo mobile*/
+    .td_stats_res_02 .main .c3_1{
+        width:100%;
+    }    
+    .td_stats_res_02 .main .c3_2{
+        width:100%;
+    }
+	.td_stats_res_02 .c2 .c2_1 .c2_1o{
+		display:none;
+    }
+}

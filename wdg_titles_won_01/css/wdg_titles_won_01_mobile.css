@@ -1,0 +1,80 @@
+@media screen {
+	.wdg_titles_won_01 {
+		width: 100%;
+		margin-bottom: 6px;
+		clear: both;
+		overflow: hidden;
+		height:285px;
+	}
+	.wdg_titles_won_01 .titulo .ancho {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.wdg_titles_won_01 table {
+		border-spacing: 0px;
+		width: 100%;
+	}
+	.ie7 .wdg_titles_won_01 table {
+		border-collapse: collapse;
+	}
+	.wdg_titles_won_01 table.datos td {
+		background: url(../img/dotted-horizontal.png) repeat-x 0 100%;
+	}
+	.wdg_titles_won_01 table.datos tr:last-child td {
+		background: none;
+	}
+	.wdg_titles_won_01 .izq {
+		font-size: 18px;
+		width: 55px;
+		font-weight: bold;
+		line-height: 40px;
+		text-align: center;
+		padding-right: 24px;
+	}
+	.wdg_titles_won_01 .base {
+		border-bottom: 1px solid #CCC;
+	}
+	.wdg_titles_won_01 .team {
+		font-size: 12px;
+		width: auto;
+		font-weight: bold;
+		line-height: 40px;
+		text-align: left;
+		padding-left: 24px;
+		padding-right: 5px;
+	}
+	.wdg_titles_won_01 .der {
+		text-align: center;
+		vertical-align: middle;
+		width: 45px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.wdg_titles_won_01 .datos .fondo {
+		font-weight: bold;
+		background-clip: border-box;
+		background-color: #E4E4E4 !important;
+		background-image: none;
+		background-origin: padding-box;
+		box-shadow: 0 4px 14px #CBCBCB inset;
+	}
+	.wdg_titles_won_01 .ver_todos {
+		font-weight: bold;
+		text-align: center;
+		vertical-align: central;
+		height: 46px;
+		float: right;
+		width: 110px;
+	}
+	.wdg_titles_won_01 .ver_todos .sin_base {
+		border-bottom: none;
+		font-style: italic;
+		font-size: 14px;
+	}
+	.wdg_titles_won_01 .ver_todos .sin_base a {
+		border-bottom: none;
+	}
+	.wdg_titles_won_01 div.str_pleca_01 {
+		margin-bottom: 0px;
+	}
+}

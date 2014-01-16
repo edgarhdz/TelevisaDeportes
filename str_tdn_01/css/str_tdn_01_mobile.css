@@ -1,0 +1,116 @@
+@media screen {
+	.str_tdn_01 {
+		width: 100%;
+		margin-bottom: 10px;
+		height:335px;
+		margin-top: 10px;
+		overflow:hidden;
+		background-image:url(../global/img/mapa.png);
+		background-repeat:no-repeat;
+		position:relative;
+	}
+	.str_tdn_01 .title {
+		padding-left:12px;
+		padding-bottom: 15px;
+		font-style: italic;
+		font-size: 24px;
+		border-bottom: none;
+	}
+	.str_tdn_01 .qualifies {
+		border-top: 1px solid #CCCCCC;
+		color: #a6a7a8 !important;
+		height: 18px;
+		width: 100%;
+	}
+	.str_tdn_01 .mex {
+		background-color: #F5F5F5;
+		float: left;
+		font-size: 14px;
+		font-style: italic;
+		margin-left: 40%;
+		margin-top: -8px;
+		padding: 0 10px;
+		position: absolute;
+	}
+	.str_tdn_01 .qualifies_ext {
+		border-top: 1px solid #CCCCCC;
+		color: #a6a7a8 !important;
+		height: 18px;
+		width: 100%;
+	}
+	.str_tdn_01 .ext {
+		background-color: #F5F5F5;
+		float: left;
+		font-size: 14px;
+		font-style: italic;
+		margin-left: 33%;
+		margin-top: -8px;
+		padding: 0 10px;
+		position: absolute;
+	}
+	.str_tdn_01 .national {
+		float:left;
+		width: 100%;
+	}
+	.str_tdn_01 .international {
+		float:left;
+		width: 100%;
+	}
+	.str_tdn_01 .national li {
+		float:left;
+		background: url("../img/dotted-horizontal.png") repeat-x scroll center bottom transparent;
+		width: 49%;
+		margin-bottom:7px;
+		height:35px;
+	}
+	.str_tdn_01 .international li {
+		background: url("../img/dotted-horizontal.png") repeat-x scroll center bottom transparent;
+	}
+	.str_tdn_01 .international li {
+		margin-left: 0px;
+		width:49%;
+		height:35px;
+		margin-bottom: 7px;
+		float: left;
+	}
+	.str_tdn_01 .national li:last-child {
+		margin-bottom:24px;
+	}
+	.str_tdn_01 .state {
+		width:95%;
+		margin-left:10px;
+	}
+	.str_tdn_01 li p {
+		color: #8f8f8f !important;
+		font-size:12px;
+		padding: 0 5px;
+		line-height:28px;
+		background: url("../img/dotted-vertical.png") repeat-y scroll right center transparent;
+	}
+	
+	.str_tdn_01 .scroll {
+		overflow:auto;
+		overflow-x:hidden;
+		height:288px;
+		position:absolute;
+		width:105%;
+		padding-top: 5px;
+	}
+	.str_tdn_01 .degraded {
+		display:block;
+		top:324px;
+	}
+	
+	
+	
+}
+
+/* only mobile */
+@media screen and (max-width: 623px) {
+	.str_tdn_01 .national li:nth-last-child(-n+2){
+		background: none !important;
+	}
+	.str_tdn_01 li:nth-child(2n+1) p {
+		background: none;
+	}
+}

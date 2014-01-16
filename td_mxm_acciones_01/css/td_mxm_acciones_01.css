@@ -1,0 +1,59 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_mxm_acciones_01 .main{
+        width: 948px;
+    }
+    /* Contenedor principal */
+    .td_mxm_acciones_01 .main .c1{
+        float: left;
+        clear: both;
+        width: 624px;
+    }
+    /* Contenedor derecho */
+	.td_mxm_acciones_01 .right,
+    .td_mxm_acciones_01 .main .c2,
+	.td_mxm_acciones_01 .main .c3,
+	.td_mxm_acciones_01 .main .c4{
+        float:right;
+        overflow: hidden;
+        width: 300px;
+    }
+	.td_mxm_acciones_01 .main .c2 .c2_2,
+	.td_mxm_acciones_01 .main .c2 .c2_3{
+		clear:both;
+    }
+	
+	.black_overlay{
+		display: none;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		z-index:1001;
+		-moz-opacity: 0.8;
+		opacity:.80;
+		filter: alpha(opacity=80);
+	}
+ 
+	.white_content {
+		display: none;
+		position: absolute;
+		top: 25%;
+		left: 25%;
+		width: 50%;
+		height: 50%;
+		padding: 16px;
+		border: 16px solid orange;
+		background-color: white;
+		z-index:1002;
+		overflow: auto;
+	}
+	.td_mxm_acciones_01 .main .ads_combo_01{
+    	margin-bottom:24px;
+    }
+	 .td_mxm_acciones_01 .main .right .c2 .c2_1{
+    	margin-top: 12px;
+    }
+}

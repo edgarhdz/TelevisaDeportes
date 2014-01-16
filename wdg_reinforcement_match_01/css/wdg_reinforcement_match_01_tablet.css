@@ -1,0 +1,19 @@
+/* 
+    Document   : wdg_team_alig_01
+    Created on : 6/05/2013, 04:02:52 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+*/
+@media screen and (min-width: 624px){
+	.wdg_reinforcement_match_01
+	{
+		position:relative;
+		height:auto;
+		display:block;
+		overflow:hidden;
+		/*margin-bottom:36px;*/
+	}
+	.wdg_reinforcement_match_01 .player_name {
+		padding-left:14px;
+	}
+}

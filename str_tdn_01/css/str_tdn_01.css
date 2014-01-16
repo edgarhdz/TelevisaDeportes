@@ -1,0 +1,20 @@
+@media screen and (min-width: 948px){
+	.ie7 .international {
+		margin-top: 24px;		
+	}
+	.ie7 .str_tdn_01 .qualifies {
+		border-bottom: 0px;
+	}
+
+	.ie7 .str_tdn_01 li p{	
+		background: none;
+	}
+	.ie7 .str_tdn_01 li p[class~="der"]{
+		background: url("../img/dotted-vertical.png") repeat-y scroll right center transparent;	
+	}
+	
+	.ie8 .str_tdn_01 li p.ie8no{
+		background: none;
+	}
+
+}

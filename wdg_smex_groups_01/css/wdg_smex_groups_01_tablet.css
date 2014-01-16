@@ -1,0 +1,15 @@
+@media screen and (min-width: 624px){
+    .wdg_smex_groups_01{
+        width: 300px;
+        display: block;
+	     margin-bottom: 36px;
+	     clear: both;
+	     overflow: hidden;
+	     height: 588px;
+    }
+	.wdg_smex_groups_01 .scroll{
+		height: 598px;
+		overflow: auto;
+		width: 322px;
+	}
+}

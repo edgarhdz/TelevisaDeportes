@@ -1,0 +1,10 @@
+@media screen and (min-width: 948px){    
+	.wdg_sport_result_02{
+		display: block;
+		margin-bottom: 36px;
+	}
+	.ie7 .wdg_sport_result_02 tr.shsMiniRowSpacer td{
+		height:2px;
+		border-bottom:1px solid #CCC;
+	}
+}

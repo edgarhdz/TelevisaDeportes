@@ -1,0 +1,49 @@
+@media screen { 
+	.td_tdn_podcast_01{
+		width:100%;
+		overflow: hidden;
+    }
+    /* Encabezado */ 
+    .td_tdn_podcast_01 .header01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_tdn_podcast_01 div.main{
+		margin-top:24px;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_tdn_podcast_01 .main > div{
+		clear:both;
+	}
+	.td_tdn_podcast_01 .main .c1 .c1_1{
+		display: block;
+	}
+	.td_tdn_podcast_01 .main .c1_2{
+		text-align: center;
+		display: block;
+	}
+	
+	.td_tdn_podcast_01 .main .c1 .art_branch_01{
+		background: url("../../img/dotted-horizontal.png") repeat-x scroll center bottom transparent ;
+		padding:8px;		
+	}
+	
+	.td_tdn_podcast_01 .main .c1 .art_branch_01 a{		
+		padding-left: 0px;	
+		margin: 6px 0 10px 0;	
+	}
+	
+	.td_tdn_podcast_01 .main .c2{
+		width:100%
+	}
+	.td_tdn_podcast_01 .main .c2_3{
+	}
+	.td_tdn_podcast_01 .main .c2_5{
+		clear:both;
+	}
+	.td_tdn_podcast_01 .main .c3 > div{
+		width:100%;
+	}
+
+}

@@ -1,0 +1,14 @@
+@media screen and (min-width: 948px){
+	.wdg_mlb_playersts_01_container{
+		width: 624px;
+		margin-bottom: 36px;
+		clear: both;
+		overflow: hidden;
+		font-size: 12px;
+		height: auto;
+		position: relative;
+	}
+	.wdg_mlb_playersts_01 .degraded{
+		display: none;
+	}
+}

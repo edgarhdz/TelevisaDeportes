@@ -1,0 +1,31 @@
+@media screen and (min-width: 624px){
+    /* BEGIN: Global (Medium) */
+    div.art_reltd_01 {
+        /*width: 100%;*/
+        width:300px;
+        display: block;
+        /*margin-bottom: 24px;*/
+        padding-bottom: 18px;
+    }
+    div.art_reltd_01_title {
+        margin-bottom: 0;
+    }
+    div.art_reltd_01_title:before,
+    div.art_reltd_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.art_reltd_01_title:after {
+        clear: both;
+    }
+    div.art_reltd_01_title {
+        zoom: 1;
+    }
+    div.art_reltd_01_title h5{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    div.art_reltd_01 div h5 a.art_reltd_01_black{
+        line-height: 14px;
+    }
+}

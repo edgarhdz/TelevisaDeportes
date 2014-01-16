@@ -1,0 +1,177 @@
+@media screen {
+    /*BEGIN: vid_player_02 (Small)*/
+	
+	.vid_player_02{
+		width:100%;
+		margin-bottom: 15px;
+	}
+	
+	 .vid_player_02 .overlay {
+        background-color: rgba(255, 255, 255, .75);
+        display: block;
+        margin-left: 24px;
+        padding: 20px 24px;
+        margin-bottom: 0px;
+        position: static;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#65FFFFFF,endColorstr=#75FFFFFF);
+    }
+	
+    .vid_player_02 .txt1 h3{
+        font-size:22px;
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+
+    .vid_player_02 .txt1 p{
+        font-size:12px;
+    }
+	
+	.vid_player_02 .txt1{
+		background: none;
+    }
+	
+	.vid_player_02 .vid_player_02_txtdetail{
+        font-style: italic;
+		font-weight:bold;
+        color: #a2a2a2;
+        font-size: 10px;
+    }
+	
+    /*Fondo blanco*/
+    .vid_player_02 .overlay .txt1 .introtxt,
+	.vid_player_02 .overlay .txt2 {
+        display:none;
+    }
+
+    .vid_player_02 .vid_player_02_image{
+        background-image:url(../../img/ajax-loader.gif);
+        background-repeat:no-repeat;
+        background-position:center center;
+    }
+
+    /* Overlay blanco */
+    .vid_player_02 div.vid_player_02_whtbkg {
+        background-color: rgba(255, 255, 255, .85);
+        display: block;
+        margin-left: 24px;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#85FFFFFF,endColorstr=#85FFFFFF);
+        position: relative;
+        bottom: 0px;
+        padding:11px 24px;
+        height:45px;
+		
+    }
+	
+	.ie7 .vid_player_02 div.vid_player_02_whtbkg,
+	.ie8 .vid_player_02 div.vid_player_02_whtbkg,
+	.vid_player_02  #videobtn,
+    .vid_player_02  #expandbtn {
+		z-index: 1000 !important;
+	}
+	
+	.ie7 .vid_player_02 .overlay{
+		z-index: 2000 !important;
+	}
+
+    /* Texto del Overlay */
+    .vid_player_02 .vid_player_02_black {
+        color: #000;
+        display: block;
+        margin-right: 40px;
+        font-size: 12px;
+        *font-size: 12px;
+        font-size: 12px;\9;
+    }
+
+    .vid_player_02 div.vid_player_02_image img{
+        width: 100%;
+        height:auto;
+    }
+
+
+    .vid_player_02 .vid_player_02_gray {
+        color: #666666;
+        font-weight: bold;
+    }
+
+    /* SPRITES */
+    .vid_player_02  #videobtn {
+        background-color: #A41D21;
+		color: #FFFFFF;
+		display: block;
+		height: 28px;
+		left: 24px;
+		line-height: 28px;
+		margin-right: 40px;
+		margin-top: -97px;
+		opacity: 0.7;
+		position: relative;
+		text-align: center;
+		width: 28px;
+    }
+
+    .vid_player_02 #expandbtn {
+        background-color: #A41D21;
+        color: #FFFFFF;
+        display: block;
+        height: 28px;
+        left: 53px;
+        line-height: 28px;
+        margin-right: 40px;
+        margin-top: -28px;
+        opacity: 0.7;
+        position: relative;
+        text-align: center;
+        width: 28px;
+    }
+    .vid_player_02 #contractbtn {
+        background-color: #A41D21;
+        color: #FFFFFF;
+        display: block;
+        height: 28px;
+        left: 53px;
+        line-height: 24px;
+        margin-right: 40px;
+        margin-top: -28px;
+        opacity: 0.7;
+        position: relative;
+        text-align: center;
+        width: 28px;
+        visibility: hidden;
+    }
+
+    .vid_player_02 .txt3{
+        float:none;
+        width:auto;
+		margin-top:10px;
+        padding-top:12px;
+		overflow: hidden;
+    }
+	
+	.vid_player_02 .wdg_social_01 .social-icons li.social_icon:first-child{
+        width:70px;
+    }
+	
+    .vid_player_02 .wdg_social_01 .social-icons ul{
+        padding: 0;
+        float: left;
+        margin-bottom: 0;
+        width: 290px;
+        height: 77px;
+    }
+	
+    .vid_player_02 .wdg_social_01 .social-icons li.social_icon {
+        background: none !important;
+        padding-left: 0 !important;
+        display: inline;
+        float: left;
+        height: 30px;
+        width: 50px;
+        text-align: center;
+    }
+	
+	.vid_player_02 .dotted{
+		background: url("../img/dotted-horizontal.png") repeat-x bottom;
+    }
+	
+}

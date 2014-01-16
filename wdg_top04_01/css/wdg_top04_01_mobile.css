@@ -1,0 +1,251 @@
+@media screen {
+    .wdg_top04_01{
+        display:block;
+    }
+
+    .wdg_top04_01_title {
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+        zoom: 1;
+    }
+    .wdg_top04_01_title:before,
+    .wdg_top04_01_title:after {
+        content: "";
+        display: table;
+    }
+    .wdg_top04_01_title:after {
+        clear: both;
+    }
+    .wdg_top04_01_title h3 {
+        background-color: #A70A0B;
+        width: 100%;
+        font-size: 14px;
+        float: left;
+        text-align: left;
+        line-height:40px;
+    }
+    .wdg_top04_01_title h3 a {
+        text-decoration: none;
+        color: #fff;
+        height: 40px;
+        display: block;
+        padding-left:24px;
+        background-size: 12px 20px;
+        background-position: right 2px\9;
+        *background-position: right 2px; 
+    }
+    .wdg_top04_01 .wdg_carousa .wdg_top04_01_carousel {
+        overflow: hidden;
+        width: 300px;
+    }
+    .wdg_top04_01 .wdg_top04_01_title{
+        width: 100%;
+    }
+    /*.wdg_top04_01 .wdg_carousa div {
+        height: 32px;
+    }*/
+    /*.wdg_top04_01 .wdg_carousa div ul {
+        margin: 0;
+        float: right;
+        margin-bottom: 5px;
+        overflow: hidden;
+        
+    }*/
+    .wdg_top04_01 .wdg_carousa .arrows{
+         display:none;      
+    }
+    .wdg_top04_01 .wdg_carousa div ul li {
+        width: 15px;
+        height: 22px;
+        float: left;
+        margin: 0;
+        margin-top: 3px;
+    }
+    .wdg_top04_01 .wdg_carousa div ul li a {
+        width: 15px;
+        height: 10px;
+        display: none;
+        padding: 0;
+    }
+    .wdg_top04_01 .wdg_carousa div ul li:first-child {
+        margin: 4px 15px 0 0;
+    }
+    .wdg_top04_01 .wdg_carousa div ul li:last-child {
+        padding-left: 14px;
+    }
+    .wdg_top04_01 .wdg_carousa.showArrows div{
+        overflow: hidden;
+    }
+    .wdg_top04_01 .wdg_carousa.showArrows div:first-child h1 {
+        width: 50%;
+    }
+    .wdg_top04_01 .wdg_carousa.showArrows div:first-child h1 a span.icon {
+        display: none;
+    }
+    .wdg_top04_01 .wdg_carousa.showArrows div:first-child ul li a {
+        display: block;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child {
+        overflow: hidden;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul:before,
+    .wdg_top04_01 .wdg_carousa div:last-child ul:after {
+        content: "";
+        display: table;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul:after {
+        clear: both;
+    }
+
+    .wdg_top04_01 .wdg_carousa div:last-child ul li h2 a {
+        color: black;
+        background: none;
+        width: auto;
+        height: auto;
+        font-size:14px;
+        margin-top: -8px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li p {
+        font-style: italic;
+        color: #666;
+        font-size: 12px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li a {
+        width: auto;
+        height: auto;
+        padding: auto;
+        background: none;
+        display: block;
+    }
+   
+    .wdg_top04_01 .wdg_carousa div:last-child ul li:first-child {
+        margin: 0;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li:last-child {
+        margin-right: 0;
+        border: none;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child.iOS {
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+
+    .wdg_top04_01 .wdg_carousa div:last-child ul {
+        float: none;
+        margin: 0;
+        zoom: 1;
+        margin-top: 10px;
+        *margin-top: 0px;
+        width: 100%;
+        overflow: hidden !important;
+    }
+    .wdg_top04_01 .wdg_carousa div ul li:last-child {
+        padding-left: 14px;
+    }
+    .wdg_top04_01 .wdg_carousa {
+        height: auto;
+        clear: both;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child {
+        height: auto;
+        *padding-top: 20px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li:first-child {
+        padding-left: 0;
+        border-left: none;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li p {
+        font-size: 15px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li h2 {
+        padding-top: 8px;
+        font-size: 17px;
+        line-height: 16px;
+        margin-bottom: 24px;
+        width: 132px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li a img {
+        width: 81px;
+        height: 63px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li:last-child {
+        margin-right: -85px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li {
+        display: block;
+        float: left;
+        margin: 0 0 0 10px;
+        height: auto;
+        padding: 0 1px 0px 1px;
+        width: 300px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li div a img{
+        display: block;
+        margin-bottom: 0;
+        padding: 0 12px 0 5px;
+        border-right: 1px solid #ccc;
+        float: left;
+        margin-right: 12px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li div  a h3{
+        color: #D6A256;
+        font-size: 10pt;
+        font-style: italic;
+        font-weight: 800;
+        padding-top: 6px;
+    }
+
+    .wdg_top04_01 .wdg_carousa div:last-child ul li div{
+        padding-bottom: 5px;
+        height: 70px;
+        overflow: hidden;
+    }
+    
+    .wdg_top04_01 .wdg_carousa div:last-child ul li div a{
+        padding-bottom: 15px;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li div:last-child a{
+        border:none;
+    }
+    .wdg_top04_01 .wdg_carousa div:last-child ul li div a p{
+        color: #000;
+        font-size: 10pt;
+        font-weight: bold;
+        font-style: normal;
+        margin-left: 5px;
+        padding-right: 30px;
+    }
+    .wdg_top04_01 .image{           
+        float: left;
+        height:63px;
+        margin-right: 5px;      
+        padding-right: 20px;
+        position: static;
+        width: 84px;
+    }
+    .wdg_top04_01 .bullets{
+        padding-left: 85%;
+        clear: both;
+        overflow: hidden;
+        border-top: 1px solid #ccc;
+        margin-top: 0;
+        padding-top: 7px;
+        margin-bottom: 7px;
+    }
+    .wdg_top04_01 .bullets div{
+        float: left;
+        width: 11px;
+        height: 11px;
+        background-color: #8f8f8f;
+        margin-right: 5px;
+    }
+    .wdg_top04_01 .wdg_top04_01_carousel ul li div:last-of-type{
+        display: none;
+    }
+    /* END: carouseltype1c (Small) */
+}
+
+
+
+
+

@@ -1,0 +1,53 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_champions_main_01 .nav_header_01{
+		margin-bottom:0px !important;
+        /* border: 1px solid #CCC; */
+    }
+    /*Wrap*/
+    .td_champions_main_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /* Banners */
+    /* Titulo */
+    .td_champions_main_01 .main .topTitle{
+
+        width:100%;
+        clear:both;
+    }
+    /* Contenedor principal */
+    .td_champions_main_01 .main .container-one{
+
+        width:100%;
+        clear:both;
+        min-height:200px;
+    }
+	
+	.td_champions_main_01 .main .container-one .c1_1{
+		
+		margin-bottom: 15px;
+	}
+	
+    
+    .td_champions_main_01 .main .container-two .c1{
+        float:none; 
+		display:none;
+    }
+    /*.td_champions_main_01 .main .container-two .c2{
+        float: none;
+    }*/
+	.td_champions_main_01 .main .c2{
+		width:100%;
+    }
+    .td_champions_main_01 .main .container-two .c4{
+        float: none;
+    }
+	.td_champions_main_01 .cb{
+		/*display:none;*/
+    }
+    .td_champions_main_01 .mix_4arts_05 .str_pleca_01{
+        display: none;
+    }
+
+}

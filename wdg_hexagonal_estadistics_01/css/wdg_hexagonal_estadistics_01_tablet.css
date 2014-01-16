@@ -1,0 +1,27 @@
+/* 
+    Document   : wdg_hexagonal_estadistics_01
+    Created on : 6/05/2013, 04:02:52 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+*/
+@media screen and (min-width: 624px){
+	.wdg_hexagonal_estadistics_01
+	{
+		width:624px;
+		display:block;
+		margin-bottom:24px;
+	}
+	.wdg_hexagonal_estadistics_01 .simbologia .tabla_simbologia > .icon_simbologia
+	{
+			padding-top:8px;
+			padding-bottom:8px;
+			float:left;
+			width:24%;
+	}
+	.wdg_hexagonal_estadistics_01 .nomostrar
+	{
+		display:block;
+	}
+	
+	
+}

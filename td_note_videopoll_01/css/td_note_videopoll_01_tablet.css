@@ -1,0 +1,55 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_note_videopoll_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_note_videopoll_01 .main .c1{
+		margin-top:24px;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_note_videopoll_01 .main .c2,
+	.td_note_videopoll_01 .main .c3{
+		width:100%;
+		clear:both;
+	}
+	.td_note_videopoll_01 .main .c2 .c2_2 .art_reltd_01 {
+		background: url("../../img/dotted-vertical.png") repeat-y right;
+		width: 297px;
+	}
+	.td_note_videopoll_01 .main .c2 .c2_3{
+		width:270px;
+	}
+	.td_note_videopoll_01 .main .c2 .c2_4{
+		clear:both;	
+	}
+	.td_note_videopoll_01 .main .c2_5 .art_bullet_01{
+		margin-bottom:24px;		
+	}
+	.td_note_videopoll_01 .main .c3 .c3_3{
+		margin-bottom:36px;
+		width: 300px;
+	}
+	.td_note_videopoll_01 .main .c3 .c3_5{
+		width: 300px;
+		clear: left;
+	}
+	.td_note_videopoll_01 .main .c3 .c3_6{
+		width:300px;
+	}
+	.td_note_videopoll_01 .art_bullet_01 {
+		margin-bottom: 36px;
+	}
+	.td_note_videopoll_01 .art_bullet_01 ul li {
+		border-top: none;
+		/*font-weight:bold;*/
+		font-size:18px;
+		padding-top:0px;
+	}
+	.td_note_videopoll_01 .main .c2_3{		
+		padding-top: 0px;
+	}
+	.td_note_videopoll_01 .main .c3_3{
+		clear: both;
+	}
+}

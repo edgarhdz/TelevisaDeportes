@@ -1,0 +1,202 @@
+@media screen {
+    .wdg_video_chat_01{
+        width: 300px;
+        clear: both;
+        overflow: hidden;
+        display: block;
+        margin-bottom: 36px;
+		height:711px;
+    }
+	.wdg_video_chat_01 div.str_pleca_01 {
+		margin-bottom: 12px;
+	}
+	.wdg_video_chat_01 div.str_pleca_01_title h3{
+		width: 168px;
+	}
+    .wdg_video_chat_01 .wdg_video_chat_01_bar{
+        width: 100%;
+        height: 25px;
+        margin: 0;
+		margin-bottom:28px;
+
+    }
+    .wdg_video_chat_01 .wdg_video_chat_01_bar ul{
+        margin:0px;
+        padding-bottom: 0px;
+        border-bottom: 1px solid #8F8F8F;
+		overflow: hidden;
+    }
+    .wdg_video_chat_01 .wdg_video_chat_01_bar ul li{
+        font-weight: bold;
+        margin:0px;
+        padding:7px 0;
+		float: left;
+		text-align: center;
+    }
+	.wdg_video_chat_01 .wdg_video_chat_01_bar ul li:last-child a{
+		border-right:none;
+	}
+    .wdg_video_chat_01 .wdg_video_chat_01_bar ul li a{
+        color: #8F8F8F;
+        font-size: 13px;
+        font-weight: bold !important;
+        padding: 0 20px;
+    }
+    .wdg_video_chat_01 .wdg_video_chat_01_bar ul li.current a{
+        color: #A70A0B;
+    } 
+    .wdg_video_chat_01 .wdg_video_chat_01_bar ul li.current{
+        border-bottom: 2px solid #A70A0B;   
+    }
+    .wdg_video_chat_01 .wdg_video_chat_01_bar ul li.last a{
+        border-right: 0 ;
+    }
+	.wdg_video_chat_01 #chat_room{
+		width:300px;
+		height: 640px;
+		border:none;
+		overflow:hidden;
+		padding-top: 6px;
+	}
+	.wdg_video_chat_01 #anteriores,
+	.wdg_video_chat_01 #calendario{
+		display:none;
+	}
+	.wdg_video_chat_01 .scroll{
+		height:555px;
+		overflow:hidden;
+		overflow-y: scroll;
+		width: 107%;
+		margin-bottom:24px;
+	}
+	.wdg_video_chat_01 #anteriores td,
+	.wdg_video_chat_01 #calendario td{
+		border-bottom:1px dotted #CCC;		
+		padding:6px 0px 1px;
+	}
+	.wdg_video_chat_01 #anteriores tr td.img1{
+		width: 102px;
+	}
+	.wdg_video_chat_01 #anteriores td .textcolor-title2,
+	.wdg_video_chat_01 #calendario td .textcolor-title2{
+		font-style:italic;
+		font-size:12px;
+	}
+	.wdg_video_chat_01 #anteriores td .normal,
+	.wdg_video_chat_01 #calendario td .normal{
+		font-size:13px;
+	}
+	.wdg_video_chat_01 #anteriores td .fecha{
+		font-size:12px;
+		color:#B2B2B2;
+	}
+	.wdg_video_chat_01 #anteriores .degradado{
+		border-top:none;
+		display:block;
+		position:absolute;
+		top:213px;
+		width:100%;
+		height:12px;
+		background-image:url(../global/img/degradado_horizontal.png);
+		background-repeat:repeat-x;
+		background-position:10px;
+	}
+	.wdg_video_chat_01 a.prev, 
+    .wdg_video_chat_01 a.next {
+        background-color: #A41D21;
+    }
+	.wdg_video_chat_01 .nav {
+        position: relative;
+		border-top:1px solid #CCC;
+	}
+    .wdg_video_chat_01 a.next {
+        background-color: #A41D21;
+    }
+    .wdg_video_chat_01 > div .prev, 
+    .wdg_video_chat_01 > div .next {
+        background: none repeat scroll 0 0 #AAAAAA;
+        height: 28px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 28px;
+		text-align: center;
+		box-sizing: border-box;
+    }
+    .wdg_video_chat_01 > div .next {
+        left: 28px;
+        margin-left: 1px;
+    }
+	.wdg_video_chat_01 a.prev, 
+    .wdg_video_chat_01 a.next {
+        background-color: #A41D21;
+    }
+    .wdg_video_chat_01 > div .tvsa-caret-up{
+        line-height: 28px; 
+        color: #fff
+    }
+    .wdg_video_chat_01 > div .tvsa-caret-down{
+       	line-height: 28px;
+        color: #fff
+    }
+	.wdg_video_chat_01 > div .full-timetable {
+        background: none repeat scroll 0 0 #E6E6E6;
+        box-shadow: 0 0 7px #C0C0C0 inset;
+        height: 28px;
+        line-height: 28px;
+        margin-left: 83px;
+        padding-left: 20px;
+		display:block;
+	}
+    .wdg_video_chat_01 > div .full-timetable span {
+        color: #000000;
+        font-size: 14px;
+        font-weight: bold;
+    }
+	.wdg_video_chat_01 #calendario tr:first-child td{
+		height: 35px;
+		padding-bottom: 12px;
+		padding-top: 0;
+	}
+	.wdg_video_chat_01 #calendario td{
+		height:54px;
+	}
+	.wdg_video_chat_01 #calendario .dia{
+		font-size:12px;
+	}
+	.wdg_video_chat_01 #calendario .hora{
+		font-size:16px;
+		font-weight:bold;
+	}
+	.wdg_video_chat_01 #calendario .textcolor-title4{
+		text-align: center;
+		width: 72px;
+		padding-left: 5px;
+	}
+	.wdg_video_chat_01 .tab .scroll table.carrusel{
+		width: 300px;
+		border: 0;		
+		border-collapse: collapse;		
+	}
+	.wdg_video_chat_01 .tab table.cal{
+		width: 100%;
+		border: 0;		
+		border-collapse: collapse;		
+	}
+	.wdg_video_chat_01 .nav .bgactive{
+		background-color:#A70A0B;
+	}
+	
+	.wdg_video_chat_01 .nav .bginactive{
+		background-color:#BF6163;
+	}
+	
+	.wdg_video_chat_01 .nav .bgactive span{
+		color:#FFF;
+	}
+	
+	.wdg_video_chat_01 .nav .bginactive span{
+		color:#DBA5A5;
+	}
+
+}

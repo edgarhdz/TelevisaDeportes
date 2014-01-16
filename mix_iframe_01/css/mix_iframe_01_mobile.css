@@ -1,0 +1,41 @@
+@media screen{ 
+    .mix_iframe_01{
+        width: 100%;
+        margin-bottom: 10px;    
+    }
+    .mix_iframe_01_title {
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+        zoom: 1;
+    }
+    .mix_iframe_01_title:before,
+    .mix_iframe_01_title:after {
+        content: "";
+        display: table;
+    }
+    .mix_iframe_01_title:after {
+        clear: both;
+    }
+    .mix_iframe_01_title h3 {
+        background-color: #A70A0B;
+        width: 100%;
+        font-size: 0.85em;
+        float: left;
+        text-align: left;
+        line-height: 40px;
+        height: 40px;
+        color: #FFF;
+    }
+    .mix_iframe_01_title h3 a {
+        text-decoration: none;
+        color: #fff;
+        height: 1.5em;
+        display: block;
+        padding: 0 0 0 1.375em;
+    }
+    .mix_iframe_01 iframe{
+        width: 100%;
+        overflow:visible;
+
+    }
+}

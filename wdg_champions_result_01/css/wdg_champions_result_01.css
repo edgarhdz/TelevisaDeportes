@@ -1,0 +1,32 @@
+@media screen and (min-width: 948px){    
+	.wdg_champions_result_01 .result_champion:nth-child(-n+8){
+		margin-bottom: 24px;
+	}
+	.wdg_champions_result_01{
+		width:948px;
+	}
+	.wdg_champions_result_01 .arrow_buttons 
+	{
+		display:none;
+	}
+        
+	.wdg_champions_result_01 > ul {
+		height: auto;
+	}
+	.wdg_champions_result_01 .result_champion{
+		float:left;
+		display:block;
+		margin-right:23px;
+		margin-left:22px;
+    }
+	.wdg_champions_result_01 .result_champion.last{
+		float:left;
+		margin-right:22px;
+		margin-left:22px;
+    }
+	
+	.wdg_champions_result_01 .filter{
+		width: 32%
+	}
+
+}

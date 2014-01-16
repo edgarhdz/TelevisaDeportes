@@ -1,0 +1,22 @@
+/* 
+    Document   : wdg_lineup_01
+    Created on : 6/05/2013, 04:02:52 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+*/
+@media screen and (min-width: 624px){
+	.wdg_lineup_01
+	{
+		display:block;
+		margin-bottom:36px;
+	}
+	
+	.wdg_lineup_01 .str_pleca_01 h3{
+		width:300px;
+		max-width: none;
+	}
+	.wdg_lineup_01 .dotted-bottom-right{
+		 background:url("../img/dotted-horizontal.png") repeat-x bottom,url("../img/dotted-vertical.png") repeat-y right;
+	}
+	
+}

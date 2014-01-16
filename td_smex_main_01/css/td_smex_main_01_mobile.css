@@ -1,0 +1,35 @@
+@media screen { 
+	.td_smex_main_01{
+		clear: both;
+    }
+    /* Encabezado */ 
+    .td_smex_main_01 .nav_header_01{
+		clear: both;
+    }
+    /*Wrap*/
+    .td_smex_main_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_smex_main_01 .main .c8,
+	.td_smex_main_01 .main .c5,
+	.td_smex_main_01 .main .c4,
+	.td_smex_main_01 .main .c3,
+	.td_smex_main_01 .main .c2,
+	.td_smex_main_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+
+	.td_smex_main_01 .c3_1,
+	.td_smex_main_01 .c3_3,
+	.td_smex_main_01 .c5_1{
+		width: 100%;
+	}
+	.td_smex_main_01 .c1_0{
+		display:block;
+		text-align: center;
+	}	
+}

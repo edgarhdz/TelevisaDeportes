@@ -1,0 +1,66 @@
+@media screen and (min-width: 624px){
+    /* START: carouseltypecarruse (Medium) */
+    .btn_carru_prog_03{
+        margin-bottom:36px;
+        overflow: hidden;
+        width:624px;
+    }
+    .btn_carru_prog_03 .title {
+        margin:0 0 24px 0;
+    }
+	.btn_carru_prog_03 .typecarruse{
+		height:145px;
+	}
+    .btn_carru_prog_03 .typecarruse ul {
+      margin: 0 auto;;
+    }
+    .btn_carru_prog_03 .typecarruse .carrusel ul li:first-child {
+    	margin-left:0px;
+    }
+    .btn_carru_prog_03 .typecarruse .carrusel ul {
+      margin-top: 0;
+    }
+    /* END: carouseltypecarruse (Medium) */
+    /* BEGIN: Global (Medium) */
+    .btn_carru_prog_03 div.title:before,
+    .btn_carru_prog_03 div.title:after {
+      content: "";
+      display: table;
+    }
+    .btn_carru_prog_03 div.title:after {
+      clear: both;
+    }
+    .btn_carru_prog_03 div.title {
+      zoom: 1;
+      /* For IE 6/7 (trigger hasLayout) */
+    }
+    .btn_carru_prog_03 div.title h3 {
+      width: 57%;
+      max-width: 300px;
+      float: left;
+    }
+    .btn_carru_prog_03 div.title h3 a {
+      background-image: none !important;
+    }
+    .btn_carru_prog_03 div.title h3 a span.icon {
+      display: none;
+    }
+    /* END: Global (Medium) */
+    .btn_carru_prog_03 .bullets{
+        display:block;        
+        margin-top:25px;
+		overflow:hidden;
+    }
+    .btn_carru_prog_03 .bullets ul{
+    	margin-right: 0px;
+    }
+   
+    .btn_carru_prog_03 div:first-child {
+    }
+    .btn_carru_prog_03 #b_tablet{
+         display:block;
+    }
+    .btn_carru_prog_03 #b_mobile{
+         display:none;
+    }
+}

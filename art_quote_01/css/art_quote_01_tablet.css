@@ -1,0 +1,21 @@
+@media screen and (min-width: 624px){
+    .art_quote_01{
+        border-bottom: 1px solid #CCC;
+        float:left;
+        line-height:22px;
+        margin: 24px 24px 24px -15px;
+        max-width: 210px!important;
+        padding:0 0 10px 0;
+    }
+	
+	/* all devices */
+	blockquote.art_quote_01,
+	blockquote.art_quote_01 a{
+		font-size: 19px;
+		font-style: italic;
+		font-weight: normal;
+		line-height: 22px;
+		color: #000;
+		text-decoration:none;
+	}
+}

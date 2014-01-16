@@ -1,0 +1,120 @@
+@media screen and (min-width: 624px){
+    .wdg_tennisresult_01{
+        width: 624px;
+        height: auto;
+        display: block;
+        margin-bottom: 36px; 
+    }
+
+    .wdg_tennisresult_01 .scroll{
+        height: 568px;
+        overflow: hidden;
+        width: 105%;
+    }
+    .wdg_tennisresult_01 .scroll2{
+        height: 568px;
+        overflow: auto;
+        width: 650px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_month{
+        clear: both;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_month .wdg_tennisresult_01_title{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_month .wdg_tennisresult_01_title ul li{
+        height: 45px;
+        line-height: 45px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_month .wdg_tennisresult_01_title ul:first-child{
+    	height:43px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_month .wdg_tennisresult_01_title ul:first-child li{
+    	line-height:54px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_month .wdg_tennisresult_01_title ul{
+        border-bottom: 1px solid #d3d3d3;
+        height: 45px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_month  div ul li{
+        float: left;
+        height: 41px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_month  .scroll .scroll2 .wdg_tennisresult_01_results ul li{
+        float: left;
+        height: auto;
+        padding:10px 0px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_month  div ul li p{
+        padding-left: 23px;
+		padding-right:18px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content{
+        overflow: hidden;
+        border-bottom: 0px solid #d3d3d3;
+    }
+
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content  div ul li.date{
+        width:80px;
+    }
+	.wdg_tennisresult_01 .wdg_tennisresult_01_content div ul li.date.textcolor-title2 {
+		text-align:right;
+	}
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content  div ul li.tournament{
+        width:228px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content  div ul li.place{
+        width:156px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content  div ul li.champion{
+        width:155px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content .wdg_tennisresult_01_results ul li:last-child{
+        border-right: none;
+    }
+
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content .wdg_tennisresult_01_results ul{
+        clear: both;
+        font-weight: bold;
+        font-size: 14px;
+        /*height: auto;*/
+        height: 45px;
+        overflow:hidden;
+        padding-top: 6px;
+        padding-bottom: 5px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content .scroll .scroll2  .wdg_tennisresult_01_results ul li:first-child{
+    	font-size:12px;
+    	padding: 2px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content .scroll .scroll2  .wdg_tennisresult_01_results ul:last-child{
+    	background: none !important;
+    	border-bottom:1px solid #ccc;
+    }
+     .wdg_tennisresult_01 .wdg_tennisresult_01_month  .scroll .scroll2 .wdg_tennisresult_01_results ul li{
+        float: left;
+        /*height: auto;*/
+        height: 28px;
+        overflow: hidden;
+        padding:6px 0px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_arrows{
+        display: block;
+        clear: both;
+    }
+
+    .wdg_tennisresult_01 .wdg_tennisresult_01_arrows  div{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: white;
+        float: left;
+        cursor: pointer;
+        margin-right: 2px;
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_arrows  div span{
+        margin-left: 10px;
+        margin-top: 10px;
+    }  
+}

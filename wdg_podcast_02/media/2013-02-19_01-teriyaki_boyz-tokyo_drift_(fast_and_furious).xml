@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<PodcastGenerator>
+			<episode>
+			<titlePG>
+			<![CDATA[ Test ]]>
+			</titlePG>
+			<shortdescPG>
+			<![CDATA[ Test del Podcast Televisa ]]>
+			</shortdescPG>
+			<longdescPG>
+			<![CDATA[ Test del Podcast Televisa ]]>
+			</longdescPG>
+			<imgPG></imgPG>
+			<categoriesPG>
+			<category1PG>test</category1PG>
+			<category2PG></category2PG>
+			<category3PG></category3PG>
+			</categoriesPG>
+			<keywordsPG></keywordsPG>
+			<explicitPG>no</explicitPG>
+			<authorPG>
+			<namePG></namePG>
+			<emailPG></emailPG>
+			</authorPG>
+			</episode>
+			</PodcastGenerator>

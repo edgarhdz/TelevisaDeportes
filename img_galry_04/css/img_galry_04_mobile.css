@@ -1,0 +1,238 @@
+/* only mobile */
+@media screen and (max-width: 623px) {
+    .img_galry_03 #imgContainer, .img_galry_03 #imgContainer img {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+	div.img_galry_04{
+		margin-bottom:12px;
+	}
+    div.img_galry_04 div.arrowLeft,
+    div.img_galry_04 div.arrowRight,
+    div.img_galry_04 div.carrusel2,
+    div.img_galry_04 div.carrusel1,
+    div.img_galry_04 div.img_galry_04_verMas {
+        display:none;
+    }
+
+    div.img_galry_04 .mainimage{
+        width: 100%;
+        height: auto;
+    }
+    div.img_galry_04 .txt1{
+        display: block;
+    }
+    div.img_galry_04 div.carruselcontainer {
+        padding:24px 0 0 0;
+    }
+    div.img_galry_04 div.img_galry_04_verMas {
+        clear:left;
+    }
+    div.img_galry_04 div.img_galry_04_verMas a {
+        display: block;
+        background: #e4e4e4;
+        color: #515151;
+        text-align: center;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    .img_galry_04 #img_galry_04_txts
+    {
+        position: relative;
+        display:inline-block;
+        overflow: visible;
+    }
+    div.img_galry_04 ul.ulcarrusel {
+        border:0;
+    }
+    
+    div.img_galry_04 a.image img {
+        width:85px;
+        height:66px;
+    }
+    div.img_galry_04 a.image img {float:left;}
+    div.img_galry_04 a.image span.title {
+        height:42px;
+        border-left:1px solid #d1d1d1;
+        display:block;
+        margin:0 0 0 96px;
+        padding:12px;
+        max-width:80%;
+        vertical-align:middle;
+        font-size:14px;
+    }
+    div.img_galry_04 a.image {
+        margin-bottom:15px;
+        position:relative;
+        display:block;
+        float:left;
+    }
+    div.img_galry_04 div.carruselcontainer ul li {
+        clear:left;
+    } 
+    div.img_galry_04 a.image span.icon {
+        color:#FFF;
+        line-height:30px;
+        display:block;
+        background:rgba(167, 10, 11, 0.6);
+        width:30px;
+        height:30px;
+        position:absolute;
+        top:36px;
+    }
+    div.img_galry_04 a.image span.icon i {
+        padding-left:3px;
+    }
+	div.img_galry_04 .back_overlay{
+		background:rgba(167,10,11,.6);
+		background-color:transparent;	
+	}
+    /*Fondo blanco*/
+    div.img_galry_04 .overlay {
+        background-color: rgba(255, 255, 255, .75);
+        display: block;
+        margin-top: -56px;
+        padding: 0;
+        position: relative;
+        margin-left: 24px;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#65FFFFFF,endColorstr=#65FFFFFF);
+    }
+    .img_galry_04 #img_galry_04_txts{
+        background-color: #fff;
+        margin-left: 24px;
+        padding-bottom: 24px;
+    }
+    .img_galry_04 .txt1{
+        height: auto;
+        margin-right: 24px;
+        padding-bottom: 12px;
+        margin-left: 24px;
+        margin-bottom: 12px;
+        padding-top: 4px;
+    }
+    .img_galry_04 .txt1 p{
+        font-size: 11px;
+        margin-top: 2px;
+    }
+    .img_galry_04 .txt2 {
+        display: none;
+    }
+    .img_galry_04 .txt3 {
+        height: auto;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+    .img_galry_04 .twitter,
+    .img_galry_04 .facebook,
+    .img_galry_04 .pinterest,
+    .img_galry_04 .camera,
+    .img_galry_04 .expand{
+        display: none;
+    }
+    div.img_galry_04 .overlay p {
+       padding: 18px 36px 18px 36px;
+       font-size:12px;
+       line-height:16px;
+    }
+    .ie7 div.img_galry_04 .overlay {
+        background-color: #FFFFFF;
+        margin-top: -57px;
+        position:relative;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#65FFFFFF,endColorstr=#75FFFFFF);
+    }
+    .ie8 div.img_galry_04 .overlay{
+        z-index:2000 !important;
+        margin-top: -75px;
+        padding: 20px 35px 0 35px;
+    }
+    div.img_galry_04 .overlay2 {
+        background-color:transparent ;
+        display:block;
+        position:relative;
+        margin-top:0px;
+        padding:0px;
+        margin-left:0px;
+    }
+    .ie7 div.img_galry_04 .overlay2,
+    .ie8 div.img_galry_04 .overlay2 {
+        background-color: rgba(255, 255, 255, 0);
+        /*background-color: #FFFFFF;*/
+        display: block;
+        /*height: 52%;*/
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        margin-bottom: 24px;
+        position:relative;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+    }
+    div.img_galry_04 a.td_bg i {color:#FFF;line-height:24px}
+    div.img_galry_04 a.td_bg {        
+        background:rgba(167, 10, 11, 0.6);
+        height:26px;
+        position:absolute;
+        top:0;
+        left:0;
+        margin-right:1px;
+        color:#FFF;
+        text-align:center;
+        width:28px;
+    }
+    div.img_galry_04 div.overlay div.controls {
+       position:relative;
+       top:-26px;
+    }
+    div.img_galry_04 div.controls a.play {
+       left:0;
+    }
+    div.img_galry_04 div.controls a.expand {
+       left:29px;
+    }
+    div.img_galry_04 a.td_bg.facebook {left:53px;}
+    div.img_galry_04 a.td_bg.pinterest {left:82px;}
+    /* CARRUSEL  1 */
+    div.img_galry_04 div.carrusel1 {
+       text-align:center;
+       margin:0 30px;
+       padding-bottom:10px;
+    }
+    div.img_galry_04 ul.ulcarrusel li {
+        float: left;
+        margin: 0 0 0 14px;
+        position:relative;
+    }
+    div.img_galry_04 ul.ulcarrusel li a.active span.border,
+    div.img_galry_04 ul.ulcarrusel li a:hover span.border {
+        position:absolute;
+        left: 0;
+        top: 0;
+        display: inline-block;
+        width: 58px;
+        height: 42px;
+        border: 3px solid #A70A0B;
+    }
+
+    .img_galry_04 .image-container{
+        position:relative;
+    }
+
+    div.img_galry_04 div.image-container {
+        position: relative;
+    }
+
+    div.img_galry_04 div.image-container .controls {
+        position: absolute;
+        left: 24px;
+        top: 252px !important;
+    } 
+}
+/* All devices */
+div.img_galry_04 .pause_mov {visibility:hidden;left:0px !important;}
+div.img_galry_04 span.data {display:none;}
+div.img_galry_04 .tvsa-double-caret-left{color:#BABABA;}
+div.img_galry_04 .my{width:0px;}
+div.img_galry_04 ul.ulcarrusel li:last-child{margin-right:0 !important;}

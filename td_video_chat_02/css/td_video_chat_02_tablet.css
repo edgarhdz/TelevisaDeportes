@@ -1,0 +1,54 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_video_chat_02 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_video_chat_02 .main .c1{
+		margin-top:24px;
+	}
+	.td_video_chat_02 .main .c1_1{
+		display: block;
+		height: 36px;
+	}	
+	.td_video_chat_02 .main .c2 .c2_1  div.art_title_02 h1 {
+		font-size: 30px;
+	}
+	.td_video_chat_02 .main .c2 .c2_1  div.art_title_02{
+		margin-bottom:24px;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_video_chat_02 .main .c2,
+	.td_video_chat_02 .main .c3{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_video_chat_02 .main .c2 .c2_2 .art_reltd_01 {
+		border-right: 1px dashed #CCCCCC;
+		width: 297px;
+	}
+	.td_video_chat_02 .main .c2 .c2_3{
+		width:270px;
+	}
+	.td_video_chat_02 .main .c2 .c2_4{
+		clear:both;
+	}
+	.td_video_chat_02 .main .c3 .c3_2{
+		margin-bottom:36px;
+	}
+	.td_video_chat_02 .main .c3 .c3_3{
+		width:300px;
+	}
+	/*-------------------*/
+	.td_video_chat_02 .main .c2 .c2_1 .art_title_02{
+		margin-bottom:21px;  /*Se le coloca esa medida porque aumenta 3px */
+	}
+	.td_video_chat_02 .main .c2 .c2_1 .art_title_02 a h4{
+		font-size: 28px;
+	}
+	.td_video_chat_02 .main .c2 .c2_2 .vid_player_01{
+		margin-bottom:17px;
+	}
+	
+}

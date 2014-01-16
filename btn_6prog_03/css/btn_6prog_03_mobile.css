@@ -1,0 +1,192 @@
+@media screen {
+    .btn_6prog_03{
+        margin-bottom: 10px;
+        overflow: hidden;
+		height: 245px;
+    }
+    .btn_6prog_03 .type1a {
+        overflow: hidden;
+        width: 100%;
+		height:207px;
+    }
+    .btn_6prog_03 .type1a div {
+        width: 100%;
+        height: auto;
+    }
+    .btn_6prog_03 .type1a .title {
+        border-bottom: 1px solid #CCC;
+		position:relative;
+    }
+    .btn_6prog_03 .type1a .title .flechas{
+        display: none;
+    }
+    .btn_6prog_03 .type1a div ul {
+        width: 61px;
+        margin: 0;
+        float: right;
+    }
+    .btn_6prog_03 .type1a div ul li {
+        width: auto;
+        height: 18px;
+        float: left;
+        margin: 0;
+        margin-top: 5px;
+    }
+    .btn_6prog_03 .type1a div ul li a {
+        width: 15px;
+        height: 16px;
+        padding: 0;
+    }
+    .btn_6prog_03 .type1a.showArrows .title h1 {
+        width: 50%;
+    }
+    .btn_6prog_03 .type1a.showArrows .title h1 a span.icon {
+        display: none;
+    }
+    .btn_6prog_03 .type1a .carrusel {
+        width: 100%;
+        overflow: hidden;
+		height: 185px;
+    }
+    .btn_6prog_03 .type1a .carrusel ul {
+        float: none;
+        margin: 0;
+        margin-top: 12px;
+        width: 1000px;
+        height: 173px;
+    }
+    .btn_6prog_03 .type1a .carrusel ul:before,
+    .btn_6prog_03 .type1a .carrusel ul:after {
+        content: "";
+        display: table;
+    }
+    .btn_6prog_03 .type1a .carrusel ul:after {
+        clear: both;
+    }
+    .btn_6prog_03 .type1a .carrusel ul {
+        zoom: 1;
+    }
+    .btn_6prog_03 .type1a .carrusel ul li {
+        display: block;
+        float: left;
+        width: 137px;
+        height: auto;
+        margin: 0 0 0px 25px;
+    }
+    .btn_6prog_03 .type1a .carrusel ul li h4 {
+        font-size: 14px;
+        line-height: 16px;
+		margin-bottom: 4px;
+    }
+    .btn_6prog_03 .type1a .carrusel ul li h4 a {
+        color: black;
+        background: none;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    .btn_6prog_03 .type1a .carrusel ul li p {
+        font-style: italic;
+        font-size: 11px;
+        font-weight:normal;
+		color: #D9A865 !important;
+    }
+    .btn_6prog_03 .type1a .carrusel ul li a {
+        width: auto;
+        height: auto;
+        padding: auto;
+        background: none;
+        display: block;
+    }
+    .btn_6prog_03 .type1a .carrusel ul li a img {
+        width: 136px;
+        height: 102px;
+        background-color: #666;
+        margin-bottom: 11px !important;
+    }
+    .btn_6prog_03 .type1a div ul li:first-child {
+        margin: 0 0 0 12px;
+    }
+    .btn_6prog_03 .type1a .carrusel ul li:last-child {
+        margin-right: 12px;
+        border: none;
+    }
+	.btn_6prog_03 .type1a div.title ul li:last-child {
+        background: url(../img/dotted-vertical.png) repeat-y left;
+        padding-left: 10px;
+    }
+    .btn_6prog_03 .type1a .carrusel.iOS {
+        overflow: scroll;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: -15px;
+    }
+    .btn_6prog_03 .type1a .carrusel.iOS ul {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .btn_6prog_03 div.title h3 {
+        height: 40px;
+    }
+    .btn_6prog_03 .type1a .title h3 a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        background: none;
+        -webkit-background-size: 12px 12px;
+        -moz-background-size: 12px 20px;
+        -o-background-size: 12px 12px;
+        background-size: 12px 20px;
+		height:31px;
+        line-height: 31px;
+    }
+    .btn_6prog_03 .bullets{
+        display: block;
+        width: 100%;
+        border-top: 1px solid #CCC;
+		margin-top:20px;
+        margin-bottom: 0px;
+        height: 20px;
+    }
+    .btn_6prog_03 .bullets ul{
+        float: right;
+        margin-top:5px;
+		padding-right:5px;
+    }
+    .btn_6prog_03 .bullets ul li{
+        width:11px;
+        height: 11px;
+        background-color:#CCC;
+        margin-left: 6px;
+        float:left;
+    }
+    .btn_6prog_03 .bullets ul li.selected{
+        background-color:#A70A0B;
+    }
+	.btn_6prog_03 .tvsa-caret-up,
+	.btn_6prog_03 .tvsa-caret-down{
+		color: #FFFFFF;
+		font-size:35px;
+		font-weight:bold;
+		cursor:pointer;
+		display: block;
+		float: right;
+		position: absolute;
+		right: 30px;
+		top: -1px;
+	}
+	.btn_6prog_03 .type1a div ul.flechas li:first-child{
+		margin-top:5px;
+		padding-right:10px;
+	}
+	.btn_6prog_03 .arrow_inactivate{
+		color:#BABABA;
+	}
+	.btn_6prog_03 .arrow_activate{
+		color:#000000;
+	}
+}

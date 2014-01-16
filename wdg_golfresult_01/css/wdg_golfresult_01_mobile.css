@@ -1,0 +1,18 @@
+@media screen {
+    .wdg_golfresult_01{
+        display: none;
+    }
+	.wdg_golfresult_01 .degraded{		
+		display: block;
+		position: relative;
+		bottom: 12px;			
+	}
+	.wdg_golfresult_01 .wdg_scroll_dropdown {
+		font-weight:normal;
+	}
+	.wdg_golfresult_01 .small {
+		font-size:12px;	
+	}
+	
+}
+

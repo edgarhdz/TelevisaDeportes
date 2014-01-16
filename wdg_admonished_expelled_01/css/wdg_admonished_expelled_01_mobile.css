@@ -1,0 +1,55 @@
+/* 
+    Document   : wdg_admonished_expelled_01
+    Created on : 6/05/2013, 04:02:40 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+        
+*/
+
+@media screen{
+    
+    .wdg_admonished_expelled_01 .widget_player_stats {line-height:36px;border-top:0px;border-bottom:0px;text-align:center;}
+    .wdg_admonished_expelled_01 .widget_player_stats td {vertical-align:middle;}
+    .wdg_admonished_expelled_01 .player_number_expelled{font-weight: bold;text-align: center; color:#A41D21;padding:0 10px}
+    .wdg_admonished_expelled_01 .player_number{font-weight: bold;text-align: center; color: #D9A961;padding:0 10px}
+    .wdg_admonished_expelled_01 .player_name {font-size:12px;font-weight:bold;text-align:left;padding-left:5px;}
+    .wdg_admonished_expelled_01 .events {font-size:10px;color:#666; text-align:right;}
+    .wdg_admonished_expelled_01 .events i {font-size:14px;vertical-align:-2px}
+    .wdg_admonished_expelled_01 .br_dotted {border-right:1px dashed #CCC;}
+    .wdg_admonished_expelled_01 .floatleft {float:left;}
+    .wdg_admonished_expelled_01 .floatright {float:right;}
+    .wdg_admonished_expelled_01 .container {width: 100%;float: left;height: 150px;position: relative;border-top: 1px solid #CCC;border-bottom: 1px solid #CCC;}
+    .wdg_admonished_expelled_01 .container table:first-child{border-right: 1px dashed #CCC;margin-right: 6px;}
+    .wdg_admonished_expelled_01 .container table{padding-right: 6px;}
+    .wdg_admonished_expelled_01 .container table tr td{border-bottom: 1px dashed #CCC;}
+    .wdg_admonished_expelled_01 .container table tr:last-child > td {border-bottom: 0px;}
+    .wdg_admonished_expelled_01 .container table tr{height: 30px}
+    .wdg_admonished_expelled_01 .encabezado_alineacion_partido {
+        float: left;
+        height: auto;
+        padding-top: 5px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_admonished_expelled_01 .encabezado_alineacion_partido h3 {
+        color: #A41D21 !important;
+        float: left;
+        font-style: italic;
+        padding-bottom: 8px;
+        padding-left: 25px;
+        padding-top: 8px;
+        width: auto;
+    }
+    
+    .wdg_admonished_expelled_01
+    {
+		
+        width:624px;
+        position:relative;
+        height:auto;
+        margin-bottom: 24px;
+        display:none;
+    }
+    
+}

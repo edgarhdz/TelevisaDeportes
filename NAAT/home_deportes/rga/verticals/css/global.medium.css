@@ -1,0 +1,77 @@
+/* BEGIN: Global (Medium) */
+div.title {
+  margin-bottom: 1.5em;
+}
+div.title:before,
+div.title:after {
+  content: "";
+  display: table;
+}
+div.title:after {
+  clear: both;
+}
+div.title {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+div.title h3 {
+  width: 57%;
+  max-width: 18.75em;
+  float: left;
+}
+div.title h3 a {
+  background-image: none;
+}
+div.title h3 a span.icon {
+  display: none;
+}
+.banner {
+  display: block;
+}
+.module {
+  margin: 0.5em 0 !important;
+}
+.topBanner {
+  width: 600px;
+  height: 120px;
+}
+.rectangleBanner,
+.wideBanner {
+  width: 300px;
+  height: 250px;
+  float: right;
+}
+.videoGalleryModule {
+  width: 39.375em;
+}
+.photoGalleryModule {
+  width: 39.375em;
+  height: 48em;
+}
+/* END: Global (Medium) *//* BEGIN: <type3f(medium)> */
+.type3f {
+  width: 625px;
+}
+.type3f:before,
+.type3f:after {
+  content: "";
+  display: table;
+}
+.type3f:after {
+  clear: both;
+}
+.type3f {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.type3f ul li {
+  width: 300px;
+  float: right;
+  display: block;
+}
+.type3f ul li:first-child {
+  float: left;
+}
+/* END: <type3f(medium)> */

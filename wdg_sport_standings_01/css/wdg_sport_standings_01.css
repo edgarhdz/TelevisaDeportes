@@ -1,0 +1,13 @@
+@media screen and (min-width: 948px){ 
+	.wdg_sport_standings_01 .scroll{
+		height: auto;
+		width:auto;
+		overflow: hidden;
+	}
+	.wdg_sport_standings_01 #shsMiniBody{
+		padding-bottom:0px;
+	}
+	.wdg_sport_standings_01 .degraded{
+		display: none;
+	}
+}

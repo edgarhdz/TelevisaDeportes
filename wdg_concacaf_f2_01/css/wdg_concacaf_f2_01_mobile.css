@@ -1,0 +1,10 @@
+@media screen {
+    .wdg_concacaf_f2_01 {
+        display: none;
+        margin-bottom: 0px;
+    }
+	.wdg_concacaf_f2_01 .number{
+		font-size:16px !important;
+	}
+}
+

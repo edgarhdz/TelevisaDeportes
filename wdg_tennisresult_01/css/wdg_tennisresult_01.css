@@ -1,0 +1,29 @@
+@media screen and (min-width: 948px){
+    .wdg_tennisresult_01 .wdg_tennisresult_01_content{
+        border-bottom: 0px solid #d3d3d3;
+        height: auto;
+        overflow: visible;
+        margin-bottom: 24px; 
+    }
+    .wdg_tennisresult_01 .scroll{
+        height: auto;
+        overflow: hidden;
+    }
+    .wdg_tennisresult_01 .scroll2{
+        height: auto;
+        overflow: auto;  
+         width: 624px;      
+    }
+    .wdg_tennisresult_01 .wdg_tennisresult_01_arrows{
+        display: none;
+    }
+    .ie7 .wdg_tennisresult_01 .wdg_tennisresult_01_content > div ul li.date{
+        width:70px;
+    }
+    .ie8 .wdg_tennisresult_01 .wdg_tennisresult_01_content > div ul li.date{
+        width:70px;
+    }	
+	 .wdg_golfresult_01 .degraded{						
+		display:none;	
+	}	
+}

@@ -1,0 +1,29 @@
+@media screen and (min-width: 948px){
+    .wdg_concacaf_f2_01 {
+        margin-top: 4px;
+    }
+	
+	 .ie8 .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_dropdown .wdg_concacaf_f2_01_dropdowncontent span {
+        ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        filter: alpha(opacity=50);
+        -khtml-opacity: 0.5;
+        -moz-opacity: 0.5;
+    }
+    .ie7 .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_dropdown .wdg_concacaf_f2_01_dropdowncontent span {
+        ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        filter: alpha(opacity=50);
+        -khtml-opacity: 0.5;
+        -moz-opacity: 0.5;
+    }
+    .ie7 .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_content,
+    .ie8 .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_content{
+        min-height: 40px;
+    }
+	
+	.ie7 .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer{
+        z-index: 1000 !important;
+    }
+    .ie8 .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer{
+        z-index: 1000 !important;
+    }
+}

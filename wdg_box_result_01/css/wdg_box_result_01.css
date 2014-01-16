@@ -1,0 +1,24 @@
+@media screen and (min-width: 948px){
+	.wdg_box_result_01 .nav_carousel {
+    	display: none;
+    }
+
+    .wdg_box_result_01 .boxers_block{
+        height: 736px;
+    }
+
+    .wdg_box_result_01 .scroll{
+    	overflow: hidden;
+    	height: auto;
+    	width: 650px;
+
+    }
+    .wdg_box_result_01 .scroll2{
+    	overflow: auto;
+    	height: auto;
+    	width: 650px;
+    }
+	.wdg_box_result_01 .degradado{
+		display:none;
+	}
+}    

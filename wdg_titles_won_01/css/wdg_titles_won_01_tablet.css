@@ -1,0 +1,28 @@
+@media screen and (min-width: 624px){
+    .wdg_titles_won_01{
+		display:block;
+        width: 300px;
+        margin-bottom: 36px;
+        clear: both;
+		overflow: hidden;		
+		height:275px;
+    }
+	.wdg_titles_won_01 .ver_todos {
+		color:#FFF;
+		text-align:center;
+		vertical-align:central;
+		height:31px;
+		float:right;
+		width:93px;
+	}
+	.wdg_titles_won_01 .ver_todos .sin_base a{
+		border-bottom:none;
+		color:#FFF;
+	}
+	.wdg_titles_won_01 .ver_todos .tvsa-double-caret-right{
+		display:none;
+	}
+	.wdg_titles_won_01 .izq {
+		padding-right:0;
+	}
+}

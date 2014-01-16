@@ -1,0 +1,16 @@
+/* 
+    Document   : wdg_podcast_video_01
+    Created on : 16Ju7n/2013, 11:41:28
+    Author     : Luis Jesús Ruelas Merino
+    Description:
+*/
+@media screen and (min-width: 624px){
+	.wdg_podcast_video_01{
+		width: 300px;
+		margin-bottom: 36px;
+	}
+	.wdg_podcast_video_01 div.str_pleca_01_title h3 {
+		width: 165px;
+	}
+
+}

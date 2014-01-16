@@ -1,0 +1,11 @@
+@media screen and (min-width: 948px){  
+
+	.ie7 .mix_6arts_04 .nav_paginator_01 ul{
+		height: 36px;
+	}
+	
+	.ie7 .mix_6arts_04 .nav_paginator_01 ul li a{
+		height: 20px;
+		line-height: 20px;
+	}
+}

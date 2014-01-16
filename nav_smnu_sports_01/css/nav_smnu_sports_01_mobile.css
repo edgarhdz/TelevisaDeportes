@@ -1,0 +1,93 @@
+@media screen {
+	.nav_smnu_sports_01 {
+		width: 300px;
+		clear: both;
+		overflow: hidden;
+		margin: 0 auto;
+		height: 36px;
+		margin-top: 14px;
+		margin-bottom: 0px;
+		position: relative;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar {
+		width: 395px;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul {
+		margin: 0px;
+		padding-bottom: 8px;
+		border-bottom: 1px solid #d5d5d5;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li {
+		font-weight: bold;
+		width: 167px;
+		display: inline;
+		margin: 0px;
+		padding: 8px 0;
+		margin: 0;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li:first-child {
+		margin: 0;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li a {
+		background: url(../img/dotted-vertical.png) repeat-y;
+		background-position: right;
+		color: #8F8F8F;
+		font-weight: bold !important;
+		padding: 0 15px;
+		font-size: 14px;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li.current a {
+		color: #A70A0B;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li.current {
+		border-bottom: 2px solid #A70A0B;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li.last a {
+		border-right: 0;
+	}
+	.nav_smnu_sports_01 .border-top1 {
+		border-bottom: solid 2px #A70A0B !important;
+	}
+	.nav_smnu_sports_01 .navarrowleft {
+		float: left;
+	}
+	.nav_smnu_sports_01 .navarrowright {
+		float: right;
+	}
+	.nav_smnu_sports_01 .container {
+		left: 27px;
+		float: left;
+		overflow: auto;
+		position: absolute;
+		height: 55px;
+		width: 235px;
+	}
+	.nav_smnu_sports_01 .container .nav_smnu_sports_01_bar .hide1,
+	.nav_smnu_sports_01 .container .nav_smnu_sports_01_bar .hide2 {
+		display: none;
+	}
+	.nav_smnu_sports_01 a i {
+		color: #8F8F8F;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li:last-child a {
+		background: none;
+	}
+	.hidden {
+		display: none!important;
+	}
+	
+	.nav_smnu_sports_01 a span i.active{
+		color: #232323;
+	}
+	.nav_smnu_sports_01 a span i.inactive{
+		color: #8f8f8e !important;
+	}
+	
+	.ie7 .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li {
+        padding: 8px 3px;
+        width: 160px;
+    }
+    .ie7 .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li a{
+        padding:0 33px;
+    }
+}

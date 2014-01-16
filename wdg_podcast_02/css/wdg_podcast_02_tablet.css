@@ -1,0 +1,35 @@
+@media screen and (min-width: 624px){
+    
+.wdg_podcast_02{
+	background: url("../img/dotted-horizontal.png") repeat-x bottom !important;
+	border-bottom:none;
+	margin-bottom:24px;
+	padding:0px;
+}
+
+.wdg_podcast_02 .wdg_podcast_02_btnDescargar,
+.wdg_podcast_02 .wdg_podcast_02_player{
+	display:block;
+	margin-top:20px;
+    cursor: pointer;
+}
+
+.wdg_podcast_02 h5 .wdg_podcast_02_extras{
+	display:inline;
+}
+
+.wdg_podcast_02 h2{
+	
+	font-size:17px;
+	color:#333;
+	margin-bottom:5px;
+	font-weight:normal;
+}
+
+.wdg_podcast_02 .separator{
+	
+	width:100%;
+	display:inline-block;
+}
+
+}

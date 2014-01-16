@@ -1,0 +1,27 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_tdn_opiniondetalle_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_tdn_opiniondetalle_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_tdn_opiniondetalle_01 .main > div{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_tdn_opiniondetalle_01 .main .c7_1{
+		width:100%;
+	}
+	/*Ajustes especiales*/
+	.td_tdn_opiniondetalle_01 .main .c1 > img {
+		margin-bottom: 10px;
+	}
+	.td_tdn_opiniondetalle_01 .main .c1 .art_branch_01{
+		padding-top:8px;
+	}
+}

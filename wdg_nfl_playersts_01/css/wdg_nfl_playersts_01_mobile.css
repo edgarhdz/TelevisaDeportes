@@ -1,0 +1,144 @@
+@media screen {
+	
+	.wdg_nfl_playersts_01{
+		width:624px;
+		margin-bottom: 36px;
+		clear:both;
+		overflow:hidden;
+		font-size:12px;
+	}
+	
+	.wdg_nfl_playersts_01 .str_pleca_01{
+		margin-bottom:4px;
+	}
+	
+	.wdg_nfl_playersts_01 div.str_pleca_01_title h3 {
+		font-size:14px;
+	}
+	
+	.wdg_nfl_playersts_01 .shsTotD,
+	.wdg_nfl_playersts_01 .shsTotDgold{
+		/*display: none;*/
+	}
+	.wdg_nfl_playersts_01 .shsTotD{
+		/*display:none;*/
+	}
+	.wdg_nfl_playersts_01 .shsRow0Row td{
+		text-align:center;
+	}
+	.wdg_nfl_playersts_01 .shsRow1Row td{
+		text-align:center;
+	}
+	.wdg_nfl_playersts_01 .titulo{
+		display:none;
+	}
+	.wdg_nfl_playersts_01 tbody tr:nth-last-child(11) td{
+		text-align:center;
+		color:#000;
+		font-weight:bold;
+		border-top:none;
+		border-bottom: 1px solid #CCC;
+		background:none;
+	}
+	.wdg_nfl_playersts_01 tbody tr:last-child td{
+		border-bottom: 1px solid #CCC;
+		background:none;
+	}
+	.wdg_nfl_playersts_01 table{
+		width:100%;
+		text-align: center;
+		border-spacing:0;
+		border-collapse:collapse;
+	}
+	.wdg_nfl_playersts_01 .shsMiniteamstats br{
+		display: none;
+	}
+	.wdg_nfl_playersts_01 .shsColTtlRow td{
+		color:  #232323;
+	}
+	.wdg_nfl_playersts_01 .shsColTtlRow >td{
+		padding-left: 0;
+		padding-top: 7px;
+		font-size: 15px;
+	}	
+	.wdg_nfl_playersts_01 .shsTableTtlRow td{
+		background-color:#999;
+		color:#FFF;
+		text-align:center !important;
+		padding: 5px 0;
+		height:24px;
+		font-weight: bold;
+	}
+	
+	.wdg_nfl_playersts_01 .shsColTtlRow td{
+		font-weight:bold;
+		background: none;
+		border-bottom: 1px solid #ccc;
+	}
+	
+	
+	.wdg_nfl_playersts_01 tbody td{
+		padding: 0px;
+		height:40px;
+		font-size:16px;
+		font-weight:bold;
+		color:#8f8f8f;
+		background: url("../img/dotted-horizontal.png") repeat-x  bottom;
+	}
+	.wdg_nfl_playersts_01 .shsTableSubttlRow td{
+		color:#000;
+		font-size:20px;
+		font-style:italic;
+		margin-bottom:24px;
+		border-bottom: 1px solid #CCC;
+		background:none;
+		background-image:none;		
+	}
+	.wdg_nfl_playersts_01 .shsTableSubttlRow td:first-child{
+		text-align: left;
+		padding-left: 10px;
+	}
+	.wdg_nfl_playersts_01 .shsTableSubttlRow .shsTotD{
+		display:none;
+	}
+	.wdg_nfl_playersts_01 .shsTableTtlRow .shsTotDgold{
+		display:none;
+	}
+	.wdg_nfl_playersts_01 tbody .shs1stCol{
+		text-align:right;
+		font-weight:bold;
+		padding-right: 5px;
+	}
+	
+	.wdg_nfl_playersts_01 .shsViewMore td{
+		background-color:#EDEDED;
+		text-align:center !important;
+	}
+	
+	.wdg_nfl_playersts_01 .link_color{
+		display:none;
+	}
+	.wdg_nfl_playersts_01 .shsMiniCopyright_teamstats {
+		display: none;
+	}
+
+	.wdg_nfl_playersts_01 tbody td:first-child{
+		text-align: center;
+		padding-left: 0px;
+	}
+	.wdg_nfl_playersts_01 tbody .shsRow0Row .shsNamD{
+		text-align: left;
+	}
+	.wdg_nfl_playersts_01 tbody .shsRow1Row .shsNamD{
+		text-align: left;
+	}
+	
+	
+	.wdg_nfl_playersts_01 .shsMiniCopyright,
+	.wdg_nfl_playersts_01 .shsMiniCopyrightText{
+		display:none;
+	}
+	.wdg_nfl_playersts_01 .ancho{
+		width: 30% !important;
+	}
+}

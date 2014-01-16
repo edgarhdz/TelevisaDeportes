@@ -1,0 +1,8 @@
+IMPORTANT: art_branch_01 and art_branch_02 are the same component.
+They use the same CSS and the same HTML. Only difference: one version includes an <h1> the second doesn't
+
+Headline component
+- No headline
+- Link editable (in case there's no link, replace <a> with <span>)
+
+Thanks

@@ -1,0 +1,45 @@
+@media screen {
+	.wdg_smex_effectiveness_01 {
+		width: 300px;
+		border-bottom: 1px solid #ccc;
+		display: none;
+		margin-bottom: 24px;
+	}
+	.wdg_smex_effectiveness_01 .wdg_smex_effectiveness_01_container {
+		clear: both;
+		overflow: hidden;
+	}
+	.wdg_smex_effectiveness_01 .wdg_smex_effectiveness_01_container .percentage {
+		float: left;
+		width: 308px;
+		text-align: center;
+		font-size: 90px;
+		font-weight: normal;
+		margin-bottom: 5px;
+		padding-bottom: 2px;
+		margin-top: -22px;
+	}
+	.wdg_smex_effectiveness_01 .wdg_smex_effectiveness_01_container .separator {
+		float: left;
+		width: 1px;
+		height: 62px;
+	}
+	.wdg_smex_effectiveness_01 .wdg_smex_effectiveness_01_container .points {
+		float: left;
+		font-size: 14px;
+		text-align: center;
+		width: 149px;
+		font-weight: bolder;
+		padding-top:3px;
+		padding-bottom: 4px;
+	}
+	.wdg_smex_effectiveness_01 .wdg_smex_effectiveness_01_container .points .textcolor-title4 {
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 30px;
+		font-weight: bolder;
+	}
+	.wdg_smex_effectiveness_01 .small{
+		font-size:76px;
+	}
+}

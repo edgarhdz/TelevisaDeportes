@@ -1,0 +1,39 @@
+@media screen and (min-width: 948px){
+    /* Wrap */
+    .td_smex_main_01 .main{
+        width: 948px;
+    }
+
+	/* 100 porciento */
+    .td_smex_main_01 .main .c1{
+		width:100%;
+		clear:both;
+	}	
+	/* Flotan a la izq */
+	.td_smex_main_01 .main .c2,
+	.td_smex_main_01 .main .c4,
+	.td_smex_main_01 .main .c6{ 
+		width: 624px;
+		display:block;
+		clear:none;
+	}
+	/* Flotan a la der */
+	.td_smex_main_01 .main .c3,
+	.td_smex_main_01 .main .c5{
+		float: right;
+		width: 300px;
+		clear:none;
+	} 
+	/*bloques*/	
+	.td_smex_main_01 .main .c3_1,
+	.td_smex_main_01 .main .c3_2,
+	.td_smex_main_01 .main .c3_3{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_smex_main_01 .main .c6bis{
+		width:624px;
+		float:left;
+	}	
+}

@@ -1,0 +1,25 @@
+@media screen and (min-width: 948px){
+    /* START: carouseltypecarruse (Medium) */
+    .btn_carru_prog_03{
+        width:100%;
+    }
+    .btn_carru_prog_03 .title {
+        margin:0 0 24px 0;
+    }
+	.btn_carru_prog_03 .typecarruse{
+		height:170px;
+	}
+    .btn_carru_prog_03 .typecarruse .title .flechas{
+        display:block;
+    }
+    .btn_carru_prog_03 .bullets{
+        display:none;
+        border:0;
+    }
+    .btn_carru_prog_03 #b_tablet{
+         display:none;
+    }
+    .btn_carru_prog_03 #b_mobile{
+         display:none;
+    }
+}

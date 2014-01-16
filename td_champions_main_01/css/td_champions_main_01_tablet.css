@@ -1,0 +1,49 @@
+@media screen and (min-width: 624px){
+
+    /*Wrap*/
+    .td_champions_main_01 .main{
+        width: 640px;
+        margin:auto;
+    }
+    /* Contenedor principal */
+    .td_champions_main_01 .main .container-one{
+        float:none;
+        clear:both;
+        overflow: hidden;
+
+    }
+    .td_champions_main_01 .main .container-one .c1_1{
+        clear: both;
+        overflow: hidden;
+
+    }
+    .td_champions_main_01 .main .container-one .c1_r{
+        padding-left: 10px;
+    }
+    .td_champions_main_01 .main .container-one .c1_1 .c1_l,
+    .td_champions_main_01 .main .container-one .c1_1 .c1_r{
+        float:left;
+    }
+    .td_champions_main_01 .main .container-one .c1_1 .c1_l .art_reltd_01{
+        border-right: 1px dashed #CCC;	
+    }
+    /* Contenedor derecho */
+    .td_champions_main_01 .main .container-two{
+        float:none;
+        overflow: hidden;
+    }
+	.td_champions_main_01 .main .c2{
+		width:300px;
+    }
+    .td_champions_main_01 .main .container-two .c4{
+        float: right;
+        padding-left: 22px;
+    }
+	.td_champions_main_01 .cb{
+		display:block;
+    }
+    .td_champions_main_01 .mix_4arts_05 .str_pleca_01{
+        display: block;
+    }
+
+}

@@ -1,0 +1,22 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_opinion_video_blog_01 .main{
+        width: 948px;
+    }
+    /* Contenedor izquierdo */
+    .td_opinion_video_blog_01 .main .c1{
+		float:left;
+        clear: both;
+        width: 624px;
+    }
+    /* Contenedor derecho */
+    .td_opinion_video_blog_01 .main .c2{
+		float:right;
+        overflow: hidden;
+        width: 300px;
+    }
+	/*Caso especial wdg_social*/
+	.td_opinion_video_blog_01 .main .c1 .c1_2r {
+   	 	float: left;
+	}
+}

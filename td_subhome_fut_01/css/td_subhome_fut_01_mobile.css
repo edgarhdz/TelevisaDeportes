@@ -1,0 +1,34 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_subhome_fut_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_subhome_fut_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_subhome_fut_01 .main > div{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_subhome_fut_01 .main .c7_2{
+		width:100%;
+	}
+	.td_subhome_fut_01 .main .c5_5{
+		display:block;
+		width:100%;
+		height:70;
+		padding-top:6px;
+		padding-bottom:8px;
+		margin:auto;
+		text-align:center;
+	}
+	.td_subhome_fut_01 .main .c3_1,
+	.td_subhome_fut_01 .main .c3_2{
+		width:100%;
+	}
+	
+}

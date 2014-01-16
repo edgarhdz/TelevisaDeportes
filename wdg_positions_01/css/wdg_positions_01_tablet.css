@@ -1,0 +1,57 @@
+@media screen and (min-width: 624px){
+    .wdg_positions_01{
+        width: 300px;
+        margin-bottom: 36px;
+        clear: both;
+		overflow: hidden;		
+		height:631px;
+    }
+ 	.wdg_positions_01 .scroll{
+        height: 495px;
+		width:106%;
+		overflow-x:hidden;
+    }
+	.wdg_positions_01 .carousel_nav_tablet{
+		height:29px;
+		margin-top: 10px
+	}
+	.wdg_positions_01 .ver_todos{
+		display:none;
+	}
+	.wdg_positions_01 .ver_todos_tablet {
+		border-top:1px solid #CCC;
+		color:#FFF;
+		text-align:center;
+		vertical-align:central;
+		height:31px;
+		float:right;
+		width:100%;
+	}
+	.wdg_positions_01 .liga {
+		padding: 6px 0;
+	}
+	.wdg_positions_01 .empty {
+		display:block;
+		width:auto;
+	}
+	.wdg_positions_01 .ver_todos_tablet .sin_base {
+		width:93px;
+		font-style: italic;
+		font-size: 14px;
+	}
+	.wdg_positions_01 .ver_todos_tablet .sin_base a{
+		border-bottom:none;
+		color:#FFF;
+	}
+	.wdg_positions_01 .ver_todos_tablet .tvsa-double-caret-right{
+		display:none;
+	}
+	.wdg_positions_01 table{
+		border-spacing:0px;
+		width:97%;
+	}
+	.wdg_positions_01 .degradado {
+		top:-12px;
+		width: 300px;
+	}
+}

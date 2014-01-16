@@ -1,0 +1,117 @@
+@media screen{
+	.wdg_league_leaders_01{
+		margin-bottom: 36px;
+	}
+	.wdg_league_leaders_01 .shsMiniCopyright {
+		display:none;
+		padding-top: 2px
+	}
+	.wdg_league_leaders_01 .shsTableTtlRow { 
+		background-color: #A70A0B;
+		color: #FFF;
+		font-size: 16px;
+		font-weight: bold;
+		padding: 10px;
+		text-align: center;
+	}
+	.wdg_league_leaders_01 .shsRow0Row { 
+		height: 32px;
+		padding: 0 10px;
+		border-right: 1px solid #CCC;
+		border-bottom: 1px solid #CCC;
+		background-color: #ffffff; 
+		text-align: left; 
+	}
+	.wdg_league_leaders_01 .shsRow1Row { 
+		height: 32px;
+		padding: 0 10px;
+		border-right: 1px solid #CCC;
+		border-bottom: 1px solid #CCC;
+		background-color: #FFF;
+		text-align: left; 
+	}
+	.wdg_league_leaders_01 .shsBorderTable .shsTotD a{
+		color: #D6A256;
+	}
+	
+	.wdg_league_leaders_01 .shsMiniCopyright_leaders{
+		display: none;
+	}
+	
+	html .shsTotD {
+		text-align: center !important;
+	}
+	
+	.wdg_league_leaders_01 .shsBorderTable .shsRow0Row .shsTotD.shsLdrStat{
+		box-shadow: 0 2px 14px #E9E9E9 inset;
+		text-align: center;
+		border-right: none;
+		height: 32px;
+		padding: 0 10px;
+		border-bottom: 1px solid #CCC;
+		background-color: #FFF;	
+	}
+	.wdg_league_leaders_01 .shsBorderTable .shsRow1Row .shsTotD.shsLdrStat{
+		box-shadow: 0 2px 14px #E9E9E9 inset;
+		text-align: center;
+		border-right: none;
+		height: 32px;
+		padding: 0 10px;
+		border-bottom: 1px solid #CCC;
+		background-color: #FFF;	
+	}
+	.wdg_league_leaders_01 .shsBorderTable .shsColTtlRow td {
+		line-height: 18px;
+		background: none repeat scroll 0 0 #DEDEDE;
+		box-shadow: 0 4px 14px #B8B8B8 inset;
+		color: #000;
+		font-size: 12px;
+		font-weight: bold;
+		height: 36px;
+		padding: 0 10px;
+	}
+	.wdg_league_leaders_01 .shsBorderTable .shsRow0Row .shsLdrName a{
+		color: #D6A256;
+	}
+	.wdg_league_leaders_01 .shsBorderTable .shsRow1Row .shsLdrName a{
+		color: #D6A256;
+	}
+	.wdg_league_leaders_01 .shsBorderTable .shsTableTtlRow td , .shsTableTtlRow th {
+		font-size: 16px;
+		line-height: 18px; 
+		height: 32px
+	}
+	
+	.wdg_league_leaders_01 .shsHomeLink { visibility: collapse; display: none }
+	.wdg_league_leaders_01 .shsTable { width: 300px; /*margin: auto;*/ border: 1px solid #ccc;}
+	.wdg_league_leaders_01 .shsHeadTable { width: 100%; margin: auto; }
+	.wdg_league_leaders_01 .shsGriddedTable { width: 100%; margin: auto; background: #cccccc }
+	.wdg_league_leaders_01 .shsTable td, .shsTable th { font-size: 12px; vertical-align: middle }
+	.wdg_league_leaders_01 .shsHeadTable td, .shsHeadTable th { font-size: 12px; vertical-align: middle }
+	.wdg_league_leaders_01 .shsTableTtlRow td, .shsTableTtlRow th { font-size: 14px; font-weight: bold; text-align: center }
+	.wdg_league_leaders_01 .shsTableTtlRow td.shsTeamCol {width: 50%; text-align: left}
+	.wdg_league_leaders_01 .shsTableTtlRow td a, .shsTableTtlRow th a {color: #ffffff; text-decoration: none }
+	.wdg_league_leaders_01 .shsTableTtlRow td a:link, .shsTableTtlRow th a:link,
+	.wdg_league_leaders_01 .shsTableTtlRow td a:visited, .shsTableTtlRow th a:visited,
+	.wdg_league_leaders_01 .shsTableTtlRow td a:hover, .shsTableTtlRow th a:hover,
+	.wdg_league_leaders_01 .shsTableTtlRow td a, .shsTableTtlRow th a{ text-decoration: underline }
+	.wdg_league_leaders_01 .shsTableTtlRow .shsNamD {text-align: left}
+	.wdg_league_leaders_01 .shsTableTtlRow .shsNumD {text-align: right}
+	.wdg_league_leaders_01 .shsColTtlRow { background-color: #eeeeee; color: #000000; }
+	.wdg_league_leaders_01 .shsColTtlRow td, .shsColTtlRow th { font-weight: bold; text-align: center }
+	.wdg_league_leaders_01 .shsColTtlRow td a, .shsColTtlRow th a {color: #000000; text-decoration: none }
+	.wdg_league_leaders_01 .shsColTtlRow td a:hover, .shsColTtlRow th a:hover { text-decoration: underline }
+	.wdg_league_leaders_01 .shsTableSubttlRow td.shsNamD {text-align: left}
+	.wdg_league_leaders_01 .shsColTtlRow td.shsNamD {text-align: left}
+	.wdg_league_leaders_01 .shsNamD { text-align: left }
+	.wdg_league_leaders_01 .shsTotD { text-align: center }
+	.wdg_league_leaders_01 .shsNumD { text-align: right }
+	.wdg_league_leaders_01 .shsColTtlRow td.shsTotD { text-align: center }
+	.wdg_league_leaders_01 .shsColTtlRow td.shsNumD { text-align: right }
+	.wdg_league_leaders_01 .shsBorderTable  td{border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;padding: 3px;}
+	.wdg_league_leaders_01 .shsBorderTable  th{border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;padding: 3px;}
+		
+}
+
+
+

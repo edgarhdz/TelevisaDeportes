@@ -1,0 +1,27 @@
+@media screen { 
+    .ads_combo_01{
+        margin-top: 0px;
+        width: 100%;
+        clear: both;
+        margin-bottom: 12px;
+    }
+    .ads_combo_01 .mobile_banner{
+        display:block;
+        margin: 0 auto;
+        width: 320px;
+        text-align: center;
+    }
+    .ads_combo_01 .desktop_banner {
+        display: none;
+    }
+    .ads_combo_01 .tablet_banner_portrait{
+        display:none;
+    }
+    .ads_combo_01 .tablet_banner_landscape{
+        display: none;
+    }
+    .out-of-page-banners{
+        display: none;
+    }
+
+}

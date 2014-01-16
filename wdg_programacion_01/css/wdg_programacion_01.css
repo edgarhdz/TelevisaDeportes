@@ -1,0 +1,30 @@
+@media screen and (min-width: 948px){    
+	.wdg_programacion_01 > div .prev, 
+    .wdg_programacion_01 > div .next {
+        display: block;
+    }
+
+    .wdg_programacion_01 .wdg_programacion_01_list{
+    	overflow: hidden;
+    	width: 100%;
+    }
+    .wdg_programacion_01 .arrow_buttons{
+    	display: block !important;
+    }
+    .wdg_programacion_01 .degradado{
+        display:none;
+    }
+	
+    .ie7 .wdg_programacion_01 .icon-interactive2{
+    	width: 3%;
+    }
+	
+	.wdg_programacion_01 .scroll{
+		
+		width:640px;
+	}
+	
+	.ie7 .wdg_programacion_01 > div .tvsa-caret-down{
+		padding-top: 5px;
+	}
+}

@@ -1,0 +1,74 @@
+@media screen and (min-width: 624px){
+    .btn_podcast_01{
+
+        width:624px;
+        height: 150px;
+
+        margin: auto;
+        margin-top: 12px;
+        margin-bottom:24px;
+    }
+    .btn_podcast_01 .btn_podcast_01_btn {
+        width: 14em !important;
+        margin: 0;
+        padding-bottom: 0.5em;
+        background-color:#3E418E;
+        cursor:pointer;
+        color:#FFF !important;
+        font-size:.8em !important;
+        font-weight:normal;
+        font-style:italic;
+        border:none !important;
+        height:30px
+    }
+    .btn_podcast_01 .btn_podcast_01_line div.btn_podcast_01_reader{
+        float: left;
+        /*margin-right: 10px;*/
+        display: block;
+        width:311px;
+        border-right: 1px dotted #d3d3d3;
+    } 
+    .btn_podcast_01 .btn_podcast_01_line div.btn_podcast_01_itunes{
+        /*width:175px;*/
+        display: inline-block;
+        width:311px;
+    } 
+    .btn_podcast_01 .btn_podcast_01_line{
+        margin-top: 10px;
+    } 
+    .btn_podcast_01 .btn_podcast_01_text{
+        height:30px;
+        display:block;
+    } 
+    .btn_podcast_01 .btn_podcast_01_text a p span{
+        font-weight: bold;
+    }
+    .btn_podcast_01 .btn_podcast_01_text a{
+        text-align: center;
+        font-style: italic;
+    }
+    .ie7 .btn_podcast_01 .btn_podcast_01_text a p{
+        *text-align: center;
+    }
+    .btn_podcast_01 .btn_podcast_01_line div.btn_podcast_01_itunes div.btn_podcast_01_itunesimg{
+        height: 60px;
+        text-align: center ;
+        /*padding-left: 65px;*/
+    } 
+    .btn_podcast_01 .btn_podcast_01_line div.btn_podcast_01_reader div.btn_podcast_01_readerimg{
+        height: 60px;
+        text-align: center ;
+        /*padding-left: 65px;*/
+    }
+    .btn_podcast_01_itunesinput{
+        text-align: center ;
+    }
+    .btn_podcast_01 .btn_podcast_01_line .btn_podcast_01_itunes .btn_podcast_01_itunesimg{
+        float: none;
+        margin-top: 0px;
+    }
+    .btn_podcast_01 .btn_podcast_01_line .btn_podcast_01_itunes .btn_podcast_01_itunesinput{
+        float: none;
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,36 @@
+@media screen and (min-width: 948px){
+    .ads_combo_02{
+        margin-bottom: 36px;
+        width:955px;
+        height: 90px;
+    }
+    .ads_combo_02 .desktop_banner .large_banner{
+        float: left;
+        margin-left: -5px;
+        width: 728px;
+    }
+    .ads_combo_02 .desktop_banner .short_banner{
+        float: right;
+        width: 200px;
+    }
+    .ads_combo_02 .desktop_banner{
+        display: block;
+    }
+    .ads_combo_02 .mobile_banner{
+        display: none;
+    }
+    .ads_combo_02 .tablet_banner_portrait {
+        display: none;
+    }
+    .ads_combo_02 .tablet_banner_landscape{
+        display: none;
+    }
+    .out-of-page-banners{
+        display: block;
+        clear: both;
+    }
+    .out-of-page-banners > div{
+        height: 0px;
+    }
+
+}        

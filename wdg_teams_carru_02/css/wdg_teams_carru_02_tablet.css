@@ -1,0 +1,36 @@
+@media screen and (min-width: 624px){
+    .wdg_teams_carru_02{
+        width:100%;
+        margin-bottom: 24px;
+        padding-top:18px;
+        text-align:center;
+    }
+    .wdg_teams_carru_02 div.inner {
+        width:624px;
+        margin:0 auto;
+    }
+    .wdg_teams_carru_02 .mostrar-todos{
+        display: block;     
+        margin-left: 12px;
+    }
+    .wdg_teams_carru_02 .ocultar-todos{
+        display: block;
+        margin-left: 12px;
+    }
+    .wdg_teams_carru_02 .tvsa-caret-down{
+        font-size: 16px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .wdg_teams_carru_02 .tvsa-caret-up {
+		font-size: 16px;
+		margin-right: 0;
+		margin-top: 0;
+	}
+    .wdg_teams_carru_02 .titulo {
+        text-align:left;
+    }
+    .wdg_teams_carru_02 .line {visibility:visible;}
+    .wdg_teams_carru_02 .mostrar a > i,.wdg_teams_carru_02 .ocultar a > i {display:none;}
+    .wdg_teams_carru_02 .titulo_bar {position:relative;}
+}

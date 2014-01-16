@@ -1,0 +1,27 @@
+@media screen and (min-width: 948px){
+    .wdg_simbology_02
+    {
+        position:relative;
+        height:auto;
+        overflow:hidden;
+		margin-bottom:14px;		
+    }
+    .wdg_simbology_02 .tabla_simbologia .icon_simbologia
+    {
+        padding-top:0px;
+        padding-bottom:8px;
+        float:left;
+        width:25%;
+    } 
+	 
+	.ie7 .wdg_simbology_02 .icon_simbologia span{
+		text-align: left;
+		display: block;
+		padding-top: 10px;
+	}  
+
+    .ie7 .wdg_simbology_02 .title_simbologia {
+        border-bottom:1px solid #ccc!important; 
+    }      
+
+}

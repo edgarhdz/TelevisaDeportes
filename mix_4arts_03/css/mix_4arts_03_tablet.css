@@ -1,0 +1,58 @@
+@media screen and (min-width: 624px){
+	
+	/* START: carouseltype1a (Medium) */
+	.mix_4arts_03{
+		margin-bottom: 36px;
+        overflow: hidden;
+	}
+	
+	.mix_4arts_03 .type1a {
+	  padding-left: 0;
+	}
+	
+	
+	.mix_4arts_03 .type1a ul {
+	  margin: 1.563em 0 auto;
+	}
+	
+	.mix_4arts_03 {
+    	/*padding-bottom: 24px !important;*/ 
+	}
+
+	.mix_4arts_03 .type1a .carrusel ul {
+	  margin-top: 0;
+	}
+	/* END: carouseltype1a (Medium) */
+	
+	
+	
+	
+	/* BEGIN: Global (Medium) */
+	.mix_4arts_03 div.title {
+	  margin-bottom: 1.5em;
+	}
+	.mix_4arts_03 div.title:before,
+	.mix_4arts_03 div.title:after {
+	  content: "";
+	  display: table;
+	}
+	.mix_4arts_03 div.title:after {
+	  clear: both;
+	}
+	.mix_4arts_03 div.title {
+	  zoom: 1;
+	  /* For IE 6/7 (trigger hasLayout) */
+	
+	}
+	.mix_4arts_03 div.title h3 {
+	  width: 57%;
+	  max-width: 18.75em;
+	  float: left;
+	}
+	.mix_4arts_03 div.title h3 a {
+	  background-image: none !important;
+	}
+	.mix_4arts_03 div.title h3 a span.icon {
+	  display: none;
+	}
+}

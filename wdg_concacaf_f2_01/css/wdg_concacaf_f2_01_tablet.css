@@ -1,0 +1,187 @@
+@media screen and (min-width: 624px){
+	.wdg_concacaf_f2_01 {
+        margin-bottom: 10px;
+        display: block;
+        width: 625px;
+        clear: both;
+        overflow: hidden;
+        margin-top: 6px;
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_title {
+    	background-color: transparent;
+        /*margin-bottom: 24px;*/
+        display: block;
+        width: 65%;
+        float: left;
+        height: 32px;
+        border-bottom: 1px solid #cccccc;
+        border-top: 1px solid #cccccc;
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result{
+    	overflow: hidden;
+		clear: both;
+		float: left;
+    }
+
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result .wdg_concacaf_f2_01_separator{
+    	border-bottom: 1px solid #cccccc;
+    	clear: both;
+    	overflow: hidden;
+    	height: 19px;
+    	padding-top: 24px;
+    }
+
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul.textcolor-title1 li,
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul.textcolor-title1 li.first_child {
+		border-right: 0;
+    }
+
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul.first_ul{
+		padding-top: 20px;
+        margin-top: 5px;
+    }
+	
+	.wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result .wdg_concacaf_f2_01_separator ul li{
+		background: none;
+	}
+
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul li{
+    	background:url(../img/dotted-vertical.png) repeat-y 100% 0;
+	    float: left;
+	    font-size: 14px;
+	    font-weight: bolder;
+	    height: 43px;
+	    margin: 0;
+	    padding: 0;
+	    width: 54px;
+    }
+
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul li:last-child{
+        background: none;
+    } 
+
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul li img{
+    	padding: 5px 10px 0 20px;
+    	float: left;
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul li h2.team{
+    	text-align: left;
+    	font-size:14px;
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul li h2,
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul li p {
+    	text-align: center;
+    	line-height: 34px;
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul li.first_child{
+	    width: 191px;
+	    color: #000;
+    }
+	
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul.textcolor-title1 li p{
+	    line-height: 10px;
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_result ul li.last_child{
+	    border-right: 0;
+	    background:none;
+    }
+    
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_title .wdg_concacaf_f2_01_group{
+        padding-left: 303px;
+        color: #000;
+        display: inline-block;
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_show .wdg_otherpost_go{
+        width: 15%;
+        height: 34px;
+        float: right;
+    }
+    
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_dropdown {
+        background-color: #D3D3D3;
+	    border-bottom: 1px solid #cccccc;
+	    border-top: 1px solid #cccccc;
+	    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+	    cursor: pointer;
+	    float: left;
+	    height: 28px;
+	    padding-top: 4px;
+	    width: 215px;
+    }
+
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_dropdown .wdg_concacaf_f2_01_dropdowncontent p {
+        line-height: 22px;
+        margin-left: 25px;
+        font-size: 14px;
+        color: #000;
+        font-weight: bold;
+        float: left;
+        width: 168px;
+        display: inline-block;
+            }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_dropdown .wdg_concacaf_f2_01_dropdowncontent span {
+        margin-top: 13px;
+        margin-right: 15px;
+        float: right;
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer{
+        clear: both;
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer ul{
+        background-color: #f5f5f5;
+        z-index: 1000 !important;
+        position: relative;
+        visibility: hidden;
+        cursor: pointer;
+
+    }
+    /*.ie7 .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer ul {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 176px;
+    }*/
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer ul::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer ul::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
+    
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer ul li{
+        width: 300px;
+        height: 34px;
+        /*background-color: rgba(235,235,235,0.6);*/
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+    }  
+    .ie7 .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer ul li{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000,endColorstr=#10000000);
+    }  
+    .ie8 .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer ul li{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000,endColorstr=#10000000);
+    } 
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer ul li:hover{
+        background-color: rgba(235,235,235,0.9);  
+    }
+    .wdg_concacaf_f2_01 .wdg_concacaf_f2_01_listcontainer ul li p{
+        margin-left: 20px;
+        line-height: 34px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .wdg_concacaf_f2_01 .tvsa-caret-down {
+    	padding-top: 5px;
+        padding-left: 6px;
+    }
+   
+}

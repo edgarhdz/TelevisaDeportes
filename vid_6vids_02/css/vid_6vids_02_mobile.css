@@ -1,0 +1,282 @@
+@media screen {
+	.vid_6vids_02{
+		height:230px;
+		overflow:hidden;
+	}
+    .vid_6vids_02_title {
+        width: 100%;
+        border-bottom: none;
+        zoom: 1;
+    }
+    .vid_6vids_02_title:before,
+    .vid_6vids_02_title:after {
+        content: "";
+        display: table;
+    }
+    .vid_6vids_02_title:after {
+        clear: both;
+    }
+    .vid_6vids_02_title h3 {
+        background-color: #A70A0B;
+        font-size:14px;
+        width: 100%;
+        height: 31px;
+        line-height: 31px;
+    }
+    .vid_6vids_02_title h3 a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        height:31px;
+        line-height:31px;
+        padding:0 0 0 24px;
+    }
+    /*START: carouseltype1a (Small)*/
+
+    .vid_6vids_02 .wdg_mix_carrousa div {
+		/*position:relative;*/
+        height: auto;
+        float: left;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:first-child {
+        /*border-bottom: 1px solid #CCC;*/
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div ul {
+        display: none;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div ul li {
+        width: auto;
+        height: auto;
+        float: left;
+        margin: 0;
+    }
+    
+    .vid_6vids_02 .wdg_mix_carrousa.showArrows div:first-child h1 {
+        width: 50%;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa.showArrows div:first-child h1 a span.icon {
+        display: none;
+    }
+    /*.vid_6vids_02 .wdg_mix_carrousa.showArrows div:first-child ul li a {
+        display: block;
+    }*/
+
+
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul:before,
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul:after {
+        content: "";
+        display: table;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul:after {
+        clear: both;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child h2 a {
+        color: black;
+        background: none;
+        width: auto;
+        height: auto;
+        font-size:0.75em;
+        margin-top: -0.5em;
+        letter-spacing: -0.5px;
+		padding-left: 15px;
+    }
+
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul li a {
+        width: 136px;
+        height: 76px;
+        margin-bottom: 11px;
+        background: none;
+        display: block;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul li a img {
+        width: 136px;
+        height: 106px;
+        background-color: #666;
+    }
+
+
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child.iOS {
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: -15px;
+        overflow-y: hidden;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child.iOS ul {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul {
+        float: none;
+        margin: 0;
+        zoom: 1;
+        margin-top: 1.563em;
+        *margin-top: 0px;
+        width: 100%;
+        /*--se agrego--*/
+        height:150px;
+    }
+
+    .vid_6vids_02 .wdg_mix_carrousa {
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa .general {
+        width: 100%;
+        overflow: hidden;
+        height: 150px;
+        padding-top: 10px;
+    }
+
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul li {
+        display: block;
+        float: left;
+        margin: 0 0 0 0	0px;        
+        width: 450px;   /*-- Se cambio --*/
+        height: auto;
+        padding: 0;
+        overflow: hidden;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul li:first-child {
+        margin: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul li p {
+        font-style: italic;
+        color: #666;
+        font-size: 0.9em;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child h2 {
+        padding-top: 10px;
+        font-size: 1.1em;
+        line-height: 1em;
+        margin-bottom: 14px;
+        width: 136px;
+        height: 45px;
+        overflow: hidden;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul li a img {
+        width: 136px;
+        height: 76px;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa div:last-child ul li:last-child {
+        border: none;
+        margin-right: 0px;
+        width: 450px;
+    }
+    .vid_6vids_02 .bullets{
+        display: block;
+        width: 100%;
+        border-top: 1px solid #CCC;
+        margin-bottom: 40px;
+    }
+
+    .vid_6vids_02 .bullets ul{
+
+        width:130px; /*se cambio de 110*/
+        float: right;
+        margin-top:5px;
+    }
+
+    .vid_6vids_02 .bullets ul li{
+
+        width:15px;
+        height: 15px;
+        background-color:#CCC;
+        margin-left: 5px;
+        float:left;
+    }
+
+    .vid_6vids_02 .bullets ul li.selected{
+
+        background-color:#A70A0B;
+    }
+    /* END: carouseltype1c (Small) */
+    
+    /*se agrego la clase*/
+    .vid_6vids_02 .wdg_mix_carrousa div ul li div:last-child{
+    	width: 150px;
+    }
+    /*Se agrego la clase*/
+    .vid_6vids_02 .wdg_mix_carrousa div ul li div {
+        width: 150px;
+    }
+    .vid_6vids_02 .izq {
+		margin-left:14px;
+		width:136px;
+		float:left;
+    }
+    .vid_6vids_02 .izq1 {
+		margin-left:14px;
+		width:136px;
+		float:left;
+    }
+    .vid_6vids_02 .izq1:first-child {
+		margin-left:0px;
+    }
+    
+    /*Bullet*/
+    
+    .vid_6vids_02 .type1a {
+        overflow: hidden;
+        width: 100%;
+    }
+    /*
+	.vid_6vids_02 .izq {
+		width:100%;
+		float:left;
+		position:relative;
+    }
+    */
+	/*.vid_6vids_02 .izq1 {
+		width:100%;
+		float:left;
+		position:relative;
+    }
+    
+	.vid_6vids_02 a img {
+		padding-right:15px;
+		border-right: 1px solid #CCCCCC;
+	}
+	*/
+	/*
+   	.vid_6vids_02 .vid_6vids_02_verMas{
+        background-color: #CCCCCC;
+        display: block;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+		top: 297px;
+    	width: 100%;
+		position:absolute;
+    }
+    */
+	/*
+	.vid_6vids_02 .overlay{
+		display:block;
+		color:#FFF;
+		position:absolute;
+		margin-top:54px;
+		background-color: #A41D21;
+		height: 55px;
+		opacity: 0.75;
+		position: absolute;
+		padding-left:8px;
+		width: 18px;
+	}
+	*/
+}
+
+
+
+
+
+
+
+

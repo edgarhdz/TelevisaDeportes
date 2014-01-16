@@ -1,0 +1,7 @@
+@media screen and (min-width: 948px){
+	.wdg_matches_concacaf_01,
+	.ie7 .wdg_matches_concacaf_01 {
+        display:block;
+		margin-bottom: 36px !important;
+    }
+}

@@ -1,0 +1,67 @@
+
+@media screen and (min-width: 624px){
+	.wdg_simbology_01
+	{
+		width:624px;
+		display:block;
+		margin-bottom:36px;
+		height: auto;
+	}
+	.wdg_simbology_01 .alineacion_partido
+	{
+		height:105px;
+	}
+	.wdg_simbology_01 .simbologia
+	{
+		height:auto;
+		overflow: hidden;
+	}
+	.wdg_simbology_01 .simbologia .tabla_simbologia > .icon_simbologia
+	{
+			width:24%;
+	}
+	.wdg_simbology_01 .nomostrar
+	{
+		display:block;
+	}
+	
+	.wdg_simbology_01 .line_left,
+	.wdg_simbology_01 .line_last
+	{
+		background:url(../img/dotted-vertical.png) repeat-y 100% 0 !important;
+	}
+	.wdg_simbology_01 .line_top
+	{
+		border-top: 0;
+		background:url(../img/dotted-vertical.png) repeat-y 100% 0 !important;
+	}
+	.wdg_simbology_01 .see-all{
+		display: block;
+		font-size: 12px;
+		float: right;
+		font-style: italic;
+		margin-right: 16px;
+		margin-top: 15px;
+		margin-bottom:36px;
+		cursor: pointer;
+	}
+	.wdg_simbology_01 .simbologia .tabla_simbologia
+	{
+		background:url(../img/dotted-horizontal.png) repeat-x 0 100%;
+	}
+	.wdg_simbology_01 .line_top
+	{
+		background:none;
+	}
+	.wdg_simbology_01 .degraded{
+		display:none;
+	}
+	.wdg_simbology_01 .simbologia .icon_simbologia img, 
+	.wdg_simbology_01 .simbologia .icon_simbologia i{
+		margin-left: 25px;
+	}
+	.wdg_simbology_01 p.one{
+		width: 624px;
+	}
+	
+}

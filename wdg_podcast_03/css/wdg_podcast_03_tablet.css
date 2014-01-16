@@ -1,0 +1,38 @@
+/* 
+    Document   : wdg_podcast_03
+    Created on : 16/Jun/2013, 04:02:15 PM
+    Author     : Luis Jesús Ruelas Merino
+    Description:
+*/
+@media screen and (min-width: 624px){
+	.wdg_podcast_03 {
+		margin-bottom: 36px;
+	}
+	.wdg_podcast_03 .container{
+		margin-top: 0;
+		margin-bottom: 24px;
+	}
+	.wdg_podcast_03 .degraded{
+		bottom:56px;
+	}
+	.wdg_podcast_03 .str_pleca_01 .str_pleca_01_title .background-color-pleca1{
+		width: 55%;
+	}
+	.wdg_podcast_03 > div .full-timetable {
+       	background:#d6a256;
+		box-shadow:none;       		 	
+	 	height: 32px;
+	 	line-height:32px;
+	 	margin-left: 200px;
+        padding-left: 0;
+       	text-align: center;
+	 }
+	 .wdg_podcast_03 > div .full-timetable span{
+	 	font-weight: bold;
+	 	font-style: italic;
+	 	color:#fff;	 	
+	 }
+	 .wdg_podcast_03 .controls {
+		border-top: 1px solid #D1D1D1;
+	 }
+}

@@ -1,0 +1,70 @@
+@media screen{ 
+   .wdg_avgfield_01{
+        width: 100%;
+        height: auto;
+        margin-bottom: 12px;
+        display: block;
+        border-bottom: 1px solid #d3d3d3;
+    }
+    .wdg_avgfield_01 .str_pleca_01{
+    	margin-bottom: 0;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_row{
+        height: 42px;
+        width: 100%; 
+        border-top: 1px solid #d3d3d3;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_row:first-child{        
+        border-top: none;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_row > div{
+        float: left;
+        height: 42px;
+        width: 40%;
+        line-height: 42px;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_teams.box-gray{
+        background: none repeat scroll 0 0 #E6E6E6;
+        box-shadow: 0 0 7px #DDDDDD inset;
+    }
+
+    .wdg_avgfield_01 .wdg_avgfield_01_row .wdg_avgfield_01_title{
+        width: 60%;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_row .wdg_avgfield_01_title a{
+        margin-left: 7px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_row .wdg_avgfield_01_title .wdg_avgfield_01_red{
+        /*color: #A70A0B;*/
+        font-size: 14px;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_teams > div{
+        float: left;
+        height: 42px;
+        width: 49%;
+        text-align: center;
+        line-height: 42px;
+        /*color: #D9A961;*/
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_teams > div .element{
+        width: 100%;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_teams .dotted-right{
+        height: 32px;
+        width: 1px;
+        margin-top: 5px;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_teama .element{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_teama .element img{
+        margin-top: 5px;
+    }
+    .wdg_avgfield_01 .wdg_avgfield_01_teamb img{
+        margin-top: 5px;
+    }
+}

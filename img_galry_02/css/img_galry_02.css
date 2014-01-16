@@ -1,0 +1,55 @@
+@media screen and (min-width: 968px){
+	.img_galry_04 .image-container a.td_bg.facebook,
+	.img_galry_04 .image-container a.td_bg.twitter,
+	.img_galry_04 .image-container a.td_bg.pinterest {
+		display:none;
+	}
+	.img_galry_04 .image-container:hover a.td_bg{
+		display:block;
+	}
+	
+	.ie8 .img_galry_04 .type1a .carruselcontainer .ulcarrusel{
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	
+	.ie7 div.img_galry_04 a.image img{
+		margin-left: -33px;
+	}
+	
+	.ie7 div.img_galry_04 .type1a .carruselcontainer{
+		margin-top: 0px;
+		padding-top: 0;
+		height: 40px;
+		position:relative;
+		overflow: hidden;
+	}
+	.ie7 div.img_galry_04 .type1a .carruselcontainer ul{
+		margin-top: 0px;
+	}
+	.ie7 div.img_galry_04 .overlay {
+        
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+		filter: alpha(opacity=75);
+		-khtml-opacity: 0.75;
+		-moz-opacity: 0.75;
+		opacity: 0.75;
+		background-color: #FFFFFF;
+        margin-top: -50px;
+        position:relative;
+        
+		height: 50px;
+    }
+	.ie7 div.img_galry_04 div.gallery-controls .arrowLeft,
+	.ie7 div.img_galry_04 div.gallery-controls .arrowRight{
+		padding-top: 10px !important;
+	}
+	.ie7 div.img_galry_04 div.gallery-controls .carrusel1{
+		margin-top: 0px !important;
+	}
+    .ie8 div.img_galry_04 .overlay{
+        z-index:2000 !important;
+        margin-top: -75px;
+        padding: 20px 35px 0 35px;
+    }
+}

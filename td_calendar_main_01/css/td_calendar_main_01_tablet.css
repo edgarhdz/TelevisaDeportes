@@ -1,0 +1,30 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_calendar_main_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+    /* Contenedor izquierdo */
+    .td_calendar_main_01 .main .c1{
+		width: 624px;
+        clear:both;
+    }
+	.td_calendar_main_01 .main .c1 .c1_2 .art_reltd_01{
+		border-right: 1px dashed #CCC;
+		width:297px;	
+	}
+	.td_calendar_main_01 .main .c1 .c1_2r{
+		padding-left: 26px;
+		margin-bottom: 0px;
+	}
+    /* Contenedor derecho */
+    .td_calendar_main_01 .main .c2{
+		width: 624px;
+        overflow: hidden;
+    }
+	.td_calendar_main_01 .main .c2_1,
+	.td_calendar_main_01 .main .c2_2, 
+	.td_calendar_main_01 .main .c2_3 {
+   		width: 300px;
+	}
+}

@@ -1,0 +1,54 @@
+@media screen{  
+	.mix_1arts_10 .articleMedium #videobtn2 {
+	    display: block;
+	    height: 28px;
+	    left: 0;
+	    margin-top: -32px;
+	    position: relative;
+	    width: 28px;
+	}
+	
+	.mix_6arts_04 .nav_paginator_01{
+		display:none;
+	}
+	.mix_6arts_04 .mix_6arts_04_verMas{
+        display:block;
+        background:#CCC;
+        color:#666;
+        text-align:center;
+        padding:10px;
+    }
+	
+	.mix_6arts_04 .see_less{
+		display:none;
+		width: 100%;
+        background-color: #ccc;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+	}
+	
+	.mix_6arts_04 .mix_6arts_04_verMas a{
+        color:#666;
+    }
+    .ie8 .mix_6arts_04 .mix_6arts_04_verMas {
+        display: none;
+    }
+
+    .ie7 .mix_6arts_04 .mix_6arts_04_verMas {
+        display: none;
+    }
+	
+	.mix_6arts_04 .mix_2arts_04:nth-child(3) .mix_2arts_04_right .mix_1arts_10 {
+		margin-bottom:0px;	
+	}
+	.mix_6arts_04 .mix_2arts_04 .mix_1arts_10{
+		padding-bottom: 4px;
+		padding-top: 12px;
+	}
+	
+	.mix_6arts_04 .mix_2arts_04:nth-child(1) .mix_2arts_04_left .mix_1arts_10{
+		padding-top:0;
+	}
+	
+} 

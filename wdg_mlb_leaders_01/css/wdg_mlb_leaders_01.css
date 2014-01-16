@@ -1,0 +1,22 @@
+@media screen and (min-width: 948px){    
+	.wdg_mlb_leaders_01{
+		display:block;
+		height:auto;
+	}
+	
+	.wdg_mlb_leaders_01 .scroll{
+		overflow:hidden;
+		height:auto;
+		width:624px;
+	}
+
+	.ie7 .wdg_mlb_leaders_01 .shsHeadTable  td .shsPageNav{
+		margin-top: -15px;
+		margin-right: 0;
+	}
+	.wdg_mlb_leaders_01 .degradado{
+		display:none;
+	}
+	
+	
+}

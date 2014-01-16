@@ -1,0 +1,48 @@
+@media screen and (min-width: 948px) {
+	.wdg_teams_carru_03 {
+		height: 200px;
+		margin-bottom: 36px;
+		padding-top: 14px;
+	}
+	.wdg_teams_carru_03 .titulo_bar {
+		width: 900px;
+	}
+	.wdg_teams_carru_03 .wrapper {
+		width: 1100px;
+		background-image: none;
+		margin: 12px auto auto;
+		padding: 5px 25px;
+	}
+	.wdg_teams_carru_03 .wrapper .row {
+		width: 948px;/*width: 1100px; 5 equipos*/
+		height: 50px;
+		clear: both;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+	.wdg_teams_carru_03 .wrapper div.row:last-child {
+		margin-bottom: 30px;
+	}
+	.wdg_teams_carru_03 .wrapper .row .liga_name {
+		width: 100px;
+		text-align: right;
+		float: left;
+		margin-right: 23px;
+		font-size: 14px;
+		margin-left: 26px;
+		margin-top: 10px;
+	}
+	.wdg_teams_carru_03 .wrapper .deg-izq,
+	.wdg_teams_carru_03 .wrapper .deg-der{
+		display:none;
+	}
+	.ie7 .wdg_teams_carru_03 .wrapper .row .striked{
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8c8c8', endColorstr='#e2e2e2')
+	}
+	.ie8 .wdg_teams_carru_03 .wrapper .row .striked{
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8c8c8', endColorstr='#e2e2e2')
+	}
+	.ie9 .wdg_teams_carru_03 .wrapper .row .striked{
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8c8c8', endColorstr='#e2e2e2')
+	}
+}

@@ -1,0 +1,80 @@
+@media screen {
+	
+	.wdg_mlb_injuries_01{
+		overflow:hidden;
+		position: relative;
+		margin-bottom: 36px;
+		width: 624px;
+	}
+	.wdg_mlb_injuries_01_container{
+		width: 104%;
+		clear: both;
+		height: 350px;
+		overflow: scroll;
+		overflow-x: hidden;
+	}
+	
+	.wdg_mlb_injuries_01 .str_pleca_01{
+		margin-bottom:0px;
+	}
+	
+	.wdg_mlb_injuries_01 table{
+		width:100%;
+	}
+	
+	.wdg_mlb_injuries_01 .shsTableTtlRow {
+		display: none;
+	}
+	
+	.wdg_mlb_injuries_01 .shsColTtlRow td{
+		font-weight:bold;
+		text-transform:uppercase;
+		text-align:center;
+		border-bottom:1px solid #CCC;
+		color:#000;
+		background:none;
+	}
+	
+	.wdg_mlb_injuries_01 tbody td{
+		background: url("../img/dotted-horizontal.png") repeat-x  bottom;
+		padding: 0px 0px 0px 14px;
+		height:40px;
+		color:#8f8f8f;
+		font-size:14px;
+		font-weight:bold;
+	}
+	
+	.wdg_mlb_injuries_01 tbody td:first-child{
+		text-align:center;
+	}
+	
+	.wdg_mlb_injuries_01 .shsTable tr:last-child td{
+		border-bottom:1px solid #CCC;
+		background:none;
+	}
+	
+	.wdg_mlb_injuries_01 tbody .shs1stCol{
+		text-align:right;
+		font-weight:bold;
+		padding-right: 5px;
+	}
+	
+	.wdg_mlb_injuries_01 .shsViewMore td{
+		text-align:center;
+	}
+	
+	.wdg_mlb_injuries_01 .link_color{
+		display:none;
+	}
+	
+	.wdg_mlb_injuries_01 .shsMiniCopyright,
+	.wdg_mlb_injuries_01 .shsMiniCopyrightText{
+		display:none;
+	}
+	.wdg_mlb_injuries_01 .shsViewMore{
+		display: none;
+	}
+	.wdg_mlb_injuries_01 .degraded{
+		bottom: 0px;
+	}
+}

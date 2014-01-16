@@ -1,0 +1,139 @@
+image dimensions used in this component:
+
+624 x 450 main image
+137 x 105 album thumbnails
+85 x 66 thumbnails (shown as 64 x 48 in tablet and desktop but using same image)
+
+the height of the main image is flexible though.
+it HTML, CSS would also work with a image that has 624 width and 350 height.
+so the width is fixed, the ratio can be changed. (just remember to put correct
+height and width attributes into the <img /> element)
+
+- - - 
+
+there is a hidden span which carries a JSON object of all the albums and images
+used in the component. this JSON object should be written in there on first page load,
+so no AJAX calls are needed to load different albums, images, etc.
+
+- - -
+
+the loading animation shows whenever an image is being sent to the browser and disappears
+when the image is loaded/cached.
+
+- - -
+
+JSON structure - a PHP example
+
+nested arrays:
+1st level: albums
+2nd level: images
+3rd level: image details (path, desc, source)
+
+<?php
+$data = array(
+    // one album with its images
+    array(
+        'images' => array(
+            array(
+                'path' => 'http://televisa-deportes/img/image1.jpg',
+                'description' => '1 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image2.jpg',
+                'description' => '2 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image3.jpg',
+                'description' => '3 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image4.jpg',
+                'description' => '4 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image5.jpg',
+                'description' => '5 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image6.jpg',
+                'description' => '6 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            )
+        )
+    ),
+    // other album with more images
+    array(
+        'images' => array(
+            array(
+                'path' => 'http://televisa-deportes/img/image6.jpg',
+                'description' => 'This is the descriptive text that comes along with each image. This is the descriptive text that comes along with each image. This is the descriptive text that comes along with each image.',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image5.jpg',
+                'description' => '2 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image4.jpg',
+                'description' => '3 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image3.jpg',
+                'description' => '4 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image2.jpg',
+                'description' => '5 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image1.jpg',
+                'description' => '6 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+        )
+    ),
+    array(
+        'images' => array(
+            array(
+                'path' => 'http://televisa-deportes/img/image6.jpg',
+                'description' => '1 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image'
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image5.jpg',
+                'description' => '2 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image4.jpg',
+                'description' => '3 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image3.jpg',
+                'description' => '4 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image2.jpg',
+                'description' => '5 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+            array(
+                'path' => 'http://televisa-deportes/img/image1.jpg',
+                'description' => '6 This is the descriptive text that comes along with each image',
+                'expandurl' => 'http://televisa-deportes/detail/view/image',
+            ),
+        )
+    )
+);
+echo json_encode($data);

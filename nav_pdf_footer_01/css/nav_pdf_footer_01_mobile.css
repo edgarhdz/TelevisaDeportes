@@ -1,0 +1,37 @@
+@media screen{
+	.nav_pdf_footer_01{
+		border-bottom:1px solid #d1d1d1;
+		border-top:1px solid #d1d1d1;
+		color:#948f8f;
+		display:block;
+		margin:auto;
+		margin-bottom:40px;
+		margin-top:10px;			
+		text-align: left;
+		width: 949px;
+		padding: 3px 0;
+	}
+	.nav_pdf_footer_01 ul{
+		border-right:1px solid #d1d1d1;
+		display:inline-block;
+		font-family: Trebuchet MS,Georgia;
+		font-size:12px;
+		padding-left:23px;		
+		text-align: left;
+		width: 213px;
+	}
+	.nav_pdf_footer_01 ul:last-child{
+		border-right:none;
+		padding-left:13px;
+		width: 200px;		
+	}
+	.nav_pdf_footer_01 ul:first-child{
+		padding-left: 28px;
+	}
+	.nav_pdf_footer_01 ul:nth-child(2){
+		padding-left: 19px;
+	}
+	.nav_pdf_footer_01 ul:nth-child(3){
+		padding-left: 18px;
+	}
+}

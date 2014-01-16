@@ -1,0 +1,10 @@
+@media screen and (min-width: 948px){
+	.ie7 .wdg_concacaf_f1_01 .pais{
+		 margin-top: 27px !important;	
+	}
+	
+	.ie8 .wdg_concacaf_f1_01  .pais{
+		margin-left: 0px;
+		margin-top:29px;
+	}
+}

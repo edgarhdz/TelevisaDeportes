@@ -1,0 +1,16 @@
+@media screen and (min-width: 624px){
+	.wdg_sport_standings_01{
+		display: block;
+		margin-bottom: 36px;
+		width:624px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.wdg_sport_standings_01 .scroll{
+		height: 430px;
+		width: 105%;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+}

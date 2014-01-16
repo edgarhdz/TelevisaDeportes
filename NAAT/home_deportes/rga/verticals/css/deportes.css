@@ -1,0 +1,3012 @@
+body.fixed {
+  padding-top: 6em;
+}
+body.fixed header.main {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+/* BEGIN: Header (Small) */
+header.main {
+  -webkit-font-smoothing: antialiased;
+  background-color: #0f4a7b;
+}
+header.main div.top {
+  height: 2.8em;
+  position: relative;
+}
+header.main div.top a {
+  display: block;
+  position: absolute;
+}
+header.main div.top a.mobile-menu {
+  position: absolute;
+  left: 0.5em;
+  margin-top: -1em;
+  top: 50%;
+}
+header.main div.top a.search {
+  background-color: #F6F6F6;
+  height: 2.79em;
+  right: 0;
+  width: 2.75em;
+}
+header.main div.top a.search span {
+  position: absolute;
+  left: 50%;
+  margin: -0.4em 0 0 -0.4em;
+  top: 50%;
+}
+header.main div.top a.logo {
+  margin: -0.5em 0 0 -3.75em;
+  left: 50%;
+  top: 50%;
+}
+header.main div.top .date {
+  display: none;
+}
+header.main div.search {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+header.main div.search input {
+  border: none;
+  display: block;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0.8em;
+  width: 100%;
+}
+header.main ul[role="menu"] {
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+header.main ul[role="menu"] li {
+  position: relative;
+}
+header.main ul[role="menu"] li a {
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+  display: block;
+  padding: 0.45em 0.45em 0.45em 0.8em;
+  color: white;
+  text-decoration: none;
+  font-family: Trebuchet MS, Georgia;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+header.main ul[role="menu"] li a span {
+  display: block;
+  width: 1.15em;
+  height: 1.54em;
+  position: absolute;
+  right: 0.62em;
+  top: 50%;
+  margin-top: -0.77em;
+  background: transparent url("../img/header/header-sprites.png") no-repeat -308px -23px;
+  background-size: auto 150%;
+}
+header.main ul[role="menu"] li.news {
+  background-color: #0078bf;
+}
+header.main ul[role="menu"] li.sports {
+  background-color: #a41d21;
+}
+header.main ul[role="menu"] li.entertainment {
+  background-color: #edba1f;
+}
+header.main ul[role="menu"] li.kids {
+  background-color: #3eb9b6;
+}
+header.main ul[role="menu"] li.lifestyle {
+  background-color: #6daa49;
+}
+header.main ul[role="menu"] li.television {
+  background-color: #f78429;
+}
+header.main .toggleable {
+  display: none;
+}
+header.main div.section {
+  -webkit-font-smoothing: antialiased;
+}
+header.main div.section h2 a {
+  display: block;
+  padding: 0.45em 0.45em 0.45em 0.8em;
+  color: white;
+  text-decoration: none;
+  font-family: Trebuchet MS, Georgia;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-size: 0.88em;
+  position: relative;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+header.main div.section h2 a span {
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  display: block;
+  height: 7px;
+  margin: -6px 0 0 0;
+  position: absolute;
+  right: 0.62em;
+  top: 50%;
+  width: 7px;
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  -o-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+header.main div.section h2 a.active {
+  box-shadow: inset 0 0 17px rgba(0, 0, 0, 0.4);
+}
+header.main div.section h2 a.active span {
+  margin-top: -1px;
+  transform: rotateZ(-135deg);
+  -webkit-transform: rotateZ(-135deg);
+  -moz-transform: rotateZ(-135deg);
+  -o-transform: rotateZ(-135deg);
+  -ms-transform: rotateZ(-135deg);
+}
+header.main div.section .weather-module {
+  display: none;
+}
+header.main div.section .subsections {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.2s ease-out;
+  -moz-transition: height 0.2s ease-out;
+  -ms-transition: height 0.2s ease-out;
+  -o-transition: height 0.2s ease-out;
+  transition: height 0.2s ease-out;
+}
+header.main div.section .subsections nav ul {
+  background: #f2f2f2;
+}
+header.main div.section .subsections nav ul:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+header.main div.section .subsections nav ul li {
+  float: left;
+  width: 50%;
+}
+header.main div.section .subsections nav ul li a {
+  border-top: 1px solid #f9f9f9;
+  border-right: 1px solid #e0e0e0;
+  border-left: 1px solid #fafafa;
+  border-bottom: 1px solid #ccc;
+  color: #6d6d6d;
+  display: block;
+  font: italic bold 15px/1.2 'Trebuchet MS', Georgia, sans-serif;
+  padding: 0.7em 0 .7em 1em;
+  text-decoration: none;
+}
+header.main div.section .subsections nav ul li.dropdown {
+  width: 100%;
+}
+header.main div.section .subsections nav ul li.dropdown > a {
+  display: none;
+}
+header.main div.section .subsections ul.social li {
+  display: none;
+}
+header.main div.section .subsections ul.social li.dropdown {
+  background: #f2f2f2;
+  border-bottom: 1px solid #cfcfcf;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+header.main div.section .subsections ul.social li.dropdown > a {
+  display: none;
+}
+header.main div.section .subsections ul.social li.dropdown ul li {
+  display: block;
+  float: left;
+  height: 2.5em;
+  text-align: center;
+  width: 25%;
+}
+header.main div.section .subsections ul.social li.dropdown ul li a {
+  border-right: 1px solid #cfcfcf;
+  display: block;
+  line-height: 3em;
+}
+header.main div.section .dropdown-content {
+  display: none;
+}
+header.main div.section.news {
+  background-color: #0078bf;
+}
+header.main div.section.sports {
+  background-color: #a41d21;
+}
+header.main div.section.entertainment {
+  background-color: #edba1f;
+}
+header.main div.section.kids {
+  background-color: #3eb9b6;
+}
+header.main div.section.lifestyle {
+  background-color: #6daa49;
+}
+header.main div.section.television {
+  background-color: #f78429;
+}
+header.main div.section.news h2 a.active {
+  background-color: #0072b5;
+}
+header.main div.section.sports h2 a.active {
+  background-color: #9b1b1f;
+}
+header.main div.section.entertainment h2 a.active {
+  background-color: #ecb716;
+}
+header.main div.section.kids h2 a.active {
+  background-color: #3bb1ae;
+}
+header.main div.section.lifestyle h2 a.active {
+  background-color: #68a346;
+}
+header.main div.section.television h2 a.active {
+  background-color: #f77e1f;
+}
+section.social {
+  background-color: #ECECEC;
+  font: bold 0.8em "Trebuchet MS", Georgia;
+}
+section.social div.wrapper {
+  overflow: hidden;
+}
+section.social div.wrapper div {
+  position: relative;
+  padding: 0.9em 0 0.85em 3em;
+}
+section.social div.wrapper div span.sprite {
+  position: absolute;
+  left: 1em;
+  top: 0.7em;
+}
+section.social div.wrapper div span.fade {
+  background: transparent url("../img/header/header-fade.png") repeat-y 0 0;
+  display: block;
+  height: 3em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10.9em;
+}
+section.social div.wrapper p {
+  width: 300em;
+}
+section.social div.wrapper ul {
+  box-shadow: -2px 0 10px #cccccc;
+  display: block;
+  width: 100%;
+}
+section.social div.wrapper ul li {
+  border-top: 1px solid #CCC;
+  display: block;
+  float: left;
+  height: 2em;
+  position: relative;
+  width: 49.8%;
+}
+section.social div.wrapper ul li a {
+  display: block;
+  height: 1.5em;
+  left: 50%;
+  margin-left: -0.85em;
+  position: absolute;
+  top: 0.25em;
+  width: 1.7em;
+}
+/* END: Header (Small) */.noticias {
+  background-color: #0078bf;
+}
+.deportes {
+  background-color: #a41d21;
+}
+.entretenimiento {
+  background-color: #edba1f;
+}
+.ninos {
+  background-color: #3eb9b6;
+}
+.estilo {
+  background-color: #6daa49;
+}
+.television {
+  background-color: #f78429;
+}
+.desktopNav {
+  display: none;
+}
+footer {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.125em;
+}
+footer .makeBookmark {
+  display: none;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul li:first-child {
+  display: block;
+}
+footer ul li {
+  padding: 0.813em;
+  padding-left: 1.313em;
+  display: none;
+}
+footer ul li a {
+  color: #666;
+}
+footer ul li span {
+  float: right;
+  margin: 0.313em 0.313em 0 0;
+  padding: 0;
+}
+footer ul li > ul {
+  display: none;
+}
+footer .icon {
+  display: inline-block;
+  height: 16px;
+  width: 10px;
+  overflow: hidden;
+  text-indent: -99em;
+}
+footer div .legal {
+  padding-top: 118px;
+  position: relative;
+  overflow: hidden;
+}
+footer div .legal div.row div.left {
+  width: auto;
+}
+footer div .legal > a {
+  width: 37px;
+  float: left;
+  color: #666;
+}
+footer nav.mobileNav a {
+  color: #fff;
+}
+footer div.row {
+  padding-bottom: 1.3em;
+  font-style: italic;
+  overflow: hidden;
+  float: right;
+  width: 80%;
+}
+footer div.row nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+footer div.row nav ul {
+  overflow: hidden;
+  width: 100%;
+}
+footer div.row nav ul li:first-child a {
+  border: 0;
+}
+footer div.row nav ul li {
+  color: #5D5D5D;
+  display: block;
+  padding: 0.250em 0;
+}
+footer div.row nav ul li a {
+  border-top: 1px solid #CCC;
+  display: block;
+  font: italic 1em/21px "Trebuchet MS", sans-serif;
+  padding: 0 0 0 2.3em;
+}
+footer div.row nav ul li a span {
+  float: right;
+  margin: 0.313em 1.4em;
+}
+footer div.row nav ul li a .icon {
+  background: transparent url("../img/footervertical/sprites-mobile.png") no-repeat -28px -5px;
+}
+footer .dark-row {
+  background-color: #e2e2e2;
+}
+footer .dark-row a img {
+  position: absolute;
+  top: 128px;
+  left: 30px;
+}
+footer .white-row {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  width: 100%;
+}
+footer .white-row .icon {
+  height: 27px;
+  width: 17px;
+  float: left;
+  margin: 0 10px;
+  vertical-align: medium;
+}
+footer .white-row ul:first-child {
+  display: none;
+}
+footer .white-row .column ul.videopodcast,
+footer .white-row .column ul.iphoneApps,
+footer .white-row .column ul.androidApps,
+footer .white-row .column ul.platforms {
+  display: none;
+}
+footer .white-row .column ul {
+  display: block;
+}
+footer .white-row li {
+  color: #666;
+  height: 20px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  font-size: 11px;
+  padding: 10px 0;
+}
+footer .white-row ul {
+  float: left;
+  width: 49.5%;
+}
+footer .white-row ul li:first-child {
+  display: block;
+}
+footer nav {
+  color: #fff;
+}
+footer nav ul {
+  list-style-type: none;
+}
+footer nav ul li {
+  display: block;
+}
+footer .icon {
+  display: inline-block;
+  height: 16px;
+  overflow: hidden;
+  text-indent: -99em;
+  width: 12px;
+  background: transparent url("../img/footervertical/sprites-mobile.png") no-repeat -23px -267px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+
+}
+footer .back {
+  background: #0f4b7d;
+}
+footer .back span.icon {
+  background: transparent url("../img/footervertical/sprites-mobile.png") no-repeat 0 -15px;
+  width: 17px;
+  height: 15px;
+}
+footer .blue-row {
+  background: #204369;
+}
+footer .blue-row a {
+  display: none;
+}
+footer .blue-row .blueSections > li {
+  display: block;
+}
+footer .blue-row ul li:first-child {
+  display: block;
+}
+footer .blue-row ul li {
+  padding: 0;
+  margin: 0;
+}
+footer .blue-row ul li a {
+  border-bottom: 1px solid #1C3B5C;
+  margin: 0;
+  padding: 0.625em 0 0.625em 1.9em;
+  color: white;
+  float: none;
+  display: block;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 2em;
+  text-decoration: none;
+  font-style: italic;
+}
+footer .blue-row ul li a span {
+  float: right;
+  margin: 0.5em 1.5em;
+}
+footer .blue-row ul li a .icon {
+  background: transparent url("../img/footervertical/sprites-mobile.png") no-repeat -4px -312px;
+}
+footer .blue-row ul li ul li {
+  text-align: left;
+  border: 0;
+}
+footer div .right,
+footer div .left {
+  padding: 0 1em;
+  color: #666;
+  font-size: 0.625em;
+  display: block;
+  float: none;
+  text-align: left;
+  line-height: 1.5em;
+}
+@media (min-width: 845px) {
+  body footer ul {
+    min-height: 180px;
+  }
+  body footer .estilo {
+    border-left: 0;
+  }
+  body footer .estilo li:last-child {
+    border-left: 1px solid #dadada;
+  }
+  body footer .estilo li:last-child ul li:last-child {
+    border: 0;
+  }
+  body footer .television {
+    margin-left: 0;
+    border-left: 1px solid #dadada;
+  }
+  body footer .television li:last-child {
+    border: 0;
+  }
+  body footer .television ul {
+    min-height: 278px;
+  }
+  body .entretenimiento ul,
+  body .ninos ul {
+    min-height: 513px;
+  }
+}
+@media (min-width: 845px) {
+  footer ul {
+    min-height: 180px;
+  }
+  footer .estilo {
+    border-left: 0;
+  }
+  footer .estilo li:last-child {
+    border-left: 1px solid #dadada;
+  }
+  footer .estilo li:last-child ul li:last-child {
+    border: 0;
+  }
+  footer .television {
+    margin-left: 0;
+    border-left: 1px solid #dadada;
+  }
+  footer .television li:last-child {
+    border: 0;
+  }
+  footer .television ul {
+    min-height: 278px;
+  }
+  .entretenimiento ul,
+  .ninos ul {
+    min-height: 513px;
+  }
+}
+/* BEGIN:type2b (Small)*/
+.type2b > div.first-child div h2 {
+  font-size: 1em;
+}
+.type2b .articleMobile {
+  height: auto;
+  background-color: #eee;
+  padding: 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+}
+.type2b .articleBigModule {
+  padding: 0;
+  color: #000;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+.type2b .articleBigModule ul,
+.type2b .articleBigModule h2,
+.type2b .articleBigModule p {
+  display: none;
+}
+.type2b .articleBigModule h2 {
+  /*padding: 1.250em 2.5em;*/
+
+  font-size: 1.125em;
+  font-style: italic;
+}
+.type2b .articleBigModule img {
+  width: 100%;
+  height: auto;
+}
+.type2b .articleBigModule > .galleryCaption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  height: auto;
+  min-height: 6em;
+  padding: 2.5% 0 0 5%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.type2b .articleBigModule > .galleryCaption h2 {
+  padding-left: 0;
+  height: auto;
+}
+.type2b .articleBigModule > .galleryCaption:before,
+.type2b .articleBigModule > .galleryCaption:after {
+  content: "";
+  display: table;
+}
+.type2b .articleBigModule > .galleryCaption:after {
+  clear: both;
+}
+.type2b .articleBigModule > .galleryCaption {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.type2b .articleBigModule > .galleryCaption > ul:first-child {
+  float: right;
+  width: 100%;
+  display: block;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+.type2b .articleBigModule > .galleryCaption > ul:first-child li {
+  height: 0.625em;
+  width: 0.625em;
+  float: right;
+  background-color: #ccc;
+  margin: 0.1em;
+}
+.type2b .articleBigModule > .galleryCaption > ul:first-child .selected {
+  background-color: #666;
+}
+.type2b .articleMobile {
+  height: auto;
+  padding: 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+}
+.type2b .articlesThumbList {
+  width: 100%;
+}
+.type2b .articlesThumbList li {
+  background-color: #eee;
+  height: auto;
+  padding: 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+.type2b .articlesThumbList li img {
+  display: none;
+}
+.type2b .articlesThumbList li a {
+  width: 96.8%;
+  text-decoration: none;
+  color: #666;
+  display: block;
+  font-size: 0.8em;
+  margin: 0.8em 0;
+}
+.type2b .articlesThumbList li a:before,
+.type2b .articlesThumbList li a:after {
+  content: "";
+  display: table;
+}
+.type2b .articlesThumbList li a:after {
+  clear: both;
+}
+.type2b .articlesThumbList li a {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.type2b .articlesThumbList li a p,
+.type2b .articlesThumbList li a h4 {
+  width: 70%;
+  padding-left: 1em;
+  line-height: 1.5em;
+}
+.type2b .articlesThumbList li a span.icon {
+  background: url("../img/mobile-arrow-sprites.png") no-repeat 0 0;
+  background-size: 10px 14px;
+  height: 2em;
+  width: 2.188em;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5em;
+  right: 0.5em;
+}
+.type2b .articlesThumbList li a h2 {
+  display: none;
+}
+/* END:type2b (Small)*//* BEGIN: type2a (Small) */
+.type2a {
+  text-align: left;
+}
+.type2a > div.first-child div h4 {
+  font-size: 1em;
+}
+.type2a > div.first-child div .img {
+  width: 100%;
+  height: 12.375em;
+  background-color: #666;
+  display: none;
+}
+.type2a .articleMobile {
+  height: auto;
+  /*min-height: 3.438em;*/
+
+  padding: 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+}
+.type2a .articleMedium {
+  padding: 0;
+  color: #000;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+.type2a .articleMedium ul,
+.type2a .articleMedium h2,
+.type2a .articleMedium p {
+  display: none;
+}
+.type2a .articleMedium h4 {
+  padding: 1.250em 2.5em;
+}
+.type2a .articleMedium img {
+  width: 100%;
+}
+.type2a .articleMedium div {
+  position: absolute;
+  right: 0;
+  top: 11em;
+  width: 90%;
+  height: 30%;
+  padding: 2% 0 0 5%;
+  overflow: hidden;
+  background-color: #FFF;
+}
+.type2a .articleMedium div h2 a {
+  color: inherit;
+}
+.type2a .articleMedium div h2 a:hover {
+  text-decoration: underline;
+}
+.type2a .articleMedium div h4 {
+  padding-left: 0;
+  height: auto;
+}
+.type2a .articleMedium div ul:first-child {
+  float: right;
+  display: block;
+  margin-right: 0.5em;
+}
+.type2a .articleMedium div ul:first-child li {
+  height: 0.625em;
+  width: 0.625em;
+  float: left;
+  background-color: #ccc;
+  margin: 0.1em;
+}
+.type2a .articlesThumbList {
+  width: 100%;
+}
+.type2a .articlesThumbList li {
+  height: auto;
+  /*min-height: 3.438em;*/
+
+  padding: 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+.type2a .articlesThumbList li a {
+  width: 96.8%;
+  text-decoration: none;
+  color: #666;
+  display: block;
+  font-size: 0.8em;
+  margin: 0.5em 0;
+}
+.type2a .articlesThumbList li a:before,
+.type2a .articlesThumbList li a:after {
+  content: "";
+  display: table;
+}
+.type2a .articlesThumbList li a:after {
+  clear: both;
+}
+.type2a .articlesThumbList li a {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.type2a .articlesThumbList li a p {
+  width: 70%;
+  padding-left: 1em;
+  line-height: 1.5em;
+}
+.type2a .articlesThumbList li a span.icon {
+  background: url("../img/mobile-arrow-sprites.png") no-repeat 0 0;
+  background-size: 10px 14px;
+  height: 2em;
+  width: 2.188em;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5em;
+  right: 0.5em;
+}
+.type2a .articlesThumbList li a img {
+  display: none;
+}
+/* END: type2a (Small) *//* BEGIN: sportsresults (Small) */
+.sportsResults {
+  background-color: #a41d21;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  padding: 1em 0.5em;
+}
+.sportsResults > div:first-child {
+  display: none;
+}
+.sportsResults .mobile {
+  text-align: left;
+}
+/* END: sportsresults (Small) *//* BEGIN: sportsresultsbox (Small) */
+.sportsResultsBox {
+  width: 12.769em;
+  overflow: hidden;
+  font-size: 0.8em;
+  line-height: 2.1em;
+  text-indent: 0.5em;
+}
+.sportsResultsBox > div:first-child {
+  border: 1px solid #aa3f43;
+  border-bottom: none;
+  color: #fff;
+  font-size: 0.9em;
+}
+.sportsResultsBox div:last-child {
+  background-color: #fff;
+  color: #a41d21;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+.sportsResultsBox div:last-child span.icon {
+  width: 2em;
+  height: 1.5em;
+  background: url("http://54.243.192.45/rga/verticals/img/sportsresultsbox/sprites-sports.png") no-repeat 0 -20px;
+  float: right;
+  margin: 0.5em;
+}
+.sportsResultsBox div {
+  position: relative;
+  overflow: hidden;
+  color: black;
+  text-align: left;
+  height: 2.6em;
+}
+.sportsResultsBox div > div {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  position: absolute;
+  height: 2em;
+  width: 100%;
+  padding: 0.3em;
+}
+.sportsResultsBox div > div:first-child {
+  top: 0;
+  left: 0;
+}
+.sportsResultsBox div div:last-child {
+  top: 0;
+  right: 0;
+  text-align: center;
+  width: 2em;
+  background-color: #ddd;
+  height: 2.53em;
+  background-image: linear-gradient(left top, #d5d5d5 27%, #ebebeb 51%, #f1f1f1 83%);
+  background-image: -o-linear-gradient(left top, #d5d5d5 27%, #ebebeb 51%, #f1f1f1 83%);
+  background-image: -moz-linear-gradient(left top, #d5d5d5 27%, #ebebeb 51%, #f1f1f1 83%);
+  background-image: -webkit-linear-gradient(left top, #d5d5d5 27%, #ebebeb 51%, #f1f1f1 83%);
+  background-image: -ms-linear-gradient(left top, #d5d5d5 27%, #ebebeb 51%, #f1f1f1 83%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.27, #d5d5d5), color-stop(0.51, #ebebeb), color-stop(0.83, #f1f1f1));
+}
+.sportsResultsBox div .lost {
+  background-color: #eee;
+  background-image: linear-gradient(top, #f1f1f1 27%, #eeeeee 51%, #dddddd 83%);
+  background-image: -o-linear-gradient(top, #f1f1f1 27%, #eeeeee 51%, #dddddd 83%);
+  background-image: -moz-linear-gradient(top, #f1f1f1 27%, #eeeeee 51%, #dddddd 83%);
+  background-image: -webkit-linear-gradient(top, #f1f1f1 27%, #eeeeee 51%, #dddddd 83%);
+  background-image: -ms-linear-gradient(top, #f1f1f1 27%, #eeeeee 51%, #dddddd 83%);
+  background-image: -webkit-gradient(linear, right top, right bottom, color-stop(0.27, #f1f1f1), color-stop(0.51, #eeeeee), color-stop(0.83, #dddddd));
+}
+/* END: sportsresultsbox (Small) *//* BEGIN: livenow (Small) */
+.livenow {
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  overflow: hidden;
+}
+.livenow > div:nth-child(2) {
+  position: relative;
+  width: 100%;
+  height: 12.1em;
+  overflow: hidden;
+}
+.livenow > div:nth-child(2) img {
+  height: auto;
+  width: 100%;
+}
+.livenow > div:nth-child(2) > div:last-child {
+  position: absolute;
+  top: 4em;
+  left: 0.7em;
+  padding: 1em;
+  width: 20em;
+}
+.livenow > div:nth-child(2) > div:last-child a {
+  color: #fff;
+  text-decoration: none;
+}
+.livenow > div:nth-child(2) > div:last-child a h3 {
+  font-style: italic;
+  font-weight: 100;
+  width: 60%;
+  font-size: 1.8em;
+  padding: 0;
+}
+.livenow > div:nth-child(2) > div:last-child a p {
+  font-size: 0.8em;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.5em;
+  width: 100%;
+  overflow: hidden;
+  float: left;
+  width: 15em;
+}
+.livenow > div:nth-child(2) > div:last-child a span {
+  font-size: 1.3em;
+  font-weight: normal;
+  padding-left: 1.5em;
+  line-height: 0.8em;
+}
+.livenow > div:nth-child(2) > div:last-child a > div {
+  border-top: 1px solid #fff;
+  height: 0.5em;
+  width: 1em;
+  margin-top: 2em;
+}
+.livenow > div:nth-child(2) > div:last-child a > div.tvchannel1 {
+  width: 3em;
+  height: 1.5em;
+  background: transparent url("../img/livenow/channels-sprites.png") no-repeat 0 0;
+  margin: 0;
+  border: 0;
+  float: left;
+}
+.livenow > div:nth-child(2) .overlay {
+  position: absolute;
+  top: 3.1em;
+  width: 300px;
+  height: 9em;
+  background-color: #edba1f;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+
+  width: 100%;
+}
+/* END: livenow (Small) *//* BEGIN:mostread (Small)*/
+.mostread {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+}
+.mostread > div:first-child {
+  position: relative;
+}
+.mostread > div:first-child .selected {
+  background: #666;
+  box-shadow: inset 0 0 0 #ddd;
+}
+.mostread > div:first-child .selected a {
+  color: #fff;
+}
+.mostread > div:first-child .selected .arrow {
+  display: block;
+}
+.mostread > div:first-child div:first-child {
+  left: 0;
+}
+.mostread > div:first-child div.menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.mostread > div:first-child > div {
+  width: 50%;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 0.8em;
+  position: relative;
+  background-color: #e6e6e6;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.mostread > div:first-child > div a {
+  width: 100%;
+  display: block;
+  color: #666;
+}
+.mostread > div:first-child > div .arrow {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  border: 10px solid transparent;
+  border-top-color: #666;
+  display: none;
+  bottom: -16px;
+  left: 45%;
+}
+.mostread ul {
+  width: 100%;
+  padding-top: 2em;
+}
+.mostread ul li {
+  padding: 1em 0;
+  width: 99%;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  color: black;
+}
+.mostread ul li span {
+  font-weight: bold;
+  padding: 0 1em 2em 0.3em;
+  border-right: 1px solid #ccc;
+  float: left;
+  font-size: 0.9em;
+}
+.mostread ul li p {
+  float: left;
+  width: 70%;
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+.mostseen ul {
+  padding-top: 0;
+}
+.mostseen ul li a span {
+  width: 2em;
+  height: 1em;
+  border: 0;
+  margin-left: 1em;
+}
+.mostseen ul li a p {
+  font-size: 0.6em;
+  line-height: 1.5em;
+}
+.mostseen ul li a p:last-child {
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+.mostseen ul li a b {
+  border-right: 1px solid #000;
+  padding-right: 0.5em;
+}
+.mostseen .icon1 {
+  background: transparent url("../img/mostread/mostread-sprites.png") no-repeat 0 0;
+}
+.mostseen .icon2 {
+  background: transparent url("../img/mostread/mostread-sprites.png") no-repeat 0 -45px;
+}
+/* END:mostread (Small)*//* BEGIN: carouseltype2 (Small) */
+.carouseltype2 {
+  width: 100%;
+  background: transparent;
+}
+.carouseltype2 div:first-child {
+  margin-bottom: 0.8em;
+  overflow: hidden;
+}
+.carouseltype2 div:first-child:before,
+.carouseltype2 div:first-child:after {
+  content: "";
+  display: table;
+}
+.carouseltype2 div:first-child:after {
+  clear: both;
+}
+.carouseltype2 div:first-child {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.carouseltype2 div:first-child .carrouselType2FormWrap {
+  width: 100%;
+  height: 1.813em;
+  float: left;
+  font-size: 1em;
+  position: relative;
+}
+.carouseltype2 div:first-child .carrouselType2FormWrap select.select {
+  position: relative;
+  line-height: 1.8em;
+  height: 2em;
+  width: 100%;
+  float: right;
+  text-indent: 1.6em;
+  display: block;
+  margin-top: 0.7em;
+}
+.carouseltype2 div:first-child .carrouselType2FormWrap span.select {
+  position: absolute;
+  height: 2em;
+  line-height: 1.8em;
+  text-indent: 1.6em;
+  width: 100%;
+  text-align: left;
+  cursor: default;
+  z-index: 1;
+  background: #eee;
+  right: 0;
+  bottom: 0;
+}
+.carouseltype2 div:first-child .carrouselType2FormWrap span.select span.arrow {
+  padding: 0.35em 0.5em;
+  width: 1em;
+  height: 1.4em;
+  color: #fff;
+  background: #a41d21 url("../img/carouseltype2/arrow.png") no-repeat 0.85em 0.7em;
+  float: right;
+  line-height: 1em;
+  text-indent: -99999px;
+}
+.carouseltype2 div:first-child ul {
+  width: 3.438em;
+  margin: 0;
+  float: right;
+  padding: 0.5em 0;
+}
+.carouseltype2 div:first-child ul li {
+  width: auto;
+  height: auto;
+  float: left;
+  margin: 0;
+  margin-top: 0.625em;
+}
+.carouseltype2 div:first-child ul li a {
+  width: 0.95em;
+  height: 0.563em;
+  display: block;
+  padding: 0;
+}
+.carouseltype2 div:first-child ul li:first-child {
+  margin: 0.625em 0.625em 0 0;
+}
+.carouseltype2 div:first-child ul li:last-child {
+  border-left: 1px dotted #666;
+  padding-left: 0.8em;
+}
+.carouseltype2 div:last-child {
+  overflow: hidden;
+  height: auto;
+}
+.carouseltype2 div:last-child ul {
+  width: 1000em;
+  height: 7.5em;
+}
+.carouseltype2 div:last-child ul:before,
+.carouseltype2 div:last-child ul:after {
+  content: "";
+  display: table;
+}
+.carouseltype2 div:last-child ul:after {
+  clear: both;
+}
+.carouseltype2 div:last-child ul {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.carouseltype2 div:last-child ul li {
+  border-right: 1px solid #ccc;
+  display: block;
+  float: left;
+  width: 18.75em;
+  height: 100%;
+  padding-right: 0.45em;
+  margin-left: 0.45em;
+}
+.carouseltype2 div:last-child ul li:first-child {
+  padding-left: 0;
+  margin-left: 0;
+}
+.carouseltype2 div:last-child ul li:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+.carouseltype2 div:last-child ul li a {
+  width: 100%;
+  height: 99.9%;
+  display: block;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.carouseltype2 div:last-child ul li a img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.carouseltype2 div:last-child ul li a div:first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 66%;
+  height: 100%;
+}
+.carouseltype2 div:last-child ul li a div:first-child div:first-child {
+  background-color: #a41d21;
+  opacity: 0.8;
+  width: 100%;
+}
+.carouseltype2 div:last-child ul li a div:first-child span,
+.carouseltype2 div:last-child ul li a div:first-child p {
+  position: absolute;
+  left: 1.5em;
+  z-index: 20;
+  padding-right: 1em;
+}
+.carouseltype2 div:last-child ul li a div:first-child span.title {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.2em;
+  padding: 0;
+  line-height: 1em;
+  top: 1.2em;
+  padding-right: 1.5em;
+}
+.carouseltype2 div:last-child ul li a div:first-child p {
+  bottom: 2.5em;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.7em;
+  left: 2.6em;
+}
+.carouseltype2 div:last-child ul li a div:first-child p:last-child {
+  bottom: 1em;
+}
+.carouseltype2 div:last-child ul li a div:first-child p:last-child .channels {
+  width: 2.5em;
+  border: 0;
+  margin: 0;
+}
+.carouseltype2 div:last-child ul li a div:first-child p:last-child.channels1 {
+  width: 2.5em;
+  border: 0;
+  margin: 0;
+  background: transparent url("../img/carouseltype2/channels-sprites.png") no-repeat 0 0;
+  height: 0.938em;
+}
+.carouseltype2 div:last-child ul li a div:first-child p:last-child.channels2 {
+  width: 2.5em;
+  border: 0;
+  margin: 0;
+  background: transparent url("../img/carouseltype2/channels-sprites.png") no-repeat 0 -24px;
+  height: 0.938em;
+}
+.carouseltype2 div:last-child.iOS {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.carouseltype2 div:last-child.iOS ul {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.carouseltype2.showArrows div:first-child ul {
+  display: block;
+}
+/* BEGIN:type2b (Small)*/
+.type2bhome {
+  overflow: hidden;
+}
+.type2bhome > div.first-child div h2 {
+  font-size: 1em;
+}
+.type2bhome .articleMobile {
+  height: auto;
+  background-color: #eee;
+  padding: 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+}
+.type2bhome .articleBigModule {
+  padding: 0;
+  color: #000;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+.type2bhome .articleBigModule ul,
+.type2bhome .articleBigModule h2,
+.type2bhome .articleBigModule p {
+  display: none;
+}
+.type2bhome .articleBigModule h2 {
+  /*padding: 1.250em 2.5em;*/
+
+  font-size: 1.125em;
+  font-style: italic;
+}
+.type2bhome .articleBigModule img {
+  width: 100%;
+  height: auto;
+}
+.type2bhome .articleBigModule > .galleryCaption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  height: auto;
+  min-height: 6em;
+  padding: 2.5% 0 0 5%;
+  overflow: hidden;
+  background: white;
+}
+.type2bhome .articleBigModule > .galleryCaption h2 {
+  padding-left: 0;
+  height: auto;
+}
+.type2bhome .articleBigModule > .galleryCaption > ul:first-child {
+  float: right;
+  width: 100%;
+  display: block;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+.type2bhome .articleBigModule > .galleryCaption > ul:first-child li {
+  height: 0.625em;
+  width: 0.625em;
+  float: right;
+  background-color: #ccc;
+  margin: 0.1em;
+}
+.type2bhome .articleBigModule > .galleryCaption > ul:first-child .selected {
+  background-color: #666;
+}
+.type2bhome .articlesThumbList {
+  width: 100%;
+}
+.type2bhome .articlesThumbList li {
+  height: auto;
+  background-color: #eee;
+  padding: 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+.type2bhome .articlesThumbList li img {
+  display: none;
+}
+.type2bhome .articlesThumbList li a {
+  width: 96.8%;
+  text-decoration: none;
+  color: #666;
+  display: block;
+  font-size: 0.8em;
+  margin: 0.5em 0;
+}
+.type2bhome .articlesThumbList li a p,
+.type2bhome .articlesThumbList li a h4 {
+  width: 70%;
+  padding-left: 1em;
+  line-height: 1.5em;
+}
+.type2bhome .articlesThumbList li a span.icon {
+  background: url("../img/type2bhome/mobile-arrow-sprites.png") no-repeat 0 0;
+  background-size: 10px 14px;
+  height: 2em;
+  width: 2.188em;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5em;
+  right: 0.5em;
+}
+.type2bhome .articlesThumbList li a h2 {
+  display: none;
+}
+/* END:type2b (Small)*/.timetable {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.timetable .title ul {
+  right: 9px;
+  position: absolute;
+  top: 0.45em;
+  width: 3.5em;
+  height: 1em;
+}
+.timetable .title ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  width: 3.5em;
+  height: 1em;
+}
+.timetable .title ul a {
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 11px;
+  padding: 0;
+  width: 20px;
+  height: 1em;
+}
+.timetable .title ul a.dotted {
+  border-left: 1px dotted #666;
+  padding-right: 0;
+  left: auto;
+  right: 0;
+}
+.timetable .title ul a.dotted span {
+  left: 9px;
+}
+.timetable .title ul a span {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+}
+.timetable .title ul .sprite.left {
+  width: 0.72em;
+}
+.timetable > ul {
+  display: block;
+  overflow: hidden;
+  /*height: 16em;*/
+
+  position: relative;
+}
+.timetable > ul li {
+  border-bottom: 1px solid #d1d1d1;
+  display: block;
+  position: relative;
+  /*height: 46px;*/
+
+}
+.timetable > ul li div:first-child {
+  border-right: 1px solid #CCC;
+  bottom: 0.5em;
+  left: 0;
+  position: absolute;
+  top: 0.5em;
+  width: 5.2em;
+}
+.timetable > ul li div:first-child:before,
+.timetable > ul li div:first-child:after {
+  content: "";
+  display: table;
+}
+.timetable > ul li div:first-child:after {
+  clear: both;
+}
+.timetable > ul li div:first-child {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.timetable > ul li div:first-child span.active {
+  color: #a6a7a8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 51px;
+  text-align: right;
+  font-weight: bold;
+}
+.timetable > ul li div:first-child span.date {
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+  margin: 0 1.6em 0 0;
+  text-align: right;
+}
+.timetable > ul li div:first-child span.date + span {
+  display: block;
+  float: none;
+  margin: 0 1.2em 0 0;
+  text-align: right;
+}
+.timetable > ul li div:first-child span.sprite {
+  position: absolute;
+  top: 1px;
+  left: 58px;
+  height: 18px;
+}
+.timetable > ul li a {
+  display: block;
+  margin-left: 5.2em;
+  padding: 0;
+  height: 46px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.timetable > ul li a:hover {
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  background-color: #E6E6E6;
+}
+.timetable > ul li a span {
+  position: absolute;
+  left: 104px;
+}
+.timetable > ul li a .program {
+  color: #000;
+  display: block;
+  font-size: 0.875em;
+  font-weight: bold;
+  top: 8px;
+}
+.timetable > ul li a .channel {
+  color: #948f8f;
+  display: block;
+  font-size: 0.75em;
+  top: 24px;
+}
+.timetable > ul li .result {
+  background: #e6e6e6;
+  box-shadow: inset 0 0 7px #ddd;
+  display: block;
+  height: 3.25em;
+  line-height: 3.25em;
+  margin-left: 5.2em;
+  padding: 0 0.45em;
+  position: relative;
+}
+.timetable > ul li .result:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.timetable > ul li .result span {
+  color: #948f8f;
+  display: block;
+  float: left;
+  font-size: 0.75em;
+  font-style: italic;
+}
+.timetable > ul li .result span.mid {
+  /*position: absolute;
+                        left: 50%;*/
+
+  margin: 0;
+  width: 1.6em;
+  text-align: center;
+}
+.timetable > ul li .result span.team {
+  background: no-repeat url("../img/horarios/equipos.png");
+  height: 25px;
+  margin: 13px 5px 0 0;
+  width: 25px;
+}
+.timetable > ul li .result span.team.a {
+  background-position: -35px -81px;
+}
+.timetable > ul li .result span.team.b {
+  background-position: -35px -115px;
+}
+.timetable > ul li .result span.team.c {
+  background-position: -35px -151px;
+}
+.timetable > ul li .result span.team.d {
+  background-position: -35px -188px;
+}
+.timetable > ul li .result span.left,
+.timetable > ul li .result span.right {
+  color: #000;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: bold;
+  width: 6em;
+}
+.timetable > ul li .result span.left .number,
+.timetable > ul li .result span.right .number {
+  color: #d9a961;
+  float: left;
+  width: 1em;
+}
+.timetable > ul li .result span.left .teamName,
+.timetable > ul li .result span.right .teamName {
+  font-size: 1em;
+  color: #000;
+  font-style: normal;
+}
+.timetable > ul li .result span.right .number {
+  float: left;
+}
+.timetable > ul li .result span.right .team {
+  float: right;
+}
+.timetable > ul li .result span.number {
+  font-size: 1.3333333333333333em;
+  font-style: normal;
+}
+.timetable > ul li.current div {
+  border-right: 0;
+}
+.timetable > ul li.current a {
+  background: #e6e6e6;
+  box-shadow: inset 0 0 7px #c0c0c0;
+}
+.timetable > ul li.color a {
+  padding: 0.7em 1.3em;
+}
+.timetable > ul li.color a .channel {
+  font-style: italic;
+}
+.timetable > div:last-child {
+  border-top: 1px solid #d1d1d1;
+  margin-top: 1.5em;
+}
+.timetable > div {
+  /* border-top: 1px solid #d1d1d1;
+        margin-top: 1em;*/
+
+  position: relative;
+}
+.timetable > div .prev,
+.timetable > div .next {
+  background: #aaa;
+  display: block;
+  height: 1.75em;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1.8em;
+}
+.timetable > div .prev .sprite,
+.timetable > div .next .sprite {
+  display: block;
+  margin: 0.6em 0 0 0.45em;
+}
+.timetable > div .prev .sprite {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  margin: 0.7em 0 0 0.65em;
+}
+.timetable > div .next {
+  left: 1.8em;
+  margin-left: 1px;
+}
+.timetable > div .full-timetable {
+  background: #e6e6e6;
+  box-shadow: inset 0 0 7px #c0c0c0;
+  display: block;
+  height: 1.75em;
+  line-height: 1.75em;
+  margin-left: 5.2em;
+  padding-left: 1.3em;
+}
+.timetable > div .full-timetable span {
+  color: #000;
+  font-size: 0.875em;
+  font-weight: bold;
+}
+.news .timetable ul li.current div span.active,
+.news .timetable .color div:first-child span {
+  color: #0078bf;
+}
+.news .timetable > div .prev,
+.news .timetable > div .next {
+  background: #0078bf;
+}
+.television .timetable ul li.current div span.active,
+.television .timetable .color div:first-child span {
+  color: #f7ac29;
+}
+.television .timetable li.color a .channel {
+  color: #bc5033;
+}
+.television .timetable > div .prev,
+.television .timetable > div .next {
+  background: #bf583a;
+}
+.sports .timetable ul li.current div span.active,
+.sports .timetable .color div:first-child span {
+  color: #f7ac29;
+}
+.sports .timetable > div .prev,
+.sports .timetable > div .next {
+  background: #a41d21;
+}
+.timetable-dates ul li div:first-child {
+  margin: 0;
+  padding: 0;
+}
+.timetable-dates ul li div:first-child span.date,
+.timetable-dates ul li div:first-child span,
+.timetable-dates ul li div:first-child span.date + span {
+  display: block;
+  position: static;
+  margin: 0;
+  text-align: center;
+  width: auto;
+}
+.timetable-deportes div.text {
+  padding: 0 1em 1em;
+  overflow: hidden;
+}
+.timetable-deportes div.text:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.timetable-deportes div.text .logo {
+  background: no-repeat url("../img/horarios/equipos.png") -26px -686px;
+  display: block;
+  float: left;
+  height: 2.4em;
+  width: 4.2em;
+}
+.timetable-deportes div.text p {
+  display: block;
+  float: left;
+  font-size: 0.875em;
+  font-weight: bold;
+  width: 10em;
+}
+.timetable-deportes > ul li {
+  /*height: 3.25em;*/
+
+  position: relative;
+}
+/*BEGIN: videogallery (Small)*/
+.videogallery > div.buttonBox,
+.videogallery > div.imgContainer {
+  display: none;
+}
+.videogallery > div.buttonBox span,
+.videogallery > div.imgContainer span {
+  background-position: -220px -100px;
+  width: 3em;
+  height: 4em;
+  display: block;
+  margin-top: 23%;
+  margin-left: 23%;
+}
+.videogallery p,
+.videogallery span.arrow {
+  display: none;
+}
+.videogallery .thumbsContainer ul li {
+  padding: 8px 8px 0;
+}
+.videogallery .thumbsContainer ul li:nth-child(n+4) {
+  display: none;
+}
+.videogallery .thumbsContainer ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  overflow: hidden;
+  position: relative;
+}
+.videogallery .thumbsContainer ul li a img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+.videogallery .thumbsContainer ul li a > div {
+  display: block;
+  font-size: 0.8em;
+  width: auto;
+  margin-left: 110px;
+  border-left: solid 1px #ccc;
+  padding: 10px;
+  min-height: 36px;
+}
+.videogallery .smallThumbsContainer {
+  display: none;
+}
+/*END: videogallery (Small)*//*BEGIN: customdropdown (Small)*/
+div.customdropdown {
+  width: 100%;
+}
+div.customdropdown:before,
+div.customdropdown:after {
+  content: "";
+  display: table;
+}
+div.customdropdown:after {
+  clear: both;
+}
+div.customdropdown {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+div.customdropdown > div:nth-child(2) {
+  position: relative;
+  width: 100%;
+}
+div.customdropdown > div:nth-child(2) > div {
+  position: relative;
+  height: 1.9em;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  font-size: 0.8em;
+  text-indent: 1.2em;
+  line-height: 2em;
+  overflow: hidden;
+}
+div.customdropdown > div:nth-child(2) > div label {
+  float: left;
+}
+div.customdropdown > div:nth-child(2) > div select.select {
+  position: relative;
+  line-height: 2em;
+  height: 2.3em;
+  width: 84%;
+  float: left;
+  text-indent: 1em;
+  display: inline-block;
+  margin-left: 3em;
+}
+div.customdropdown > div:nth-child(2) > div span.select {
+  position: absolute;
+  height: 2em;
+  text-align: left;
+  cursor: default;
+  z-index: 1;
+  background: #e6e6e6;
+  box-shadow: inset 0 0 7px #ddd;
+  left: 7em;
+  bottom: 0;
+  right: 0;
+}
+div.customdropdown > div:nth-child(2) > div span.select span.arrow {
+  background: url("../img/customdropdown/sprites-sports.png") no-repeat -4px -40px;
+  width: 1em;
+  height: 1em;
+  top: 50%;
+  right: 1em;
+  display: block;
+  position: absolute;
+  text-indent: -99999px;
+}
+div.customdropdown ul {
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+  height: 30em;
+}
+div.customdropdown ul li {
+  border-bottom: 1px solid #ccc;
+  font-size: 0.8em;
+  overflow: hidden;
+  position: relative;
+}
+div.customdropdown ul li:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+div.customdropdown ul li img {
+  float: left;
+}
+div.customdropdown ul li a {
+  text-decoration: none;
+  color: #000;
+}
+div.customdropdown ul li a > div:first-child {
+  position: absolute;
+  background-color: #a41d21;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+
+  top: 0;
+  left: 0;
+  width: 7em;
+  height: 5em;
+}
+div.customdropdown ul li a span.icon {
+  height: 2em;
+  width: 3em;
+  position: absolute;
+  top: 0.5em;
+  left: 4.5em;
+}
+div.customdropdown ul li a span.video {
+  background: url("../img/customdropdown/sprites-sports.png") no-repeat 0 -20px;
+}
+div.customdropdown ul li a > div:last-child {
+  float: left;
+  width: 16.2em;
+}
+div.customdropdown ul li h3 {
+  padding: 0.8em 1.2em 0;
+  font-size: 1em;
+}
+div.customdropdown ul li h4 {
+  color: #ccc;
+  font-style: italic;
+  font-size: 0.8em;
+  padding: 0.5em 0 0 1.8em;
+}
+div.customdropdown ul li h4 span {
+  color: #e0bd88;
+  font-style: normal;
+}
+div.customdropdown > div:last-child {
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+div.customdropdown > div:last-child div {
+  width: 1.8em;
+  height: 1.8em;
+  background-color: #a41d21;
+  color: #fff;
+  float: left;
+  border-right: 1px solid #fff;
+}
+div.customdropdown > div:last-child > div:first-child span.icon {
+  background: url("../img/customdropdown/sprites-sports.png") no-repeat 0 0;
+}
+div.customdropdown > div:last-child > div:nth-child(2) span.icon {
+  background: url("../img/customdropdown/sprites-sports.png") no-repeat 0 -10px;
+}
+div.customdropdown > div:last-child span.icon {
+  height: 0.7em;
+  width: 1em;
+  float: left;
+  display: block;
+  margin: 0.5em;
+}
+div.customdropdown > div:last-child > div:last-child {
+  height: 2.3em;
+  background-color: transparent;
+  color: #000;
+  font-size: 0.8em;
+  padding: 0 0.8em 0;
+  border: 0;
+  width: auto;
+  position: absolute;
+  left: 7em;
+  right: 0;
+  background-image: linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -o-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -moz-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -webkit-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -ms-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e2e2e2), color-stop(0.56, #f5f5f5), color-stop(1, #e2e2e2));
+}
+div.customdropdown > div:last-child > div:last-child a {
+  text-decoration: none;
+  color: #000;
+  line-height: 2.3em;
+}
+/*END: customdropdown (Small)*//* BEGIN: <type3a(small)> */
+.type3 {
+  width: 100%;
+  position: relative;
+}
+.type3 img {
+  width: 100%;
+  height: auto;
+}
+.type3 h2 {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #959595;
+}
+.type3 ul {
+  list-style: none;
+  width: 100%;
+}
+.type3 ul li {
+  position: relative;
+  display: none;
+  width: 100%;
+}
+.type3 ul li div:first-child {
+  width: 100%;
+  height: 15.29em;
+  display: block;
+}
+.type3 ul li div:last-child {
+  background-color: #fff;
+  height: 5em;
+  position: absolute;
+  bottom: -5.8em;
+  left: 1.3em;
+  right: 0;
+  padding: 1em;
+  width: 91.5%;
+}
+.type3 ul li div:last-child p {
+  margin-top: 0.3em;
+}
+.type3 ul li:first-child {
+  display: block;
+}
+/* END: <type3a(small)> *//*BEGIN: clasification (Small)*/
+.clasificaction {
+  width: 100%;
+}
+.clasificaction:before,
+.clasificaction:after {
+  content: "";
+  display: table;
+}
+.clasificaction:after {
+  clear: both;
+}
+.clasificaction {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.clasificaction a {
+  color: black;
+}
+.clasificaction .title {
+  margin-bottom: 0;
+}
+.clasificaction > ul {
+  padding: 0;
+  margin: 0;
+  height: 30em;
+  overflow: hidden;
+}
+.clasificaction > ul > li {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  color: #d9a961;
+}
+.clasificaction > ul > li > ul {
+  margin: 0;
+  overflow: hidden;
+  width: 18.75em;
+}
+.clasificaction > ul > li > ul > li {
+  float: left;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  width: 2em;
+  text-align: center;
+  line-height: 3.9em;
+}
+.clasificaction > ul > li > ul > li > a {
+  color: #d9a961;
+}
+.clasificaction > ul > li > ul > li span {
+  margin: 0.5em 0.8em 0.5em 1.5em;
+  background: transparent url("../img/clasification/equipos.png") no-repeat;
+  width: 2em;
+  height: 2.5em;
+  float: left;
+}
+.clasificaction > ul > li > ul > li span.logo-leo {
+  background-position: -39px -76px;
+}
+.clasificaction > ul > li > ul > li span.logo-jag {
+  background-position: -39px -110px;
+}
+.clasificaction > ul > li > ul > li span.logo-caz {
+  background-position: -39px -183px;
+}
+.clasificaction > ul > li > ul > li span.logo-tol {
+  background-position: -39px -147px;
+}
+.clasificaction > ul > li > ul > li span.logo-snl {
+  background-position: -39px -222px;
+}
+.clasificaction > ul > li > ul > li span.logo-qro {
+  background-position: -39px -260px;
+}
+.clasificaction > ul > li > ul > li span.logo-mty {
+  background-position: -39px -335px;
+}
+.clasificaction > ul > li > ul > li span.logo-sts {
+  background-position: -39px -300px;
+}
+.clasificaction > ul > li > ul > li span.logo-mor {
+  background-position: -39px -377px;
+}
+.clasificaction > ul > li > ul > li span.logo-tij {
+  background-position: -39px -411px;
+}
+.clasificaction > ul > li > ul > li span.logo-par {
+  background-position: -39px -448px;
+}
+.clasificaction > ul > li > ul > li span.logo-tig {
+  background-position: -39px -484px;
+}
+.clasificaction > ul > li > ul > li span.logo-pue {
+  background-position: -39px -524px;
+}
+.clasificaction > ul > li > ul > li span.logo-atn {
+  background-position: -39px -559px;
+}
+.clasificaction > ul > li > ul > li span.logo-unm {
+  background-position: -39px -597px;
+}
+.clasificaction > ul > li > ul > li span.logo-ame {
+  background-position: -39px -633px;
+}
+.clasificaction > ul > li > ul > li span.logo-gua {
+  background-position: -39px -597px;
+}
+.clasificaction > ul > li > ul > li span.logo-ats {
+  background-position: -39px -633px;
+}
+.clasificaction > ul > li > ul > li:first-child {
+  width: 3em;
+  background-color: #e8e8e8;
+  background-image: linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -o-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -moz-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -webkit-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -ms-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e2e2e2), color-stop(0.56, #f5f5f5), color-stop(1, #e2e2e2));
+}
+.clasificaction > ul > li > ul > li:nth-child(2) {
+  width: 11.5em;
+  text-align: left;
+}
+.clasificaction > ul > li > ul > li:nth-child(2) > a {
+  color: black;
+}
+.clasificaction > ul > li:first-child {
+  color: #a41d21;
+}
+.clasificaction > ul > li:first-child > ul > li {
+  padding: 1em 0 0.5em 0;
+  line-height: 1.5em;
+}
+.clasificaction > ul > li:first-child > ul > li:nth-child(2) {
+  color: #a41d21;
+  text-align: center;
+}
+.clasificaction > ul > li:first-child > ul > li:first-child {
+  background: none;
+}
+.clasificaction > div:last-child {
+  border-top: 1px solid #ccc;
+  position: relative;
+  overflow: hidden;
+}
+.clasificaction > div:last-child div {
+  width: 1.8em;
+  height: 1.8em;
+  background-color: #a41d21;
+  color: #fff;
+  float: left;
+  border-right: 1px solid #fff;
+}
+.clasificaction > div:last-child > div:first-child span.icon {
+  background: url("../img/clasification/sprites-sports.png") no-repeat 0 0;
+}
+.clasificaction > div:last-child > div:nth-child(2) span.icon {
+  background: url("../img/clasification/sprites-sports.png") no-repeat 0 -10px;
+}
+.clasificaction > div:last-child span.icon {
+  height: 0.7em;
+  width: 1em;
+  float: left;
+  display: block;
+  margin: 0.5em;
+}
+.clasificaction > div:last-child > div:last-child {
+  width: 90%;
+  height: 2.3em;
+  background-color: transparent;
+  color: #000;
+  font-size: 0.8em;
+  padding: 0 0.8em 0;
+  border: 0;
+  position: absolute;
+  left: 7.2em;
+  background-image: linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -o-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -moz-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -webkit-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -ms-linear-gradient(left, #e2e2e2 0%, #f5f5f5 56%, #e2e2e2 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e2e2e2), color-stop(0.56, #f5f5f5), color-stop(1, #e2e2e2));
+}
+.clasificaction > div:last-child > div:last-child a {
+  text-decoration: none;
+  color: #000;
+  line-height: 2.2em;
+}
+/*END: clasification (Small)*//* BEGIN: <twitterers2(small)> */
+.twitterers2 {
+  width: 100%;
+  text-align: left;
+}
+.twitterers2 ul li {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #CCC;
+  overflow: auto;
+}
+.twitterers2 ul li a {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  color: #000;
+  float: left;
+}
+.twitterers2 ul li a div {
+  border: none;
+}
+.twitterers2 ul li a div div:first-child {
+  float: left;
+  width: 25%;
+  height: 100%;
+  border: none;
+}
+.twitterers2 ul li a div div:first-child div {
+  float: left;
+  width: 3em;
+  height: 3.2em;
+  margin: 1.2em;
+  border: none;
+}
+.twitterers2 ul li a div div:last-child {
+  width: 73%;
+  float: right;
+  font-size: 0.750em;
+  padding-right: 0.3em;
+  border: none;
+  line-height: 1.5em;
+}
+.twitterers2 ul li a div div:last-child p:first-child {
+  margin-top: 1.8em;
+  font-weight: bold;
+  font-size: 1em;
+}
+.twitterers2 ul li a div div:last-child p:first-child span {
+  font-size: 1em;
+  color: #a62226;
+  margin-top: 1.8em;
+}
+.twitterers2 ul li a div div:last-child p:last-child {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 0em;
+  margin-bottom: 1.8em;
+  margin-right: 5em;
+}
+.twitterers2 ul li a:hover {
+  background-color: #e6e6e6;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* END: <twitterers2(small)> *//* BEGIN: verticalhero (Small) */
+.type2b .articleBigModule > div {
+  text-align: left;
+}
+.type2b .articleBigModule > ul:last-child {
+  display: none;
+}
+.verticalHero .title {
+  position: relative;
+}
+.verticalHero .title h3 a {
+  background-image: none;
+}
+.verticalHero .title h1 a {
+  background: none;
+}
+.verticalHero .title h1 a .icon {
+  background: transparent url("../img/verticalhero/mobile-arrow-sprites.png") no-repeat 0 0;
+  background-size: 10px 14px;
+  height: 70%;
+  width: 1.188em;
+  float: right;
+  margin-top: 0.15em;
+  margin-right: 0.15em;
+}
+.verticalHero .title ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3.5em;
+  height: 2em;
+  padding-left: 0.8em;
+}
+.verticalHero .title ul > li {
+  float: left;
+  width: 1em;
+  height: 0.5em;
+  font-size: 1.3em;
+  margin: 0.6em 0 0;
+}
+.verticalHero .title ul > li a {
+  width: 0.95em;
+  height: 0.563em;
+  padding: 0;
+  color: transparent;
+}
+.verticalHero .title ul > li:first-child a {
+  background: url("../img/verticalhero/arrow-sprites.png") no-repeat 1px 0;
+}
+.verticalHero .title ul > li:last-child {
+  border-left: 1px dotted #666;
+  padding-left: 10px;
+}
+.verticalHero .title ul > li:last-child a {
+  background: url("../img/verticalhero/arrow-sprites.png") no-repeat -15px 0;
+}
+.verticalHero.showArrows .title h1 {
+  width: 50%;
+}
+.verticalHero.showArrows .title h1 a .icon {
+  display: none;
+}
+.verticalHero.showArrows .title ul {
+  display: block;
+}
+.verticalHero .type2b .galleryImages {
+  min-height: 12em;
+}
+.verticalHero .type2b .galleryImages > ul {
+  display: block;
+}
+.verticalHero .type2b .galleryImages > ul > li {
+  background: transparent url('../img/verticalhero/ajax-loader.gif') center center no-repeat;
+  display: none;
+  overflow: hidden;
+}
+.verticalHero .type2b .galleryImages > ul > li.active {
+  display: block;
+}
+.verticalHero .articleBigModule {
+  height: auto;
+  margin-bottom: -1em;
+  min-height: 13em;
+}
+.verticalHero .articleBigModule img {
+  width: 100%;
+  height: auto;
+}
+.verticalHero .articleBigModule .galleryCaption {
+  background-color: white;
+  position: relative;
+  width: auto;
+  padding: 1em 3em 1em 1em;
+  top: -2em;
+  left: 2em;
+  min-height: 0;
+}
+.verticalHero .articleBigModule .galleryCaption > h3 {
+  font-size: 0.625em;
+  font-style: italic;
+}
+.verticalHero .articleBigModule h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+.verticalHero .articleBigModule h2 a:hover {
+  text-decoration: underline;
+}
+.verticalHero .articleBigModule h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+.verticalHero .articleBigModule h4 a:hover {
+  text-decoration: none;
+}
+.verticalHero > .type2a img {
+  display: none;
+}
+.verticalHero > .type2a .articleMedium {
+  height: auto;
+  border-top: 1px solid #ccc;
+}
+.verticalHero > .type2a .articleMedium div:last-child {
+  height: auto;
+  background-color: #fff;
+  padding: 1.4em;
+  position: relative;
+  width: 100%;
+}
+.verticalHero > .type2a .articleMedium a {
+  width: 96.8%;
+  text-decoration: none;
+  display: inline;
+  font-size: 0.8em;
+}
+.verticalHero > .type2a .articleMedium a h4 {
+  width: 70%;
+  float: left;
+  padding: 0;
+  font-size: 1em;
+}
+.verticalHero > .type2a .articleMedium a p:first-child {
+  font-size: 0.8em;
+  font-style: italic;
+  display: block;
+}
+.verticalHero > .type2a .articleMedium a span.icon {
+  background: url("../img/verticalhero/mobile-arrow-sprites.png") no-repeat 0 0;
+  background-size: 10px 14px;
+  height: 2em;
+  width: 2.188em;
+  position: absolute;
+  top: 2.7em;
+  right: 3.6em;
+}
+.verticalHero > .type2a .articleMedium div.articleMediumCaption {
+  top: 0;
+  background-color: transparent;
+}
+/* END: verticalhero (Small) *//* BEGIN: <twitterers(small)> */
+.twitterers {
+  width: 100%;
+  height: auto;
+  font-weight: bold;
+}
+.twitterers ul {
+  height: 20em;
+  width: 100%;
+  overflow: hidden;
+}
+.twitterers ul li {
+  font-weight: bold;
+  height: auto;
+  border-bottom: 1px solid #CCC;
+}
+.twitterers ul li div {
+  width: 100%;
+  height: auto;
+  border-bottom: none;
+  position: relative;
+}
+.twitterers ul li div:before,
+.twitterers ul li div:after {
+  content: "";
+  display: table;
+}
+.twitterers ul li div:after {
+  clear: both;
+}
+.twitterers ul li div {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.twitterers ul li div div:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5em;
+  height: 100%;
+  border: none;
+}
+.twitterers ul li div div:first-child div {
+  float: left;
+  width: 2.250em;
+  height: 2.250em;
+  margin: 1.2em;
+}
+.twitterers ul li div div:last-child {
+  height: auto;
+  padding-right: 0.3em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  margin-left: 5em;
+  width: auto;
+}
+.twitterers ul li div div:last-child p {
+  font-size: 0.8em;
+}
+.twitterers ul li div div:last-child p:first-child span {
+  font-size: 1em;
+  font-style: italic;
+  color: #f28f20;
+}
+.twitterers ul li div div:last-child p:first-child a {
+  font-size: 1em;
+  color: #b6b6b6;
+  font-style: italic;
+  margin-left: 0.5em;
+}
+.twitterers ul li div div:last-child p:last-child {
+  font-size: 0.875em;
+  margin-top: 0.6em;
+}
+.twitterers ul li div div:last-child ul {
+  float: left;
+  margin-top: 1em;
+  border: none;
+  height: auto;
+}
+.twitterers ul li div div:last-child ul li {
+  font-weight: normal;
+  float: left;
+  font-size: 0.625em;
+  list-style-type: none;
+  border: none;
+}
+.twitterers ul li div div:last-child ul li a {
+  color: #000;
+}
+.twitterers > div:last-child {
+  overflow: hidden;
+  width: 100%;
+}
+.twitterers > div:last-child div {
+  width: 1.8em;
+  height: 1.8em;
+  background-color: #a62226;
+  color: #fff;
+  float: left;
+  border-left: 1px solid #fff;
+}
+.twitterers > div:last-child div a {
+  float: left;
+  width: 100%
+                height: auto;
+}
+.twitterers > div:last-child > div:first-child span.icon {
+  background: url("../img/sprites-sports.png") no-repeat 0 0;
+}
+.twitterers > div:last-child > div:nth-child(2) span.icon {
+  background: url("../img/sprites-sports.png") no-repeat 0 -10px;
+}
+.twitterers > div:last-child span.icon {
+  height: 0.7em;
+  width: 1em;
+  float: left;
+  display: block;
+  margin: 0.5em;
+}
+/* END: <poll(small)> *//* BEGIN: <poll(small)> */
+.poll:before,
+.poll:after {
+  content: "";
+  display: table;
+}
+.poll:after {
+  clear: both;
+}
+.poll {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.poll div {
+  width: 100%;
+}
+.poll div p {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.poll div:nth-child(2) {
+  width: 95%;
+  margin-top: 0.4em;
+}
+.poll form {
+  margin-top: 0.4em;
+}
+.poll form .options {
+  height: 10.4em;
+  border-bottom: 1px solid #CCC;
+}
+.poll form .options li {
+  padding: 0.6em 0;
+  border-top: 1px dotted black;
+}
+.poll form .options li input {
+  margin-right: 1.3em;
+  margin-left: 0.5em;
+}
+.poll form .options li label {
+  font-size: 0.8em;
+}
+.poll form .results {
+  height: 10.8em;
+  border-bottom: 1px solid #CCC;
+  width: 100%;
+  display: none;
+}
+.poll form .results:before,
+.poll form .results:after {
+  content: "";
+  display: table;
+}
+.poll form .results:after {
+  clear: both;
+}
+.poll form .results {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.poll form .results li {
+  border-top: 1px dashed;
+  clear: both;
+  border-bottom: none;
+}
+.poll form .results li div:first-child {
+  border: none;
+  margin: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.6em;
+  float: left;
+  width: 69%;
+  height: 1.8em;
+}
+.poll form .results li div:first-child span {
+  color: #000;
+  font-size: 0.8em;
+}
+.poll form .results li div:first-child div {
+  background-color: #000;
+  float: left;
+  width: 11em;
+  height: 0.6em;
+  margin: 0;
+  margin-top: 0.3em;
+  margin-right: 0.3em;
+}
+.poll form .results li div:first-child p {
+  font-size: 0.7em;
+  font-style: italic;
+  float: left;
+}
+.poll form .results li div:last-child {
+  float: right;
+  margin: 0;
+  margin-top: 0.9em;
+  margin-right: 0.3em;
+  padding: 0;
+  width: 29%;
+  text-align: right;
+}
+.poll form div:last-child {
+  float: left;
+  display: none;
+}
+.poll form div:last-child span:first-child {
+  font-size: 0.8em;
+  font-style: italic;
+  float: left;
+  margin-top: 0.4em;
+}
+.poll form div:last-child span:last-child {
+  color: #fff;
+  background-color: #f28f20;
+  font-size: 0.7em;
+  font-style: italic;
+  float: right;
+  padding: 0.7em 1.8em;
+}
+.poll .submitButton {
+  background-color: #f28f20;
+  border: 0;
+  width: 7em;
+  height: 2.5em;
+  color: #fff;
+  float: right;
+  font-size: 0.8em;
+  font-style: italic;
+}
+/* END: <poll(small)> *//* BEGIN: newsletter (Small) */
+.newsletter {
+  font-weight: bold;
+  width: 100%;
+  overflow: hidden;
+}
+.newsletter > div {
+  padding: 0.5em 1em 0.5em 1em;
+}
+.newsletter .title {
+  padding: 0;
+}
+.newsletter .title h3 {
+  float: none;
+  font-size: 0.875em;
+}
+.newsletter > div:nth-child(2) {
+  background-color: #0078bf;
+  color: white;
+  font-size: 0.875em;
+  padding-bottom: 2em;
+}
+.newsletter > div:nth-child(2) p {
+  width: 65%;
+}
+.newsletter > div:nth-child(2) > div:first-child {
+  width: 3em;
+  height: 2.4em;
+  background: transparent url("../img/newsletter/newsletter-sprites.png") no-repeat 0 0;
+  margin: 0.8em 0;
+}
+.newsletter > div:nth-child(3) {
+  background: #e0e0e0;
+  box-shadow: inset 0 0 10px #aaa;
+  font-size: 0.875em;
+  font-style: italic;
+  line-height: 2.2857142857142856em;
+  padding: 0 1em;
+}
+.newsletter > div:nth-child(3) a {
+  color: #a1a1a1;
+}
+.newsletter > div:nth-child(3) a > div:first-child {
+  width: 1.5em;
+  height: 1.2em;
+  background: transparent url("../img/newsletter/newsletter-sprites.png") no-repeat 0 -31px;
+  float: left;
+  margin: 0.6em 0.65em 0 0;
+}
+.newsletter > div:last-child {
+  padding: 0;
+}
+.newsletter > div:last-child > a.subscribe {
+  display: block;
+  width: 40%;
+  background-color: #3a3b8d;
+  color: #fff;
+  float: right;
+  font-size: 0.8em;
+  font-style: italic;
+  padding: 0.5em;
+}
+/* END: newsletter (Small) *//* BEGIN:deportes (Small)*/
+#deportes div.main {
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+#deportes div.main #bannerTopDeportes div {
+  display: none;
+}
+#deportes div.main div.container-one div.left div.verticalHero div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-one div.left div.verticalHero div.type2b article.articleBigModule div.galleryCaption h2 {
+  color: #deb476;
+}
+#deportes div.main div.container-one div.left div.verticalHero div.type2b article.articleBigModule ul.galleryThumbs li.active,
+#deportes div.main div.container-one div.left div.verticalHero div.type2b article.articleBigModule ul.galleryThumbs li:hover {
+  border-color: #a41d21;
+}
+#deportes div.main div.container-one div.left div.verticalHero div.type2a article.articleMedium h2 {
+  color: #deb476;
+}
+#deportes div.main div.container-one div.livenow div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-one div.livenow div.overlay {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-one #masleido1 div.mostread div.selected {
+  background: #a41d21;
+}
+#deportes div.main div.container-one #masleido1 div.mostread div.arrow {
+  border-top-color: #a41d21;
+}
+#deportes div.main div.container-one #masleido1 div.mostread ul li span {
+  color: #deb476;
+}
+#deportes div.main div.container-two div.carouseltype2 div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-two-banner div {
+  display: none;
+}
+#deportes div.main div.container-three div.left div.type2bhome div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-three div.left div.type2bhome article.articleBigModule div.galleryCaption h2 {
+  color: #deb476;
+}
+#deportes div.main div.container-three div.left div.type2bhome ul li a h2 {
+  color: #deb476;
+}
+#deportes div.main div.container-three div.right div.timetable div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-three div.right div.timetable ul li span.date,
+#deportes div.main div.container-three div.right div.timetable ul li span.active {
+  color: #deb476;
+}
+#deportes div.main div.container-four div.left #videos div.videogallery div.title h3,
+#deportes div.main div.container-four div.left #futbol div.videogallery div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-four div.left #videos div.videogallery div:nth-child(3),
+#deportes div.main div.container-four div.left #futbol div.videogallery div:nth-child(3) {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-four div.right #goles div.customdropdown div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-four div.right #goles div.customdropdown ul li div:first-child {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-four div.right #agenda div.timetable div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-four div.right #agenda div.timetable ul li span.date,
+#deportes div.main div.container-four div.right #agenda div.timetable ul li span.active {
+  color: #deb476;
+}
+#deportes div.main div.container-four div.right #agenda div.timetable a.prev,
+#deportes div.main div.container-four div.right #agenda div.timetable a.next {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-five div {
+  display: none;
+}
+#deportes div.main div.container-six div.left div.one #boxeo div.type2bhome div.title h3,
+#deportes div.main div.container-six div.left div.one #nfl div.type2bhome div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-six div.left div.one #boxeo div.type2bhome article.articleBigModule div.galleryCaption h2,
+#deportes div.main div.container-six div.left div.one #nfl div.type2bhome article.articleBigModule div.galleryCaption h2 {
+  color: #deb476;
+}
+#deportes div.main div.container-six div.left div.one #boxeo div.type2bhome ul li a h2,
+#deportes div.main div.container-six div.left div.one #nfl div.type2bhome ul li a h2 {
+  color: #deb476;
+}
+#deportes div.main div.container-six div.left div.two #beisbol div.title h3,
+#deportes div.main div.container-six div.left div.two #nba div.title h3,
+#deportes div.main div.container-six div.left div.three #f1 div.title h3,
+#deportes div.main div.container-six div.left div.three #masdeportes div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-six div.left div.two #beisbol article.articleMedium h2,
+#deportes div.main div.container-six div.left div.two #nba article.articleMedium h2,
+#deportes div.main div.container-six div.left div.three #f1 article.articleMedium h2,
+#deportes div.main div.container-six div.left div.three #masdeportes article.articleMedium h2 {
+  color: #deb476;
+}
+#deportes div.main div.container-six div.left div.four #tdtv div.type3f div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-six div.left div.four #tdtv div.type3f ul li h2 {
+  color: #deb476;
+}
+#deportes div.main div.container-six div.right div.left2 #clasificacion div.clasificaction div.title h3,
+#deportes div.main div.container-six div.right div.right2 #encuesta div.poll div.title h3,
+#deportes div.main div.container-six div.right div.left2 #opinion section.twitterers2 div.title h3,
+#deportes div.main div.container-six div.right div.left2 #twitter div.twitterers div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-six div.right div.left2 #clasificacion {
+  margin-bottom: 1.5em;
+}
+#deportes div.main div.container-six div.right div.left2 #twitter div.twitterers ul li span {
+  color: #deb476;
+}
+#deportes div.main div.container-six div.right div.left2 #opinion section.twitterers2 span {
+  color: #a41d21;
+}
+#deportes div.main div.container-six div.right #opinion .twitterers2 .sprite.balloon {
+  background-position: -82px -135px;
+}
+#deportes div.main div.container-six div.right #opinion .twitterers2 .sprite.balloon-video {
+  background-position: -125px -135px;
+}
+#deportes div.main div.container-six div.right2 #newsletter div.newsletter div.title h3 {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-six div.right2 #newsletter div.newsletter div:nth-child(2) {
+  background-color: #a41d21;
+}
+#deportes div.main div.container-six div.right2 #newsletter div.newsletter > div:last-child {
+  background-color: #deb476;
+}
+#deportes div.main div.container-six div.right2 #newsletter .newsletter div a.subscribe {
+  background-color: #deb476;
+}
+#deportes div.main div.container-six div.right2 #bannerDeportes5 {
+  display: none;
+}
+#deportes div.main div.container-six div.right2 #especial img,
+#deportes div.main div.container-six div.right2 #ninos img {
+  width: 100%;
+  height: 250px;
+}
+#deportes footer div.makeBookmark span a,
+#deportes footer nav.desktopNav ul li.active a {
+  color: #a41d21;
+}
+#deportes footer div.makeBookmark span {
+  background-image: url("../img/deportes/sports_icons.png");
+}
+/* END:deportes (Small)*/

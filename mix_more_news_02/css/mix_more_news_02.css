@@ -1,0 +1,9 @@
+@media screen and (min-width: 948px){
+    .mix_more_news_02 ul li.last_child {
+        display: block;
+    }
+	
+	.ie7 .mix_more_news_02 ul li a h2{
+		width: 150px;
+	}
+}

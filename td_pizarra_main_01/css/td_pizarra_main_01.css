@@ -1,0 +1,24 @@
+@media screen and (min-width: 948px){
+	/*Wrap*/
+    .td_pizarra_main_01 .main{
+        width: 948px;
+    }
+    /* Contenedor principal */
+    .td_pizarra_main_01 .main .container-one{
+        clear: both;
+        width: 100%;
+    }
+
+    /* Contenedor 2dario */
+    .td_pizarra_main_01 .main .container-two{
+        float:none;
+    }
+    .td_pizarra_main_01 .main .container-two .c1{
+        display: block;
+		width: 460px;
+    }
+    .td_pizarra_main_01 .main .container-two .c2{
+        display: block;
+		width: 460px;
+    }
+}

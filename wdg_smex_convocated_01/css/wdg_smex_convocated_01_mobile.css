@@ -1,0 +1,61 @@
+@media screen {
+    .wdg_smex_convocated_01{
+        width: 300px;
+		display: none;
+    }
+   
+   	.wdg_smex_convocated_01 .titulo{
+		font-size:18px;
+		font-style:italic;
+		padding-bottom:15px;
+		padding-left:50px;
+		margin-bottom:5px;
+		border-bottom: 1px solid #CCC;
+	}
+	
+	.wdg_smex_convocated_01 .convocados{
+		border-bottom:1px solid #CCC;
+		margin-bottom:24px;
+		font-size:14px;
+		width:100%;
+		border-spacing:5px;
+		border-collapse: 5px;
+	}
+	
+	.wdg_smex_convocated_01 .convocados th{
+		padding-left:10px;
+		height:32px;
+	}
+	
+	.wdg_smex_convocated_01 .convocados .line1{
+		border-bottom:1px solid #CCC;
+		height:1px;
+	}
+	
+	.wdg_smex_convocated_01 .convocados .line2{
+		height:1px;
+	}
+	
+	.wdg_smex_convocated_01 .convocados td:first-child{
+		font-weight:bold;
+		font-size:16px;
+		text-align:center;
+		border-left: none;
+	}
+	
+	.wdg_smex_convocated_01 .convocados td{
+		padding-left: 10px;
+		height:32px;
+	}
+	
+	.wdg_smex_convocated_01 .convocados td:last-child{
+		width:100px;
+	}
+	
+	.wdg_smex_convocated_01 .convocados tr td:nth-child(2) p{
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 120px;
+	}
+}

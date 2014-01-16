@@ -1,0 +1,33 @@
+@media screen and (min-width: 624px){
+    
+.wdg_podcast_01{
+	margin-bottom:24px;
+	padding:5px;
+}
+
+.wdg_podcast_01 .wdg_podcast_01_btnDescargar,
+.wdg_podcast_01 .wdg_podcast_01_player{
+	display:block;
+	margin-top:12px;
+        cursor: pointer;
+}
+
+.wdg_podcast_01 h5 .wdg_podcast_01_extras{
+	display:inline;
+}
+
+.wdg_podcast_01 h2{
+	
+	font-size:1.1em;
+	color:#333;
+	margin-bottom:5px;
+	font-weight:normal;
+}
+
+.wdg_podcast_01 .separator{
+	
+	width:100%;
+	display:inline-block;
+}
+
+}

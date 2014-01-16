@@ -1,0 +1,20 @@
+/* only mobile */
+@media screen and (max-width: 623px) {
+    blockquote.art_quote_01{
+        max-width: 100%;
+        padding:5%;
+        border:0px none;
+        margin:0;
+    }
+}
+
+/* all devices */
+blockquote.art_quote_01,
+blockquote.art_quote_01 a{
+    font-size: 19px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 22px;
+    color: #000;
+    text-decoration:none;
+}

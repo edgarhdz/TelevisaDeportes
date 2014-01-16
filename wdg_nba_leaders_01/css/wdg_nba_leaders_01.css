@@ -1,0 +1,35 @@
+@media screen and (min-width: 948px){    
+
+	.wdg_nba_leaders_01{
+		display:block;
+		height:auto;
+	}
+	
+	.wdg_nba_leaders_01 .scroll{
+		overflow:hidden;
+		height:auto;
+		width:624px;
+	}
+
+	.ie7 .wdg_nba_leaders_01 .shsHeadTable  td .shsPageNav{
+		margin-top: -15px;
+		margin-right: 40px;
+	}
+	
+	.wdg_nba_leaders_01 .degradado{
+		display:none;
+	}
+	
+	.ie7 .wdg_nba_leaders_01 table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders .arrow,
+	.ie8 .wdg_nba_leaders_01 table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders .arrow,
+	.ie9 .wdg_nba_leaders_01 table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders .arrow,
+	.ie10 .wdg_nba_leaders_01 table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders .arrow {
+	    display: none;
+	}
+	
+	.ie7 .wdg_nba_leaders_01  table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders select,
+	.ie8 .wdg_nba_leaders_01  table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders select{
+		height: 24px;
+		
+	}
+}

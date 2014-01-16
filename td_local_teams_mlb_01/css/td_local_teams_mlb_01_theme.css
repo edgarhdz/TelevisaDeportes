@@ -1,0 +1,93 @@
+/*TEMA DEL EQUIPO DE FUTBOL AMERICA*/
+
+
+/*Fondo Pleca*/
+.background-color-pleca1,
+.background-color1 {
+	background-color: #8f8f8f !important;
+}
+
+/* Fondo 2 (Botones, etc) */
+.background-color2 {
+	background-color: #FA5B1A !important;
+}
+
+/*FONT GRIS*/
+.textcolor-title1 {
+	color: #8f8f8f !important;
+}
+/*FONT COLOR*/
+.textcolor-title2{
+	color: #FA5B1A !important;
+}
+/*BORDE COMPLETO */
+.border-color1,
+ul.galleryThumbs li.active span.border, 
+ul.galleryThumbs li:hover span.border,
+ul.ulcarrusel li a.active span.border, 
+ul.ulcarrusel li a:hover span.border{
+	border: 3px solid #8f8f8f !important;
+}
+/*BORDE INFERIOR */
+.border-bottom2 {
+	border-bottom: 3px solid #FA5B1A !important;
+}
+
+/*DEGRADADO*/
+.gradiente_head{
+	height:97px;
+	width:100%;
+	background-color:#FA5B1A !important;
+	/*Pinta gradient*/
+	background-image: linear-gradient(left , #FA5B1A 30%, #FA5B1A 61%) !important;
+	background-image: -o-linear-gradient(left , #FA5B1A 30%, #FA5B1A 61%) !important;
+	background-image: -moz-linear-gradient(left , #FA5B1A 30%, #FA5B1A 61%) !important;
+	background-image: -webkit-linear-gradient(left , #FA5B1A 30%, #FA5B1A 61%) !important;
+	background-image: -ms-linear-gradient(left , #FA5B1A 30%, #FA5B1A 61%) !important;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		right top,
+		color-stop(0.3, #FA5B1A),
+		color-stop(0.61, #06C)
+	) !important;
+	/*Finaliza gradient*/
+}
+
+/* Flecha inferior */
+ li a:hover span.arrow,  
+ li.tabs-selected a span.arrow {
+		border-top: 10px solid #8f8f8f !important;
+	}
+	
+.back_overlay,
+.selectedGallery,
+a.image span.icon,
+a.album:focus span.overlay,
+a.album.active span.overlay {
+	background: none repeat scroll 0 0 rgba(143, 143, 143, 0.6) !important;
+}
+.ie7 .back_overlay,
+.ie8 .back_overlay{
+	background-color: rgb(143, 143, 143) !important;
+}
+a.album:hover span.overlay{
+	background: none !important;
+	border: 3px solid #8f8f8f !important;
+}
+div.img_galry_01 a.album span.icon {
+	background: none repeat scroll 0 0 rgba(143, 143, 143, 0.6) !important
+}
+.img_galry_01 .td{
+	color: #FA5B1A;
+}
+.wdg_opinion_01_blog ul li a div div p span.textcolor-title1{
+	color: #FA5B1A !important;
+}
+@media screen and (max-width: 623px) {	
+	ul.ulcarrusel li a.active span.border,
+	ul.ulcarrusel li a:hover span.border{
+		border:none !important;
+	}
+}

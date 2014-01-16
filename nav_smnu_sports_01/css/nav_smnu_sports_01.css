@@ -1,0 +1,54 @@
+@media screen and (min-width: 948px){
+    .nav_smnu_sports_01{
+        width: 100%;
+        clear: both;
+        overflow: visible;
+		text-align:left;
+		overflow: hidden;
+		height: 36px;
+    }
+    .nav_smnu_sports_01 .container{
+    	height: 36px;
+    }
+    .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul{
+    	padding-top: 0px;
+		padding-bottom: 10px;
+		width: 925px;
+    }
+	
+	.ie10 .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul{
+		width: 923px;
+	}
+	.ie8 .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul{
+		width: 930px;
+	}
+	
+    .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li{
+		margin: 0 2px;
+    }
+    .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li a{
+        color: #8F8F8F;
+        font-size: 17px;
+        font-weight: bolder !important;
+        padding: 0 36px;
+    }
+	.nav_smnu_sports_01 .navarrowleft,
+	.nav_smnu_sports_01 .navarrowright{
+		display:none;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar{
+		width:948px;
+	}
+	.nav_smnu_sports_01 .container{
+		width:100%;
+		overflow:hidden;
+	}
+	.nav_smnu_sports_01 .container .nav_smnu_sports_01_bar .hide2{
+		display: inline; 	
+	}
+    .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li{
+		padding: 14px 4px;
+		margin: 0 0 0 -6px;
+	}
+	   
+}

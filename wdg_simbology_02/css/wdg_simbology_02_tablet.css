@@ -1,0 +1,21 @@
+@media screen and (min-width: 624px){
+	.wdg_simbology_02
+    {
+        margin-bottom:13px;
+    }
+    .wdg_simbology_02 .nomostrar
+    {
+        display:block;
+    }
+    .wdg_simbology_02 .tabla_simbologia .icon_simbologia
+    {
+            padding-top:0px;
+            padding-bottom:8px;
+            float:left;
+            width:24%;
+			display: table;
+    }
+	
+	
+	
+}

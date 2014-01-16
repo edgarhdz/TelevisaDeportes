@@ -1,0 +1,22 @@
+@media screen and (min-width: 624px) {
+	.mix_2arts_03 {
+		display:block;
+		width: 100%;
+		margin-bottom: 36px;
+	}
+	.mix_2arts_03 .type3e div.mix_1arts_08 {
+		display: block !important;
+		margin-bottom: 0px;
+	}
+	div.mix_2arts_03 .mix_1arts_08 {
+		float: left;
+	 *margin-bottom: 100px;
+	}
+	.mix_2arts_03 .separador {
+		width: 11px;
+		border-right: 1px solid #CCC;
+		margin-right: 11px;
+		height: 295px;
+		float: left;
+	}
+}

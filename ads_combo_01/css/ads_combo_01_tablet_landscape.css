@@ -1,0 +1,30 @@
+@media screen and (min-width: 961px) and (max-width: 1024px){
+    .ads_combo_01{
+        margin-bottom: 36px;
+        width:955px;
+        height: 90px;
+    }
+    .ads_combo_01 .tablet_banner_landscape .tablet_large_banner{
+        float: left;        
+        width: 728px;
+    }
+    .ads_combo_01 .tablet_banner_landscape .tablet_short_banner{
+        float: right;
+        width: 200px;
+    }
+    .ads_combo_01 .tablet_banner_portrait{
+        display: none;
+    }
+    .ads_combo_01 .mobile_banner{
+        display: none;
+    }
+    .ads_combo_01 .desktop_banner {
+        display: none;
+    }
+    .ads_combo_01 .tablet_banner_landscape{
+        display: block;
+    }
+    .out-of-page-banners{
+        display: none;
+    }
+}

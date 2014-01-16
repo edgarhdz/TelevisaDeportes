@@ -1,0 +1,231 @@
+@media screen {
+    .wdg_stats_teams_01{
+        overflow: hidden;
+        position: relative;
+    }
+    .wdg_stats_teams_01 .more_teams_stadistics{
+        overflow: hidden;
+        height: 500px;
+    }
+    .wdg_stats_teams_01 .scroll{
+        height: 500px;
+        overflow: auto;
+        width: 104%;
+    }
+
+    .wdg_stats_teams_01 .pleca_superior{
+        width: 100%; 
+        position: relative;
+        margin-bottom: 15px;
+        clear:both;
+        height: 60px;
+        
+    }
+    
+    .wdg_stats_teams_01 .background-color1{
+        width: 48%;
+        float: left;
+        height: 40px;
+    }
+    .wdg_stats_teams_01 .pleca_superior h3{
+        font-size: 14px;
+        line-height:40px;
+        padding-left:25px;
+    }
+    
+    .wdg_stats_teams_01 .background-color1 {
+        background-color: #A70A0B !important;
+    }
+    
+    .wdg_stats_teams_01 .wdg_stats_teams_01_dropdown {
+        background-color: #D3D3D3;
+        box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+        cursor: pointer;
+        float: left;
+        height: 40px;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 12px;
+    }
+    
+    .wdg_stats_teams_01 .wdg_stats_teams_01_dropdown .wdg_stats_teams_01_dropdowncontent p {
+        color: #000;
+        display: inline-block;
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 40px;
+        padding-left: 25px;
+        width: 246px;
+    }
+    
+    .wdg_stats_teams_01 .dropdown_class {
+        float: right;
+        position: relative;
+        text-align:center;
+        width: 40px;
+        color:#FFF;
+        z-index: 1000;
+        padding:0;
+        margin:0;
+    }
+    
+    .wdg_stats_teams_01 .background-color1 {
+        float: left;
+        height: 40px;
+        width: 100%;
+    }
+    
+    .wdg_stats_teams_01 .background-color1 .tvsa-caret-down {
+        line-height: 30px;
+    }
+
+    .wdg_stats_teams_01 .wdg_stats_teams_01_dropdown .wdg_stats_teams_01_dropdowncontent span {
+        float: right;
+        margin-right: 9px;
+        margin-top: 10px;
+    }
+    .sprite.dropdown-white {
+        background-position: -188px -6px;
+        height: 7px;
+        width: 12px;
+    }
+    
+    .wdg_stats_teams_01 .wdg_stats_teams_01_listcontainer {
+        clear: both;
+    }
+    
+    .wdg_stats_teams_01 .wdg_stats_teams_01_listcontainer ul {
+        background-color: #F5F5F5;
+        cursor: pointer;
+        position: relative;
+        visibility: hidden;
+        z-index: 1000 !important;
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .wdg_stats_teams_01 .wdg_stats_teams_01_listcontainer ul li {
+        background-color: rgba(235, 235, 235, 0.6);
+        border-bottom: 1px solid #D3D3D3;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1) inset;
+        height: 34px;
+        width: 100%;
+        float: left;
+        font-weight: bold;
+        margin: 0;
+        padding: 5px 0 5px 5px;
+    }
+    
+    .wdg_stats_teams_01 .wdg_stats_teams_01_listcontainer ul li p {
+        font-style: italic;
+        font-weight: bold;
+        line-height: 34px;
+        margin-left: 20px;
+    }
+    
+    .wdg_stats_teams_01 .titulo{
+        font-size:16px;
+        border-bottom:#CCC 1px solid;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        margin-bottom:20px;
+    }
+    /*Fin de pleca*/
+
+    
+    .wdg_stats_teams_01 .teams_stadistics_title{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        font-style: italic;
+    }
+
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics div{
+        display: none;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .name_team{
+        display: block;
+        float: right;
+        left: 112px;
+        line-height: 90px;
+        position: absolute;
+        font-size:16px;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .img_team{
+        display: block;
+        float: left;
+
+        line-height: 0;
+        margin: 19px 30px;
+    }
+
+    .wdg_stats_teams_01 .teams_stadistics {
+        border-bottom: 1px solid #ccc;
+        clear: both;
+        overflow: hidden;
+        position:relative;
+    }
+
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .marrow{
+        position: absolute;
+        display:inline-block;
+        font-size:33px;
+        height: 90px;
+        line-height:90px;
+        position: absolute;
+        top: -5px;
+        right: 30px;
+        font-size:34px;
+        color:#a9a9a9;
+        text-shadow: 0px 1px 0px #888888;
+        filter: dropshadow(color=#888888, offx=0, offy=1);
+    }
+
+    .wdg_stats_teams_01 .see_more{
+        width: 100%;
+        background-color: #ccc;
+        font-size: 12px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    .wdg_stats_teams_01 .see_more a{
+        display: block;
+    }
+    .wdg_stats_teams_01 .see_less{
+        display:none;
+        width: 100%;
+        background-color: #ccc;
+        font-size: 12px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+    .wdg_stats_teams_01 .dropdown_class {
+        width: 40px;
+        float: right;
+    }
+    .wdg_stats_teams_01 .degraded{
+        bottom: 0px;
+        z-index: 2000 !important;
+    }
+    .wdg_stats_teams_01 .wdg_scroll_dropdown{
+        margin-bottom: 15px;
+    }
+    .wdg_stats_teams_01 .teams_stadistics a{
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+    }
+    .wdg_stats_teams_01 .wdg_scroll_dropdown .wdg_tennisresult_01_click span{
+        margin-left: 13px;
+    }
+	.wdg_stats_teams_01 .textcolor-title1{
+		font-weight:bold;
+	}
+	.wdg_stats_teams_01 .textcolor-title2{
+		font-weight:bold;
+	}
+}

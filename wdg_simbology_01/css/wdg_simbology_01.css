@@ -1,0 +1,33 @@
+
+@media screen and (min-width: 948px){
+.wdg_simbology_01
+	{
+		
+		position:relative;
+		height:auto;
+		overflow:hidden;
+		
+	}
+	.wdg_simbology_01 .alineacion_partido .equipo_partido .jugador_info_alineado
+	{
+		width:397px !important;
+	}
+	.wdg_simbology_01 .jornada
+	{
+		width:160px !important;
+		float:left;
+	}
+	.wdg_simbology_01 .lineaBajoTransform
+	{
+		border-bottom:1px solid #CCC !important;
+		border-top:0px !important;
+	}
+	.wdg_simbology_01 .alineacion_partido .equipo_partido
+	{
+		width:466px;
+	}
+	.wdg_simbology_01 .see-all{	
+		margin-bottom:0;		
+	}
+
+}

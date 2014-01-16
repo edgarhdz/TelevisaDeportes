@@ -1,0 +1,111 @@
+@media screen {
+    /* BEGIN:mix_1arts_12 (Small)*/
+   
+    .mix_1arts_12 {
+		 position:relative;
+	}
+	.mix_1arts_12_sprite.video-corner {
+        background-position: -131px -40px;
+        height: 43px;
+        width: 43px;
+    }
+    .mix_1arts_12 > div.first-child div h2 {
+        font-size: 18px;
+    }
+    .mix_1arts_12 .mix_1arts_12_thumb {
+        width: 100%;
+    }
+	.mix_1arts_12 .image {
+        float: left;
+		overflow: hidden;
+		position: static;
+		width:85px;
+    	padding-right: 10px;
+		margin-right: 10px;
+		
+		border-right: 1px solid #8D8D8D;
+    }
+    .mix_1arts_12 .mix_1arts_12_thumb li {
+        height: auto;
+        padding: 0;
+        border-top: 1px solid #ccc;
+        overflow: hidden;
+        position: relative;
+    }
+	
+	.mix_1arts_12 .mix_1arts_12_thumb li a {
+        width: 85px;
+        text-decoration: none;
+        display: block;   
+		overflow: hidden;     
+    }
+	
+    .mix_1arts_12 .mix_1arts_12_thumb li img {
+        /*display: none;*/
+		float: left;
+		width: auto;
+		height: 65px;
+		margin-right: 10px;
+		padding-right: 10px;
+		border-right: 1px solid #CCC;
+    }
+    
+    .mix_1arts_12 .mix_1arts_12_thumb li a:before,
+    .mix_1arts_12 .mix_1arts_12_thumb li a:after {
+        content: "";
+        display: table;
+    }
+    .mix_1arts_12 .mix_1arts_12_thumb li a:after {
+        /*clear: both;*/
+    }
+    .mix_1arts_12 .mix_1arts_12_thumb li a {
+        zoom: 1;      
+    }
+    .mix_1arts_12 .mix_1arts_12_thumb li a p,
+    .mix_1arts_12 .mix_1arts_12_thumb li a h4 {
+        width: 60%;
+        padding-left: 16px;
+        padding:10px;
+        font-size: 16px;
+        padding-top:0px;
+        font-weight: bold;
+    }	
+	.mix_1arts_12 .mix_1arts_12_thumb li a p{
+		height: 100%;
+		padding-top: 10px;
+		padding-left:0px;
+		position: absolute;
+	}	
+    .mix_1arts_12 .mix_1arts_12_thumb li a .background-color-pleca1 {
+        width:30px;
+		height:30px;
+        position: absolute;
+        bottom: 0;
+		opacity: 0.7;
+		text-align:center;
+		line-height:30px;
+    }
+    .mix_1arts_12 .mix_1arts_12_thumb li a h2 {
+        display: none;
+        font-style: italic;
+        font-size: 12px;
+        line-height: 1.5em;
+        color: #D6A256;
+        padding-left:10px;
+        padding-top:10px;
+		font-weight: normal;
+    }
+    .mix_1arts_12 .mix_1arts_12_thumb li a h6	 {
+    	color: #8D8D8D;
+		display: none;
+    }
+	.mix_1arts_12 .a_image{
+		 clear:none;
+	}
+	.mix_1arts_12 .f_right{
+		float:left;
+	}
+    /* END:mix_1arts_12 (Small)*/
+}
+
+

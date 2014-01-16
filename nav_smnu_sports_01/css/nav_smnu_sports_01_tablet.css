@@ -1,0 +1,41 @@
+@media screen and (min-width: 624px){
+    .nav_smnu_sports_01{
+        width: 640px;
+        clear: both;
+        margin-top: 0px;
+        margin-bottom:24px;
+		text-align:center;
+		height: 45px;
+    }
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar{
+		width: 608px;
+	}
+	.nav_smnu_sports_01 .container{
+		width:624px;
+		overflow:auto;
+		left:0;
+	}
+	.nav_smnu_sports_01 .container .nav_smnu_sports_01_bar .hide1{
+		display: inline;
+	}
+	.nav_smnu_sports_01 .container .nav_smnu_sports_01_bar .hide2{
+		display: none;
+	}
+	.nav_smnu_sports_01 .navarrowright,
+	.nav_smnu_sports_01 .navarrowleft{
+		display:none;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li a{
+		font-size: 18px;
+		padding: 0 23px;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li{
+		font-size: 5px;
+		padding: 14px 0;
+		margin:0;
+	}
+	.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul{
+		padding-top: 10px;
+		padding-bottom:13px;
+	}
+}

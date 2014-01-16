@@ -1,0 +1,7 @@
+@media screen and (min-width: 948px){
+	
+	.ie7 .wdg_video_chat_01 .scroll,
+	.ie8 .wdg_video_chat_01 .scroll{
+		height: 560px;
+	}
+}

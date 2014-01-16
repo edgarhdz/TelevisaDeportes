@@ -1,0 +1,223 @@
+@media screen {
+	.ie7 .expansion{
+		margin-top: 8px;
+	}
+
+	#wdg_chalkboard_01{
+		overflow: hidden;
+		clear: both;
+		width: 930px;
+	    color: #000000;
+	    display: block;
+	    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	    font-size: 14px;
+	    margin: auto;
+	    margin-bottom: 0px;
+	}
+
+	#wdg_chalkboard_01 .chalkboard .teams {
+		float: left;
+		width: 236px;
+	}
+	#wdg_chalkboard_01 .opta-widget-container #canvas-pitch-0{
+		float: left;
+		width: 436px;
+		margin: 12px 11px 0;
+		height: 654px !important;
+		background-color: #63A230;
+	}
+
+	#wdg_chalkboard_01 .chalkboard .events {
+		float: left;
+		width: 236px;
+	}
+
+	#wdg_chalkboard_01 .chalkboard .time-controls {
+		background:url(../img/dotted-horizontal.png) repeat-x; 
+		background-position: top;
+		float: left;
+		/*background-color: #D3D3D3;*/
+		margin-top: 41px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #CCC;
+		width: 100%;
+	}
+	
+	#wdg_chalkboard_01 .opta-widget-container h2 span{
+		color: #A70A0B;
+		font-size: 24px;
+		font-style: italic;
+		display: none;	
+	}
+
+	#wdg_chalkboard_01 .opta-widget-container .expansion{
+		float: right;
+		color:#969696;
+	}
+
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .events dt,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeTeam dt,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awayTeam dt{  
+		height: 40px;
+		line-height: 40px;
+		font-size: 18px;
+		color:#A70A0B;
+		padding: 0 15px;
+		border-bottom:#CCC 1px solid;
+		font-style:italic;
+	}
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeSubs dt,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awaySubs dt{
+		height: 40px;
+		line-height: 40px;
+	    font-weight:bold;
+	    font-size: 14px;
+		font-style:italic;
+	    text-decoration: none;
+	}
+	
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .events dd,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeTeam  dd,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awayTeam  dd,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeSubs  dd,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awaySubs  dd{
+		margin-left: 0px;
+	}
+	
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .events dd ul,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeTeam  dd ul,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awayTeam  dd ul,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeSubs  dd ul,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awaySubs  dd ul{
+		list-style-type:none;
+		width:100%;
+	}
+
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .events dd ul li,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeTeam  dd ul li,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awayTeam  dd ul li,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeSubs  dd ul li,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awaySubs  dd ul li{
+		list-style-type:none;
+		height:44px;
+		line-height:40px;
+		padding: 0 15px;
+		background:url(../img/dotted-horizontal.png) repeat-x; 
+		background-position: bottom;
+    	vertical-align: middle;
+    	font-size: 12px;
+    	font-weight: bold;
+	}
+	
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .events dd ul li:hover,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeTeam  dd ul li:hover,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awayTeam  dd ul li:hover,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeSubs  dd ul li:hover,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awaySubs  dd ul li:hover{
+		background: none repeat scroll 0 0 #E8E8E8;
+	    box-shadow: 0 4px 14px #CECECE inset;
+		border-right: 2px solid #A70A0B;
+	}
+	
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeTeam  dd ul li .shirt,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awayTeam  dd ul li .shirt,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeSubs  dd ul li .shirt,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awaySubs  dd ul li .shirt{
+		color: #D9A961 !important;
+		width:auto;
+		min-width:23px;
+		margin-right:3px;
+		float: left;
+		font-size:18px;
+	}
+
+	#wdg_chalkboard_01 dl {margin:0;}
+
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeSubs  dd ul li .shirt,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awaySubs  dd ul li .shirt{
+		margin-right:30px;
+	}
+	
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeTeam  dd ul li .role,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awayTeam  dd ul li .role,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .homeSubs  dd ul li .role,
+	#wdg_chalkboard_01 .opta-widget-container .chalkboard .teams .awaySubs  dd ul li .role{
+		color: #8F8F8F !important;
+		width:20px;
+		margin-right:11px;
+		height:32px;
+		background:url(../img/dotted-vertical.png) repeat-y; 
+		background-position: right;
+		font-size:12px;
+		padding-right:10px;
+		line-height: 24px;
+	}
+	#wdg_chalkboard_01 .chalkboard .time-controls .button-panel button{
+		background-color: #8F8F8F;
+	    color: #FFFFFF;
+	    display: block;
+	    float: left;
+	    font-size: 14px;
+	    margin: 0 35px 0px;
+	    padding: 7px;
+	    width: 252px;
+	    cursor:  pointer;
+		font-style:italic;
+		border: none;
+	}
+	
+	#wdg_chalkboard_01 .chalkboard .time-controls .button-panel .ui-btn-up-c:last-child button{
+		margin-right:0px;
+	}
+
+	#wdg_chalkboard_01 .chalkboard .time-controls .button-panel .selected{
+		background-color: #D6A256;
+	}
+
+	#wdg_chalkboard_01 .chalkboard .teams .homeTeam dt,
+	#wdg_chalkboard_01 .chalkboard .teams .awayTeam dt,
+	#wdg_chalkboard_01 .events dl dt{
+		cursor:  pointer;
+	}
+
+	#wdg_chalkboard_01 .chalkboard .time-line-canvas{
+		background-color: #C0DFF1;
+	    border: 1px solid #8F8F8F;
+	    float: left;
+	    height: 10px;
+    	width: 436px;
+	}
+	#wdg_chalkboard_01 .chalkboard #canvas-team-home-0{
+		margin: 24px 17px 31px 15px;
+	}
+	#wdg_chalkboard_01 .chalkboard #canvas-team-away-0{
+		margin: 24px 0px 31px 0px;
+	}
+	.wdg_chalkboard_01 .time-controls .button-panel{
+		clear: both;
+		overflow: hidden;
+		width: 970px;
+	}
+	
+	.wdg_chalkboard_01 .time-controls .button-panel .button_separator{
+		border-right: 1px dashed #CCCCCC;
+		float: left;
+		overflow: hidden;
+	}
+	.wdg_chalkboard_01 .time-controls .button-panel .button_separator:nth-child(1){
+		margin:0 0 0 -15px;
+	}
+	
+	.wdg_chalkboard_01 .time-controls .button-panel .button_separator:last-child{
+		border-right: none;
+	}
+	
+	.wdg_chalkboard_01 [class^="tvsa-"]:before, [class*=" tvsa-"]:before{
+		display:block;
+		margin-top:9px;
+	}
+	
+	.wdg_chalkboard_01 .ui-btn-inner{
+		display:none;
+	}
+}

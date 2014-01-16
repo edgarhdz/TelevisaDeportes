@@ -1,0 +1,33 @@
+@media screen and (min-width: 624px){
+    .mix_1arts_04
+    {
+        padding:24px 0 0 216px;
+        margin:0 0 36px 0;
+        position:relative;
+        width:408px;
+    }
+    .mix_1arts_04 img {
+        position:absolute;
+        left:0;
+        top:24px;
+    }
+    .mix_1arts_04 span.name {
+        font-style:italic;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: -4px;
+        display:block;
+        letter-spacing:-0.05em;
+    }
+    .mix_1arts_04 p.redes_sociales {font-size:13px;margin-bottom:12px;}
+    .mix_1arts_04 p.redes_sociales i {font-size:15px;}
+    .mix_1arts_04 p.redes_sociales a {
+        color:#8f8f8f;
+        margin-right:14px;
+    }
+    .mix_1arts_04 p.desc {
+        font-size:14px;
+        line-height:17px;
+    }
+    .mix_1arts_04 a.see_all {display:block; margin-top:.5em; font-style:italic;}
+}

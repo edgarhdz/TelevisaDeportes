@@ -1,0 +1,22 @@
+@media screen and (min-width: 624px){
+	.wdg_box_result_01{
+        display: block;
+        margin-bottom: 36px;
+    }
+
+    .wdg_box_result_01 .nav_carousel {
+    	display: block;
+    }
+
+    .wdg_box_result_01 .scroll{
+    	overflow: hidden;
+    	height: 571px;
+    	width: 650px;
+
+    }
+    .wdg_box_result_01 .scroll2{
+    	overflow: auto;
+    	height: 559px;
+    	width: 650px;
+    }
+}

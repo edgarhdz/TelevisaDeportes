@@ -1,0 +1,84 @@
+@media screen and (min-width: 624px){
+    .wdg_goals_by_player_01{
+        width: 624px;
+		margin-bottom: 3px;
+		overflow: hidden;
+    }
+    .wdg_goals_by_player_01 .navdropdown{
+    	width: 10% !important;
+		right: -42px  !important;
+    }
+	
+	.wdg_goals_by_player_01 .pleca_superior{
+		height:30px;
+	}
+	
+	.wdg_goals_by_player_01 .background-color1 {
+		height: 31px;
+		width: 48%;
+	}
+	
+	.wdg_goals_by_player_01 .wdg_goals_by_player_01_dropdown {
+		width: 322px;
+	}
+	
+	.wdg_goals_by_player_01 .wdg_goals_by_player_01_listcontainer ul li {
+		width: 300px;
+	}
+	.wdg_goals_by_player_01 table{
+		overflow: hidden;
+	}
+	
+	.wdg_goals_by_player_01 table thead .encabezado{
+		height: 21px;
+	}
+	
+	.wdg_goals_by_player_01 table thead .encabezado .numero{
+		width: 20px;
+	}
+	.wdg_goals_by_player_01 table thead .encabezado .jugador{
+		width: 199px;
+		padding-left: 14px !important;
+	}
+	/*.wdg_goals_by_player_01 table tr th:nth-of-type(5),
+	.wdg_goals_by_player_01 table tr th:nth-of-type(6),
+	.wdg_goals_by_player_01 table tr th:nth-of-type(7),
+	.wdg_goals_by_player_01 table tr th:nth-of-type(8),
+	.wdg_goals_by_player_01 table tr td:nth-of-type(5),
+	.wdg_goals_by_player_01 table tr td:nth-of-type(6),
+	.wdg_goals_by_player_01 table tr td:nth-of-type(7),
+	.wdg_goals_by_player_01 table tr td:nth-of-type(8){
+		display: none;
+	}
+	.wdg_goals_by_player_01 table tr th:nth-of-type(1),
+	.wdg_goals_by_player_01 table tr td:nth-of-type(1){
+	}*/
+	.wdg_goals_by_player_01 table tr .jugador{
+		width: 172px;
+	}
+	.wdg_goals_by_player_01 table tr .equipo{
+		width: 220px;
+	}
+	.wdg_goals_by_player_01 table tr .chicos{
+		width: 41px;
+	}
+	/*.wdg_goals_by_player_01 table tr td:nth-of-type(5){
+		background: #ECECEC;
+		border-bottom: 1px solid #B9B9B9;
+		box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+	}*/
+	/*.wdg_goals_by_player_01 table tbody tr{
+		visibility: hidden;
+	}
+	.wdg_goals_by_player_01 table tbody tr:nth-of-type(-n+18){
+		visibility: visible;
+	}*/
+	.wdg_goals_by_player_01 table tbody tr td{
+		border: 0 !important;
+	}
+
+	.wdg_goals_by_player_01 table tbody tr:nth-of-type(18) td:nth-of-type(9){
+		background: #ECECEC !important;
+		border: 0 !important;
+	}
+}

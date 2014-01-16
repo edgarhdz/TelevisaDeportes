@@ -1,0 +1,28 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_pizarra_main_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_pizarra_main_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /* Titulo */
+    .td_pizarra_main_01 .main .topTitle{
+        width:100%;
+        clear:both;
+    }
+    /* Contenedor principal */
+    .td_pizarra_main_01 .main .container-one{
+        width:100%;
+        clear:both;
+        min-height:200px;
+    }
+	.td_pizarra_main_01 .main .container-one .c1_1{
+		margin-bottom: 15px;
+	}
+	.td_pizarra_main_01 div.art_title_02 h4 {
+		font-size:28px;
+	}
+}

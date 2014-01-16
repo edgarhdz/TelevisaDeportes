@@ -1,0 +1,38 @@
+/*	
+	Document   : td_stats_res_02_tablet.css
+	Created on : 28/08/2013, 12:34:00 am
+	Author     : Luis Jesús Ruelas Merino
+	Description: 
+ */
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_stats_res_02 .main{
+        width: 624px;
+        margin:auto;
+		overflow:visible;
+    }
+	.td_stats_res_02 .main .c1{
+		margin-top:0;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_stats_res_02 .main .c1,
+	.td_stats_res_02 .main .c2,
+	.td_stats_res_02 .main .c4{
+		width:624px;
+		overflow:hidden;
+	}
+	/*Fija Tamaño*/
+	.td_stats_res_02 .main .c3_1,
+	.td_stats_res_02 .main .c3_2{
+		width: 300px;
+	}
+	.td_stats_res_02 .main .c3_3{
+		/*margin-bottom: 24px;*/
+	}
+	.td_stats_res_02 .footerPleca .footer{
+		clear: both;
+	}
+	.td_stats_res_02 .c2 .c2_1 .c2_1o{
+		display:block;
+    }
+}

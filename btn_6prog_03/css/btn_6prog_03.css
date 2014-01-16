@@ -1,0 +1,14 @@
+@media screen and (min-width: 948px){  
+    .btn_6prog_03 {
+        height:207px;
+    }
+    .btn_6prog_03 .bullets{
+        display: none;
+    }
+    .btn_6prog_03 .type1a .title .flechas{
+        display: block !important;
+    }
+    .ie10 .btn_6prog_03 .type1a .carrusel ul{
+    	width: 947px !important;
+    }
+}

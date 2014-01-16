@@ -1,0 +1,35 @@
+@media screen and (min-width: 948px){    
+	.wdg_poll_video_01 .poll .videoimg .overlayPlay{
+		background-color: #A41D21;
+		opacity: 0.75;
+		width: 20px;
+		height: 25px;
+		top:-15px;
+		padding-left:10px;
+		padding-top:5px;
+		position: absolute;
+	}
+	.ie7 .wdg_poll_video_01 .poll .videoimg .overlayPlay{
+		top: 165px;	
+	}
+
+	.ie7 .wdg_poll_video_01 .poll .right
+	{
+		margin: 0px;
+		border: 0px; 
+		overflow: hidden;
+		height: 5px;   
+	} 
+	.ie7 .wdg_poll_video_01 .poll .videoimg .overlayPlay
+	{
+		top: 163px; 
+	}
+
+	.ie8 .wdg_poll_video_01 .poll .videoimg .overlayPlay
+	{
+		padding-top: 7px; 
+	} 
+	.ie7 .wdg_poll_video_01 .poll .col2 .scores{
+		margin-bottom:0px;  		
+	}
+}

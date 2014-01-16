@@ -1,0 +1,12 @@
+@media screen and (min-width: 948px){
+    .nav_bookmark_01 ul li a.selected {
+        font-style: italic;
+        color: rgb(167, 10, 11);
+        width: 955px;
+        margin: 1px auto;
+        padding-left:32px;
+    }
+    .nav_bookmark_01_sprite {
+    	 margin-right: 3px;  
+    }
+}

@@ -1,0 +1,108 @@
+@media screen and (min-width: 624px){
+
+    .art_12arti_01{
+        width: 624px; 
+        margin-bottom: 36px;
+        overflow: hidden;
+		margin-left:0px;
+    }
+    .art_12arti_01 .nav_paginator_01 {
+        
+        display: block;
+    }
+    /* Categoria */
+    .art_12arti_01 .container-items h2 {
+        font-size: 14px;
+    }
+
+    .art_12arti_01 .container-items {
+        height: auto;
+    }
+
+    .art_12arti_01 .container-items ul{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 24px;
+        margin-bottom: 36px;
+        clear: both;
+        overflow: hidden;
+    }
+
+    .art_12arti_01 .container-items ul li .titulos h3 {
+        font-weight: bold;
+        margin-top: 8px;
+        font-size: 18px;
+        line-height: 20px;
+		
+        padding-right: 0px;
+        padding-bottom:8px;
+    }
+
+    
+    /* END: Global (Medium) */
+
+    /* BEGIN: <art_12arti_01(medium)> */
+    .art_12arti_01 .container-items {
+        width: 640px; 
+    }
+    .art_12arti_01 .container-items:before,
+    .art_12arti_01 .container-items:after {
+        content: "";
+        display: table;
+    }
+    .art_12arti_01 .container-items:after {
+        clear: both;
+    }
+    .art_12arti_01 .container-items {
+        zoom: 1;
+        z-index: 1000 !important;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    .art_12arti_01 .container-items ul li {
+        display: block;
+        float: left;
+        padding: 0 14px;
+        width: 181px;
+        border-left: 1px solid #CCC;
+        border-bottom: none;
+    }
+    .art_12arti_01 .container-items ul li div {
+        right: 11px;
+        top: 179px;
+        background: none;
+        padding: 0;
+        position: static;
+    }
+
+    .art_12arti_01 .container-items ul li div.info-note{
+        display: block;
+    }
+    .art_12arti_01 .container-items ul li div.info-note p{
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 17px;
+        padding-bottom: 5px;
+
+    }
+
+    .art_12arti_01 .container-items ul li:first-child {
+        border-left: none;
+        margin-left: 0;
+        padding-left: 0px;
+    }
+
+
+    .art_12arti_01 .container-items ul li div.titulos span.icon {
+        display:none;
+    }
+
+	.art_12arti_01 .container-items ul:nth-child(n){
+		display:block;
+	}
+	.art_12arti_01 .container-items ul li:last-child{
+		display:block;
+	}
+	
+	.art_12arti_01 .container-items ul:last-child{
+		padding-bottom:0px;
+	}
+}

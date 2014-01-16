@@ -1,0 +1,33 @@
+header.main div.section div.subsections ul.social li.dropdown ul {
+  height: 2.1em !important;
+}
+header.main div.section .subsections ul.social li span {
+  text-indent: 0;
+}
+header.main div.section div.subsections ul.social li a .sprite {
+  margin-top: 0.5em;
+}
+header.main div.section div.subsections ul.social li a .sprite.video,
+header.main div.section div.subsections ul.social li a .sprite.twitter {
+  margin: 0.5em;
+}
+header.main div.section div.subsections ul.social li a .sprite.photo {
+  position: static;
+}
+section#deportes header.main div.section div.subsections ul.social li a .sprite {
+  margin: 0.6em;
+}
+section#deportes header.main div.section div.subsections ul.social li a .sprite.logo-tdtv {
+  margin-top: 0;
+}
+section#news div.verticalHeroNews div.articleThumbsModule ul.articlesThumbList li a p {
+  width: 13.9em;
+  padding: 0;
+}
+section#news div.container-five div.right div.left2 div#clima ul {
+  width: 18%;
+}
+section#home .verticalHero2 .type2a .articleMedium div {
+  top: 8em;
+  line-height: 1.2em;
+}

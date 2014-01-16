@@ -1,0 +1,173 @@
+@media screen and (min-width: 624px){
+    .wdg_stats_teams_01{
+        width: 624px;
+        margin-bottom: 36px;
+    }
+    .wdg_stats_teams_01 .more_teams_stadistics{
+        overflow: hidden;
+        height: auto;
+    }
+    .wdg_stats_teams_01 .scroll{
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+    .wdg_stats_teams_01 .pleca_superior{
+        height:30px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 8px;
+        clear: both;
+    }
+
+    .wdg_stats_teams_01 .pleca_superior h3{
+        line-height:30px;
+    } 
+    
+    .wdg_stats_teams_01 .background-color1 {
+        height: 30px;
+        width: 48%;
+    }
+    
+    .wdg_stats_teams_01 .wdg_stats_teams_01_dropdown {
+        width: 322px;
+        line-height: 30px;
+        height: 30px;   
+        margin-bottom: 8px;
+    }
+
+    .wdg_stats_teams_01 .wdg_stats_teams_01_listcontainer{
+        overflow: auto;
+    }
+    
+    
+    .wdg_stats_teams_01 .wdg_stats_teams_01_listcontainer ul li {
+        width: 300px;
+    }
+
+.wdg_stats_teams_01 .wdg_stats_teams_01_dropdown .wdg_stats_teams_01_dropdowncontent p {
+    line-height: 30px;
+}
+
+    /*Fin de pleca*/
+    .wdg_stats_teams_01 .teams_stadistics_title{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        padding-left: 50px;
+        font-style: italic;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table{
+        clear: both;
+        overflow: hidden;
+        border-bottom: 1px solid #ccc;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics div{
+        display: block;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .separator_team{
+        border-right: 1px solid #ccc;
+        float: left;
+        height: 152px;
+        margin: 40px 3px 0;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics{
+        float: left;
+        width: 150px;
+        height: 203px;
+        text-align: center;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .name_team{
+        padding-top: 24px;
+        padding-bottom: 10px;
+        float: none;
+        left: 0;
+        line-height: 15px;
+        position: relative;
+        font-weight: bold;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .img_team{
+        padding-bottom: 25px;
+        border-bottom: 1px solid #ccc;
+        margin: 0 15px;
+        float: none;
+		margin-bottom: 5px;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .textcolor-title4{
+        background: none repeat scroll 0 0 #F5F5F5;
+        font-size: 14px;
+        font-style: italic;
+        left: 45px;
+        position: relative;
+        top: -13px;
+        width: 60px;
+        z-index: 100 !important;
+    }
+    .ie7 .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .textcolor-title4{
+        left: 1px;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .titles_left{
+        float: left;
+        padding-left: 20px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .titles_left p.textcolor-title1{
+        margin-bottom: 5px;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .titles_left p.textcolor-title2{
+        font-size: 18px;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .separator_title{
+        width:1px;
+        float: left;
+        height: 40px;
+        margin-left: 25px;
+        margin-top: 5px;
+        background:url(../img/dotted-vertical.png) repeat-y 100% 0;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .titles_right{
+        float: right;
+        padding-right: 25px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .titles_right p.textcolor-title1{
+        margin-bottom: 5px;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .titles_right p.textcolor-title2{
+        font-size: 18px;
+    }
+    .wdg_stats_teams_01 .teams_stadistics {
+        border-bottom: 0;
+        clear: none;
+    }
+    .wdg_stats_teams_01 .teams_stadistics_table .teams_stadistics .marrow{
+        display: none;
+    }
+    .wdg_stats_teams_01 .more_teams_stadistics .teams_stadistics_table:nth-child(n+3),
+    .wdg_stats_teams_01 .more_teams_stadistics .teams_stadistics_table:nth-child(2) .teams_stadistics:nth-child(3n+4),
+    .wdg_stats_teams_01 .more_teams_stadistics .teams_stadistics_table:nth-child(2) .teams_stadistics:nth-child(3n+2){
+        display: block;
+    }
+    .wdg_stats_teams_01 .see_more{
+        display: none;
+    }
+    .wdg_stats_teams_01 .dropdown_class{
+        width: 32px;
+    }
+    .wdg_stats_teams_01 .degraded{
+        display: none;
+    }
+}
+@media only screen and (device-width: 768px) {
+  /* iPad screen size rules */
+  /*.wdg_stats_teams_01 .wdg_stats_teams_01_dropdownlist{
+        overflow-y: scroll !important;
+        overflow-x: scroll !important;
+        overflow: visible !important;
+    }*/
+}

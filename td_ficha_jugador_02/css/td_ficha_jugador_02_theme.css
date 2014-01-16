@@ -1,0 +1,75 @@
+/*TEMA DEL EQUIPO DE FUTBOL AMERICA*/
+
+
+/*Fondo Pleca*/
+.background-color-pleca1,
+.background-color1 {
+	background-color: #878787 !important;
+}
+
+/* Fondo 2 (Botones, etc) */
+.background-color2 {
+	background-color: #F60 !important;
+}
+
+/*FONT GRIS*/
+.textcolor-title1 {
+	color: #8f8f8f !important;
+}
+/*FONT COLOR*/
+.textcolor-title2{
+	color: #db351b !important;
+	/*color: #06C !important;*/
+}
+/*BORDE COMPLETO */
+.border-color1 {
+	border: 3px solid #8f8f8f !important;
+}
+/*BORDE INFERIOR */
+.border-bottom1 {
+	border-bottom: 3px solid #878787 !important;
+}
+
+.border-bottom2 {
+	border-bottom: 3px solid #db351b !important;
+}
+
+/*DEGRADADO*/
+.gradiente_head{
+	height:97px;
+	width:100%;
+	background-color:#F60 !important;
+	/*Pinta gradient*/
+	background-image: linear-gradient(left , #06C 30%, #039 61%) !important;
+	background-image: -o-linear-gradient(left , #06C 30%, #039 61%) !important;
+	background-image: -moz-linear-gradient(left , #06C 30%, #039 61%) !important;
+	background-image: -webkit-linear-gradient(left , #06C 30%, #039 61%) !important;
+	background-image: -ms-linear-gradient(left , #06C 30%, #039 61%) !important;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		right top,
+		color-stop(0.3, #06C),
+		color-stop(0.61, #039)
+	) !important;
+	/*Finaliza gradient*/
+}
+
+/* Flecha inferior */
+ li a:hover span.arrow,  
+ li.tabs-selected a span.arrow {
+	
+		border-top: 10px solid #8f8f8f !important;
+	}
+
+/*Color del Overlay de .btn_progr_03*/
+	.btn_progr_03 .back_overlay{
+		background:#878787;
+		background:rgba(135, 135, 135, 0.6);
+	}
+	.ie7 .back_overlay,
+	.ie8 .back_overlay{
+		background-color: rgb(143, 143, 143) !important;
+	}
+	

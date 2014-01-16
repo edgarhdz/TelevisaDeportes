@@ -1,0 +1,62 @@
+/*  
+    Document   : wdg_simbology_03_mobile
+    Created on : 18/09/2013, 10:04:00 am
+    Author     : Luis Jesús Ruelas Merino
+    Description: 
+ */
+@media screen{
+    .wdg_simbology_03{
+        margin-bottom: 36px;
+        overflow: hidden;
+        border-bottom: 1px solid #ccc;
+    }
+    .wdg_simbology_03 .alineacion_partido{
+        padding-top: 10px;
+        position: relative;
+        width: 624px;
+        clear: both;
+        display: block;
+    }
+    .wdg_simbology_03 strong{
+        position: absolute;
+        margin-top: -9px;
+        float: left;
+        width: 100%;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: normal;
+        display: block;
+        
+    }
+    .wdg_simbology_03 .dotted-right{
+        height: 35px;
+        width: 1px;
+        margin: 11px 40px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    .wdg_simbology_03 .title_simbologia{
+        text-align: center;
+    }
+    .wdg_simbology_03 .icon_simbologia{
+        width: 43%;
+        text-align: center;
+        border-top: 1px solid #ccc;
+        padding: 16px 0;
+    }
+    .wdg_simbology_03 .icon_simbologia p{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .wdg_simbology_03 .icon_simbologia p span{
+        font-size: 11px;
+        font-weight: normal;
+        padding-left: 10px;
+    }
+    .wdg_simbology_03 .left:first-of-type p{
+        padding-left: 52px;
+    }
+    .wdg_simbology_03 .left:last-of-type p{
+        padding-right: 47px;
+    }
+}
+

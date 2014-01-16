@@ -1,0 +1,474 @@
+@media screen {
+    
+.wdg_sport_teams_01{
+    margin-bottom: 36px;
+	height:487px;
+    display:block;
+    width: 624px;
+    overflow: hidden;
+}
+
+.wdg_sport_teams_01 .str_pleca_01_new{
+    border-bottom: 1px solid #CCCCCC;
+    width: 100%;
+    margin-bottom: 4px;
+}
+.wdg_sport_teams_01 .str_pleca_01_new .str_pleca_01_title_new h3{
+    font-weight: normal;
+    margin: -3px 0 5px 5px;
+	font-size: 20px;
+}
+
+.wdg_sport_teams_01 #shsNavTable {
+    margin: 10px auto;
+    width: 100%;
+}
+.wdg_sport_teams_01 #shsNavTable td, 
+.wdg_sport_teams_01 #shsNavTable td a:link, 
+.wdg_sport_teams_01 #shsNavTable td a:visited, 
+.wdg_sport_teams_01 #shsNavTable td a:hover, 
+.wdg_sport_teams_01 #shsNavTable td a, 
+.wdg_sport_teams_01 #shsNavTable th {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+.wdg_sport_teams_01 #shsNavTable th {
+    background-color: #999999;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.wdg_sport_teams_01 .shsHomeLink {
+    display: none;
+    visibility: collapse;
+}
+.wdg_sport_teams_01 #shsBody {
+    font-size: 12px !important;
+    vertical-align: top;
+}
+.wdg_sport_teams_01 #shsBody h2 {
+    font-size: 16px;
+    text-align: center;
+    display: none;
+}
+.wdg_sport_teams_01 #shsTimestamp {
+    font-size: 9px;
+    padding: 0 5px;
+    text-align: left;
+}
+.wdg_sport_teams_01 .shsTableLegend {
+    font-size: 9px;
+    font-style: italic;
+    padding: 0 5px;
+    text-align: left;
+}
+.wdg_sport_teams_01 #shsInset .shsTableLegend {
+    padding-bottom: 3px;
+    text-align: center;
+}
+.wdg_sport_teams_01 .shsCopyrightText {
+    font-size: 10px;
+    padding-top: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+.wdg_sport_teams_01 .shsTable {
+    margin: auto;
+    width: 100%;
+    border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.wdg_sport_teams_01 .shsHeadTable {
+    margin: auto;
+    width: 100%;
+    
+}
+.wdg_sport_teams_01 .shsGriddedTable {
+    background: none repeat scroll 0 0 #CCCCCC;
+    margin: auto;
+    width: 100%;
+}
+.wdg_sport_teams_01 .shsTable td, 
+.shsTable th {
+    font-size: 12px;
+    vertical-align: middle;
+}
+.wdg_sport_teams_01 .shsHeadTable td, 
+.shsHeadTable th {
+    display: none;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.wdg_sport_teams_01 .shsTableTtlRow {
+    background-color: #999999;
+    color: #FFFFFF;
+}
+.wdg_sport_teams_01 .shsTableTtlRow td, 
+.wdg_sport_teams_01 .shsTableTtlRow th {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.wdg_sport_teams_01 .shsTableTtlRow td.shsTeamCol {
+    text-align: left;
+    width: 50%;
+}
+.wdg_sport_teams_01 .shsTableTtlRow td a, 
+.wdg_sport_teams_01 .shsTableTtlRow th a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.wdg_sport_teams_01 .shsTableTtlRow td a:link, 
+.wdg_sport_teams_01 .shsTableTtlRow th a:link, 
+.wdg_sport_teams_01 .shsTableTtlRow td a:visited, 
+.wdg_sport_teams_01 .shsTableTtlRow th a:visited, 
+.wdg_sport_teams_01 .shsTableTtlRow td a:hover, 
+.wdg_sport_teams_01 .shsTableTtlRow th a:hover, 
+.wdg_sport_teams_01 .shsTableTtlRow td a, 
+.wdg_sport_teams_01 .shsTableTtlRow th a {
+    text-decoration: underline;
+}
+.wdg_sport_teams_01 .shsTableTtlRow .shsNamD {
+    text-align: left;
+}
+.wdg_sport_teams_01 .shsTableTtlRow .shsNumD {
+    text-align: right;
+}
+.wdg_sport_teams_01 .shsTableSubttlRow .shsNamD {
+    text-align: left;
+}
+.wdg_sport_teams_01 .shsTableSubttlRow .shsNumD {
+    text-align: right;
+}
+.wdg_sport_teams_01 .shsTableSubttlRow {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #DDDDDD !important;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    box-shadow: 0 4px 14px #B8B8B8 inset;
+    font-size: 14px;
+    height: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    width: auto;
+}
+.wdg_sport_teams_01 .shsTableSubttlRow td, 
+.wdg_sport_teams_01 .shsTableSubttlRow th {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+}
+.wdg_sport_teams_01 .shsTableSubttlRow td a, 
+.wdg_sport_teams_01 .shsTableSubttlRow th a {
+    color: #000000;
+    text-decoration: none;
+}
+.wdg_sport_teams_01 .shsTableSubttlRow td a:hover, 
+.wdg_sport_teams_01 .shsTableSubttlRow th a:hover {
+    text-decoration: underline;
+}
+.wdg_sport_teams_01 .shsColTtlRow {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px dotted #CCCCCC;
+    box-shadow: 0 2px 14px #E9E9E9 inset;
+    font-size: 14px;
+    height: 25px;
+    list-style-type: none;
+    padding: 7px 10px 0;
+    text-shadow: 2px 1px 0 #FFFFFF;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+.wdg_sport_teams_01 .shsTablePlayoffttlRow td a, 
+.shsTablePlayoffttlRow th a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.wdg_sport_teams_01 .shsTablePlayoffttlRow td a:hover, 
+.wdg_sport_teams_01 .shsTablePlayoffttlRow th a:hover {
+    text-decoration: underline;
+}
+.wdg_sport_teams_01 .shsRow0Row,
+.wdg_sport_teams_01 .shsRow1Row {
+   /* background-color: #FFFFFF;*/
+    text-align: left;
+    height: 34px;
+}
+.wdg_sport_teams_01 tr.shsRow0Row td.shs1stCol,
+.wdg_sport_teams_01 tr.shsRow0Row td.shsNamD,
+.wdg_sport_teams_01 tr.shsRow1Row td.shs1stCol,
+.wdg_sport_teams_01 tr.shsRow1Row td.shsNamD {
+ border-bottom:1px solid #CCC;
+}
+.wdg_sport_teams_01 tr.shsRow0Row td.shs1stCol,
+.wdg_sport_teams_01 tr.shsRow1Row td.shs1stCol{
+	border-right:1px solid #CCC;
+}
+/************************LOGOS*************************************************************/
+.wdg_sport_teams_01 .shsLogo .team1sm_trans{
+     background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/baltimoreorioles.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+
+.wdg_sport_teams_01 .shsLogo .team2sm_trans{
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/bostonredsox.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team10sm_trans{
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/newyorkyankees.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+
+.wdg_sport_teams_01 .shsLogo .team30sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/tampabayrays.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+
+.wdg_sport_teams_01 .shsLogo .team14sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/torontobluejays.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team4sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/chicagowhitesox.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team5sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/clevelandindians.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team6sm_trans{  
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/detroittigers.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;  
+}
+.wdg_sport_teams_01 .shsLogo .team7sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/kansascityroyals.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team9sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/minnesotatwins.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team18sm_trans{   
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/houstonastros.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team3sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/losangelesangels.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team11sm_trans{ 
+        background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/oaklandathletics.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;   
+}
+.wdg_sport_teams_01 .shsLogo .team12sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/seattlemariners.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team13sm_trans{
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/texasrangers.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+
+/**********SEGUNDA PARTE*****************/
+.wdg_sport_teams_01 .shsLogo .team15sm_trans{
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/atlantabraves.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+
+.wdg_sport_teams_01 .shsLogo .team28sm_trans{
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/floridamarlins.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team21sm_trans{
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/newyorkmets.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+
+.wdg_sport_teams_01 .shsLogo .team22sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/philadelphiaphillies.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+
+.wdg_sport_teams_01 .shsLogo .team20sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/washingtonnationals.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team16sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/chicagocubs.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team17sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/cincinnatireds.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team8sm_trans{  
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/milwaukeebrewers.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px; 
+}
+.wdg_sport_teams_01 .shsLogo .team23sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/pittsburghpirates.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team24sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/stlouiscardinals.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team29sm_trans{   
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/arizonadiamondbacks.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team27sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/coloradorockies.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team19sm_trans{ 
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/losangelesdodgers.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px; 
+}
+.wdg_sport_teams_01 .shsLogo .team25sm_trans{    
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/sandiegopadres.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+.wdg_sport_teams_01 .shsLogo .team26sm_trans{
+    background: url("http://hosted.stats.com/mlb/logos/mlb_23x15/sanfranciscogiants.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    height: 15px;
+    padding-left: 25px;
+}
+
+}
+
+/************************END LOGOS*************************************************************/
+
+
+
+
+.wdg_sport_teams_01 .shsHomeLink {display: inline-block; visibility: visible}
+
+.wdg_sport_teams_01 #shsWeekNav {padding: 0px; margin: 0px}
+
+.wdg_sport_teams_01 .shsCopyrightText {width: 915px; background-color: #fff}
+
+.wdg_sport_teams_01 #shsRefreshControl {padding-right: 15px !important; font-weight: bold; padding: 0px; margin: 0px}
+.wdg_sport_teams_01 #shsRefreshControl a {font-weight: normal}
+
+.wdg_sport_teams_01 #shsScoreboard br {display: none}
+
+.wdg_sport_teams_01 #shsBody {width: 623px; padding: 0px 0px; }
+.wdg_sport_teams_01 #shsBody h2 {display: none}
+
+.wdg_sport_teams_01 #shsBody a {color: #D9A961; text-decoration: none}
+.wdg_sport_teams_01 #shsBody a:hover {color: #D9A961; text-decoration: underline}
+
+.wdg_sport_teams_01 .shsLinescore td {line-height: 20px; background-color: #e5e5e5}
+.wdg_sport_teams_01 .shsSeasonLeaders td, .shsGameLeaders td {background-color: #fff; line-height: 16px}
+.wdg_sport_teams_01 .shsTableTtlRow td {background-color: #A70A0B; color: #fff; font-size: 15px; line-height: 30px}
+.wdg_sport_teams_01 #shsBody td.shsLeaderTtl {font-size: 11px; padding-left: 7px }
+.wdg_sport_teams_01 .shsLeaderCat {color: #676767; font-weight: bold}
+.wdg_sport_teams_01 .shsSeriesStatus td {background-color: #ccc; color: #000}
+.wdg_sport_teams_01 .shsRow0Row td{
+   /* background-color: #e5e5e5;
+    background-color: #EEEEEE;
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 2px 14px #E9E9E9 inset;*/
+    font-size: 12px;
+    list-style-type: none;
+    text-shadow: 2px 1px 0 #FFFFFF;
+    vertical-align: middle;
+    padding-left: 7px;
+}
+.wdg_sport_teams_01 .shsRow1Row td {/*background-color: #fff;*/ padding-left: 7px;}
+
+.wdg_sport_teams_01 .shsCalMonth, 
+.wdg_sport_teams_01 .shsCalMonthName {background-color: #650f02; color: #fff; font-size: 11px !important}
+.wdg_sport_teams_01 .shsCalDays td {background-color: #ccc}
+.wdg_sport_teams_01 #shsTeamPages .shsTeamHeadlines .shsHeadlineList {display: none}    
+
+.wdg_sport_teams_01 .degradado{
+		display:block;
+		position:relative;
+		top:-11px;
+		width:625px;
+		height:12px;
+		background-image:url(../global/img/degradado_horizontal.png);
+		background-repeat:repeat-x;
+	}
+	
+.wdg_sport_teams_01 .scroll{
+		overflow:auto;
+		height:447px;
+		width:650px;
+	}
+}

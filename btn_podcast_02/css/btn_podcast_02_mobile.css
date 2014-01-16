@@ -1,0 +1,110 @@
+@media screen {
+    .btn_podcast_02 .btn_podcast_02_btn {
+        border: medium none !important;
+		color: #DEB476 !important;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 14px !important;
+		font-style: italic;
+		font-weight: normal;
+		height: 22px;
+		margin: 0;
+		padding-bottom: 6px;
+		padding-top: 0px;
+		width: 186px !important;
+    }
+    .btn_podcast_02 .btn_podcast_02_line div.btn_podcast_02_reader{
+        float: left;
+        width: 240px;
+        margin-left: 60px;
+        color: #888;
+    } 
+    .btn_podcast_02 .btn_podcast_02_line div.btn_podcast_02_itunes{
+        display: inline-block;
+        width: 240px;
+        margin-left: 60px;
+        color: #888;
+    } 
+    .btn_podcast_02 .btn_podcast_02_line{
+        display: inline-block;
+        height: auto;       
+    } 
+    .btn_podcast_02 .btn_podcast_02_text{
+        height: 30px;
+    } 
+    .btn_podcast_02 .btn_podcast_02_text a p span{
+       /* font-weight: bold;*/
+    }
+    .btn_podcast_02 hr{
+    	color: #CCCCCC;
+    	background-color: #CCCCCC;
+    	border: none;
+    	height: 1px;    	
+    }
+    .btn_podcast_02 .btn_podcast_02_text a{
+        text-align: center;
+        font-style: italic;
+        color: #8F8F8F;
+		font-size:14px;
+		position: absolute;
+		margin-top: -18px;
+		width: auto;	
+		background: #F5F5F5;
+		margin-left:18%;
+		padding: 0 10px;		
+    }
+    .ie7 .btn_podcast_02 .btn_podcast_02_text a p{
+        *text-align: center;
+        
+    }
+    .btn_podcast_02 .btn_podcast_02_line div.btn_podcast_02_itunes div.btn_podcast_02_itunesimg{
+        display: block;
+        height: auto;
+        text-align: left;
+        float: left;
+      	margin-right: 12px;
+    } 
+    .btn_podcast_02 .btn_podcast_02_line div.btn_podcast_02_reader div.btn_podcast_02_readerimg{
+        display: block;
+        height: auto;
+        text-align: left;
+        float: left;
+        margin-right: 16px;
+    }
+	
+	.btn_podcast_02 .btn_podcast_02_line div.btn_podcast_02_itunes div.btn_podcast_02_itunesimg a i,
+    .btn_podcast_02 .btn_podcast_02_line div.btn_podcast_02_reader div.btn_podcast_02_readerimg a i {
+        color: #888;
+		font-size:24px;
+	}
+	
+    .btn_podcast_02_itunesinput{
+        text-align: left ;
+    }
+    .btn_podcast_02 .btn_podcast_02_text{
+        display: none;
+    }
+    .btn_podcast_02 .btn_podcast_02_line .btn_podcast_02_reader{
+        display: none;
+    }
+    .btn_podcast_02 .btn_podcast_02_line .btn_podcast_02_itunes .btn_podcast_02_itunesimg{
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .btn_podcast_02 .btn_podcast_02_line .btn_podcast_02_itunes .btn_podcast_02_itunesinput{
+        float: left;
+        margin-top: 16px;
+    }
+    .btn_podcast_02 .btn_podcast_02_line .btn_podcast_02_itunes {
+        text-align: center;
+    }
+    
+    .btn_podcast_02{
+        margin-bottom: 0px;
+        width: 300px;
+        height: auto;
+        margin-top: 12px;
+        margin: auto;
+    }
+}

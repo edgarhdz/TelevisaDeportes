@@ -1,0 +1,45 @@
+@media screen {
+	.wdg_gmap_01{
+        margin-bottom:0px;
+		width:100%;
+		height:60%;
+	}
+	.wdg_gmap_01 .wdg_gmap_01_properties {
+		padding: 0;
+        width: 100%;
+        height:60% ;
+	}
+	.wdg_gmap_01 .wdg_gmap_01_margen{
+		display:block;
+		height:0px;
+	}
+	.wdg_gmap_01 .art_branch_01 .art_branch_01_title h1 a{
+		font-size: 18px;
+	}
+	.wdg_gmap_01 .wdg_scroll_dropdown{
+		margin-bottom: 16px
+	}
+	.wdg_gmap_01 .art_branch_01{		
+		margin-bottom: 16px;
+	}
+	.wdg_gmap_01 .art_branch_01 .art_branch_01_title{
+		border-bottom: 1px solid #CCCCCC;
+		margin-left: 0px;
+		padding-left: 12px;
+		padding-bottom: 6px;
+	} 
+	/*BEGIN:art_branch_01*/
+	.wdg_gmap_01 .art_branch_01{
+		margin-bottom:20px;
+	}
+	.wdg_gmap_01 .art_branch_01 a{
+		font-size:19px;
+		font-style:italic;
+		font-weight:normal;
+		line-height: 21px;	
+		margin:0;
+		padding:0 0 2px 15px;
+		border-bottom: 1px solid #ccc;
+	}	
+	/*END: art_branch_01*/
+}

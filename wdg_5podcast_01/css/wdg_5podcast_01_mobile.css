@@ -1,0 +1,38 @@
+@media screen {    
+	.wdg_5podcast_01{
+		overflow: hidden;
+		position: relative;	
+	}
+	.wdg_5podcast_01 .nav_paginator_01{
+		display:none;
+	}
+	.wdg_5podcast_01 .scroll .btn_podcast_02{
+		display:block;
+	}
+	.wdg_5podcast_01 .scroll .wdg_podcast_02 h2 {
+		padding-right: 20px;
+	}
+	/*__Coloca el scroll que contiene todas los wdg_podcast_02*/	
+	.wdg_5podcast_01 .scroll{
+		height: 377px;
+		display: block;
+		overflow: auto;
+		position: relative;
+		width: 110%;
+		overflow-x: hidden;
+		margin-bottom: 18px;
+	}
+	
+	/*__Estilo del degradado*/
+	.wdg_5podcast_01 .degraded{	
+		display:block;
+		bottom: 68px		
+	}
+	.wdg_5podcast_01 .hidden{
+		visibility: hidden;
+	}
+	.wdg_5podcast_01 .show{
+		visibility: visible;
+	}
+	
+}

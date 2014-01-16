@@ -1,0 +1,25 @@
+/* Tablet + */
+@media screen and (min-width: 624px){
+    blockquote.art_quote_04 {
+        float:left;
+        width:190px;
+        padding-bottom:10px;
+        margin-right:24px;
+        border-bottom: 1px solid #CCC;
+    }
+	
+	/* All devices */
+	.art_quote_04 {
+		margin-bottom: 10px;
+	}
+	.ie8 .art_quote_04 div.overlay{
+		font-size:12px;
+		line-height:16px;
+		font-style:italic;
+		color:#000;
+	}
+	.art_quote_04 div.overlay span.autor {
+		color:#8f8f8f;
+		padding:0;
+	}
+}

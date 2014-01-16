@@ -1,0 +1,17 @@
+@media screen and (min-width: 948px){
+	
+	.wdg_playerdraft_01 .scroll{
+		/*height:1342px;*/
+		overflow: hidden;
+	}
+	.wdg_playerdraft_01 .degradado{
+		
+		display:none;
+	}
+	
+	.wdg_playerdraft_01 .nav_paginator_01{
+		display:block;
+		height: auto !important;
+	}
+	
+}

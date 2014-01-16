@@ -1,0 +1,184 @@
+@media screen {
+    .mix_18arts_01{
+        overflow: hidden;
+		position:relative;
+		margin-bottom: 5px;
+    }
+    .mix_18arts_01 .pleca_superior{
+        width: 100%; 
+        position: relative;
+        margin-bottom: 15px;        
+        clear:both;
+        height: 80px;        
+    }
+	
+	.mix_18arts_01 .teams_stadistics_title{
+		margin-top:15px;
+		margin-bottom:18px;
+		font-size:18px;
+		font-style: italic;
+		padding-left: 10px;
+	}
+	
+	.mix_18arts_01  .estadios{
+		padding-left:10px;
+		height: 140px;
+		overflow: scroll;
+		overflow-y:hidden;
+		width:105%;
+	}
+    
+    .mix_18arts_01 .background-color1{
+        width: 48%;
+        float: left;
+        height: 40px;
+    }
+    .mix_18arts_01 .pleca_superior h3{
+        font-size: 14px;
+        line-height:40px;
+        padding-left:25px;
+    }
+    
+    .mix_18arts_01 .background-color1 {
+        background-color: #A70A0B !important;
+    }
+    
+    .mix_18arts_01 .mix_18arts_01_dropdown {
+        background-color: #D3D3D3;
+        box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+        cursor: pointer;
+        float: left;
+        height: 40px;
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    .mix_18arts_01 .mix_18arts_01_dropdown .mix_18arts_01_dropdowncontent p {
+        color: #000;
+        display: inline-block;
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 40px;
+        padding-left: 25px;
+        width: 246px;
+    }
+    
+    .mix_18arts_01 #dropdwon-right {
+        float: right;
+        position: relative;
+        text-align:center;
+        width: 29px;
+        color:#FFF;
+        z-index: 1000;
+        padding:0;
+        margin:0;
+    }
+    
+    .mix_18arts_01 .background-color1 {
+        float: left;
+        height: 40px;
+        width: 100%;
+    }
+    
+    .mix_18arts_01 .background-color1 .tvsa-caret-down {
+        line-height: 30px;
+    }
+
+    .mix_18arts_01 .mix_18arts_01_dropdown .mix_18arts_01_dropdowncontent span {
+        float: right;
+        margin-right: 9px;
+        margin-top: 10px;
+    }
+    .sprite.dropdown-white {
+        background-position: -188px -6px;
+        height: 7px;
+        width: 12px;
+    }
+    
+    .mix_18arts_01 .mix_18arts_01_listcontainer {
+        clear: both;
+    }
+    
+    .mix_18arts_01 .mix_18arts_01_listcontainer ul {
+        background-color: #F5F5F5;
+        cursor: pointer;
+        position: relative;
+        visibility: hidden;
+        z-index: 1000 !important;
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .mix_18arts_01 .mix_18arts_01_listcontainer ul li {
+        background-color: rgba(235, 235, 235, 0.6);
+        border-bottom: 1px solid #D3D3D3;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1) inset;
+        height: 34px;
+        width: 100%;
+        float: left;
+        font-weight: bold;
+        margin: 0;
+        padding: 5px 0 5px 5px;
+    }
+    
+    .mix_18arts_01 .mix_18arts_01_listcontainer ul li p {
+        font-style: italic;
+        font-weight: bold;
+        line-height: 34px;
+        margin-left: 20px;
+    }
+    
+    .mix_18arts_01 .titulo{
+        font-size:16px;
+        border-bottom:#CCC 1px solid;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        margin-bottom:20px;
+    }
+    /*Fin de pleca*/
+
+
+    .mix_18arts_01 .see_more{
+        width: 100%;
+        background-color: #ccc;
+        font-size: 12px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        display:none;
+    }
+	.mix_18arts_01 .see_less{
+		display:none;
+		width: 100%;
+        background-color: #ccc;
+        font-size: 12px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+	}
+	.mix_18arts_01 .bordes{
+		/*margin-top:10px;
+		padding-bottom:10px;
+		border-bottom: 1px solid #CCC;
+		display:none;*/
+	}
+	.mix_18arts_01 .mix_1arts_14{
+		margin-top:10px;
+		padding-bottom:10px;
+		border-bottom: 1px solid #CCC;
+		display:block;
+	}
+	
+	
+	.mix_18arts_01 .degradado {
+		display: block;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 12px;
+		background-image: url(../global/img/degradado_horizontal.png);
+		background-repeat: repeat-x;
+		
+	}
+}

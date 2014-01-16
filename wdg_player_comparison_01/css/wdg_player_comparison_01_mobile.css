@@ -1,0 +1,401 @@
+@media screen {
+	 
+	.wdg_player_comparison_01 {
+		clear:both;
+		margin-bottom:0px;
+	}
+	/* layout, fonts, colors */
+		.wdg_player_comparison_01 div.opta-widget-container {
+		font-family: 'Trebuchet MS';
+		max-width: 624px;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container h2, .wdg_player_comparison_01 div.opta-widget-container h2 span 	{
+		line-height: 32px;
+		height: 32px;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container h2 {
+		border-bottom: 1px solid #8f8f8f;
+		margin-bottom: 24px;
+		padding-bottom: 3px;
+	}
+	.ie7 .wdg_player_comparison_01 div.opta-widget-container h2 {
+		padding-bottom:0;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container h2 span {
+		/* background: #A70A0B; */
+		width: 204px;
+		padding-left: 12px;
+		display: inline-block;
+		color: #FFF;
+		font-size: 14px;
+		font-weight: normal!important;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container div.comparison legend  {
+		background: url(../img/dotted-horizontal.png) repeat-x;
+		background-position: bottom;
+	    display: block;
+	    font-size: 12px;
+	    font-style: italic;
+	    margin-bottom: 10px;
+	    padding-bottom: 5px;
+	    padding-left: 22px;
+	    width: 94%;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container div.comparison dd:first-of-type {
+		background: url(../img/dotted-horizontal.png) repeat-x;
+		background-position: bottom;
+	    font-size: 14px;
+	    line-height: 24px;
+	    margin: 0 0 5px;
+	    padding: 0 0 8px;
+	    text-align: center;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container div.comparison dd{
+	    font-size: 14px;
+	    line-height: 24px;
+	    margin: 0 0 5px;
+	    padding: 0 0 8px;
+	    text-align: center;
+	}
+
+	.wdg_player_comparison_01 div.opta-widget-container .compare2  {
+		/*border-left: 1px dashed #8f8f8f;*/
+	}
+	
+	/* tabs */
+		.wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav {
+		list-style: none;
+		margin: 0;
+		width: 100%;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li {
+		/*display: inline;*/
+		float: left;
+		padding: 0 13px;
+	}
+	/*.wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li a span.arrow {display:none;}*/
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li a {
+		background: url(../img/dotted-vertical.png) repeat-y;
+		background-position: right;
+	    color: #8F8F8F;
+	    display: block;
+	    float: left;
+	    font-size: 14px;
+	    font-weight: bold;
+	    left: 1px;
+	    line-height: 20px;
+	    margin-bottom: 7px;
+	    margin-top: 7px;
+	    position: relative;
+	    text-align: center;
+	    text-decoration: none;
+	    width: 94%;
+	    padding-right: 14px;
+	}
+
+	.wdg_player_comparison_01 #playercompare-table-0 thead{
+		display: none;
+	}
+
+	.wdg_player_comparison_01 #playercompare-table-0 {
+		width: 50%;
+		margin: 24px auto;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li:last-child a{
+		border-right: 0;
+	}
+	
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li a:hover,  .wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li.tabs-selected a {
+		/*background: #A70A0B;*/ 
+		color: #8f8f8f;		
+		-moz-box-shadow:none;
+		-webkit-box-shadow:none;
+		box-shadow:none;
+	}
+	
+	.ie7 .wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li a:hover span.arrow,  
+	.ie7 .wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li.tabs-selected a span.arrow {
+		display:none;
+	}
+	
+	
+	
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li a:hover span.arrow,  .wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav li.tabs-selected a span.arrow {
+		position:absolute;
+		left:50%;
+		bottom:-17px;
+		margin-left:-8px;
+		width: 0;
+		height: 0;
+		overflow: hidden;
+		border: 10px dashed transparent;
+		border-top: 10px dashed #A70A0B;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container #teamcompare-table-0 {
+		margin-bottom:24px;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container #teamcompare-table-0 tr:first-child td {
+		background: url(../img/dotted-horizontal.png) repeat-x;
+		background-position: bottom;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container #teamcompare-table-0 tr:first-child th {
+		background: url(../img/dotted-horizontal.png) repeat-x;
+		background-position: bottom;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-nav:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-content {
+		position: relative;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-content li {
+		/*position:absolute;*/
+		left:0;
+		top:0;
+		display:none;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-content li.tabs-selected {
+		display:block;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-content li table tbody tr:first-child td {
+		border-top:1px solid #8f8f8f;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-content li table tbody tr:first-child th {
+		border-top:1px solid #8f8f8f;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container ul.tabs-content li:target {
+		z-index: 1;
+	}
+	/* tables */
+	.wdg_player_comparison_01 div.opta-widget-container table {
+		width: 100%;
+		max-width:624px;
+		border-collapse:collapse;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container table tbody tr td {
+		/*font-size:16px!important;
+		font-weight:bold;
+		background: url(../img/dotted-horizontal.png) repeat-x;
+		background-position: bottom;
+		border-collapse:collapse;*/
+	}
+	.wdg_player_comparison_01 div.opta-widget-container table tbody tr:last-child td {
+		background: none;
+	}
+	/*.wdg_player_comparison_01 div.opta-widget-container table tbody tr td:first-child {
+		border-right:1px dashed #8f8f8f;
+	}*/
+
+	.wdg_player_comparison_01 div.opta-widget-container table tbody .player_left{
+		background: url(../img/dotted-vertical.png) repeat-y;
+		background-position: left;
+	    float: right;
+	    height: 23px;
+	    margin: 5px 0;
+	    padding-left: 5px;
+	}
+	/*.wdg_player_comparison_01 div.opta-widget-container table tbody tr td:last-child {
+		border-left:1px dashed #8f8f8f;
+	}*/
+	.wdg_player_comparison_01 div.opta-widget-container table tbody .player_right{
+		background: url(../img/dotted-vertical.png) repeat-y;
+		background-position: left;
+	    float: left;
+	    height: 23px;
+	    margin: 5px 0;
+	    padding-right: 5px;
+	}
+	
+	.wdg_player_comparison_01 div.opta-widget-container table tbody tr:nth-of-type(n+22) {
+		display: none;
+	}
+	
+	
+	.wdg_player_comparison_01 div.opta-widget-container table tbody tr th {
+		text-transform:uppercase;
+		font-weight:bold;
+		text-align: center;
+		font-size: 12px;
+		line-height: 32px;
+		background: url(../img/dotted-horizontal.png) repeat-x;
+		background-position: bottom;
+		letter-spacing:-0.04em;
+		height:42px;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container table tbody tr:last-child th {
+		background: none;
+	}
+	.wdg_player_comparison_01 div.opta-widget-container table tbody tr td {
+		line-height: 32px;
+		text-align: center;
+		vertical-align: middle;/*border-bottom: 1px dashed #8f8f8f;*/
+		}
+	/* hiding stuff */
+		.wdg_player_comparison_01 div.opta-widget-container ul li label,  
+		.wdg_player_comparison_01 div.opta-widget-container h2 span.opta-logo-white,  
+		.wdg_player_comparison_01 div.opta-widget-container div.comparison dl dt,  
+		.wdg_player_comparison_01 div.opta-widget-container ul.tabs-content li h3,  
+		.wdg_player_comparison_01 div.opta-widget-container ul.tabs-content table thead,  
+		.wdg_player_comparison_01 div.opta-widget-container thead.offscreen {
+		display: none;
+	}
+	.wdg_player_comparison_01 div.comparison dl{
+		margin: 0;
+	}
+	.wdg_player_comparison_01 div.comparison fieldset fieldset {
+		width: 42%!important;
+		float:left;
+		padding: 0;
+		font-weight:bold;
+	}
+	.wdg_player_comparison_01 div.comparison fieldset fieldset.compare2 {
+		text-align:right;
+		float:right;
+	}
+
+	.wdg_player_comparison_01 div.comparison fieldset .compare_vs_team{
+	    background: url(../img/dotted-vertical.png) repeat-y;
+		background-position: left;
+	    height: 115px;
+	    float: left;
+	    margin-left: 30px;
+    	padding-left: 30px;
+    
+	}
+	.wdg_player_comparison_01 select {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+
+	}
+	.wdg_player_comparison_01 #players-to-compare li select{
+		overflow: hidden;
+		-webkit-box-shadow: 0 3px 0 #8f8f8f, 0 -1px #fff inset;
+	    -moz-box-shadow: 0 3px 0 #8f8f8f, 0 -1px #fff inset;
+	    box-shadow: 0 3px 0 #8f8f8f, 0 -1px #fff inset;
+	    background: #f8f8f8;
+	    color:#888;
+	    border:none;
+	    outline:none;
+	    cursor:pointer;
+	    background: none repeat scroll 0 0 #DEDEDE;
+	    box-shadow: 0 4px 14px #B8B8B8 inset;
+	    color: #8f8f8f;
+	    height: 34px;
+	    padding: 8px 3px 8px;
+	    width:100%;
+
+	}
+	.wdg_player_comparison_01 #players-to-compare ul {
+		width:94%;
+	}
+	.wdg_player_comparison_01 #players-to-compare .compare2 ul {
+		float:right;
+	}
+	.wdg_player_comparison_01 #players-to-compare li {
+		position:relative;
+		margin-bottom: 5px;
+	}
+	.wdg_player_comparison_01 #players-to-compare li:after {
+	    content:url(../global/img/arrow_down.png);
+	    font:11px "Consolas", monospace;
+	    right:14px;
+	    top:10px;
+	    padding:0 0 2px;
+	    color:#000;
+	    position:absolute;
+	    pointer-events:none;
+	}
+	.wdg_player_comparison_01 #players-to-compare li:before {
+	    content:'';
+	    right:0; 
+	    top:0px;
+	    width:37px;
+	    height:34px;
+	    background:#ccc;
+	    position:absolute;
+	    pointer-events:none;
+	    display:block;
+	}	
+	
+	
+	
+	.wdg_player_comparison_01 select.team_1,
+	.wdg_player_comparison_01 select.team_2,
+	.wdg_player_comparison_01 select.player_1,
+	.wdg_player_comparison_01 select.player_2{
+		position:relative;
+		z-index:10;
+		/*width:276px !important;*/
+		height:34px !important;
+		line-height:26px;
+	}
+	.ie7 .wdg_player_comparison_01 select.team_1,
+	.ie7 .wdg_player_comparison_01 select.team_2,
+	.ie7 .wdg_player_comparison_01 select.player_1,
+	.ie7 .wdg_player_comparison_01 select.player_2{
+		height:26px !important;
+		line-height:26px;
+	}
+	
+	.wdg_player_comparison_01 span.select {
+		position:absolute;
+		font-size:14px;
+		bottom:0;
+		float:left;
+		left:0;
+		width: 87%;
+		height:34px;
+		line-height:36px;
+		text-indent:10px;
+		overflow: hidden;
+		-webkit-box-shadow: 0 3px 0 #8f8f8f, 0 -1px #fff inset;
+	    -moz-box-shadow: 0 3px 0 #8f8f8f, 0 -1px #fff inset;
+	    box-shadow: 0 3px 0 #8f8f8f, 0 -1px #fff inset;
+	    background: #f8f8f8;
+	    color:#888;
+	    border:none;
+	    outline:none;
+	    cursor:pointer;
+	    background: none repeat scroll 0 0 #DEDEDE;
+	    box-shadow: 0 4px 14px #B8B8B8 inset;
+	    color: #8f8f8f;
+		z-index:1;
+		top:0;
+		overflow:hidden;
+		text-align:left;
+	}
+	
+	.ie8 .wdg_player_comparison_01 #players-to-compare li {
+		position:relative;
+	}
+	.ie8  .wdg_player_comparison_01 #players-to-compare li:after {
+	    content:'';
+	    font:11px "Consolas", monospace;
+	    -webkit-transform:rotate(90deg);
+	    -moz-transform:rotate(90deg);
+	    -ms-transform:rotate(90deg);
+	    transform:rotate(90deg);
+	    right:14px;
+	    top:8px;
+	    padding:0 0 2px;
+	    position:absolute;
+	    pointer-events:none;
+	}
+	.ie8 .wdg_player_comparison_01 #players-to-compare li:before {
+	    content:'';
+	    right:0; 
+	    top:0px;
+	    width:34px;
+	    height:34px;
+	    position:absolute;
+	    pointer-events:none;
+	    display:block;
+	    background:transparent;
+	}
+}

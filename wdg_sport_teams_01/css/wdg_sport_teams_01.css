@@ -1,0 +1,21 @@
+@media screen and (min-width: 948px){    
+	.wdg_sport_teams_01{
+	    display: block;
+	    width: 624px;
+	    overflow: hidden;
+	    height:auto;
+	}
+
+	.wdg_sport_teams_01 .scroll{
+		height:auto;
+		width:650px;
+	}
+	.wdg_sport_teams_01 .degradado{
+		display:none;
+	}
+	
+	.ie7 .wdg_sport_teams_01 .scroll,
+	.ie8 .wdg_sport_teams_01 .scroll{
+		width: 624px;
+	}
+}

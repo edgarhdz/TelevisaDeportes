@@ -1,0 +1,41 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_video_indice_01 .main{
+        width: 640px;
+        margin:auto;
+    }
+    /* Contenedor izquierdo */
+    .td_video_indice_01 .main .c1{
+		width: 624px;
+        clear:both;
+        overflow: hidden;
+    }
+	.td_video_indice_01 .main .c1 .c1_2 .art_reltd_01{
+		border-right: 1px dashed #CCC;
+		width:297px;	
+	}
+	.td_video_indice_01 .main .c1 .c1_2r{
+		padding-left: 26px;
+		margin-bottom: 0px;
+		margin-top: 11px:
+	}
+    /* Contenedor derecho */e
+    .td_video_indice_01 .main .c2{
+		width: 624px;
+        overflow: hidden;
+    }
+	.td_video_indice_01 .main .c2_2, 
+	.td_video_indice_01 .main .c2_4{
+   		width: 300px;
+	}
+	.td_video_indice_01 .main .c2_3,
+	.td_video_indice_01 .main .c2_1{
+		width: 300px;
+		clear: both;	
+	}
+
+	.ie7 .c2_2{
+		float: left !important; 
+	}
+
+}

@@ -1,0 +1,198 @@
+<?
+define("COMPONENT", basename(__DIR__));
+define("JS", TRUE);
+
+$javascript = array('respond', 'modernizr');
+// header
+require_once("../global/header.php");
+?>
+
+<div id="wdg_chalkboard_02" class="wdg_chalkboard_02" data-enhance="false">
+	<div class="heatmap chalkboard canvas-pitch">
+		<div data-team="home" class="teams team-1958">
+			<dl class="starters homeTeam">
+				<dt data-team="1958" class="selected"><span class="group-header">Chiapas F.C.</span></dt>
+				<dd>
+					<ul data-side="home" class="team home">
+						<li class="starter selected" data-pid="53576"><span class="name">Édgar Adolfo Hernández</span></li>
+						<li class="starter selected" data-pid="59401"><span class="name">Miguel Martínez</span></li>
+						<li class="starter selected" data-pid="60036"><span class="name">George Corral</span></li>
+						<li class="starter selected" data-pid="53842"><span class="name">Omar Flores</span></li>
+						<li class="starter selected" data-pid="53556"><span class="name">Alan Zamora</span></li>
+						<li class="starter selected" data-pid="57313"><span class="name">Jorge Rodriguez</span></li>
+						<li class="starter selected" data-pid="53825"><span class="name">Elgabry Rangel</span></li>
+						<li class="starter selected" data-pid="53537"><span class="name">Luis Miguel Noriega</span></li>
+						<li class="starter selected" data-pid="20249"><span class="name">Luis Gabriel Rey</span></li>
+						<li class="starter selected" data-pid="91976"><span class="name">Franco Arizala</span></li>
+						<li class="starter selected" data-pid="43438"><span class="name">Jesús Castillo</span></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl class="subs homeSubs">
+				<dt data-team="1958" class="selected"><span class="group-header">Suplentes</span></dt>
+				<dd>
+					<ul data-side="home" class="team home">
+						<li class="sub selected" data-pid="120606"><span class="name">Jhon Córdoba</span></li>
+						<li class="sub selected" data-pid="102481"><span class="name">Luis Ricardo Esqueda</span></li>
+						<li class="sub selected" data-pid="120699"><span class="name">Kevin Gutierrez</span></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+		<div id="pitch-container-4" class="pitch-container" style="width: 46%;">
+			<div id="canvas-pitch-4" class="canvas-container vertical" style="width: 100%; height: 646.5px;">
+				<div style="position: relative; display: inline-block; width: 431px; height: 646.5px;" class="kineticjs-content">
+					<canvas width="432" height="647" style="position: absolute;"></canvas>
+					<canvas width="431" style="width: 431px; height: 646.5px; position: absolute;" height="646"></canvas>
+				</div>
+			</div>
+			<div class="play-direction vertical"><span class="dop-left"></span><span class="dop-centre">Direction of play</span><span class="dop-right"></span></div>
+		</div>
+		<div data-team="away" class="teams awayTeam team-1294">
+			<dl class="starters awayTeam">
+				<dt data-team="1294" class="selected"><span class="group-header">Tigres</span></dt>
+				<dd>
+					<ul data-side="away" class="team away">
+						<li class="starter selected" data-pid="60016"><span class="name">Enrique Palos</span></li>
+						<li class="starter selected" data-pid="52503"><span class="name">Juninho</span></li>
+						<li class="starter selected" data-pid="53862"><span class="name">Hugo Ayala</span></li>
+						<li class="starter selected" data-pid="76029"><span class="name">Jorge Torres Nilo</span></li>
+						<li class="starter selected" data-pid="14737"><span class="name">Damian Álvarez</span></li>
+						<li class="starter selected" data-pid="53564"><span class="name">Fernando Navarro</span></li>
+						<li class="starter selected" data-pid="53791"><span class="name">Manuel Viniegra</span></li>
+						<li class="starter selected" data-pid="53096"><span class="name">David Toledo</span></li>
+						<li class="starter selected" data-pid="53340"><span class="name">Elías Hernández</span></li>
+						<li class="starter selected" data-pid="28509"><span class="name">Lucas Lobos</span></li>
+						<li class="starter selected" data-pid="100987"><span class="name">Alan Pulido</span></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl class="subs awaySubs">
+				<dt data-team="1294" class="selected"><span class="group-header">Suplentes</span></dt>
+				<dd>
+					<ul data-side="away" class="team away">
+						<li class="sub selected" data-pid="41700"><span class="name">Jonathan Bornstein</span></li>
+						<li class="sub selected" data-pid="102451"><span class="name">Jesús Dueñas</span></li>
+						<li class="sub selected" data-pid="13584"><span class="name">Edno</span></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+		<div class="time-controls">
+			<div class="time-panel">
+				<div class="time-line-holder">
+					<div class="time-line first-half"><span class="injury-time" style="width: 9.56522px; float: right;"></span>
+						<div style="left:0px;" class="mins-15"></div>
+						<div style="left:9.565217391304348px;" class="mins-1"></div>
+						<div style="left:19.130434782608695px;" class="mins-1"></div>
+						<div style="left:28.695652173913043px;" class="mins-1"></div>
+						<div style="left:38.26086956521739px;" class="mins-1"></div>
+						<div style="left:47.826086956521735px;" class="mins-5"></div>
+						<div style="left:57.39130434782608px;" class="mins-1"></div>
+						<div style="left:66.95652173913042px;" class="mins-1"></div>
+						<div style="left:76.52173913043477px;" class="mins-1"></div>
+						<div style="left:86.08695652173911px;" class="mins-1"></div>
+						<div style="left:95.65217391304346px;" class="mins-5"></div>
+						<div style="left:105.2173913043478px;" class="mins-1"></div>
+						<div style="left:114.78260869565214px;" class="mins-1"></div>
+						<div style="left:124.34782608695649px;" class="mins-1"></div>
+						<div style="left:133.91304347826085px;" class="mins-1"></div>
+						<div style="left:143.4782608695652px;" class="mins-15"></div>
+						<div style="left:153.04347826086953px;" class="mins-1"></div>
+						<div style="left:162.60869565217388px;" class="mins-1"></div>
+						<div style="left:172.17391304347822px;" class="mins-1"></div>
+						<div style="left:181.73913043478257px;" class="mins-1"></div>
+						<div style="left:191.3043478260869px;" class="mins-5"></div>
+						<div style="left:200.86956521739125px;" class="mins-1"></div>
+						<div style="left:210.4347826086956px;" class="mins-1"></div>
+						<div style="left:219.99999999999994px;" class="mins-1"></div>
+						<div style="left:229.5652173913043px;" class="mins-1"></div>
+						<div style="left:239.13043478260863px;" class="mins-5"></div>
+						<div style="left:248.69565217391298px;" class="mins-1"></div>
+						<div style="left:258.2608695652173px;" class="mins-1"></div>
+						<div style="left:267.8260869565217px;" class="mins-1"></div>
+						<div style="left:277.39130434782606px;" class="mins-1"></div>
+						<div style="left:286.95652173913044px;" class="mins-15"></div>
+						<div style="left:296.5217391304348px;" class="mins-1"></div>
+						<div style="left:306.0869565217392px;" class="mins-1"></div>
+						<div style="left:315.65217391304355px;" class="mins-1"></div>
+						<div style="left:325.2173913043479px;" class="mins-1"></div>
+						<div style="left:334.7826086956523px;" class="mins-5"></div>
+						<div style="left:344.3478260869567px;" class="mins-1"></div>
+						<div style="left:353.91304347826105px;" class="mins-1"></div>
+						<div style="left:363.4782608695654px;" class="mins-1"></div>
+						<div style="left:373.0434782608698px;" class="mins-1"></div>
+						<div style="left:382.60869565217416px;" class="mins-5"></div>
+						<div style="left:392.17391304347854px;" class="mins-1"></div>
+						<div style="left:401.7391304347829px;" class="mins-1"></div>
+						<div style="left:411.3043478260873px;" class="mins-1"></div>
+						<div style="left:420.86956521739165px;" class="mins-1"></div>
+						<div style="left:430.434782608696px;" class="mins-15"></div>
+					</div>
+					<div class="time-line-gap"></div>
+					<div class="time-line second-half"><span class="injury-time" style="width: 18.7234px; float: right;"></span>
+						<div style="left:0px;" class="mins-15"></div>
+						<div style="left:9.361702127659575px;" class="mins-1"></div>
+						<div style="left:18.72340425531915px;" class="mins-1"></div>
+						<div style="left:28.085106382978722px;" class="mins-1"></div>
+						<div style="left:37.4468085106383px;" class="mins-1"></div>
+						<div style="left:46.808510638297875px;" class="mins-5"></div>
+						<div style="left:56.17021276595745px;" class="mins-1"></div>
+						<div style="left:65.53191489361703px;" class="mins-1"></div>
+						<div style="left:74.8936170212766px;" class="mins-1"></div>
+						<div style="left:84.25531914893617px;" class="mins-1"></div>
+						<div style="left:93.61702127659574px;" class="mins-5"></div>
+						<div style="left:102.9787234042553px;" class="mins-1"></div>
+						<div style="left:112.34042553191487px;" class="mins-1"></div>
+						<div style="left:121.70212765957444px;" class="mins-1"></div>
+						<div style="left:131.06382978723403px;" class="mins-1"></div>
+						<div style="left:140.4255319148936px;" class="mins-15"></div>
+						<div style="left:149.7872340425532px;" class="mins-1"></div>
+						<div style="left:159.14893617021278px;" class="mins-1"></div>
+						<div style="left:168.51063829787236px;" class="mins-1"></div>
+						<div style="left:177.87234042553195px;" class="mins-1"></div>
+						<div style="left:187.23404255319153px;" class="mins-5"></div>
+						<div style="left:196.5957446808511px;" class="mins-1"></div>
+						<div style="left:205.9574468085107px;" class="mins-1"></div>
+						<div style="left:215.31914893617028px;" class="mins-1"></div>
+						<div style="left:224.68085106382986px;" class="mins-1"></div>
+						<div style="left:234.04255319148945px;" class="mins-5"></div>
+						<div style="left:243.40425531914903px;" class="mins-1"></div>
+						<div style="left:252.7659574468086px;" class="mins-1"></div>
+						<div style="left:262.12765957446817px;" class="mins-1"></div>
+						<div style="left:271.4893617021277px;" class="mins-1"></div>
+						<div style="left:280.8510638297873px;" class="mins-15"></div>
+						<div style="left:290.21276595744683px;" class="mins-1"></div>
+						<div style="left:299.5744680851064px;" class="mins-1"></div>
+						<div style="left:308.93617021276594px;" class="mins-1"></div>
+						<div style="left:318.2978723404255px;" class="mins-1"></div>
+						<div style="left:327.65957446808505px;" class="mins-5"></div>
+						<div style="left:337.0212765957446px;" class="mins-1"></div>
+						<div style="left:346.38297872340416px;" class="mins-1"></div>
+						<div style="left:355.7446808510637px;" class="mins-1"></div>
+						<div style="left:365.1063829787233px;" class="mins-1"></div>
+						<div style="left:374.46808510638283px;" class="mins-5"></div>
+						<div style="left:383.8297872340424px;" class="mins-1"></div>
+						<div style="left:393.19148936170194px;" class="mins-1"></div>
+						<div style="left:402.5531914893615px;" class="mins-1"></div>
+						<div style="left:411.91489361702105px;" class="mins-1"></div>
+						<div style="left:421.2765957446806px;" class="mins-15"></div>
+						<div style="left:430.63829787234016px;" class="mins-1"></div>
+					</div>
+					<span class="time-span"></span>
+					<div class="click-mask"></div>
+				</div>
+				<div class="time-box" style="display: none; left: 36.9667px;">5:44</div>
+			</div>
+			<div class="button-panel">
+				<button class="selected" data-finish="100" data-start="0">Partido Finalizado</button>
+				<button data-finish="49" data-start="0">1er Tiempo</button>
+				<button data-finish="100" data-start="51">2º Tiempo</button>
+			</div>
+		</div>
+	</div>
+</div>
+<?
+// footer
+require_once("../global/footer.php");
+?>

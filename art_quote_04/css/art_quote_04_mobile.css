@@ -1,0 +1,47 @@
+/* Mobile only */
+@media screen and (max-width: 623px){
+    blockquote.art_quote_04 {
+        position:relative;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+    }
+    blockquote.art_quote_04 a {
+        display:inline-block;
+        width:100%;
+        height:auto;
+        margin:0;
+        padding:0;
+    }
+    blockquote.art_quote_04 img{
+        width: 100%;
+        height:auto;
+    }
+    blockquote.art_quote_04 div.overlay{
+        position:absolute;
+        bottom:4px;
+        left:24px;
+        display:block;
+        background:#FFF;
+        opacity:.8;
+        width:100%;
+    }
+    blockquote.art_quote_04 div.overlay span {
+        padding:12px 24px;
+        display:block;
+    }
+}
+/* All devices */
+blockquote.art_quote_04 {
+    margin-bottom: 10px;
+}
+blockquote.art_quote_04 div.overlay{
+    font-size:12px;
+    line-height:16px;
+    font-style:italic;
+    color:#000;
+}
+blockquote.art_quote_04 div.overlay span.autor {
+    color:#8f8f8f;
+    padding:0;
+}

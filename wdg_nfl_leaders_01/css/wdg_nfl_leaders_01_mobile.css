@@ -1,0 +1,267 @@
+@media screen {
+	
+	.wdg_nfl_leaders_01{
+		width: 624px;
+		font-size:12px;
+		overflow: hidden;
+		clear: both;
+		display:none;
+	}
+	
+	.wdg_nfl_leaders_01 .shsHeadTable{
+		border-bottom: 1px solid #CCC;
+		margin-bottom:10px;
+		height:45px;
+		width:100%;
+		display: none
+	}
+	.wdg_nfl_leaders_01 .str_pleca_01_new{
+		border-bottom: 1px solid #CCCCCC;
+		width: 100%;
+		margin-bottom: 4px;
+	}
+	.wdg_nfl_leaders_01 .str_pleca_01_new .str_pleca_01_title_new h3{
+		font-weight: normal;
+		margin: -3px 0 5px 5px;
+		font-size: 20px;
+	}
+	
+	.wdg_nfl_leaders_01 .str_pleca_01_new .str_pleca_01_title_new h3 .right{
+		font-size:12px;
+		padding-top: 10px;
+	}
+	
+	.wdg_nfl_leaders_01 .str_pleca_01_new .right a{
+		font-weight:bold;
+		font-size: 12px;
+	}
+	
+	.wdg_nfl_leaders_01 .str_pleca_01_new .right a.activo{
+		color: #D6A256;
+	}
+	
+	/* Titulo */
+	.wdg_nfl_leaders_01 .shsHeadTable h2 span{
+		color:#A70A0B;
+		font-size:18px;
+	}
+	
+	/* Links */
+	.wdg_nfl_leaders_01 .shsHeadTable  td .shsPageNav{
+		margin-top: -15px;
+	}
+	
+	.wdg_nfl_leaders_01 .shsHeadTable  td .shsPageNav a{
+		color: #D6A256;
+	}
+	
+	.wdg_nfl_leaders_01 #tab2{
+		display:none;
+	}
+	
+	.wdg_nfl_leaders_01 .scroll .tabs .float{
+		float:left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	
+	.wdg_nfl_leaders_01 #shsMiniBody{
+		
+		width:300px;
+		border: 1px solid #CCC;
+	}
+	
+	.wdg_nfl_leaders_01 #shsMiniLeaders  table.shsBorderTable{
+		
+		width: 300px;
+		margin-bottom:15px;
+		margin-right:15px;
+		border: 1px solid #CCC;
+	}
+	
+	/*Pleca roja*/
+	.wdg_nfl_leaders_01 table.shsTable tr.shsTableTtlRow{
+		background-color: #A70A0B;
+		color:#FFF;
+		font-size:14px;
+		font-weight:bold;
+		padding: 10px;
+		text-align:center;
+	}
+	
+	/*headers tabla*/
+	.wdg_nfl_leaders_01 table.shsTable tr.shsColTtlRow td{
+		background: none repeat scroll 0 0 #DEDEDE;
+		box-shadow: 0 4px 14px #B8B8B8 inset;
+		color: #000;
+		font-size: 12px;
+		font-weight:bold;
+		height: 36px;
+		padding: 0 10px;
+	}
+	
+	.wdg_nfl_leaders_01 table.shsTable tr{
+		display:none;
+	}
+	
+	/*celdas tabla*/
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow0Row td,
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow1Row td{
+		
+		height: 32px;
+		padding: 0 10px;
+		border-right: 1px solid #CCC;
+		border-bottom: 1px solid #CCC;
+		background-color:#FFF;
+	}
+	
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow0Row td:last-child,
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow1Row td:last-child{
+		
+		border-right: none;
+	}
+	
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow0Row td.shsLdrStat,
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow1Row td.shsLdrStat{
+		
+		box-shadow: 0 2px 14px #E9E9E9 inset;
+		text-align:center;
+	}
+	
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow0Row td.shsLdrRank,
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow1Row td.shsLdrRank,
+	.wdg_nfl_leaders_01 table.shsTable tr.shsViewMore td{
+		
+		text-align:center;
+	}
+	
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow0Row td span.shsLogo,
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow1Row td span.shsLogo{
+		
+		width:25px;
+	}
+	
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow0Row td.shsLdrName a,
+	.wdg_nfl_leaders_01 table.shsTable tr.shsRow1Row td.shsLdrName a,
+	.wdg_nfl_leaders_01 table.shsTable tr.shsViewMore td a{
+		
+		color: #D6A256;
+	}
+	
+	.wdg_nfl_leaders_01 table.shsTable tr.shsViewMore td{
+		border-bottom: none;	
+	}
+	
+	.wdg_nfl_leaders_01  table.shsBorderTable{
+		border: 1px solid #CCC;
+		width: 308px;
+	}
+	
+	.wdg_nfl_leaders_01  table.shsBorderTable td{
+		height:32px;
+	}
+	
+	.wdg_nfl_leaders_01  table.shsBorderTable tr.shsTableTtlRow td.shsTotD{
+		
+		background-color:#A70A0B;
+		color:#FFF;
+		text-align:center;
+		font-size:16px;
+	}
+
+	.wdg_nfl_leaders_01  #shsLeaders{
+		height: 935px;
+	}
+	
+	.wdg_nfl_leaders_01  table.shsBorderTable tr.shsTableSubttlRow td.shsTotD{
+		
+		background: none repeat scroll 0 0 #DEDEDE;
+		box-shadow: 0 4px 14px #B8B8B8 inset;
+		color: #666;
+		text-align:center;
+		font-size:16px;
+		font-weight:bold;
+	}
+	
+	.wdg_nfl_leaders_01  table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders{
+		
+		background: none repeat scroll 0 0 #FFFFFF;
+		box-shadow: 0 2px 14px #E9E9E9 inset;
+		text-align:center;
+		vertical-align:middle;
+	}
+
+
+	.wdg_nfl_leaders_01  table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders strong{
+		display: block;
+    	width: 100%;
+    	padding-top: 10px;
+	}
+	
+	.wdg_nfl_leaders_01  table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders select{
+		margin:10px 0;
+		moz-appearance: none;
+		background: none repeat scroll 0 0 #DEDEDE;
+		border: medium none;
+		box-shadow: 0 4px 14px #B8B8B8 inset;
+		color: #A0A0A0;
+		cursor: pointer;
+		height: 34px;
+		outline: medium none;
+		overflow: hidden;
+		padding: 8px 3px;
+		max-width: 250px ;
+	}
+
+
+	.wdg_nfl_leaders_01 table.shsBorderTable tr.shsLeaderRow:nth-child(2) td.shsMoreLeaders .arrow {
+	    background: none repeat scroll 0 0 #CCCCCC;
+	    color: #000000;
+	    display: block;
+	    font: 11px "Consolas",monospace;
+	    height: 22px;
+	    margin-bottom: 10px;
+	    margin-top: -43px;
+	    padding: 9px 0 2px;
+	    pointer-events: none;
+	    position: relative;
+	    right: -220px;
+	    width: 34px;
+	}
+
+	.wdg_nfl_leaders_01 table.shsBorderTable tr.shsLeaderRow:nth-child(3) td.shsMoreLeaders .arrow {
+	    background: none repeat scroll 0 0 #CCCCCC;
+	    color: #000000;
+	    display: block;
+	    font: 11px "Consolas",monospace;
+	    height: 22px;
+	    margin-bottom: 10px;
+	    margin-top: -43px;
+	    padding: 9px 0 2px;
+	    pointer-events: none;
+	    position: relative;
+	    right: -400px;
+	    width: 34px;
+	}
+	.wdg_nfl_leaders_01  table.shsBorderTable tr.shsLeaderRow:last-child td.shsMoreLeaders .arrow{
+		display:none;
+	}
+	
+	.ie7 .wdg_nfl_leaders_01 table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders .arrow {
+	    display: none;
+	}
+	
+	.wdg_nfl_leaders_01  table.shsBorderTable tr.shsLeaderRow td.shsMoreLeaders a{
+		color:#D6A256;
+	}
+	
+	.wdg_nfl_leaders_01 .degradado{
+		display:block;
+		position:relative;
+		top:-46px;
+		width:625px;
+		height:12px;
+		background-image:url(../global/img/degradado_horizontal.png);
+		background-repeat:repeat-x;
+	}
+}

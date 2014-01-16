@@ -1,0 +1,73 @@
+/* 
+    Document   : wdg_podcast_video_01
+    Created on : 16Ju7n/2013, 11:41:28
+    Author     : Luis Jesús Ruelas Merino
+    Description:
+*/
+@media screen and (min-width: 948px){
+	.ie7 .wdg_podcast_video_01 .mbMiniPlayer.red table span.map_play {
+	height: 21px !important;
+	margin: 41px 0px !important;
+	padding: 5px 4px !important;
+	line-height: 21px!important;
+	position: absolute;
+	top: 0px;
+	left: 22px;
+	display: inline-block;
+	background-color: rgb(220, 220, 220);
+	width: 21px;
+	}
+	.ie7 .wdg_podcast_video_01 .mbMiniPlayer.red table span.map_play i{
+		padding-top:2px;
+	}
+	.ie7 .wdg_podcast_video_01 .mbMiniPlayer.red table span.map_volume.mute{
+		padding-top: 0px !important;
+		line-height: 21px!important;
+		height: 21px !important;
+	}
+	.ie7 .wdg_podcast_video_01 .mbMiniPlayer table span.map_volume {
+	height: 21px !important;
+	margin: 41px 30px !important;
+	padding: 5px 4px !important;
+	line-height: 21px!important;
+	position: absolute;
+	top: 0px;
+	display: inline-block;
+	background-color: rgb(220, 220, 220);
+	width: 21px;
+	}
+	.ie7 .wdg_podcast_video_01 .mbMiniPlayer .map_controls {
+		left: 0px;
+		height: 21px;
+	}
+	.ie7 .wdg_podcast_video_01 .mbMiniPlayer  td.map_controlsBar{
+		position: relative; !important;
+		left: 65px;
+		height: 21px;
+	}
+
+	
+	.ie8 .wdg_podcast_video_01 .mbMiniPlayer.red table span.map_play {
+		height: 22px !important;
+		margin-top: 41px!important;
+		margin-left: 22px !important;
+		padding: 5px 4px !important;
+		line-height: 20px!important;
+		position: absolute;
+		top: 0;
+		display: inline-block;
+		background-color: rgb(220, 220, 220);
+		width: 21px;
+	}
+	.ie8 .wdg_podcast_video_01 .mbMiniPlayer table span.map_volume {
+		height: 22px !important;
+		margin: 41px 30px !important;
+		padding: 5px 4px !important;
+		line-height: 20px!important;
+		position: absolute;
+		top: 0;
+		display: inline-block;
+		background-color: rgb(220, 220, 220);
+		width: 21px;
+	}
+}

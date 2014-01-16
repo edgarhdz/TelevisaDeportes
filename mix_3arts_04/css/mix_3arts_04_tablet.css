@@ -1,0 +1,34 @@
+@media screen and (min-width: 624px){
+
+    .mix_3arts_04{
+        width: 624px;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+	.mix_3arts_04 .mix_1arts_09 .mix_1arts_09_thumb li a i.icon {
+		display:none;
+	}
+	.mix_3arts_04 .mix_3arts_02 .mix_1arts_09 .mix_1arts_09_thumb li img,
+	.mix_3arts_04 .mix_3arts_02_last {
+		display:block;
+	}
+	.mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_first,
+	.mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_middle {
+		border-top:none;
+		padding:0;
+	}
+	.mix_3arts_04 .mix_1arts_03 .sprite {
+		margin-left:-43px;
+	}
+	.mix_3arts_04 .mix_1arts_09 .mix_1arts_09_thumb li a h2{
+		padding-left: 0px;
+		line-height: 15px;
+	}
+	div.mix_3arts_02 div.mix_3arts_02_last div.mix_1arts_09{
+		padding: 0px 0px 0 12px !important;
+	}
+
+	.mix_3arts_04 .mix_1arts_09 .mix_1arts_09_thumb li{
+        height: 175px;
+    }
+}

@@ -1,0 +1,50 @@
+@media screen and (min-width: 948px){
+   
+    /* main */
+    .td_altasbajas_draft_01 .main{
+        width: 948px;
+    }
+	
+	/* 100 porciento */
+    .td_altasbajas_draft_01 .main .c1{
+		width:100%;
+		clear:both;
+	}	
+
+	/* Flotan a la izq */
+	.td_altasbajas_draft_01 .main .c2,
+	.td_altasbajas_draft_01 .main .c4,
+	.td_altasbajas_draft_01 .main .c6,
+	.td_altasbajas_draft_01 .main .c6_pt2
+	{ 
+		float:left;
+		width: 624px;
+		clear:none;
+	}
+	
+	/* Flotan a la der */
+	.td_altasbajas_draft_01 .main .c3,
+	.td_altasbajas_draft_01 .main .c5,
+	.td_altasbajas_draft_01 .main .c7
+	{
+		float:right;
+		width: 300px;
+		clear:none;
+	} 
+	/*bloques*/	
+	.td_altasbajas_draft_01 .main .c3_1,
+	.td_altasbajas_draft_01 .main .c3_2,
+	.td_altasbajas_draft_01 .main .c3_3{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+
+	.td_altasbajas_draft_01 .wdg_twitt_02{
+		max-height: 350px !important;
+	}
+	.ie7 .wdg_playerdraft_01 .titulo h2{
+		font-size: 26px;
+		font-weight: 100; 
+	}
+}

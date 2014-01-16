@@ -1,0 +1,9 @@
+@media screen and (min-width: 948px){
+    /* BEGIN: Global (Large) */
+    .wdg_twitt_01{
+        margin-bottom: 33px;
+    }
+    .wdg_twitt_01 .wdg_carousa .wdg_twitt_01_title{
+        width: 300px;
+    }
+}

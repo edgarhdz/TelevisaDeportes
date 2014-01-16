@@ -1,0 +1,127 @@
+@media screen {
+	.wdg_teams_carru_03 {
+		width: 100%;
+		background-color: #E3E3E3;
+		background: -webkit-linear-gradient(#c8c8c8 5%, #e2e2e2 20%);
+		background: -moz-linear-gradient(#c8c8c8 5%, #e2e2e2 20%);
+		background-image: linear-gradient(to bottom, #C8C8C8 5%, #E2E2E2 20%);
+	 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8c8c8', endColorstr='#e2e2e2');
+		margin-bottom: 18px;
+		clear: both;
+		overflow: hidden;
+		padding-top: 14px;
+		height: 236px;
+		position: relative;
+	}
+	.wdg_teams_carru_03 .wrapper {
+		/*background-image: url("../global/img/degradado_vertical.png");*/
+		background-position: right center;
+		background-repeat: repeat-y;
+		clear: both;
+		height: 300px;
+		margin: auto;
+		overflow: auto;
+		padding: 0 12px;
+		width: 100%;
+	}
+	.wdg_teams_carru_03 .titulo_bar {
+		clear: both;
+		margin: auto auto 10px 12px;
+		overflow: hidden;
+		width: 100%;
+	}
+	.wdg_teams_carru_03 .titulo_bar .titulo {
+		font-size: 16px;
+		float: left;
+		font-style: italic;
+	}
+	.wdg_teams_carru_03 .titulo_bar .mostrar,  .wdg_teams_carru_03 .titulo_bar .ocultar {
+		float: right;
+		font-style: italic;
+		font-weight: bold;
+		margin-top: -12px;
+	}
+	.wdg_teams_carru_03 .titulo_bar .mostrar a,  .wdg_teams_carru_03 .titulo_bar .ocultar a {
+		font-size: 12px;
+	}
+	.wdg_teams_carru_03 .titulo_bar .mostrar a {
+		display: none;
+	}
+	.wdg_teams_carru_03 .wrapper .row {
+		width: 730px;
+		clear: both;
+		height: 80px;
+		margin-bottom: 21px;
+	}
+	.wdg_teams_carru_03 .wrapper .row .liga_name {
+		width: 100%;
+		text-align: left;
+		float: none;
+		font-size: 14px;
+		margin: 0px 20px 15px 0;
+	}
+	.wdg_teams_carru_03 .wrapper .row .equipos {
+		width: 156px; /*width: 210px; //5 equipos */
+		float: left;
+		border-top: 1px solid #999;
+	}
+	.wdg_teams_carru_03 .wrapper .row .striked {
+		width: 50px;
+		margin: auto;
+		margin-top: -10px;
+		background-color: #E2E2E2;
+		color: #999;
+		padding: 0 10px;
+		text-align: center;
+		font-size: 11px;
+		font-style: italic;
+	}
+	.wdg_teams_carru_03 .wrapper .row .equipo {
+		float: left;
+		margin: 6px 7px;
+		text-align: center;
+		font-size: 12px;
+	}
+	.wdg_teams_carru_03 .wrapper .row .equipo img {
+		display: block;
+		padding-bottom: 5px;
+	}
+	.wdg_teams_carru_03 .wrapper .row .vseparator {
+		width: 2px;
+		height: 50px;
+		float: left;
+		margin: 0 10px;
+	}
+	
+	.wdg_teams_carru_03 .texto{
+		display:none;
+	}
+	.wdg_teams_carru_03 .titulo_bar .mostrar a,  
+	.wdg_teams_carru_03 .titulo_bar .ocultar a {
+		font-size: 31px;
+    	padding-right: 45px;
+	}
+	
+	.wdg_teams_carru_03 .wrapper .deg-izq{
+		width: 22px;
+		height: 190px;
+		background-image: url(../global/img/deg-gris-izq.png);
+		background-repeat: repeat-y;
+		background-position: left;
+		position: absolute;
+		left: 0px;
+		top: 51px;
+		z-index: 1000;
+	}
+	.wdg_teams_carru_03 .wrapper .deg-der{
+		width: 22px;
+		height:190px;
+		background-image: url(../global/img/deg-gris-der.png);
+		background-repeat: repeat-y;
+		background-position: right;
+		position: absolute;
+		right: 0px;
+		top: 51px;
+		z-index:1000;
+	}
+}

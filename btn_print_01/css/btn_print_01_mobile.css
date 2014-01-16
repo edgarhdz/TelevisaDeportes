@@ -1,0 +1,69 @@
+/* 
+    Document   : btn_print_01
+    Created on : 6/06/2013, 09:02:40 AM
+    Author     : Enrique Chávez Velázquez
+    Description:
+        
+*/
+
+@media screen{
+    
+	.btn_print_01 .menu{
+		font-size: 0.95em;
+		font-style:italic;
+		font-weight:600;
+		width:211px;
+		margin-bottom:14px;
+		height:32px;
+		text-align:center;
+	}
+	
+	.btn_print_01 .menu .largo{
+		width:205px;
+	}
+	
+	.btn_print_01 .menu .font_menu{
+		color:#FFF;
+	}
+	
+	.btn_print_01 .menu td{
+		color:#FFF;
+		background-color:#D9A961;
+	}
+	
+	.btn_print_01 .menu td a{
+		color:#FFF;
+		background-color:#D9A961;
+	}
+	
+	.btn_print_01 .menu td{
+		border-right:1px dashed #CCC;
+	}
+	.btn_print_01 .menu td:last-child{
+		border-right:none;
+	}
+	.btn_print_01 .menu .letrero{
+		margin-left:6px;
+	}
+	
+    .btn_print_01 .imprime h3 {
+        color: #A41D21 !important;
+        float: left;
+        font-style: italic;
+        padding-bottom: 8px;
+        padding-left: 25px;
+        padding-top: 8px;
+        width: auto;
+    }
+    .btn_print_01
+    {
+		float:right;	
+        width:211px;
+        position:relative;
+        height:auto;
+        margin-bottom: 24px;
+        display:none;
+    }
+    
+}
+

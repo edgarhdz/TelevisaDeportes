@@ -1,0 +1,11 @@
+@media screen and (min-width: 948px){
+	.wdg_mlb_injuries_01_container{
+		width: 624px;
+		clear: both;
+		height: auto;
+		overflow: hidden;
+	}
+	.wdg_mlb_injuries_01 .degraded{
+		display: none;
+	}
+}

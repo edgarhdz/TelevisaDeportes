@@ -1,0 +1,120 @@
+@media screen and (min-width: 624px){
+	
+	.wdg_concacaf_f1_01{
+		margin-bottom:36px;
+		display: block;
+		width:624px;
+	}
+	.wdg_concacaf_f1_01 .titulo{
+		font-size:21px;
+		border-bottom: 1px solid #CCC;
+		padding-bottom:7px;
+		margin-bottom:21px;
+		font-weight:normal;
+	}
+	
+	.wdg_concacaf_f1_01 .bloque{
+		clear:both;
+		overflow:hidden;
+		margin-bottom: 45px;
+		font-weight: bolder;
+	}
+	
+	.wdg_concacaf_f1_01 .scores{
+		float:left;
+		clear:both;
+		width: 427px;
+	}
+	
+	.wdg_concacaf_f1_01 .celda{
+		width: 78px;
+		float: left;
+		font-size: 12px;
+		text-align:center;
+	}
+
+	.wdg_concacaf_f1_01 .filax .celda {
+		background: url(../img/dotted-vertical.png) repeat-y right;
+	}
+	
+	.wdg_concacaf_f1_01 .filax .last {
+		background: none;
+	}
+
+	.wdg_concacaf_f1_01 .fila1{
+		margin-bottom: 0px;
+	}
+	
+	.wdg_concacaf_f1_01 .fila1,
+	.wdg_concacaf_f1_01 .filax{
+		clear: both;
+		overflow: hidden;
+	}
+	
+	.wdg_concacaf_f1_01 .primera{
+		width: 182px;
+		float:left;
+		overflow:hidden;
+		padding-left: 10px;
+		
+	}	
+	.wdg_concacaf_f1_01  .border{
+		background:url(../img/dotted-vertical.png) repeat-y 100% 0;
+	}
+	
+	.wdg_concacaf_f1_01 .scores .divisor{
+		border:0;
+		background:url(../img/dotted-horizontal.png) repeat-x 0 0;
+		height:1px;
+		line-height:0px;
+		font-size:0;
+		padding:0;
+		margin: 5px 0;
+		width: 443px;
+	}
+	
+	.wdg_concacaf_f1_01 .filax .primera{
+		font-size: 14px;
+	}
+	.wdg_concacaf_f1_01 .filax .primera img{
+		margin-left: 14px;
+	}
+	
+	.wdg_concacaf_f1_01 .filax .primera span{
+    	display: inline-block;
+    	margin-left: 15px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 115px;
+		overflow: hidden;
+	}
+	
+	.wdg_concacaf_f1_01 .filax .celda{
+		
+		font-size: 20px;
+		margin-top:0px;
+	}
+	
+	
+	.wdg_concacaf_f1_01 .pais{
+		float: left;
+		background:url(../img/dotted-vertical.png) repeat-y 0 0;
+		padding: 5px;
+		margin-top:25px;
+		padding-left: 17px;
+	}
+	
+	
+	.wdg_concacaf_f1_01  .pais .nombre,
+	.wdg_concacaf_f1_01  .pais img{
+		
+		float: left;
+		padding: 6px;
+		padding-top: 3px;
+	}
+	
+	.wdg_concacaf_f1_01  .pais .nombre{
+		margin-top:6px;
+		font-size: 14px;
+	}
+}

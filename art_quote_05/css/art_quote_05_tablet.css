@@ -1,0 +1,35 @@
+@media screen and (min-width: 624px){   
+	.art_quote_05{	
+		margin-bottom: 12px;
+        max-width:280px;
+		border-bottom: 1px solid #CCC; 
+		padding-bottom:0;
+	}	
+    .art_quote_05 img {        
+		max-width:280px;
+		padding-bottom: 15px;	
+    }
+	
+	.art_quote_05 a .overlay {
+		bottom: 19px;
+		display: block;
+		height: auto;
+				
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+		filter: alpha(opacity=75);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#65FFFFFF,endColorstr=#75FFFFFF);*/		
+		background: none;
+		position: relative;		
+		padding: 15px 0px 0 0;
+		width:  auto; 
+	}
+	
+	/*Internet Explorer 7*/
+	/*
+	.ie7 .art_quote_05 a .overlay {
+		display: block;
+		height: 70px;
+		background: blue;
+	}
+	*/
+}

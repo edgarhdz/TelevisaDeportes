@@ -1,0 +1,12 @@
+@media screen {
+    .wdg_tennisresult_01{
+        display: none;
+        margin-bottom: 0px;
+    }
+	.wdg_tennisresult_01 .degraded{		
+		bottom:12px;	
+		display: block;		
+		position:relative;
+	}
+}
+

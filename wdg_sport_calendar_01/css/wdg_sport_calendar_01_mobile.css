@@ -1,0 +1,10 @@
+@media screen { 
+	.wdg_sport_calendar_01{
+		width: 100%;
+		height:303px;
+	}
+	.wdg_sport_calendar_01 iframe{
+		width:100%;
+		height:303px; 
+	}
+}

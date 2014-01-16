@@ -1,0 +1,104 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_subhome_otros_01 .main{
+        width: 948px;
+    }
+	/* 100 porciento */
+	.td_subhome_otros_01 .main .c9{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	/* Flotan a la izq */
+	.td_subhome_otros_01 .main .c2,
+	.td_subhome_otros_01 .main .c4,
+	.td_subhome_otros_01 .main .c7{
+		float:left;
+		width: 624px;
+		clear:none;
+	}
+	/* Flotan a la der */
+	.td_subhome_otros_01 .main .c3,
+	.td_subhome_otros_01 .main .c3_bis,
+	.td_subhome_otros_01 .main .c5,
+	.td_subhome_otros_01 .main .c8{
+		float:right;
+		width: 300px;
+		clear:none;
+	} 
+
+	/*bloques*/	
+	.td_subhome_otros_01 .main .c3_1,
+	.td_subhome_otros_01 .main .c3_2,
+	.td_subhome_otros_01 .main .c3_3,
+	.td_subhome_otros_01 .main .c5_1,
+	.td_subhome_otros_01 .main .c5_2,
+	.td_subhome_otros_01 .main .c8_1,
+	.td_subhome_otros_01 .main .c8_2,
+	.td_subhome_otros_01 .main .c8_3{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+
+	.td_subhome_otros_01 .main .c7{
+		clear: both;
+		overflow: hidden;
+	}
+	
+	
+	/* Correccion de plecas */
+	.ie7 .str_pleca_01,
+	.ie8 .str_pleca_01{
+		margin-bottom: 24px;
+	}
+	
+	.ie7 .str_pleca_01_title strong a,
+	.ie7 .str_pleca_01_title strong,
+	.ie7 .str_pleca_01_title h2 a,
+	.ie7 .str_pleca_01_title h2,
+	.ie7 .str_pleca_01_title h3 a,
+	.ie7 .str_pleca_01_title h3,
+	
+	.ie8 .str_pleca_01_title strong a,
+	.ie8 .str_pleca_01_title strong,
+	.ie8  .str_pleca_01_title h2 a,
+	.ie8  .str_pleca_01_title h2,
+	.ie8  .str_pleca_01_title h3 a,
+	.ie8  .str_pleca_01_title h3{
+		height: 31px;
+		line-height: 31px;
+		width: 165px;
+	}
+	
+	.ie7 .main .c2_2 .str_pleca_01_title strong a,
+	.ie7 .main .c2_2 .str_pleca_01_title strong,
+	.ie7 .main .c7_1 .str_pleca_01_title strong a,
+	.ie7 .main .c7_1 .str_pleca_01_title strong,
+	
+	
+	.ie8 .main .c2_2 .str_pleca_01_title strong a,
+	.ie8 .main .c2_2 .str_pleca_01_title strong,
+	.ie8 .main .c7_1 .str_pleca_01_title strong a,
+	.ie8 .main .c7_1 .str_pleca_01_title strong{
+		
+		width: 300px;
+	}
+	
+	.ie7 .main .mix_2arts_07{
+		margin-bottom: 36px;
+	}
+	
+	.ie7 .main .mix_2arts_07{
+		margin-bottom: 36px;
+	}
+	
+	.ie7 .wdg_top10_01 .wdg_top10_01_title{
+		margin-bottom: 0;
+	}
+	
+	.ie7 .main .c1{
+		margin-bottom: 0px;
+	}
+	
+}

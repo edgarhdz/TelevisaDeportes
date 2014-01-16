@@ -1,0 +1,50 @@
+@media screen and (max-width: 623px) {
+    .mix_1arts_04 {
+        padding:12px 0 0 120px;
+        position:relative;
+        min-height:125px;
+		margin-bottom: 10px;
+    }
+    .mix_1arts_04 img {
+        width:109px;
+        height:auto;
+        position:absolute;
+        left:0;
+        top:12px;
+    }
+    .mix_1arts_04 p.redes_sociales {
+        position:absolute;
+        left:0;
+        top:82px;
+        width:97px;
+        font-size:10px;
+        margin-bottom:12px;
+        padding:4px 0 0 7px;
+        line-height:22px;
+    }
+    .mix_1arts_04 span.name {
+        font-style:italic;
+        font-size:18px;
+        letter-spacing:-0.03em;
+        margin-top:-3px;
+        display:block;
+    }
+    .mix_1arts_04 p.redes_sociales i {font-size:12px;}
+    .mix_1arts_04 p.redes_sociales a {
+        color:#8f8f8f;
+    }
+    
+    .mix_1arts_04 p.desc {
+        font-size:12px;
+        line-height:16px;
+        padding:8px 0 0 0;
+    }
+    .mix_1arts_04 p.desc a {
+        display:block;
+        margin-top:6px;
+		font-size: 14px;
+		font-style: italic;
+    }
+}
+
+.sr-only {display:none;}

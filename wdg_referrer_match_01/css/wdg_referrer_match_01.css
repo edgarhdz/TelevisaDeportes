@@ -1,0 +1,17 @@
+/* 
+    Document   : wdg_referrer_match_01
+    Created on : 6/05/2013, 04:02:15 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+*/
+@media screen and (min-width: 948px){
+.wdg_referrer_match_01
+	{
+		position:relative;
+		height:auto;
+		display:block;
+		overflow:hidden;	
+	}
+	
+
+}

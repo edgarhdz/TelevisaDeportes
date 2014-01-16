@@ -1,0 +1,24 @@
+@media screen and (min-width: 948px){    
+	  .mix_18arts_01{        
+        margin-bottom: 12px;
+    }
+    .mix_18arts_01 .pleca_superior{
+		height:24px;
+		margin-bottom: 23px; 
+	}    
+    .mix_18arts_01 .pleca_superior h3{    	
+        font-size: 14px;
+        line-height:30px;
+        padding-left:25px;
+    } 
+    .mix_18arts_01 .mix_1arts_14{
+      	margin-bottom: 15px;
+		margin-top:10px;
+		padding-bottom:11px;
+	}
+	
+	.ie7 .wdg_scroll_dropdown .wdg_tennisresult_01_click span{
+		padding-top:10px;
+	}
+    
+}

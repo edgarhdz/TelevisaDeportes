@@ -1,0 +1,22 @@
+@media screen and (min-width: 948px){ 
+ .wdg_positions_01{
+	height:628px;
+ }
+ .wdg_positions_01 .carousel_nav{
+		display:block;
+        border-top: 1px solid #D1D1D1;
+        height: 29px;
+		margin-top: 10px;
+	}
+ .wdg_positions_01 .carousel_nav_tablet,
+ .wdg_positions_01 .ver_todos_tablet,
+ .wdg_positions_01 .degradado{
+		display:none;
+	}
+ .wdg_positions_01 .ver_todos{
+		display:block;
+	}
+ .wdg_positions_01 .ver_todos td{
+	 border:none;
+	}
+}

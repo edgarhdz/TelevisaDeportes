@@ -1,0 +1,2256 @@
+@media screen {
+        
+    .wdg_nfl_scoreboard_01{
+        margin-bottom: 0px;
+        display: none;
+        padding: 0;
+        width: 300px;
+        padding-bottom: 0px;
+    }
+
+    .wdg_nfl_scoreboard_01 .str_pleca_01_title_new {
+        border-bottom: 1px solid #CCCCCC;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .wdg_nfl_scoreboard_01 .str_pleca_01_title_new h3 {
+        font-weight: normal;
+        margin: 5px 0;
+    }
+        
+    .wdg_nfl_scoreboard_01 .shsLogo {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsMoreNews {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsSSX {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsUSEnglish {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsSTATSMatchCast {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsNavTable {
+        margin: 10px auto;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 #shsNavTable td, 
+    .wdg_nfl_scoreboard_01 #shsNavTable td a:link, 
+    .wdg_nfl_scoreboard_01 #shsNavTable td a:visited, 
+    .wdg_nfl_scoreboard_01 #shsNavTable td a:hover, 
+    .wdg_nfl_scoreboard_01 #shsNavTable td a, 
+    .wdg_nfl_scoreboard_01 #shsNavTable th {
+        color: #000000;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 1px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 #shsNavTable th {
+        background-color: #999999;
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+    .wdg_nfl_scoreboard_01 .shsHomeLink {
+        display: none;
+        visibility: collapse;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody {
+        font-size: 14px;
+        vertical-align: top;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsTimestamp {
+        font-size: 9px;
+        padding: 0 5px;
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 .shsTable{
+        border-collapse: collapse;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableLegend {
+        font-size: 9px;
+        font-style: italic;
+        padding: 0 5px;
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsInset .shsTableLegend {
+        padding-bottom: 3px;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsCopyrightText {
+        font-size: 10px;
+        padding-top: 10px;
+        text-align: left;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 .shsTable {
+        margin: auto;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsHeadTable {
+        margin: auto;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsGriddedTable {
+        background: none repeat scroll 0 0 #CCCCCC;
+        margin: auto;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsTable td, 
+    .shsTable th {
+        font-size: 14px;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 .shsHeadTable td, 
+    .shsHeadTable th {
+        font-size: 14px;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow {
+        background-color: #999999;
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow td, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow th {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow td.shsTeamCol {
+        text-align: left;
+        width: 50%;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow td a, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow th a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow td a:link, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow th a:link, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow td a:visited, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow th a:visited, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow td a:hover, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow th a:hover, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow td a, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow th a {
+        text-decoration: underline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow .shsNamD {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow .shsNumD {
+        text-align: right;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow .shsNamD {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow .shsNumD {
+        text-align: right;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow {
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: #DDDDDD !important;
+        background-image: none;
+        background-origin: padding-box;
+        background-position: 0 0;
+        background-repeat: repeat;
+        background-size: auto auto;
+        box-shadow: 0 4px 14px #B8B8B8 inset;
+        font-size: 14px;
+        height: 15px;
+        padding: 10px 15px;
+        text-decoration: none;
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow td, 
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow th {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow td a, 
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow th a {
+        color: #000000;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow td a:hover, 
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow th a:hover {
+        text-decoration: underline;
+    }
+    .wdg_nfl_scoreboard_01 .shsColTtlRow {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border-bottom: 1px dotted #CCCCCC;
+        box-shadow: 0 2px 14px #E9E9E9 inset;
+        font-size: 14px;
+        height: 25px;
+        list-style-type: none;
+        padding: 7px 10px 0;
+        text-shadow: 2px 1px 0 #FFFFFF;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 .shsColTtlRow td, 
+    .wdg_nfl_scoreboard_01 .shsColTtlRow th {
+        font-weight: bold;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsColTtlRow td a, 
+    .wdg_nfl_scoreboard_01 .shsColTtlRow th a {
+        color: #000000;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsColTtlRow td a:hover, 
+    .wdg_nfl_scoreboard_01 .shsColTtlRow th a:hover {
+        text-decoration: underline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableSubttlRow td.shsNamD {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 .shsColTtlRow td.shsNamD {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableBowlttlRow td {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableBowlttlRow td, 
+    .wdg_nfl_scoreboard_01 .shsTableBowlttlRow th {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableBowlttlRow td a, 
+    .wdg_nfl_scoreboard_01 .shsTableBowlttlRow th a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableBowlttlRow td a:hover, 
+    .wdg_nfl_scoreboard_01 .shsTableBowlttlRow th a:hover {
+        text-decoration: underline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTablePlayoffttlRow td {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsTablePlayoffttlRow td, 
+    .wdg_nfl_scoreboard_01 .shsTablePlayoffttlRow th {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsTablePlayoffttlRow td a, 
+    .shsTablePlayoffttlRow th a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsTablePlayoffttlRow td a:hover, 
+    .wdg_nfl_scoreboard_01 .shsTablePlayoffttlRow th a:hover {
+        text-decoration: underline;
+    }
+    .wdg_nfl_scoreboard_01 .shsRow0Row {
+        background-color: #FFFFFF;
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 .shsRow1Row {
+        text-align: left;
+        background: none repeat scroll 0 0 #FFFFFF;
+        border-bottom: 1px dotted #CCCCCC;
+        box-shadow: 0 2px 14px #E9E9E9 inset;
+        font-size: 14px;
+        height: 25px;
+        list-style-type: none;
+        padding: 7px 10px 0;
+        text-shadow: 2px 1px 0 #FFFFFF;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 .shsSpacerRow {
+    }
+    .wdg_nfl_scoreboard_01 .shsNamD {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 .shsTotD {
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsNumD {
+        text-align: right;
+    }
+    .wdg_nfl_scoreboard_01 .shsColTtlRow td.shsTotD {
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsColTtlRow td.shsNumD {
+        text-align: right;
+    }
+    .wdg_nfl_scoreboard_01 .warning {
+        color: #FF0000;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody select, 
+    .wdg_nfl_scoreboard_01 #shsBody td select, 
+    .wdg_nfl_scoreboard_01 #shsBody input, 
+    .wdg_nfl_scoreboard_01 #shsBody td input {
+        font-size: 10px;
+    }
+    .wdg_nfl_scoreboard_01 table.shsLinescore {
+        border: 1px solid #999999;
+    }
+    .wdg_nfl_scoreboard_01 table.shsLinescore td {
+        padding: 0;
+    }
+    .wdg_nfl_scoreboard_01 table.shsLinescore td table {
+        background-color: #FFFFFF;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 table.shsLinescore table td {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .wdg_nfl_scoreboard_01 #shsRefreshControl {
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsWeekNav {
+        clear: both;
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    .wdg_nfl_scoreboard_01 .shsLiveNav {
+        font-size: 11px;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsPageNav {
+        font-size: 14px;
+    }
+    .wdg_nfl_scoreboard_01 #shsScoreboard .shsLeaderCat, 
+    .wdg_nfl_scoreboard_01 #shsPreview .shsLeaderCat, 
+    .wdg_nfl_scoreboard_01 #shsRecap .shsLeaderCat, 
+    .wdg_nfl_scoreboard_01 #shsCBKScoreboard .shsLeaderCat, 
+    .wdg_nfl_scoreboard_01 #shsScoreboard .shsLeader, 
+    .wdg_nfl_scoreboard_01 #shsPreview .shsLeader, 
+    .wdg_nfl_scoreboard_01 #shsRecap .shsLeader, 
+    .wdg_nfl_scoreboard_01 #shsCBKScoreboard .shsLeader {
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsScoreboard .shsLeaderTtl, 
+    .wdg_nfl_scoreboard_01 #shsPreview .shsLeaderTtl, 
+    .wdg_nfl_scoreboard_01 #shsRecap .shsLeaderTtl {
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+    .wdg_nfl_scoreboard_01 .shsStatCategory {
+        clear: both;
+        padding: 10px 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsStatCatForTeam {
+        display: inline;
+        float: left;
+        padding: 0 5px;
+        width: 48%;
+    }
+    .wdg_nfl_scoreboard_01 #shsScoringSummary {
+        display: inline;
+        float: left;
+        padding: 0 5px;
+        width: 48%;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamStats {
+        display: inline;
+        float: left;
+        padding: 0 5px;
+        width: 48%;
+    }
+    .wdg_nfl_scoreboard_01 .shsGameDetails {
+        clear: both;
+        font-size: 14px;
+        padding: 10px 5px;
+        text-align: left;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsGameWinner, 
+    .wdg_nfl_scoreboard_01 .shsGameWinner td {
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsLeaders .shsLeaderRow td {
+        font-size: 11px;
+    }
+    .wdg_nfl_scoreboard_01 #shsLeaders .shsLeaderRow td.shsLeaderConf {
+        font-size: 11px;
+    }
+    .wdg_nfl_scoreboard_01 #shsLeaders .shsLeaderRow select {
+        font-size: 11px;
+    }
+    .wdg_nfl_scoreboard_01 #shsLeaders .shsMoreLeaders {
+        background-color: #CCCCCC;
+        color: #000000;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsLeaders .shsMoreLeaders form {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsLeadersDate {
+        font-weight: bold;
+        margin-left: 4px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shsStoryLabel {
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shsHeadline {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsHeadline {
+        font-size: 20px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsBodyLeadin {
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsByline {
+        display: inline;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsByTitle {
+        display: inline;
+        font-style: italic;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsRecap .shsNotes {
+        font-style: italic;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsStoryDate {
+        font-style: italic;
+        text-align: right;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shsByDesc {
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset {
+        display: inline;
+        float: right;
+        margin-left: 10px;
+        text-align: center;
+        width: 300px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset table.shsLinescore {
+        margin: auto;
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsBulletList, 
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsHeadlineList, 
+    .wdg_nfl_scoreboard_01 #shsAPStory .shsHeadlineList {
+        background-color: #EEEEEE;
+        border: 1px dotted black;
+        margin: 10px 0;
+        padding: 0 8px;
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsBulletList {
+        background: url("http://hosted.stats.com/config/according_to_stats.gif") no-repeat scroll center top #EEEEEE;
+        padding-top: 35px;
+        width: 260px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsBulletList h2, 
+    .wdg_nfl_scoreboard_01 #shsInset .shsHeadlineList h2 {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsBulletList ol, 
+    .wdg_nfl_scoreboard_01 #shsBody .shsHeadlineList ul {
+        margin-left: 10px;
+        padding-left: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsBulletList li, 
+    .wdg_nfl_scoreboard_01 #shsBody .shsHeadlineList li {
+        list-style: disc outside none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsBulletList div.shsAccordingDefault {
+        background: url("/config/according_to_stats_default.gif") no-repeat scroll center top #EEEEEE;
+        display: none;
+        height: 40px;
+        margin: 10px 0 0;
+        text-indent: -9999px;
+        width: 260px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsBulletList a.shsTwit {
+        background: url("/config/according_to_stats_twitter.gif") no-repeat scroll left top #EEEEEE;
+        display: block;
+        height: 40px;
+        margin: 0 0 0 -5px;
+        text-indent: -9999px;
+        width: 265px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront td, 
+    .wdg_nfl_scoreboard_01 #shsFront th {
+        font-size: 14px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsHeadlineList {
+        background: none repeat scroll 0 0 #EEEEEE;
+        border: 2px solid #005B94;
+        padding: 0;
+        text-align: left;
+        width: 280px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsHeadlineList li {
+        margin: 0 8px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsHeadlineList h2 {
+        background-color: #005B94;
+        color: #FFFFFF;
+        display: block;
+        margin: 0;
+        text-align: center;
+        width: 280px;
+    }
+    .wdg_nfl_scoreboard_01 .shsStoryPhoto {
+        clear: right;
+        display: inline;
+        float: right;
+        margin: 5px;
+        text-align: center;
+        width: 300px;
+    }
+    .wdg_nfl_scoreboard_01 .shsStoryPhoto .shsPhotoCaption {
+        margin: 2px 20px;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsPhoto {
+    }
+    .wdg_nfl_scoreboard_01 .shsPhotoCaption {
+        font-size: 10px;
+        font-style: italic;
+    }
+    .wdg_nfl_scoreboard_01 .shsFrontPhoto {
+        clear: right;
+        display: inline;
+        float: right;
+        margin: 5px;
+        text-align: center;
+        width: 256px;
+    }
+    .wdg_nfl_scoreboard_01 .shsCalMonth {
+        background-color: #999999;
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsCalMonth td, 
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow th {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        width: 120px;
+    }
+    .wdg_nfl_scoreboard_01 .shsCalMonthPrev {
+        width: 18px;
+    }
+    .wdg_nfl_scoreboard_01 .shsCalMonthNext {
+        width: 18px;
+    }
+    .wdg_nfl_scoreboard_01 .shsCalMonthName {
+        background-color: #999999;
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsCalDays {
+        background-color: #EEEEEE;
+        color: #000000;
+    }
+    .wdg_nfl_scoreboard_01 .shsCalDays td, 
+    .wdg_nfl_scoreboard_01 .shsCalDays th {
+        font-size: 10px;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsCalDate {
+        background-color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsCalDate td, 
+    .wdg_nfl_scoreboard_01 .shsCalDate td a:link, 
+    .wdg_nfl_scoreboard_01 .shsCalDate td a:visited, 
+    .wdg_nfl_scoreboard_01 .shsCalDate td a:hover, 
+    .wdg_nfl_scoreboard_01 .shsCalDate td a {
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsGlossaryTerm {
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 .shsGlossaryDefinition {
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsOdds .shsTable .shsHeadTable {
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 .shsWeekNav td {
+        font-size: 14px;
+    }
+    .wdg_nfl_scoreboard_01 .shsWeekNav table {
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsWeekNav-on {
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 .shsWeekNav-on a {
+        color: #000000;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsHeadline {
+        font-size: 20px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsSmallHeadline {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsHLSpacer {
+        background-color: #EFEFEF;
+        height: 1px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsSmallHL {
+        font-size: 30px;
+        vertical-align: top;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsSmallHLInfo {
+        font-size: 14px;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsHLPhoto, 
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsHLPhoto {
+        float: left;
+        margin-right: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsCollapseIcon {
+        color: #000000;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsCollapse {
+        color: #000000;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsHeadline {
+        font-size: 14px;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsSmallHeadline {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsHLSpacer {
+        background-color: #EFEFEF;
+        height: 1px;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsSmallHL {
+        font-size: 30px;
+        vertical-align: top;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsSmallHLInfo {
+        font-size: 14px;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsHLPhoto {
+        float: left;
+        margin-right: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsCollapseIcon {
+        color: #000000;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsCollapse {
+        color: #000000;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews #shsPageNav {
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsPhotoCaption {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsMoreNews .shsHeadline {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsRecentStories #shsPageNav td {
+        font-size: 10pt;
+    }
+    .wdg_nfl_scoreboard_01 .wdg_nfl_scoreboard_01 #shsBody #shsRecentStories h2 {
+        margin-bottom: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsRecentStories {
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsRecentStories ul {
+        margin-bottom: 15px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsRecentStories ul li {
+        border-bottom: 1px solid #CCCCCC;
+        list-style: square outside none;
+        margin-left: 15px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsRecentStories ul li a {
+        font-weight: normal;
+    }
+    .wdg_nfl_scoreboard_01 #shsDraftRefresh {
+        margin: auto;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsDraftNews {
+        background-color: #EFEFEF;
+        margin: 8px auto auto;
+        text-align: center;
+        width: 500px;
+    }
+    .wdg_nfl_scoreboard_01 #shsDraftNews h4 {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 30px;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsDraftNews li {
+        border-top: 1px dotted #CCCCCC;
+        list-style: disc outside none;
+        margin-left: 20px;
+        margin-right: 10px;
+        padding: 5px 0;
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard .shsTable {
+        width: 550px;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard table {
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard tr.shsTableTtlRow td {
+        border: 0 none;
+        font-size: 14px;
+        padding: 2px 4px;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard td {
+        padding: 2px;
+        text-align: left;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard td.shsTotD {
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard td.shsNumD {
+        text-align: right;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard .shsMastheadScore {
+        border: 2px solid #CCCCCC;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+        width: 30px;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard .shsTimeoutCount {
+        font-size: 11px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsMastheadScoreboard .shsLiveNav {
+        padding: 2px;
+    }
+    .wdg_nfl_scoreboard_01 #shsAwayMastheadLogo {
+        text-align: right;
+    }
+    .wdg_nfl_scoreboard_01 #shsAwayMastheadLogo img {
+        float: right;
+    }
+    .wdg_nfl_scoreboard_01 #shsHomeMastheadLogo {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsHomeMastheadLogo img {
+        float: left;
+    }
+    .wdg_nfl_scoreboard_01 .shsTimezone {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsETZone {
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsCTZone {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsMTZone {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsPTZone {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsGMTZone {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsCSTZone {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsCETZone {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsBSTZone {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsJSTZone {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerName td, td.shsPlayerName {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamName td {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamName {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav {
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        padding-top: 0;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav strong {
+        background-color: #FFFFFF;
+        margin: 0;
+        padding-bottom: 1px;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav a {
+        margin: 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav strong {
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+        color: #000000;
+        margin: 0 3px 10px;
+        padding: 2px 25px 6px;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav a {
+        background-color: #ECECEC;
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+        font-weight: bold;
+        margin: 0 3px 10px;
+        padding: 2px 25px 5px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamPageNav {
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        padding-top: 0;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamPageNav strong {
+        background-color: #FFFFFF;
+        margin: 0;
+        padding-bottom: 1px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamPageNav a {
+        margin: 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamPageNav strong {
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+        color: #000000;
+        margin: 0 3px 10px;
+        padding: 2px 25px 6px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamPageNav a {
+        background-color: #ECECEC;
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+        font-weight: bold;
+        margin: 0 3px 10px;
+        padding: 2px 25px 5px;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav .shsPlayerStatsTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav .shsPlayerSplitsTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav .shsPlayerLogsTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav .shsPlayerNewsTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerPageNav .shsPlayerFieldTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamPageNav .shsTeamStatsTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamPageNav .shsTeamLogsTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamPageNav .shsTeamSplitsTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamSchedNav {
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        padding-top: 0;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamSchedNav strong {
+        background-color: #FFFFFF;
+        margin: 0;
+        padding-bottom: 1px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamSchedNav a {
+        margin: 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamSchedNav strong {
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+        color: #000000;
+        margin: 0 3px 10px;
+        padding: 2px 5px 6px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamSchedNav a {
+        background-color: #ECECEC;
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+        font-weight: bold;
+        margin: 0 3px 10px;
+        padding: 2px 5px 5px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamSchedNav .shsTeamSchedTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamSchedNav .shsTeamSchedTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTeamSchedNav .shsTeamSchedTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 .shsTopPlayerNews {
+        padding-bottom: 10px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTopPlayerNews .shsMoreNewsItem {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsTopPlayerNews .shsNewsItem {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsMoreNewsItem td {
+        border-top: 1px solid black;
+    }
+    .wdg_nfl_scoreboard_01 .shsNewsItem td {
+        border-top: 1px solid black;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow .shsSorted {
+        background-color: #5E0B08;
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsSorted {
+        background-color: #EEEEEE;
+        color: #000000;
+    }
+    .wdg_nfl_scoreboard_01 .shsOfficialBox {
+        display: none;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsMiniRowSpacer {
+        line-height: 0;
+         height: 1px;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardSpacerCol {
+        width: 1%;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardCol {
+        vertical-align: top;
+        width: 49%;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront #shsInteractivesList {
+        padding: 0;
+        text-align: left;
+        width: 280px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront #shsInteractivesList ul {
+        padding-left: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront #shsInteractivesList h2 {
+        background-color: #005B94;
+        color: #FFFFFF;
+        display: block;
+        margin: 0;
+        text-align: center;
+        width: 280px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront #shsInteractivesList div a {
+        display: block;
+        height: 32px;
+        line-height: 32px;
+        margin: 8px 8px 0;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront #shsInteractivesList div img {
+        float: left;
+        margin-right: 5px;
+    }
+    .wdg_nfl_scoreboard_01 .shsIFBLgName {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsInjDate {
+        width: 12%;
+    }
+    .wdg_nfl_scoreboard_01 .shsInjName {
+        width: 28%;
+    }
+    .wdg_nfl_scoreboard_01 .shsInjStatus {
+        width: 60%;
+    }
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow td.shsTeamCol {
+        text-align: left;
+        width: 50%;
+    }
+    .wdg_nfl_scoreboard_01 #shsColumnists {
+        font-size: 11px;
+    }
+    .wdg_nfl_scoreboard_01 .shsWritersTable {
+        border: 3px solid #CCCCCC;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsWriterName {
+        background: none repeat scroll 0 0 #CD242B;
+        border-bottom: 2px solid #CCCCCC;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 0 1px 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsColumnists ul {
+        border-bottom: 1px solid #CCCCCC;
+        border-top: 1px solid #CCCCCC;
+        margin: 2px 0;
+        padding: 0;
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 #shsColumnists ul li {
+        border-bottom: 1px solid #CCCCCC;
+        margin: 0 0 0 18px;
+        padding: 8px 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsColumnists ul li a {
+        color: #4A73A1;
+    }
+    .wdg_nfl_scoreboard_01 .shsWritersTable form {
+        background: none repeat scroll 0 0 transparent;
+        border-bottom: 2px solid #CCCCCC;
+        border-top: 2px solid #CCCCCC;
+        height: 40px;
+        margin: 0;
+        padding: 10px 0 0;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsColumnists .shsWritersTable form select {
+        border: 2px solid #CCCCCC;
+        font-size: 11px;
+        padding: 3px;
+        width: 200px;
+    }
+    .wdg_nfl_scoreboard_01 .shsMiniCopyright {
+        padding-top: 2px;
+    }
+    .wdg_nfl_scoreboard_01 #shsCBKScoreboard .shsLeaderTtl, #shsWCBKScoreboard .shsLeaderTtl {
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsMiniCopyrightText, #shsFront .shsMiniCopyrightText {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsMiniCopyright img, #shsFront .shsMiniCopyright img {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsFront .shsFrontLeaders {
+        background-color: #CCCCCC;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamHeadlines {
+        margin-right: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsHeadlineList {
+        background: none repeat scroll 0 0 #EEEEEE;
+        border: 2px solid #005B94;
+        font-size: 9pt;
+        padding: 0;
+        text-align: left;
+        width: 280px;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsHeadlineList li {
+        margin: 0 8px;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsHeadlineList h2 {
+        background-color: #005B94;
+        color: #FFFFFF;
+        display: block;
+        line-height: 20px;
+        margin: 0;
+        text-align: center;
+        width: 280px;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages p {
+        font-size: 10pt;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages h2 {
+        line-height: 50px;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsHeadlineList, 
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsHeadlineList h2 {
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamInjury .shsPageNav {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamTrans .shsPageNav {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamTrans h2 {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsHeadlineList, 
+    #shsTeamPages .shsHeadlineList h2 {
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamName {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamSched {
+        border: 1px solid #999999;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamStandings {
+        border: 1px solid #999999;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamLeaders {
+        border: 1px solid #999999;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamTransInj {
+        border: 1px solid #999999;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamTransInj {
+        border: 1px solid #999999;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamPolls {
+        border: 1px solid #999999;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages #shsBody {
+        padding: 0;
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 .shsStorySport {
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsInset .shsStorySport {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsLinescoreSpacer {
+        width: 1%;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages div.gamedate {
+        background-color: #000000;
+        color: #FFFFFF;
+        display: none;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        padding-left: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .gamedate {
+        background: none repeat scroll 0 0 #000000;
+        color: #FFFFFF;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsMiniCopyright img, 
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsMiniCopyrightText {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages #shsBody {
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsH2HTable {
+        background-color: #CCCCCC;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody h2 {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shsIFBLgName {
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .h2PageTitle {
+        border-bottom: 2px solid #ECECEC;
+        color: #3D3D3D;
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody h2.shsTableTitle {
+        border-bottom: 1px solid #CCCCCC;
+        color: #000000;
+        font-size: 16px;
+        margin: 0 0 2px;
+        padding: 0;
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 .shsBorderTable {
+        border-left: 1px solid #CCCCCC;
+        border-top: 1px solid #CCCCCC;
+    }
+    .wdg_nfl_scoreboard_01 .shsBorderTable .shsTableTtlRow td, .shsTableTtlRow th {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .wdg_nfl_scoreboard_01 .shsBorderTable .shsTableSubttlRow td {
+    }
+    .wdg_nfl_scoreboard_01 .shsBorderTable td {
+        border-bottom: 1px solid #CCCCCC;
+        border-right: 1px solid #CCCCCC;
+        padding: 3px;
+    }
+    .wdg_nfl_scoreboard_01 .shsBorderTable th {
+        border-bottom: 1px solid #CCCCCC;
+        border-right: 1px solid #CCCCCC;
+        padding: 3px;
+    }
+    .wdg_nfl_scoreboard_01 .shsBorderTable .shsColTtlRow td {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .wdg_nfl_scoreboard_01 .shsBorderTable .shsColTtlRow td a {
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsPageLegendTable {
+        color: gray;
+        font-size: 11px;
+        margin: 0 0 10px;
+        width: 150px;
+    }
+    .wdg_nfl_scoreboard_01 .shsPageLegendTable td {
+    }
+    .wdg_nfl_scoreboard_01 .shsPageLegendTable .shsTableTtlRow td {
+        background: none repeat scroll 0 0 #CCCCCC;
+        border-color: #CCCCCC;
+    }
+    .wdg_nfl_scoreboard_01 .shsPageLegendTable .shsTotD {
+        background: none repeat scroll 0 0 #CCCCCC;
+        border-color: #9A9A9A;
+        color: #393939;
+        width: 10%;
+    }
+    .wdg_nfl_scoreboard_01 .shsPageLegendTable .shsTableTtlRow .shsTotD {
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsPageLegendTable .shsNamD {
+        background: url("../images/legend_rowTile.gif") repeat-x scroll 0 0 transparent;
+        padding: 0 0 0 10px;
+        width: 90%;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody, #shsIFBTeamstats {
+        position: relative;
+    }
+    .wdg_nfl_scoreboard_01 .shsFeatMastHead {
+        position: relative;
+    }
+    .wdg_nfl_scoreboard_01 .shsSubNav {
+        border-bottom: 2px solid #ECECEC;
+        margin: 0 2px 2px;
+        position: absolute;
+        right: 0;
+        text-align: right;
+        top: 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsSubNav a {
+        padding: 0 5px;
+    }
+    .wdg_nfl_scoreboard_01 div.shsLeaderDesc {
+        color: gray;
+        font-size: 11px;
+        font-style: normal;
+        margin: 0;
+        padding: 5px;
+    }
+    .wdg_nfl_scoreboard_01 .shsDriverInfo td {
+        vertical-align: top;
+    }
+    .wdg_nfl_scoreboard_01 .shsCarNumber {
+        border: 1px solid #CCCCCC;
+        font-size: 25px;
+        height: 50px;
+        line-height: 50px;
+        margin: 0 5px 0 0;
+        text-align: center;
+        width: 50px;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsPlayerHeadShot {
+        vertical-align: middle;
+        width: 85px;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerStatBoxTD {
+        width: 25%;
+    }
+    .wdg_nfl_scoreboard_01 #shsPlayerStatBox {
+        margin: 3px 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 #shsPlayerStatBox td {
+        font-size: 11px !important;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerMastHeaderContainer {
+        padding: 5px 0 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsTotD {
+        text-align: center !important;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerBioInfo {
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerBioInfo td {
+        font-size: 11px !important;
+    }
+    .wdg_nfl_scoreboard_01 .shsPlayerBioInfo td strong {
+        font-size: 11px !important;
+    }
+    .wdg_nfl_scoreboard_01  .shsPlayerBioInfo #shsPlayerStatBox td {
+        border-bottom: 1px solid #CCCCCC !important;
+        border-right: 1px solid #CCCCCC !important;
+        text-align: center !important;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead {
+        border-bottom: 1px solid #CCCCCC;
+        padding: 3px 0;
+        text-align: left;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead td {
+        text-align: left;
+        vertical-align: top;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsTable {
+        margin: 0;
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsTable td {
+        padding: 3px;
+        text-align: left;
+        vertical-align: top;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsPlayerHeadShot {
+        width: 85px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shsSportMastHead .shsPlayerBasicInfo {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsPlayerBasicInfo {
+        border: medium none;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsPlayerName {
+        color: #555555;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsPlayerPosition {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsPlayerBioInfo {
+        line-height: 23px;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsPlayerBioInfo td {
+        border: medium none;
+        padding: 0 15px 0 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsSportMastHead .shsPlayerBioInfo strong {
+        color: #6E6E6E;
+        font-size: 13px;
+    }
+    .wdg_nfl_scoreboard_01 .shsContentDivider {
+        border-top: 3px solid #555555;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead {
+        padding-bottom: 18px;
+        position: relative;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .h2PageTitle {
+        margin: 0 0 2px;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead #shsWeekNav {
+        font-size: 11px;
+        position: absolute;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead #shsRefreshControl {
+        font-size: 10px;
+        margin: 0 0 2px;
+        padding: 3px;
+        position: absolute;
+        right: 5px;
+        text-align: right;
+        top: 40px;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalendarDiv {
+        background: none repeat scroll 0 0 #FFFFFF;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalendar {
+        border-left: 1px solid #CCCCCC;
+        border-top: 1px solid #CCCCCC;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalendar td {
+        font-size: 10px;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalMonth td {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border-color: -moz-use-text-color #CCCCCC -moz-use-text-color -moz-use-text-color;
+        border-image: none;
+        border-style: none solid none none;
+        border-width: medium 1px medium medium;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalMonth td table td {
+        border: medium none;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalMonth td a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalDays td {
+        background: none repeat scroll 0 0 #3D3D3D;
+        border-bottom: 1px solid #CCCCCC;
+        border-right: 1px solid #636363;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalDays td.shsLast {
+        border-right: 1px solid #CCCCCC;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalDate td {
+        border-bottom: 1px solid #CCCCCC;
+        border-right: 1px solid #CCCCCC;
+    }
+    .wdg_nfl_scoreboard_01 .shsScoreboardMasthead .shsCalDays td, 
+    .wdg_nfl_scoreboard_01 .shsCalDate td {
+        padding: 2px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shsScoreboardMasthead .shsCalMonth td.shsCalMonthNext a {
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shsScoreboardMasthead .shsCalMonth td.shsCalMonthPrev a {
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 #shsCalendarComponent {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 5px;
+        text-align: right;
+        top: 11px;
+        width: 75px;
+    }
+    .wdg_nfl_scoreboard_01 #shsCalendarComponent li {
+        list-style: none outside none;
+    }
+    .wdg_nfl_scoreboard_01 #shsCalendarComponent #shsCalendarLink a.shsToggleLink {
+        background: url("http://hosted.stats.com/mlb/calendar.gif") no-repeat scroll 0 0 transparent;
+        display: block;
+        font-weight: bold;
+        height: 16px;
+        line-height: 16px;
+        padding: 0 0 0 20px;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsCalendarComponent #shsActiveCalendar {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsPageNav {
+        position: absolute;
+        right: 5px;
+        top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsTeamPages div.gamedate {
+        display: block;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav {
+        position: relative;
+        width: 525px;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav table td {
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul {
+        margin: 0;
+        padding: 0;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul li {
+        background: url("http://hosted.stats.com/fb/graphics/gradient_tile_x.gif") repeat-x scroll 0 0 transparent;
+        border: 1px solid #DDDDDD;
+        float: left;
+        font-size: 14px;
+        height: 20px;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0 !important;
+        position: relative;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul.shs_group li {
+        border-right: medium none;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul.shs_group li.shs_last {
+        border-right: 1px solid #DDDDDD;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul li a {
+        color: #545454;
+        display: inline-block;
+        height: 20px;
+        line-height: 20px;
+        padding: 0 3px;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shs_scheduleNav ul li:hover a, #shsBody .shs_scheduleNav ul li a.shs_active {
+        background: none repeat scroll 0 0 #585858;
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul li ul {
+        background: none repeat scroll 0 0 #585858;
+        display: none;
+        margin: 0;
+        padding: 0 5px;
+        position: absolute;
+        right: 0;
+        top: 20px;
+        width: 120px;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul li ul li {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background: none repeat scroll 0 0 transparent;
+        border-color: -moz-use-text-color -moz-use-text-color #DDDDDD;
+        border-image: none;
+        border-style: none none dotted;
+        border-width: medium medium 1px;
+        float: none !important;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul li:hover li a {
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul li ul li:hover a {
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul li:hover ul {
+        display: inline-block;
+    }
+    .wdg_nfl_scoreboard_01 .shsBorderTable td.shsGameLogsTD {
+        border: 0 none;
+        padding: 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsBorderTable td.shsGameLogsTD table {
+        border: 0 none;
+    }
+    .wdg_nfl_scoreboard_01 .shsYearNav {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 .shsHeaderNav {
+        background: none repeat scroll 0 0 #EFEFEF;
+        border-bottom: 2px solid #CCCCCC;
+        border-top: 2px solid #CCCCCC;
+        padding: 3px 5px;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsAPStory {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsAPStory p.shsHeadline {
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        padding-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsAPStory p {
+        line-height: 18px;
+        margin: 5px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsAPStory div#shsByTitle {
+        margin-left: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsRecap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsRecap p.shsHeadline {
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        padding-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsRecap p {
+        line-height: 18px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsRecap div#shsByTitle {
+        margin-left: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsPreview {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsPreview p.shsHeadline {
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        padding-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsPreview p {
+        line-height: 18px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsPreview div#shsByTitle {
+        margin-left: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFantasyStory {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsFantasyStory p.shsHeadline {
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        padding-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsFantasyStory p {
+        line-height: 18px;
+        margin: 5px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFantasyStory div#shsByTitle {
+        margin-left: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFantasyStory #shsInset .shsHeadlineList h2 {
+        border-bottom: 1px dotted #CCCCCC;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 #shsFeatureStory {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsFeatureStory p.shsHeadline {
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        padding-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsFeatureStory p {
+        line-height: 18px;
+        margin: 5px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFeatureStory div#shsByTitle {
+        margin-left: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFeatureStory #shsInset .shsHeadlineList h2 {
+        border-bottom: 1px dotted #CCCCCC;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset {
+        width: 275px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsHeadlineList {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #CCCCCC;
+        margin: 0;
+        padding: 0;
+        width: 275px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsHeadlineList ul {
+        margin: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsHeadlineList ul li {
+        background: url("http://hosted.stats.com/images/document_text.gif") no-repeat scroll 0 5px transparent;
+        border-bottom: 1px dotted #CCCCCC;
+        color: #000000;
+        display: block;
+        font-size: 11px;
+        margin: 0;
+        padding: 5px 5px 5px 20px;
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsInset .shsHeadlineList ul li a {
+        color: #000000;
+        font-size: 14px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shsStoryPhoto {
+        width: 275px;
+    }
+    .wdg_nfl_scoreboard_01 #shsSecondHalfHeadlines {
+        float: right;
+        width: 46%;
+    }
+    .wdg_nfl_scoreboard_01 #shsFirstHalfHeadlines {
+        float: left;
+        width: 46%;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontLeaders td {
+        line-height: 17px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews td, #shsFront li {
+        font-size: 11px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontPhoto {
+        clear: right;
+        display: inline;
+        float: left;
+        margin: 5px;
+        text-align: center;
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontPhoto img {
+        border: 2px solid #CCCCCC;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews p {
+        font-size: 14px;
+    }
+    #shsFrontNews p.shsHeadline {
+        border-bottom: 1px solid #CCCCCC;
+        font-size: 21px !important;
+        font-weight: bold;
+        margin: 0 0 10px;
+        padding-bottom: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews p.shsSmallHeadline {
+        border-bottom: 1px solid #CCCCCC;
+        font-size: 18px !important;
+        font-weight: bold;
+        margin: 0 0 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody .shsSmallHL p {
+        border-bottom: 1px solid #CCCCCC;
+        font-size: 16px !important;
+        font-weight: bold;
+        margin: 0 0 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews p.shsParagraph0 {
+        margin-bottom: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews p.shsParagraph1 {
+        margin-bottom: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews p.shsParagraph2 {
+        margin-bottom: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews p.shsParagraph3 {
+        margin-bottom: 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsHeadlineList {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 0 solid #CCCCCC;
+        margin-bottom: 10px;
+        padding: 0;
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsHeadlineList h2 {
+        background: none repeat scroll 0 0 transparent;
+        border-bottom: 2px solid #CCCCCC;
+        border-top: 2px solid #CCCCCC;
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        height: 25px;
+        letter-spacing: 0;
+        line-height: 25px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsHeadlineList ul {
+        margin: 0 !important;
+        padding: 0 0 10px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsHeadlineList ul li {
+        background: url("http://hosted.stats.com/images/document_text.gif") no-repeat scroll 0 5px transparent;
+        border-bottom: 1px dotted #CCCCCC;
+        color: #000000;
+        display: block;
+        font-size: 11px;
+        margin: 0;
+        padding: 2px 5px 2px 15px;
+        width: auto;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsHeadlineList ul li a {
+        color: #000000;
+        font-size: 11px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsHeadlineList ul li.shsBlankLI {
+        background: none repeat scroll 0 0 transparent;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontStoryTable {
+        margin-right: 8px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontStoryTable p {
+        line-height: 15px;
+        text-align: right;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontStoryTable p.shsHeadline {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontStoryTable p.shsParagraph1 {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontStoryTable p.shsParagraph2 {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontStoryTable p.shsParagraph3 {
+        text-align: left;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsMoreNews {
+        border-bottom: 2px solid #CCCCCC;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsBot5 {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsFrontPhoto img {
+        max-width: 250px;
+    }
+    .wdg_nfl_scoreboard_01 #shsFrontNews .shsTableTtlRow td a {
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsCurrentDay {
+        background: none repeat scroll 0 0 #CCCCCC;
+        color: #000000;
+        font-weight: bold;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamHeadlines .shsHeadlineList {
+        border: 1px solid #999999;
+        margin: 0;
+        padding: 0;
+        width: 99.5%;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamHeadlines .shsHeadlineList li {
+        font-size: 14px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamHeadlines {
+        margin: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsLinescore {
+        margin-bottom: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamSched {
+        margin-right: 0;
+        margin-top: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamSched .shsMoreResults {
+        display: none;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamStandings {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamLeaders {
+        margin-right: 0;
+        margin-top: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamTransInj {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamPolls {
+        margin-right: 0;
+        margin-top: 5px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamScoreboard {
+        margin-top: 0;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamPageLeft {
+        padding-right: 2px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTeamPageRight {
+        padding-left: 1px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPollsLeft {
+        padding-right: 1px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPollsRight {
+        padding-left: 1px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsShopAd div.shsSmallShopAd {
+        border: 1px solid #999999;
+        margin-top: 5px;
+        width: 99.5%;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTixAd {
+        background: url("/multisport/graphics/tickets.jpg") no-repeat scroll 0 0 transparent;
+        height: 90px;
+        margin: 5px auto;
+        width: 300px;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTixAdText {
+        font-size: 11px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 #shsBody #shsTeamPages .shsTeamPageTable .shsTixAdText div {
+        line-height: 17px;
+    }
+    .wdg_nfl_scoreboard_01 .shsPreDraft .shsTable td.shsTotD {
+        border: 1px solid #999999;
+        font-size: 15px !important;
+        font-weight: bold;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsPreDraft .shsTable td span.shsPreDraftLabel {
+        color: #FF0000;
+    }
+    .wdg_nfl_scoreboard_01 #shsMiniBody #shsSecondHalfHeadlines {
+        float: none;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 #shsMiniBody #shsFirstHalfHeadlines {
+        float: none;
+        width: 100%;
+    }
+    .wdg_nfl_scoreboard_01 .shsMiniTeamScores {
+        border: 1px solid #E5E5E5;
+    }
+    .wdg_nfl_scoreboard_01 .shsMiniTeamScores .shsColTtlRow .shsActive {
+        background-color: #363636;
+        color: #FFFFFF;
+    }
+    .wdg_nfl_scoreboard_01 .shsMiniTeamScores td {
+        border-right: 1px solid #E5E5E5;
+        vertical-align: top;
+    }
+    .wdg_nfl_scoreboard_01 .shsMiniTeamScores td.pos5 {
+        border-right: 0 none;
+    }
+    .wdg_nfl_scoreboard_01 .shsTDWidgetNav {
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        padding-top: 0;
+        text-align: center;
+    }
+    .wdg_nfl_scoreboard_01 .shsTDWidgetNav strong {
+        background-color: #FFFFFF;
+        margin: 0;
+        padding-bottom: 1px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTDWidgetNav a {
+        margin: 0;
+    }
+    .wdg_nfl_scoreboard_01 .shsTDWidgetNav strong {
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+        color: #000000;
+        margin: 0 3px 10px;
+        padding: 2px 25px 6px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTDWidgetNav a {
+        background-color: #ECECEC;
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+        font-weight: bold;
+        margin: 0 3px 10px;
+        padding: 2px 25px 5px;
+    }
+    .wdg_nfl_scoreboard_01 .shsTDWidgetNav .shsTDWidgetNavTab {
+        border-bottom: 0 none;
+        display: inline;
+    }
+    .wdg_nfl_scoreboard_01 #shsNavTable th {display: none}
+    .wdg_nfl_scoreboard_01 #shsNavTable {width: auto; padding: 3px 0px; background-color: #fff; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; text-align: right}
+    .wdg_nfl_scoreboard_01 #shsNavTable td,
+    .wdg_nfl_scoreboard_01 #shsNavTable td a, 
+    .wdg_nfl_scoreboard_01 #shsNavTable td a:link,
+    .wdg_nfl_scoreboard_01 #shsNavTable td a:visited,
+    .wdg_nfl_scoreboard_01 #shsNavTable td a:active
+    {text-decoration: none; color: #000; font-weight: bold}
+    .wdg_nfl_scoreboard_01 #shsNavTable td a:hover
+    { color: #000; text-decoration: underline}
+
+    .wdg_nfl_scoreboard_01 .shsHomeLink {display: inline-block; visibility: visible}
+
+    .wdg_nfl_scoreboard_01 #shsWeekNav {padding: 0px; margin: 0px}
+
+    .wdg_nfl_scoreboard_01 .shsCopyrightText {width: 915px; background-color: #fff}
+
+    .wdg_nfl_scoreboard_01 #shsRefreshControl {padding-right: 15px !important; font-weight: bold; padding: 0px; margin: 0px}
+    .wdg_nfl_scoreboard_01 #shsRefreshControl a {font-weight: normal}
+
+    .wdg_nfl_scoreboard_01 #shsScoreboard br {display: none}
+
+    .wdg_nfl_scoreboard_01 #shsBody {width: 915px; padding: 0px 0px; background-color: #fff; }
+    .wdg_nfl_scoreboard_01 #shsBody h2 {display: none}
+
+    .wdg_nfl_scoreboard_01 #shsBody a {color: #000; text-decoration: none}
+    .wdg_nfl_scoreboard_01 #shsBody a:hover {color: #000; text-decoration: underline}
+
+    .wdg_nfl_scoreboard_01 .shsLinescore td {line-height: 20px; background-color: #e5e5e5}
+    .wdg_nfl_scoreboard_01 .shsSeasonLeaders td, .shsGameLeaders td {background-color: #fff; line-height: 16px}
+    .wdg_nfl_scoreboard_01 .shsTableTtlRow td {background-color: #A70A0B; color: #fff; font-size: 15px; line-height: 20px}
+    .wdg_nfl_scoreboard_01 #shsBody td.shsLeaderTtl {font-size: 11px; padding-left: 7px }
+    .wdg_nfl_scoreboard_01 .shsLeaderCat {color: #676767; font-weight: bold}
+    .wdg_nfl_scoreboard_01 .shsSeriesStatus td {background-color: #ccc; color: #000}
+    .wdg_nfl_scoreboard_01 .shsRow0Row td{
+        background-color: #e5e5e5;
+        background-color: #EEEEEE;
+        background: none repeat scroll 0 0 #FFFFFF;
+        box-shadow: 0 2px 14px #E9E9E9 inset;
+        font-size: 12px;
+        list-style-type: none;
+        text-shadow: 2px 1px 0 #FFFFFF;
+        vertical-align: middle;
+    }
+    .wdg_nfl_scoreboard_01 .shsRow1Row td {background-color: #fff}
+
+    .wdg_nfl_scoreboard_01 .shsCalMonth, 
+    .wdg_nfl_scoreboard_01 .shsCalMonthName {background-color: #650f02; color: #fff; font-size: 11px !important}
+    .wdg_nfl_scoreboard_01 .shsCalDays td {background-color: #ccc}
+    .wdg_nfl_scoreboard_01 #shsTeamPages .shsTeamHeadlines .shsHeadlineList {display: none}
+
+    .wdg_nfl_scoreboard_01 #shsIFBStandings .shsNumD {text-align: center}
+    .wdg_nfl_scoreboard_01 #shsMLBstandings .shsNumD {text-align: center}
+    .wdg_nfl_scoreboard_01 #shsMLBTeamReports .shsNumD {text-align: center}
+    .wdg_nfl_scoreboard_01 #shsIFBTeamstats .shsNumD {text-align: center}
+    .wdg_nfl_scoreboard_01 #shsPlayers .shsNumD {text-align: center}
+    .wdg_nfl_scoreboard_01 #shsNBAPlayerStats .shsNumD, 
+    .wdg_nfl_scoreboard_01 #shsNFLPlayerStats .shsNumD, #shsMLBPlayerStats .shsNumD, 
+    .wdg_nfl_scoreboard_01 .wdg_nfl_scoreboard_01 #shsNBALeaders .shsNumD, 
+    .wdg_nfl_scoreboard_01 #shsNFLLeaders .shsNumD, 
+    .wdg_nfl_scoreboard_01 #shsMLBLeaders .shsNumD,
+    .wdg_nfl_scoreboard_01 #shsIFBRosters .shsNumD, 
+    .wdg_nfl_scoreboard_01 #shsIFBPlayer .shsNumD
+    {text-align: center}
+
+    .wdg_nfl_scoreboard_01 #shsBody .shs3Stars {background-color: #fff}
+    .wdg_nfl_scoreboard_01 #shsBody .shsLiveNav {background-color: #fff}
+    .wdg_nfl_scoreboard_01 #shsBody .shsGameDetails table td {background-color: #fff}
+    .wdg_nfl_scoreboard_01 #shsBody .shsScoreSpacer, 
+    .wdg_nfl_scoreboard_01 #shsBody .shsGamePitchers td, 
+    .wdg_nfl_scoreboard_01 #shsBody .shsGameHomeRuns td, 
+    .wdg_nfl_scoreboard_01 #shsBody .shsGameDetails, 
+    .wdg_nfl_scoreboard_01 #shsBody .shsHomeStarter, 
+    .wdg_nfl_scoreboard_01 #shsBody .shsAwayStarter {background-color: #fff}
+    .wdg_nfl_scoreboard_01 #shsBody .shsGameLeaders, 
+    .wdg_nfl_scoreboard_01 #shsBody .shsSeasonLeaders {background-color: #fff}
+
+    .wdg_nfl_scoreboard_01 .shsTeamStory {display: none}
+    .wdg_nfl_scoreboard_01 .shsTeamSet { width: 100% !important;}
+
+    .wdg_nfl_scoreboard_01 #shsFront .shsHeadlineList h2 {background-color: #650f02}
+    .wdg_nfl_scoreboard_01 #shsFront .shsHeadlineList {border: 1px solid #650f02}
+    .wdg_nfl_scoreboard_01 #shsBody .shsTableTtlRow td a {color: #fff}
+
+
+    .wdg_nfl_scoreboard_01 .headerLogoBlock {width: 150px; padding-top: 10px}
+    .wdg_nfl_scoreboard_01 .headerTextBlock .textBlockRow1 {font-size: 35px; color: #000}
+    .wdg_nfl_scoreboard_01 .headerTextBlock .textBlockRow2 {font-size: 23px; color: #666}
+    .wdg_nfl_scoreboard_01 .headerAdBlock {width: 468px; }
+    /*
+    .headerVideoBlock {padding-top: 10px; font-family: Arial; font-weight: bold; color: #990000; font-size: 20px}
+    .headerSeasonBlock {color: #939393; font-family: arial; font-weight: bold; text-align: right; font-size: 20px}
+    .headerSeasonBlock span {color: #000;}
+    */
+    .headerVideoBlock {padding-top: 10px; font-weight: bold; color: #990000; font-size: 20px}
+    .headerSeasonBlock {color: #990000; font-weight: bold; text-align: right; font-size: 20px}
+    .headerSeasonBlock span {color: #9900000;}
+
+    .wdg_nfl_scoreboard_01 .shsTeamPageHeader  .shsHeaderNav {font-size: 14px;}
+
+
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul li:hover a,
+    .wdg_nfl_scoreboard_01 .shs_scheduleNav ul li a.shs_active {
+        color: #fff !important;
+    }
+
+    .wdg_nfl_scoreboard_01 #content ul, 
+    .wdg_nfl_scoreboard_01 .content ul {
+        width : auto;
+        text-align : right;
+    }
+
+    .wdg_nfl_scoreboard_01 #shsBody h2 {
+    display:block;
+    }
+
+    /******************************************MULTIDEFAULT*************************************************/
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard { width: 185px; }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard { 
+        font-size: 14px; vertical-align: top;
+    }
+
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTable td, 
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTable th { font-size: 10px; }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTableTtlRow td,
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTableTtlRow th { font-size: 14px; height: 25px; }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTableSubttlRow td, 
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTableSubttlRow td { font-size: 11px; }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTableBowlttlRow td, 
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTableBowlttlRow td { font-size: 11px; }
+
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .teamRank { font-variant: small-caps; display: inline }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .teamName { font-weight: normal; display: inline }
+    .wdg_nfl_scoreboard_01 #shsBody .teamRank { font-variant: small-caps; display: inline }
+    .wdg_nfl_scoreboard_01 #shsBody .teamName { font-weight: normal; display: inline }
+
+
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsMiniStatus { text-align: right;padding-right: 7px !important; }
+
+    .wdg_nfl_scoreboard_01 #shsFront #shsMultisportScoreboard .shsMiniCopyright, 
+    .wdg_nfl_scoreboard_01 #shsFrontNews #shsMultisportScoreboard .shsMiniCopyright,
+    .wdg_nfl_scoreboard_01 #shsMoreNews #shsMultisportScoreboard .shsMiniCopyright
+        { display: none }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsMiniCopyright { float: left; display: inline }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsMiniCopyrightText { font-size: 9px; text-align: right }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsMiniSportSpacer { height: 5px }
+
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .Spanish { display: none }
+
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsMiniStatus { width: 20% }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsMiniTeamScore { width: 10% }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsMiniTeamName { width: 70% }
+
+
+    /*.wdg_nfl_scoreboard_01 #shsMultisportScoreboard tr.shsMiniRowSpacer td { height: 1px; background-color: #cccccc }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard td.shsMiniColSpacer { width: 1px; background-color: #cccccc }
+*/
+
+    .wdg_nfl_scoreboard_01 #shsWidgets .shsLiveNav,
+    .wdg_nfl_scoreboard_01 #shsWidgets .shsGameHomeRuns, 
+    .wdg_nfl_scoreboard_01 #shsWidgets .shsGamePitchers, 
+    .wdg_nfl_scoreboard_01 #shsWidgets .shsScoreSpacer
+       {background-color: #FFFFFF}
+
+    .wdg_nfl_scoreboard_01 #shsTeamScoreboards td.gamedate { display: none }
+     
+    .wdg_nfl_scoreboard_01 #shsWidgets td {font-size: 11px}
+
+    .wdg_nfl_scoreboard_01 .shsMatchDayRow {display: none}
+
+    .wdg_nfl_scoreboard_01 .shsMiniCopyright img {float: left; margin-top: 7px; margin-right: 7px}
+    .wdg_nfl_scoreboard_01 .shsMiniCopyrightText {color: #999; font-size: 10px}
+
+    /*PROTECTION INDEX STYLES*/
+    .wdg_nfl_scoreboard_01 .shsNYLPIWidget {width: 300px !important}
+    .wdg_nfl_scoreboard_01 .shsNYLPIWidget .shsTableSubttlRow td {background: #0079c2 !important; color: #fff  !important}
+    .wdg_nfl_scoreboard_01 .shsNYLPIWidget .shsColTtlRow td {background: #0079c2 !important; color: #fff !important}
+    .wdg_nfl_scoreboard_01 .shsNYLPIWidget a {color: #0079c2 !important; text-decoration: none !important}
+    .wdg_nfl_scoreboard_01 .shsNYLPIWidget a:hover {text-decoration: underline !important}
+
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsDraftScoreboard .wdg_nfl_scoreboard_01 .shsLogo {display: inline}
+
+    /*************************************************MULTI***********************************************/
+
+
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard {width: 100%}
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTable td {font-size: 14px;  padding: 0 7px; }
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard td a {color: #000; text-decoration: none}
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard td a:hover {color: #000; text-decoration: underline}
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTableTtlRow td a {color: #fff; text-decoration: none}
+    .wdg_nfl_scoreboard_01 #shsMultisportScoreboard .shsTableTtlRow td a:hover {color: #fff; text-decoration: underline}
+    .wdg_nfl_scoreboard_01 .shsSubSectionRow {height: 23px;}
+    .wdg_nfl_scoreboard_01 #shsMiniStats td a {color: #000; text-decoration: none}
+    .wdg_nfl_scoreboard_01 #shsMiniStats td a:hover {color: #000; text-decoration: underline}
+
+    .wdg_nfl_scoreboard_01 .shsMiniCopyright_leaders, 
+    .wdg_nfl_scoreboard_01 .shsMiniCopyright_standings {display: none}
+
+     
+    .wdg_nfl_scoreboard_01 .shsMiniStatus{
+        background: none repeat scroll 0 0 #FFFFFF;
+        box-shadow: 0 2px 14px #E9E9E9 inset;
+        list-style-type: none;
+        vertical-align: middle;
+        font-size: 12px !important;
+        padding: 5px 10px !important;
+    }
+
+    .wdg_nfl_scoreboard_01 .shsNamD {
+        background-color: #FFFFFF;
+        font-size: 12px !important;
+        padding: 5px 7px !important;
+    }
+    .wdg_nfl_scoreboard_01 .shsTotD{
+        color: #D9A961;
+        background-color: #FFFFFF;
+        font-size: 14px;
+        padding: 5px 0 !important;
+    }
+}

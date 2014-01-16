@@ -1,0 +1,136 @@
+@media screen and (min-width: 948px){
+    .wdg_mostrated_02{
+        width: 300px;
+        display: block;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options ul li{
+        width: 33%;
+        height: 70px;
+        float: left;
+        margin-bottom: 5px;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options ul li > div{
+        height: 65px;
+    }
+
+    .wdg_mostrated_02 .wdg_mostrated_02_options ul li div div a span{
+        float: left;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options ul li div div a p{
+        float: left;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options ul li:nth-child(3) > div{
+        border-right: none; 
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options ul li:nth-child(6) > div{
+        border-right: none; 
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options ul li:nth-child(9) > div{
+        border-right: none; 
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options ul li:nth-child(12) > div{
+        border-right: none; 
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options ul li:nth-last-child(-n+3){
+        border-bottom: none; 
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_teams > div{
+        float: left;
+        width: 50%;
+
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_teams > div a p{
+        line-height: 32px;
+        text-align: center;
+        height: 32px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options{
+        clear: both;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_teams > div a p{
+        background-color: #e8e8e8;
+        box-shadow: inset 0 0 10px #ddd;
+        color: #a2a2a2;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_teams > div.selected a p{
+        background-color: #D9A961;
+        box-shadow: none;
+        color: #ffffff;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_teams > div.selected .wdg_mostrated_02_arrow{
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        /*position: absolute;*/
+        border: 10px solid transparent;
+        border-top-color: #D9A961;
+        /*display: none;*/
+        display: block;
+        bottom: -20px;
+        /*left: 45%;*/
+        margin: 0 auto;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_input{
+        clear: both;
+        width: 100%;
+        height: 32px;
+        border-top: 1px solid #d3d3d3;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_input .wdg_mostrated_02_submitbutton{
+        color: #ffffff;
+        /*background-color: #D6A256;*/
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        width: 92px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        float: right;
+        cursor: pointer;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options > ul{
+        display: none;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options > ul.selected{
+        display: block;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options > ul li div{
+        margin-left: 5px;
+        /*margin-right: 5px;*/
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options > ul li .wdg_mostrated_02_item{
+        margin-left: 5px;
+        /*margin-right: 5px;*/
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options > ul li .wdg_mostrated_02_itema a{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options > ul li .wdg_mostrated_02_itemb a{
+        font-size: 12px;
+    }
+    .wdg_mostrated_02 .wdg_mostrated_02_options > ul li .wdg_mostrated_02_itema span{
+        /*color: #D6A256;*/
+        margin-right: 5px;
+    }
+    .ie8 .wdg_mostrated_02_item.noborder_right{
+        border-right: none;
+
+    }
+    .ie7 .wdg_mostrated_02_item.noborder_right{
+        border-right: none;
+
+    }
+
+    .ie8 .noborder_bottom{
+        border-bottom: none !important;
+    }
+    .ie7 .noborder_bottom{
+        border-bottom: none !important;
+
+    }
+
+}

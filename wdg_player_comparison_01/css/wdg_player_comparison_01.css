@@ -1,0 +1,36 @@
+@media screen and (min-width: 948px){
+
+	.wdg_player_comparison_01 div.opta-widget-container table tbody .player_left{
+		/*background: url(../img/dotted-vertical.png) repeat-y;
+		background-position: left;
+	    float: right;
+	    height: 24px;
+	    margin: 5px 0;
+	    padding-left: 5px;*/
+	}
+	.wdg_player_comparison_01 div.opta-widget-container table tbody .player_right{
+		/*background: url(../img/dotted-vertical.png) repeat-y;
+		background-position: right;
+	    float: left;
+	    height: 24px;
+	    margin: 5px 0;
+	    padding-right: 5px;*/
+	}
+	.ie7 .wdg_player_comparison_01 div.opta-widget-container table tbody .player_left{
+	    float: none;
+	    height: 0;
+	    margin-top: -20px;
+	    padding-top: -20px;
+	}
+	.ie7 .wdg_player_comparison_01 div.opta-widget-container table tbody .player_right{
+	   	float: none;
+	    height: 0;
+	    margin-top: -20px;
+	    padding-top: -20px;
+	}
+
+}
+
+	.ie7 .wdg_player_comparison_01 div.opta-widget-container table tbody tr td {
+		border:none !important;
+	}

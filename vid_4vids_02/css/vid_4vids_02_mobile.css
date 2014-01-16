@@ -1,0 +1,310 @@
+@media screen {
+	.vid_4vids_02{
+		height:320px;
+		overflow:hidden;
+        margin-bottom: 30px;
+	}
+    .vid_4vids_02_title {
+        width: 100%;
+        border-bottom: none;
+        zoom: 1;
+    }
+    .vid_4vids_02_title:before,
+    .vid_4vids_02_title:after {
+        content: "";
+        display: table;
+    }
+    .vid_4vids_02_title:after {
+        clear: both;
+    }
+    .vid_4vids_02_title h3 {
+        width: 100%;
+        font-size: 0.85em;
+        float: left;
+        text-align: left;
+        line-height: 32px;
+        height: 40px;
+    }
+    .vid_4vids_02_title h3 a {
+        text-decoration: none;
+        color: #fff;
+        height: 40px;
+		line-height:40px;
+        display: block;
+        margin-left:24px;
+        /*background: url(../img/mobile-arrow-sprites.png) no-repeat 98% 0.35em;*/
+        background-size: 12px 20px;
+        background-position: right 2px\9;
+        *background-position: right 2px; 
+        
+    }
+    /*START: carouseltype1a (Small)*/
+
+    .vid_4vids_02 .wdg_mix_carrousa div {
+        float: left;
+		height:auto;
+		overflow:hidden;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:first-child {
+        /*border-bottom: 1px solid #CCC;*/
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div ul {
+        width: 60px;
+        margin: 0;
+        float: right;
+        margin-bottom: 5px;
+        /*padding-bottom: 0.5em;*/
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div ul li {
+        width: auto;
+        height: auto;
+        float: left;
+        margin: 0;        
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div ul li a {
+        width: 0.95em;
+        height: 0.563em;
+        display: none;
+        padding: 0;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div ul li:first-child {
+        margin: 5px 16px 0 0;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div ul li:last-child {
+        /*border-left: 1px dotted #666;*/
+        padding-left: 0.8em;
+    }
+    
+    .vid_4vids_02 .wdg_mix_carrousa.showArrows div:first-child h1 {
+        width: 50%;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa.showArrows div:first-child h1 a span.icon {
+        display: none;
+    }
+    /*.vid_4vids_02 .wdg_mix_carrousa.showArrows div:first-child ul li a {
+        display: block;
+    }*/
+
+
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul:before,
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul:after {
+        content: "";
+        display: table;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul:after {
+        clear: both;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child h2 a {
+        background: none;
+        width: auto;
+        height: auto;
+        font-size:14px;
+        margin-top: 10px;
+        letter-spacing: -0.5px;
+		padding-left: 15px;
+    }
+	
+	.vid_4vids_02 .wdg_mix_carrousa a {
+		float:left;
+	}
+
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul li a {
+        width: 136px;
+        height: 76px;
+        margin-bottom: 11px;
+        background: none;
+        display: block;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul li a img {
+        width: 136px;
+        height: 106px;
+        background-color: #666;
+    }
+
+
+    /*.vid_4vids_02 .wdg_mix_carrousa div:last-child.iOS {
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: -15px;
+        overflow-y: hidden;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child.iOS ul {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }*/
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul {
+        float: none;
+        margin: 0;
+        zoom: 1;
+        margin-top: 1.563em;
+        *margin-top: 0px;
+        width: 100%;
+        /*--se agrego--*/
+        height:150px;
+    }
+
+    .vid_4vids_02 .wdg_mix_carrousa div ul li:last-child {
+        border-left: 1px dotted #666666;
+		float: left;
+		margin-top: 11px;
+		padding-left: 10px;
+		height: 9px;
+
+    }
+	.vid_4vids_02 .wdg_mix_carrousa div ul li:last-child a{
+		margin-top: -7px;
+	}
+    .vid_4vids_02 .wdg_mix_carrousa {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa .general {
+        width: 100%;
+		height:100%;
+        overflow: hidden;
+    }
+
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul li {
+        display: block;
+        float: left;
+        margin: 0 0 0 0	0px;        
+        width: 450px;   /*-- Se cambio --*/
+        height: auto;
+        padding: 0;
+        overflow: hidden;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul li:first-child {
+        margin: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul li p {
+        font-style: italic;
+        color: #666;
+        font-size: 0.9em;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child h2 {
+        padding-top: 0px;
+        font-size: 1.1em;
+        line-height: 1em;
+        margin-bottom: 14px;
+       /* width: 136px;*/
+        height: 45px;
+        overflow: hidden;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul li a img {
+        width: 136px;
+        height: 76px;
+    }
+    .vid_4vids_02 .wdg_mix_carrousa div:last-child ul li:last-child {
+        border: none;
+        margin-right: 0px;
+        width: 450px;
+    }
+    .vid_4vids_02 .bullets{
+        display: block;
+        width: 100%;
+        border-top: 1px solid #CCC;
+        margin-bottom: 40px;
+    }
+
+    .vid_4vids_02 .bullets ul{
+
+        width:130px; /*se cambio de 110*/
+        float: right;
+        margin-top:5px;
+    }
+
+    .vid_4vids_02 .bullets ul li{
+
+        width:15px;
+        height: 15px;
+        background-color:#CCC;
+        margin-left: 5px;
+        float:left;
+    }
+
+    .vid_4vids_02 .bullets ul li.selected{
+
+        background-color:#A70A0B;
+    }
+    /* END: carouseltype1c (Small) */
+    
+    /*se agrego la clase*/
+    .vid_4vids_02 .wdg_mix_carrousa div ul li div:last-child{
+    	width: 150px;
+    }
+    /*Se agrego la clase*/
+    .vid_4vids_02 .wdg_mix_carrousa div ul li div {
+        width: 150px;
+    }
+	.vid_4vids_02 .izq {
+		width:100%;
+		float:left;
+		position:relative;
+    }
+	.vid_4vids_02 .izq1 {
+		width:100%;
+		float:left;
+    }
+	.vid_4vids_02 a img {
+		padding-right:15px;
+		border-right: 1px solid #CCCCCC;
+	}
+   	.vid_4vids_02 .vid_4vids_02_verMas{
+        background-color: #CCCCCC;
+        display: block;
+		position:absolute;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+    	width: 100%;
+    }
+	.vid_4vids_02 .see_less{
+		display: none;
+        background-color: #CCCCCC;
+		position:absolute;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+    	width: 100%;
+    }
+	.vid_4vids_02 .overlay{
+		display:block;
+		color:#FFF;
+		position:absolute;
+		margin-top:54px !important;
+		background-color: #A41D21;
+		height: 55px;
+		opacity: 0.75;
+		position: absolute;
+		padding-left:8px;
+		width: 18px;
+	}
+	.vid_4vids_02 .arrows{
+        display:none;
+    }
+	.vid_4vids_02 .carrusel-sizes div:first-child{
+		margin-top:12px;
+	}
+	.vid_4vids_02 .carrusel-sizes > div{
+		margin-bottom:9px;
+	}
+	/*Mostrar solo los primeros 3 en movil*/
+    .vid_4vids_02 .carrusel-sizes > div{
+        display:none;
+    }
+    .vid_4vids_02 .carrusel-sizes > div:nth-child(-n+3) {
+        display:block;
+    }
+    .vid_4vids_02 .inactive{
+        color:#BABABA;
+    }
+}

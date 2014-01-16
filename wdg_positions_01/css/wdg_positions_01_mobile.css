@@ -1,0 +1,191 @@
+@media screen {
+	.wdg_positions_01 {
+		display: block;
+		position: relative;
+		width: 100%;
+		overflow:hidden;
+	}
+	.wdg_positions_01 .titulo .ancho {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.wdg_positions_01 table {
+		border-spacing: 0px;
+		width: 100%;
+	}
+	.ie7 .wdg_positions_01 table {
+		border-collapse: collapse;
+	}
+	.wdg_positions_01 td {
+		border-bottom: 1px solid #CCC;
+	}
+	.wdg_positions_01 .izq {
+		font-size: 14px;
+		width: 55px;
+		font-weight: bold;
+		line-height: 52px;
+		text-align: center;
+	}
+	.ie7 .wdg_positions_01 .izq {
+		width: 30px;
+	}
+	.wdg_positions_01 .team1 {
+		font-size: 14px;
+		width: auto;
+		font-weight: bold;
+		line-height: 52px;
+		text-align: left;
+		padding-left: 8px;
+		padding-right: 10px;
+	}
+	.wdg_positions_01 .team {
+		font-size: 14px;
+		width: auto;
+		font-weight: bold;
+		line-height: 52px;
+		text-align: left;
+		padding-left: 8px;
+		padding-right: 5px;
+	}
+	.ie7 .wdg_positions_01 .team {
+		width: 55px;
+		padding-right: 0px;
+	}
+	.wdg_positions_01 .der {
+		text-align: center;
+		vertical-align: middle;
+		width: 45px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.ie7 .wdg_positions_01 .der {
+		width: 30px;
+	}
+	.wdg_positions_01 .datos .fondo {
+		font-weight: bold;
+		background-clip: border-box;
+		background-color: #E4E4E4 !important;
+		background-image: none;
+		background-origin: padding-box;
+		box-shadow: 0 4px 14px #CBCBCB inset;
+	}
+	.wdg_positions_01 .scroll {
+		overflow: auto;
+		width: 104%;
+		height: 215px;
+		overflow-x: hidden;
+	}
+	.wdg_positions_01 div.str_pleca_01 {
+		margin-bottom: 5px;
+	}
+	/*Para el carousel*/
+	.wdg_positions_01 .carousel_nav {
+		display: none;
+	}
+	.wdg_positions_01 .prev {
+		float: left;
+		z-index: 2;
+		top: 545px;
+		background: none repeat scroll 0 0 #AAAAAA;
+		display: block;
+		height: 28px;
+		line-height: 28px;
+		width: 29px;
+		text-align: center;
+	}
+	.wdg_positions_01 .next {
+		margin-left: 3px;
+		float: left;
+		z-index: 2;
+		top: 545px;
+		background: none repeat scroll 0 0 #AAAAAA;
+		display: block;
+		height: 28px;
+		line-height: 28px;
+		width: 29px;
+		text-align: center;
+		color: #fff;
+	}
+	.wdg_positions_01 .ver_todos {
+		margin-left: 70px;
+		top: 545px;
+		border: none;
+		width: 230px;
+		height: 28px;
+		font-weight: bold;
+		font-size: 14px;
+		background-clip: border-box;
+		background-color: #E4E4E4 !important;
+		background-image: none;
+		background-origin: padding-box;
+		box-shadow: 0 4px 14px #CBCBCB inset;
+	}
+	.wdg_positions_01 .empty {
+		width:auto;
+	}
+	.wdg_positions_01 .ver_todos_tablet {
+		font-weight: bold;
+		text-align: center;
+		vertical-align: central;
+		height: 46px;
+		float: right;
+		width: 100%;
+	}
+	.wdg_positions_01 .ver_todos_tablet td{
+		border-bottom:none;
+	}
+	.wdg_positions_01 .ver_todos_tablet .sin_base {
+		border-bottom: none;
+		font-style: normal;
+		font-size: 14px;
+		width:100%;
+	}
+	.wdg_positions_01 .ver_todos_tablet .sin_base a {
+		border-bottom: none;
+	}
+	.wdg_positions_01 .liga {
+		display:block;
+		width:100%;
+		height:100%;
+		padding: 12px 0;
+	}
+	/*Fin carousel*/
+	.wdg_positions_01 .boton {
+		height: 26px;
+		line-height: 26px;
+		position: absolute;
+		width: 100%;
+		padding-left: 14px;
+	}
+	.ie7 .wdg_positions_01 .boton {
+		position: relative;
+		margin-top: 0px;
+	}
+	.ie8 .wdg_positions_01 .boton {
+		position: relative;
+		margin-top: 0px;
+	}
+	.wdg_positions_01 .degradado {
+		display: block;
+		position: relative;
+		top: -11px;
+		width: 100%;
+		height: 12px;
+		background-image: url(../global/img/degradado_horizontal.png);
+		background-repeat: repeat-x;
+	}
+	.wdg_positions_01 .carousel_nav .bgactive{
+		background-color:#A70A0B;
+	}
+	.wdg_positions_01 .carousel_nav .bginactive{
+		background-color:#BF6163;
+	}
+	
+	.wdg_positions_01 .carousel_nav .bgactive i{
+		color:#FFF;
+	}
+	
+	.wdg_positions_01 .carousel_nav .bginactive i{
+		color:#DBA5A5;
+	}
+}

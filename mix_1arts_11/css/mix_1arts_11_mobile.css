@@ -1,0 +1,109 @@
+@media screen {
+    /* BEGIN:mix_1arts_11 (Small)*/
+    .mix_1arts_11_sprite {
+        background: url(../img/global-sprites.png) no-repeat 0 0;
+        display:none;
+        height: 10px;
+        overflow: hidden;
+        text-indent: -99em;
+        width: 10px;
+    }
+    .mix_1arts_11_sprite.photo-corner {
+        background-position: -85px -40px;
+        height: 40px;
+        width: 40px;
+    }
+    .mix_1arts_11_sprite.video-corner {
+        background-position: -131px -40px;
+        height: 43px;
+        width: 43px;
+    }
+    .mix_1arts_11 > div.first-child div h2 {
+        font-size: 1em;
+    }
+    .mix_1arts_11 .mix_1arts_11_thumb {
+        width: 100%;
+    }
+    .mix_1arts_11 .mix_1arts_11_thumb li {
+        background-color: #eee;
+        height: auto;
+        padding: 0;
+        border-top: 1px solid #ccc;
+        overflow: hidden;
+        position: relative;
+    }
+    .mix_1arts_11 .mix_1arts_11_thumb li img {
+        /*display: none;*/
+		float: left;
+		min-width: 90px;
+		width: 23%;
+		height: auto;
+		margin-right: 10px;
+    }
+    .mix_1arts_11 .mix_1arts_11_thumb li a {
+        width: 100%;
+        text-decoration: none;
+        display: block;
+        /*
+        color: #666;
+        font-size: 0.8em;
+        margin: 0.8em 0; */
+    }
+    .mix_1arts_11 .mix_1arts_11_thumb li a:before,
+    .mix_1arts_11 .mix_1arts_11_thumb li a:after {
+        content: "";
+        display: table;
+    }
+    .mix_1arts_11 .mix_1arts_11_thumb li a:after {
+        clear: both;
+    }
+    .mix_1arts_11 .mix_1arts_11_thumb li a {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+
+    }
+	
+	
+    .mix_1arts_11 .mix_1arts_11_thumb li a p,
+    .mix_1arts_11 .mix_1arts_11_thumb li a h4 {
+        width: 70%;
+        padding-left: 1em;
+        /* line-height: 1.5em; */
+        padding:10px;
+        font-size: .8em;
+        padding-top:0px;
+        font-weight: bold;
+    }
+	
+	.mix_1arts_11 .mix_1arts_11_thumb li a p{
+		height:100%;
+		padding-top: 5px;
+	}
+	
+    .mix_1arts_11 .mix_1arts_11_thumb li a span.icon {
+        background: url(../img/mobile-arrow-sprites.png) no-repeat 0 0;
+        background-size: 19px 29px;
+        height: 2em;
+        width: 2.188em;
+        position: absolute;
+        margin-top: -0.5em;
+        top: 40%;
+        right: 0.5em;
+    }
+    .mix_1arts_11 .mix_1arts_11_thumb li a h2 {
+        /*display: none;*/
+        display: none;
+        font-style: italic;
+        font-size: 12px;
+        line-height: 1.5em;
+        color: #D6A256;
+        padding-left:10px;
+        padding-top:10px;
+		font-weight: normal;
+    }
+    /* END:mix_1arts_11 (Small)*/
+
+
+}
+
+

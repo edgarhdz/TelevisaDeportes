@@ -1,0 +1,17 @@
+@media screen and (min-width: 948px){
+	.wdg_nfl_sched_01 {
+		height:auto;
+	}
+	.wdg_nfl_sched_01 .scroll{
+		height: auto;
+		overflow: hidden;
+	}
+	.wdg_nfl_sched_01 #shsMiniBody{
+		height: auto;
+		overflow: auto;
+		width: 320px;
+	}
+	.wdg_nfl_sched_01 .degradado{
+		display: none;
+	}
+}

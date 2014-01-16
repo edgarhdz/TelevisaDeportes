@@ -1,0 +1,10 @@
+@media screen and (min-width: 948px){    
+
+	.wdg_goals_by_player_01 .pleca_superior{
+	 	margin-bottom: 17px;
+	}
+	.ie7 .wdg_goals_by_player_01 .tvsa-caret-down,
+	.ie7 .wdg_goals_by_player_01 .wdg_goals_by_player_01_dropdown .tvsa-hash{
+		margin-top: 7px;
+	}
+}

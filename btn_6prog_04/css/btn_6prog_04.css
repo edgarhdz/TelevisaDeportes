@@ -1,0 +1,12 @@
+@media screen and (min-width: 948px){
+    
+    .btn_6prog_04 {
+        border-bottom: 1px solid #CCC;
+    }
+    .btn_6prog_04 .bullets{
+        display: none;
+    }
+    .btn_6prog_04 .type1a .title .flechas{
+        display: block !important;
+    }
+}

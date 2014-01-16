@@ -1,0 +1,101 @@
+@media screen {
+	.wdg_smex_groups_01{
+		display: none;
+		position:relative;
+	}
+	.wdg_smex_groups_01 .titulo_goal{
+		font-size:18px;
+		border-bottom:#CCC 1px solid;
+		padding-bottom: 5px;
+		padding-left: 40px;
+		line-height:28px;
+		margin-bottom:20px;
+		font-style: italic;
+	}
+	.wdg_smex_groups_01 .titulo{
+		font-size:16px;
+		border-bottom:#CCC 1px solid;
+		padding-bottom: 10px;
+		margin-bottom:20px;
+		font-weight: normal;
+	}
+	.wdg_smex_groups_01 .goal{
+		font-size:14px;
+		padding-bottom: 13px;
+		font-weight: bolder;
+	}
+	.wdg_smex_groups_01 .head_team{
+		border-bottom: 1px solid #ccc;
+		clear: both;
+		overflow: hidden;
+		padding-bottom: 5px;
+		padding-left: 104px;
+		margin-bottom: 18px;
+	}
+	.wdg_smex_groups_01 .head_team li{
+		float: left;
+	    text-align: center;
+	    width: 40px;
+	}
+	.wdg_smex_groups_01 .team_divisor{
+		border-bottom: 1px solid #ccc;
+		clear: both;
+		overflow: hidden;
+		padding-bottom: 23px;
+	}
+	.wdg_smex_groups_01 .last_container{
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 24px;
+	}
+	.wdg_smex_groups_01 .team li{
+	    line-height: 32px;
+		float: left;
+		width: 40px;
+		text-align: center;
+	}
+	.wdg_smex_groups_01 .team li.first_child{
+		width: 95px;
+		text-align: left;
+		padding-left: 10px;
+	}
+	.wdg_smex_groups_01 .team li.first_child p{
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 80px;
+	}
+	.wdg_smex_groups_01 .team li.last_child{
+		border-right: 0;
+	}
+	.wdg_smex_groups_01 .team li p{
+		   margin: 5px 0;
+	}
+	.wdg_smex_groups_01 .team .icon_team{
+		text-align: center;
+		width: 45px;
+		margin-top: 12px;
+	}
+	.ie7 .wdg_smex_groups_01 .team .icon_team{
+		text-align: center;
+		width: 45px;
+		margin-top: 7px;
+	}
+	.wdg_smex_groups_01 .team .name_team{
+		width: 96px;
+	}
+	.wdg_smex_groups_01 .team .stadistics_team{
+		width: 66px;
+	}
+	.wdg_smex_groups_01 .team .stadistics_team p{		
+	}
+	.wdg_smex_groups_01 .team .last_child p{
+		border-right: 0;		
+	}
+	.wdg_smex_groups_01 .degraded{
+		bottom:0px;
+	}
+	.wdg_smex_groups_01 .goal ul.team{
+		font-size:15px;
+	}
+	
+}

@@ -1,0 +1,19 @@
+@media screen {
+    .mix_smex_dt_01
+    {
+        display: none;
+    }
+	.mix_smex_dt_01 h2{
+		font-size: 24px;
+		font-style: italic;
+		font-weight: normal;
+	}
+	.mix_smex_dt_01 .gray{
+		color:#8A8A8A;
+		font-style: italic;
+	}
+	.mix_smex_dt_01 .gray2{
+		color:#878787;
+		font-style: italic;
+	}
+}

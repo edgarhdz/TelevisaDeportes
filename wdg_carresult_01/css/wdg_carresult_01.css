@@ -1,0 +1,36 @@
+@media screen and (min-width: 948px){    
+
+	.wdg_carresult_01  ul {
+		
+	}
+        .wdg_carresult_01 .arrow_buttons {
+	
+		display:none;
+	}
+        
+	.wdg_carresult_01  ul {
+		height: auto;
+	}
+	
+	.wdg_carresult_01 .scroll{
+		height: auto;
+		overflow: hidden;
+	}
+	.wdg_carresult_01 .scroll2{
+		height: auto;
+		overflow: auto;
+		width: 650px;
+	}
+	.wdg_carresult_01 .degraded{
+		display:none;
+	}	
+	.wdg_carresult_01 .ganador
+	{
+		padding-left: 22px;
+		width:15%
+	}
+	.wdg_carresult_01 .circuito
+	{
+		padding-left: 22px;
+	}
+}

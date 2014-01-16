@@ -1,0 +1,40 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_champions_main_01 .main{
+        width: 948px;
+        /* border: 1px solid #CCC; */
+    }
+    /* Contenedor principal */
+    .td_champions_main_01 .main .container-one{
+        float: left;
+        /* border: 1px solid #CCC; */
+        clear: both;
+        width: 624px;
+    }
+    /* Contenedor derecho */
+    .td_champions_main_01 .main .container-two{
+        float:right;
+		
+		top:0px;
+		right:0px;
+        /* border: 1px solid #CCC; */
+        /*clear:both;*/
+        overflow: hidden;
+        width: 300px;
+    }
+    .td_champions_main_01 .main .container-two .c1{
+        float:none; 
+        display: block;
+    }
+    .td_champions_main_01 .main .container-two .c2{
+        padding-left: 0;
+    }
+    .td_champions_main_01 .main .container-two .c3{
+        float: none;
+    }
+    .td_champions_main_01 .main .container-two .c4{
+        float: none;
+        padding-left: 0;
+    }
+
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>
+
+
+(function(){
+    
+    var Televisa = {};
+
+
+    Televisa.responsive = {
+
+        type     : 'desktop',
+        width    : 0,
+        height   : 0,
+
+        fireEvent: function(){
+
+            var me = this;
+
+            if ($.browser.msie && parseInt($.browser.version, 10) <= 7){
+                    me.width = document.body.offsetWidth;
+                    me.height = document.body.offsetHeight;
+            }
+            else{
+                    me.width =  $(window).width();
+                    me.height =  $(window).height();
+            }
+
+            if(me.width >= 960)
+                    me.type = 'desktop';
+            else if(me.width < 960 && me.width >= 624)
+                    me.type = 'tablet';
+            else if(me.width < 624)
+                    me.type = 'mobile';
+
+            $(document).trigger('responsive',{ 
+                                                type    : me.type, 
+                                                width   : me.width, 
+                                                height  : me.height 
+                                            }
+            );
+                
+
+            
+        },
+
+        listener:function()
+        {
+            var me = this;
+            
+            $(document).ready(function(){
+                me.fireEvent();
+                
+                $(window).resize(function(){
+                    me.fireEvent();
+                });
+                
+            });
+        }
+
+
+    };
+
+    Televisa.responsive.listener();
+    
+
+})();
+
+
+
+$(document).bind('responsive',function(e,params){
+    
+
+    console.log(params);
+    
+    switch(params.type)
+    {
+        case "mobile":
+            console.log("do something mobile");
+        break;
+        
+        case "tablet":
+            console.log("do something tablet");
+        break;
+        
+        case "desktop":
+            console.log("do something desktop");
+        break;
+    }
+
+});
+
+
+
+
+</script>
+</head>
+
+<body>
+<div class="type"></div>
+<div class="dimensions"></div>
+</body>
+</html>

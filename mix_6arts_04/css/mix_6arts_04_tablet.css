@@ -1,0 +1,27 @@
+@media screen and (min-width: 624px){
+    .mix_6arts_04{
+        width: 624px;
+		clear: both;
+		overflow: hidden;
+		margin-bottom: 36px;
+    }
+	.mix_6arts_04 .nav_paginator_01{
+		display:block;
+	}
+	.mix_6arts_04 .mix_6arts_04_verMas{
+        display:none;
+	}
+	   .mix_6arts_04 div.mix_2arts_04{
+        display:block;
+		overflow: hidden;
+		margin-bottom: 28px;
+    }
+    .mix_6arts_04 .mix_2arts_04 .mix_1arts_10{
+		padding-bottom: 12px;
+		padding-top: 0px;
+		
+	}
+	.mix_6arts_04 .mix_2arts_04:nth-child(3){
+		margin-bottom: 16px;
+	}
+}

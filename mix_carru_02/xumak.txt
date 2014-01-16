@@ -1,0 +1,9 @@
+mix_carru_02
+============
+
+requirements:
+
+- all big images need to have the same height
+- the big image height is variable
+- there can be 1-3 images/thumbs
+- the thumbnails carry some important data: titles, urls, topic, type ('photo','video','')

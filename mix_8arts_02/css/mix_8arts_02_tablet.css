@@ -1,0 +1,91 @@
+@media screen and (min-width: 624px){
+	
+	/* START: carouseltype1a_ (Medium) */
+	.mix_8arts_02{
+		margin-bottom: 15px;
+        overflow: hidden;
+		width:634px;
+	}
+	.mix_8arts_02 div.str_pleca_01_title h3{
+		width:300px;
+	}
+	.mix_8arts_02 .type1a_ {
+	  padding-left: 0;
+	}
+		
+	.mix_8arts_02 .type1a_ ul {
+	  margin: 25px 0 auto;
+	}
+
+	.mix_8arts_02 .type1a_ .carrusel ul {
+	  margin-top: 0;
+	}
+	/* END: carouseltype1a_ (Medium) */
+		
+	
+	/* BEGIN: Global (Medium) */
+	.mix_8arts_02 div.title {
+	  margin-bottom: 24px;
+	}
+	.mix_8arts_02 div.title:before,
+	.mix_8arts_02 div.title:after {
+	  content: "";
+	  display: table;
+	}
+	.mix_8arts_02 div.title:after {
+	  clear: both;
+	}
+	.mix_8arts_02 div.title {
+	  zoom: 1;
+	  /* For IE 6/7 (trigger hasLayout) */	
+	}
+	.mix_8arts_02 div.title h3 {
+	  width: 57%;
+	  max-width: 300px;
+	  float: left;
+	}
+	.mix_8arts_02 div.title h3 a {
+	  background-image: none !important;
+	}
+	.mix_8arts_02 div.title h3 a span.icon {
+	  display: none;
+	}
+		
+	.mix_8arts_02 .type1a_ .carrusel ul li {
+	  display: block;
+	  float: left;
+	  width: 137px;
+	  height: 135px;
+	  clear: none;
+	  margin: 0 0 0 25px;
+	  padding-bottom:19px;	 
+	}
+	
+	.mix_8arts_02 .type1a_ .carrusel ul .izq{
+		 margin: 0px;
+	}
+	
+	.mix_8arts_02 .type1a_ .carrusel ul li a img {
+	  width: 136px;
+	  float:none;
+	}
+	
+	.mix_8arts_02 .type1a_ .carrusel ul li span {
+	  	float:none;
+	  	border-left:none;
+	  	height: auto;
+	  	margin-left: 0;
+    	padding-left: 0;
+		padding-top:0;
+		font-size:14px;
+		width:auto;
+	}
+	
+	.mix_8arts_02 .overlay {
+		display: none;
+	}
+	
+	.mix_8arts_02 .horario{
+		display:block;
+	}
+}

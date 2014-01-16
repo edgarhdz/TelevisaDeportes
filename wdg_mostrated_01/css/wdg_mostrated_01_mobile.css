@@ -1,0 +1,137 @@
+/* 
+    Document   : wdg_mostrated_01
+    Created on : 6/05/2013, 04:02:40 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+        
+*/
+
+@media screen{
+    .wdg_mostrated_01
+	{
+		width:295px;
+		height:auto;
+		position:relative;
+		margin-bottom:0px;
+	}
+	.wdg_mostrated_01 .container
+	{
+		width:295px;
+		height:auto;
+		position:relative;
+		clear:both;
+	}
+	.wdg_mostrated_01 .separator
+	{
+		margin-right:25px;
+	}
+	
+	.wdg_mostrated_01 .simple_rectangle
+	{
+		width:135px;
+		float:left;
+		height:auto;
+		position:relative;
+	}	
+	.wdg_mostrated_01 .complemento
+	{
+		border-bottom:0px !important;
+	}
+	.wdg_mostrated_01 .simple_rectangle2
+	{
+		width:135px;
+		float:left;
+		height:auto;
+		position:relative;
+	}
+	
+	.wdg_mostrated_01 .info_result_player >div
+	{
+		margin-bottom:3px;
+	}
+				.wdg_mostrated_01 .info_jugador .camiseta_jugador .apellido_jugador
+				{
+					width:106px;
+					height:20px;
+					position:relative;
+					float:left;
+					font-weight:bold;
+					font-size:17px;
+					text-align:left;
+					
+				}
+				.wdg_mostrated_01 .info_jugador .camiseta_jugador .numero_jugador
+				{
+					width:29px;
+					height:20px;
+					float:left;
+					text-align:left;
+					font-size:17px;
+					/*color: #D6A256;*/
+				}
+			.wdg_mostrated_01 .info_jugador .equipo_jugador
+			{
+				width:100%;
+				height:12px;
+				position:relative;
+				float:left;
+				/*color: #A70A0B;*/
+				font-size:12px;
+				margin-bottom:0px;
+			}.wdg_mostrated_01 .info_jugador .posicion_jugador
+			{
+				width:100%;
+				height:12px;
+				position:relative;
+				float:left;
+				font-size:12px;
+				margin-bottom:4px;
+			}
+			.wdg_mostrated_01 .info_jugador .camiseta_jugador
+			{
+				height:20px;
+				position:relative;
+				float:left;
+				width:100%;
+				
+				margin-bottom:6px;
+			}
+		.wdg_mostrated_01 .info_jugador
+		{
+			width:135px;
+			height:auto;
+			float:left;
+			position:relative;
+			padding-top:14px;
+			
+		}
+	.wdg_mostrated_01 .info_result_player
+	{
+		width:135px;
+		height:auto;
+		float:left;
+		position:relative;
+    }
+	.wdg_mostrated_01 .percent_info_player
+	{
+		width:107px;
+		float:right;
+		position:relative;
+		height:23px;
+		text-align:right;
+		/*color: #A70A0B;*/
+		font-size:20px;
+		font-weight:bold;
+	}
+	.wdg_mostrated_01 .position_info_player
+	{
+		width:25px;
+		height:23px;
+		float:left;
+		/*color:#888;*/
+		font-style:italic;
+		font-size:20px;
+		text-align:left;
+	}
+}
+

@@ -1,0 +1,2303 @@
+/* BEGIN: Header (Medium) */
+header.main div.top {
+  margin: 0 auto 0 auto;
+  height: 0;
+  max-width: 39em;
+  z-index: 10;
+}
+header.main div.top a.logo {
+  background-color: #0f4a7b;
+  left: 1em;
+  margin: 0;
+  padding: 1.3em 1.85em;
+  top: 0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+header.main div.top a.logo span {
+  display: block;
+}
+header.main div.top a.mobile-menu {
+  display: none;
+}
+header.main div.top a.search {
+  height: 2.1em;
+  right: 0.05em;
+  width: 2.3em;
+}
+header.main div.search {
+  margin: 0 auto;
+  overflow: visible;
+  position: relative;
+  width: 39em;
+}
+header.main div.search input {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border-right: 0px solid #ccc;
+  font-size: 0.7em;
+  height: 1.7em;
+  padding: 0.65em 0;
+  position: absolute;
+  right: 3.1em;
+  top: 0;
+  width: 0;
+  z-index: 10;
+}
+header.main.show-search div.search input {
+  border-right-width: 1px;
+  padding: 0.65em 0.8em;
+  width: 15em;
+}
+header.main > nav {
+  border-bottom: 1px solid #0f416a;
+  max-width: 39em;
+  margin: 0 auto 0 auto;
+  position: relative;
+}
+header.main > nav ul[role="menu"] {
+  display: block;
+  height: auto;
+  margin-left: 11em;
+  width: auto;
+  -webkit-transition: none 0.2s ease-out;
+  -moz-transition: none 0.2s ease-out;
+  -ms-transition: none 0.2s ease-out;
+  -o-transition: none 0.2s ease-out;
+  transition: none 0.2s ease-out;
+}
+header.main > nav ul[role="menu"] li {
+  float: left;
+}
+header.main > nav ul[role="menu"] li a {
+  display: block;
+  font-size: 0.68em;
+  font-weight: normal;
+  line-height: 3.1em;
+  opacity: 0.8;
+  padding: 0 1em;
+}
+header.main > nav ul[role="menu"] li a:hover {
+  opacity: 1;
+}
+header.main > nav ul[role="menu"] li a.active {
+  background: #0d385b;
+  box-shadow: inset 0 0 4px #082040;
+}
+header.main > nav ul[role="menu"] li span {
+  display: none;
+}
+header.main > nav ul[role="menu"] li.news,
+header.main > nav ul[role="menu"] li.sports,
+header.main > nav ul[role="menu"] li.entertainment,
+header.main > nav ul[role="menu"] li.kids,
+header.main > nav ul[role="menu"] li.lifestyle,
+header.main > nav ul[role="menu"] li.television {
+  background: transparent;
+}
+header.main .toggleable {
+  background: #efefef;
+  display: block;
+}
+header.main .toggleable .wrapper {
+  margin: 0 auto;
+  max-width: 39em;
+}
+header.main .toggleable .wrapper > div {
+  display: none;
+  padding: 0 0 1.5em;
+  position: relative;
+}
+header.main .toggleable .wrapper > div:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+header.main .toggleable h5 {
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 1.125em;
+  font-weight: bold;
+  margin: 0 0 0 13em;
+  padding: 1.6em 0 1.2em;
+}
+header.main .toggleable h5 .rq {
+  margin: 0 -5px 0 0;
+}
+header.main .toggleable h6 {
+  font-size: 0.75em;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0 0 1em;
+}
+header.main .toggleable .categories {
+  float: left;
+  margin: 1px 0 0 2.5em;
+  padding: 1.6em 0 0;
+  width: 9em;
+}
+header.main .toggleable .categories ul li {
+  line-height: 1.6;
+}
+header.main .toggleable .categories ul li a {
+  color: #000;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-decoration: none;
+}
+header.main .toggleable .filtering {
+  position: absolute;
+  right: 0;
+  top: 2em;
+}
+header.main .toggleable .filtering a {
+  background: repeat-y top left url('data:image/gif;base64,R0lGODlhAQAEAIABAKenp8XFxSH5BAEAAAEALAAAAAABAAQAAAICRF4AOw==');
+  display: block;
+  float: left;
+  height: 1.1em;
+  padding: 0 0.5em 0 0.6em;
+  text-align: center;
+}
+header.main .toggleable .filtering a:first-child {
+  background: none;
+}
+header.main .toggleable .featured {
+  border-top: 1px solid #dcdcdc;
+  float: left;
+  margin: 0 0 0 3.15em;
+  padding: 1.6em 0 0;
+  width: 24em;
+}
+header.main .toggleable .big-news {
+  display: none;
+  float: left;
+  margin: 0 1.5em 0 0;
+  width: 18.75em;
+}
+header.main .toggleable .big-news a {
+  display: block;
+  text-decoration: none;
+}
+header.main .toggleable .big-news .item {
+  position: relative;
+  width: 18.75em;
+}
+header.main .toggleable .big-news .item div.figure {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+header.main .toggleable .big-news .item div.figure img {
+  max-width: 100%;
+}
+header.main .toggleable .big-news .item div.figure .sprite {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+header.main .toggleable .big-news .item div.figcaption {
+  background: #fff;
+  margin: 0 0 0 1.5em;
+  padding: 1em 2em;
+  position: relative;
+  top: -1.5em;
+  width: 13.25em;
+}
+header.main .toggleable .big-news .item div.figcaption .likes {
+  background: #8d8d8d;
+  background: rgba(141, 141, 141, 0.6);
+  bottom: 100%;
+  color: #fff;
+  font: bold 0.75em 'Trebuchet MS', sans-serif;
+  left: 0;
+  padding: 0.6em;
+  position: absolute;
+  text-align: right;
+}
+header.main .toggleable .big-news .item div.figcaption .likes .sprite {
+  vertical-align: bottom;
+}
+header.main .toggleable .big-news .item div.figcaption small {
+  display: block;
+  font: italic bold 0.875em 'Trebuchet MS', sans-serif;
+  margin: 0 0 0.5em;
+}
+header.main .toggleable .big-news .item div.figcaption strong {
+  color: #000;
+  display: block;
+  font: normal bold 1.125em 'Trebuchet MS', sans-serif;
+}
+header.main .toggleable .small-news {
+  float: left;
+  width: 19em;
+}
+header.main .toggleable .small-news a {
+  display: block;
+  text-decoration: none;
+}
+header.main .toggleable .small-news .item {
+  display: block;
+  margin-bottom: 0.76em;
+  width: 100%;
+}
+header.main .toggleable .small-news .item:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+header.main .toggleable .small-news .item div.figure {
+  display: block;
+  float: left;
+  height: 4.1875em;
+  margin: 0 0.75em 0 0;
+  position: relative;
+  width: 5.25em;
+}
+header.main .toggleable .small-news .item div.figure img {
+  max-width: 100%;
+}
+header.main .toggleable .small-news .item div.figure .sprite {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+header.main .toggleable .small-news .item div.figcaption {
+  border-left: 1px solid #ccc;
+  display: block;
+  float: left;
+  height: 4.1875em;
+  padding: 0 0 0 0.75em;
+  width: 12em;
+}
+header.main .toggleable .small-news .item div.figcaption small {
+  display: block;
+  font: italic bold 0.75em 'Trebuchet MS', sans-serif;
+}
+header.main .toggleable .small-news .item div.figcaption strong {
+  color: #000;
+  font: normal bold 0.875em 'Trebuchet MS', sans-serif;
+}
+header.main .toggleable .match-list {
+  float: left;
+  padding: 0 0 0 1.5em;
+  width: 18.75em;
+  display: none;
+}
+header.main .toggleable .match-list ul {
+  border-top: 1px solid #ccc;
+}
+header.main .toggleable .match-list ul li {
+  border-bottom: 1px solid #ccc;
+  line-height: 2.375em;
+}
+header.main .toggleable .match-list ul li:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+header.main .toggleable .match-list ul li > span {
+  display: block;
+  float: left;
+  font-weight: bold;
+}
+header.main .toggleable .match-list ul li .sprite {
+  vertical-align: middle;
+}
+header.main .toggleable .match-list ul li .time {
+  width: 3.625em;
+}
+header.main .toggleable .match-list ul li .name {
+  font-size: 0.75em;
+  width: 15em;
+}
+header.main .toggleable .match-list ul li .result {
+  width: 3.7em;
+}
+header.main .toggleable .match-list ul li.soon .section-color {
+  color: #edba1f;
+}
+header.main .toggleable .news .section-color,
+header.main .toggleable .news h5 a,
+header.main .toggleable .news h6 {
+  color: #0078bf;
+}
+header.main .toggleable .sports .section-color,
+header.main .toggleable .sports h5 a,
+header.main .toggleable .sports h6 {
+  color: #a41d21;
+}
+header.main .toggleable .entertainment .section-color,
+header.main .toggleable .entertainment h5 a,
+header.main .toggleable .entertainment h6 {
+  color: #edba1f;
+}
+header.main .toggleable .kids .section-color,
+header.main .toggleable .kids h5 a,
+header.main .toggleable .kids h6 {
+  color: #3eb9b6;
+}
+header.main .toggleable .lifestyle .section-color,
+header.main .toggleable .lifestyle h5 a,
+header.main .toggleable .lifestyle h6 {
+  color: #6daa49;
+}
+header.main .toggleable .television .section-color,
+header.main .toggleable .television h5 a,
+header.main .toggleable .television h6 {
+  color: #f78429;
+}
+header.main div.section {
+  min-height: 6.7em;
+  position: relative;
+}
+header.main div.section h2 {
+  font-size: 1.5em;
+  display: block;
+  margin: 0 auto;
+  max-width: 26em;
+}
+header.main div.section h2 a {
+  -webkit-transition: none 0.2s ease-out;
+  -moz-transition: none 0.2s ease-out;
+  -ms-transition: none 0.2s ease-out;
+  -o-transition: none 0.2s ease-out;
+  transition: none 0.2s ease-out;
+  cursor: default;
+  font-size: 1.25em;
+  letter-spacing: -1px;
+  line-height: 1.6em;
+  margin-left: 5.1em;
+}
+header.main div.section h2 a span {
+  display: none;
+}
+header.main div.section .weather-module {
+  display: block;
+  left: 50%;
+  margin: 0 0 0 -19.5em;
+  position: absolute;
+  top: 0;
+  width: 39em;
+}
+header.main div.section .weather-module a {
+  color: #fff;
+  text-decoration: none;
+}
+header.main div.section .weather-module > div {
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: bold;
+  position: absolute;
+  text-shadow: -1px -1px 1px #005c94;
+}
+header.main div.section .weather-module .dropdown {
+  padding: 0 1em 0 0;
+  top: 2.4em;
+  right: 12.84em;
+  text-align: right;
+  width: 10em;
+}
+header.main div.section .weather-module .dropdown ul {
+  display: none;
+}
+header.main div.section .weather-module .stat {
+  background: repeat-y top left url('data:image/gif;base64,R0lGODlhAQAEAIAAAAB5wmav2iH5BAAAAAAALAAAAAABAAQAAAICDF4AOw==');
+  font: bold 1.25em Arial, sans-serif;
+  height: 1.58em;
+  line-height: 1.3em;
+  padding: 0 0.5em;
+  right: 3.4em;
+  top: 1.15em;
+  width: 3.3em;
+}
+header.main div.section .weather-module .stat .sprite {
+  vertical-align: middle;
+}
+header.main div.section .weather-module .forecast {
+  background: repeat-y top left url('data:image/gif;base64,R0lGODlhAQAEAIAAAAB5wmav2iH5BAAAAAAALAAAAAABAAQAAAICDF4AOw==');
+  font-family: Arial, sans-serif;
+  height: 2.7em;
+  text-align: right;
+  top: 1.9em;
+  right: 0.1em;
+  width: 5.67em;
+}
+header.main div.section .subsections {
+  background-color: #efefef;
+  background-image: linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -o-linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -moz-linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -webkit-linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -ms-linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(0.5, #efefef));
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr="#ffffff", endColorstr="#efefef", GradientType=0);
+  -webkit-transition: none 0.2s ease-out;
+  -moz-transition: none 0.2s ease-out;
+  -ms-transition: none 0.2s ease-out;
+  -o-transition: none 0.2s ease-out;
+  transition: none 0.2s ease-out;
+  border-bottom: 1px solid #e7e7e7;
+  top: 4.6em;
+  height: 2.1em;
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+header.main div.section .subsections nav ul {
+  background: transparent;
+  margin: 0 auto;
+  width: 39em;
+}
+header.main div.section .subsections nav ul li {
+  width: auto;
+}
+header.main div.section .subsections nav ul li:first-child a {
+  border-left: 1px solid #e7e7e7;
+}
+header.main div.section .subsections nav ul li a {
+  text-shadow: 1px 1px 1px white;
+  border-bottom: 0;
+  color: #3d3d3d;
+  font-style: normal;
+  font-size: 0.75em;
+  padding: 0.8em 1.2em;
+}
+header.main div.section .subsections nav ul li.dropdown {
+  width: auto;
+}
+header.main div.section .subsections nav ul li.dropdown > a {
+  display: block;
+}
+header.main div.section .subsections nav ul li.dropdown > a .sprite {
+  margin-left: 6px;
+}
+header.main div.section .subsections nav ul li.dropdown ul {
+  background: #fff;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 2.2em;
+  width: 100%;
+  z-index: 99;
+}
+header.main div.section .subsections nav ul li.dropdown ul li {
+  border: 0;
+  width: 100%;
+}
+header.main div.section .subsections nav ul li.dropdown ul li a {
+  border: 0;
+}
+header.main div.section .subsections ul.social {
+  display: block;
+  margin-right: -19.5em;
+  position: absolute;
+  right: 50%;
+  top: 0;
+}
+header.main div.section .subsections ul.social li {
+  background: url("../img/header/right-shadow.png") no-repeat right top;
+  display: block;
+  float: left;
+  position: relative;
+}
+header.main div.section .subsections ul.social li a {
+  border-right: 1px solid #CCC;
+  display: block;
+  height: 2.15em;
+  line-height: 2.7em;
+  text-align: center;
+  text-decoration: none;
+}
+header.main div.section .subsections ul.social li a .sprite {
+  margin: 0 0.5em 0 0.6em;
+}
+header.main div.section .subsections ul.social li a .sprite.video {
+  margin: 0 0.4em 0 0.4em;
+}
+header.main div.section .subsections ul.social li a .sprite.photo {
+  position: relative;
+  top: -0.05em;
+}
+header.main div.section .subsections ul.social li a em {
+  color: #565656;
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+  line-height: 3.1em;
+  margin-right: 1em;
+}
+header.main div.section .subsections ul.social li.dropdown {
+  background-image: none;
+  border: 0;
+  overflow: visible;
+  width: auto;
+}
+header.main div.section .subsections ul.social li.dropdown > a {
+  display: block;
+  height: 1.3em;
+  padding-top: 0.8em;
+  width: 2.3em;
+}
+header.main div.section .subsections ul.social li.dropdown > a .sprite.dropdown {
+  display: block;
+  margin: 0 auto -0.2em;
+  width: 10px;
+}
+header.main div.section .subsections ul.social li.dropdown ul {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 2.1em;
+  width: 9.26em;
+}
+header.main div.section .subsections ul.social li.dropdown ul li {
+  height: 2.1em;
+}
+header.main div.section .subsections ul.social li.dropdown ul li a {
+  line-height: 2.5em;
+}
+header.main div.section .dropdown-content {
+  background: #ffffff repeat-x 0 0 url(data:image/gif;base64,R0lGODlhAQAQALMAAP7+/vz8/OPj4/////f39/T09PHx8efn5+Li4vn5+erq6vr6+u7u7gAAAAAAAAAAACH5BAAAAAAALAAAAAABABAAAAQLEImjmCkkrRCAHxEAOw==);
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+header.main div.section .dropdown-content .wrapper {
+  margin: 0 auto;
+  max-width: 39em;
+}
+header.main div.section .dropdown-content h5 {
+  font-size: 1.125em;
+  padding: 2.1em 0 0.5em;
+}
+header.main div.section .dropdown-content h5 .sprite {
+  margin-right: -0.2em;
+}
+header.main div.section .dropdown-content a {
+  color: #3d3d3d;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-decoration: none;
+}
+header.main div.section .dropdown-content .lighter a {
+  color: #5d5d5d;
+}
+header.main div.section .dropdown-content .filter ul {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 1.2em;
+  width: 100%;
+}
+header.main div.section .dropdown-content .filter ul:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+header.main div.section .dropdown-content .filter ul li {
+  display: block;
+  float: left;
+  line-height: 2em;
+}
+header.main div.section .dropdown-content .filter ul li a {
+  background: repeat-y top left url('data:image/gif;base64,R0lGODlhAQAEAIABAKenp8XFxSH5BAEAAAEALAAAAAABAAQAAAICRF4AOw==');
+  padding: 0 1em;
+}
+header.main div.section .dropdown-content .filter ul li.active {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  margin-bottom: -1px;
+}
+header.main div.section .dropdown-content .filter ul li:first-child a {
+  background: transparent none;
+  padding-left: 0;
+}
+header.main div.section .dropdown-content .container > div {
+  display: none;
+}
+header.main div.section .dropdown-content .container > div:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+header.main div.section .dropdown-content .container > div.selected {
+  display: block;
+}
+header.main div.section .dropdown-content .container > div ul {
+  border-left: 1px solid #ebebeb;
+  float: left;
+  line-height: 1.6;
+  padding-left: 1.3em;
+  width: 9.2em;
+}
+header.main div.section .dropdown-content .container > div ul:first-child {
+  border-left: 0;
+  padding-left: 0;
+}
+header.main div.section .dropdown-content ul.horizontal {
+  margin-bottom: -1.2em;
+  padding: 0.8em 0 0;
+}
+header.main div.section .dropdown-content ul.horizontal:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+header.main div.section .dropdown-content ul.horizontal li {
+  display: block;
+  float: left;
+  padding-bottom: 0.3em;
+  width: 9.75em;
+}
+header.main div.section.news {
+  border-top: 1px solid #2e8fca;
+}
+header.main div.section.news .dropdown-content h5,
+header.main div.section.news .dropdown-content .active,
+header.main div.section.news .dropdown-content .active a {
+  color: #0078bf;
+  border-color: #0078bf;
+}
+header.main div.section.sports .subsections ul.social li a {
+  float: left;
+  line-height: 2.1em;
+}
+header.main div.section.sports .subsections ul.social li a .sprite {
+  vertical-align: middle;
+}
+header.main div.section.sports .subsections ul.social li a .sprite.video {
+  margin: 0 0.35em;
+}
+header.main div.section.sports .subsections ul.social li a .sprite.twitter {
+  margin: 0 0.6em;
+}
+header.main div.section.sports .subsections ul.social li a.dotted {
+  border-right: 0;
+  background: repeat-y top left url('data:image/gif;base64,R0lGODlhAQAEAIABAKenp8XFxSH5BAEAAAEALAAAAAABAAQAAAICRF4AOw==');
+  background-position: top right;
+  margin: 0.6em 0 0.5em;
+  height: 1.1em;
+}
+header.main div.section.sports .subsections ul.social li a.dotted .sprite {
+  vertical-align: top;
+}
+header.main div.section.sports .subsections ul.social li.dropdown a {
+  line-height: 2.7em;
+}
+header.main div.section.sports .subsections ul.social li.dropdown a .sprite {
+  vertical-align: baseline;
+}
+header.main div.section.sports .dropdown-content h5,
+header.main div.section.sports .dropdown-content .active,
+header.main div.section.sports .dropdown-content .active a {
+  color: #a41d21;
+  border-color: #a41d21;
+}
+header.main div.section.entertainment .dropdown-content h5,
+header.main div.section.entertainment .dropdown-content .active,
+header.main div.section.entertainment .dropdown-content .active a {
+  color: #edba1f;
+  border-color: #edba1f;
+}
+header.main div.section.lifestyle .dropdown-content h5,
+header.main div.section.lifestyle .dropdown-content .active,
+header.main div.section.lifestyle .dropdown-content .active a {
+  color: #6daa49;
+  border-color: #6daa49;
+}
+header.main div.section.television .subsections ul.social li.dropdown {
+  background: transparent;
+}
+header.main div.section.television .subsections ul.social li.dropdown ul {
+  width: 21.3em;
+  overflow: hidden;
+  background: #fff;
+}
+header.main div.section.television .subsections ul.social li.dropdown ul li {
+  background-color: #f2f2f2;
+  width: auto;
+}
+header.main div.section.television .subsections ul.social li.dropdown ul li em {
+  line-height: 3em;
+}
+header.main div.section.television .subsections ul.social li.dropdown ul li em .sprite {
+  display: block;
+  float: left;
+  margin: 0.8em 0.4em 0 1em;
+}
+header.main div.section.television .subsections ul.social li.dropdown ul li.button-bg {
+  background-color: #fff;
+}
+header.main div.section.television .subsections ul.social li.dropdown ul li a.active {
+  background: #f78429;
+  box-shadow: inset 0 0 7px #b35307;
+}
+header.main div.section.television .subsections ul.social li.dropdown ul li a.active em {
+  color: #fff;
+}
+header.main div.section.television .dropdown-content h5,
+header.main div.section.television .dropdown-content .active,
+header.main div.section.television .dropdown-content .active a {
+  color: #f78429;
+  border-color: #f78429;
+}
+section.social {
+  background-color: #efefef;
+  background-image: linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -o-linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -moz-linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -webkit-linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -ms-linear-gradient(bottom, #ffffff 0%, #efefef 50%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(0.5, #efefef));
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr="#ffffff", endColorstr="#efefef", GradientType=0);
+  border-bottom: 1px solid #e3e3e2;
+  font-size: 0.75em;
+}
+section.social div.wrapper {
+  margin: 0 auto;
+  max-width: 52em;
+  position: relative;
+  height: 35px;
+}
+section.social div.wrapper div {
+  float: left;
+  left: 15em;
+  overflow: hidden;
+  padding-left: 1.8em;
+  width: 55%;
+}
+section.social div.wrapper div span.sprite {
+  left: 0;
+}
+section.social div.wrapper div span.fade {
+  background-image: url("../img/header/header-fade-gradient.png");
+  width: 8.3em;
+}
+section.social div.wrapper ul {
+  float: right;
+  position: relative;
+  width: 6.3em;
+}
+section.social div.wrapper ul li {
+  background: url("../img/header/right-shadow.png") no-repeat right top;
+  height: auto;
+  width: 37px;
+  display: block;
+}
+section.social div.wrapper ul li a {
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  float: left;
+  height: 2.85em;
+  margin: 0;
+  position: static;
+  width: 2.98em;
+  display: block;
+}
+section.social div.wrapper ul li a span {
+  display: block;
+}
+section.social div.wrapper ul li a .sprite {
+  margin: 0.6em 0 0 0.7em;
+}
+section.social div.wrapper ul li:first-child a {
+  border-right: 0;
+}
+/* END: Header (Medium) */.leftBorder {
+  border-left: 1px solid #dadada;
+}
+.noticias,
+.deportes,
+.entretenimiento,
+.ninos,
+.estilo,
+.television {
+  background-color: transparent;
+}
+.mobileNav {
+  display: none;
+}
+footer {
+  background: white;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer .makeBookmark {
+  display: block;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+  background: #F5F5F5;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+footer .makeBookmark span {
+  display: block;
+  margin: 0 auto;
+  width: 618px;
+  padding: 11px 0;
+  background: transparent url("../img/footervertical/sprites.png") no-repeat 0 -85px;
+}
+footer .makeBookmark span a {
+  color: #1970B4;
+  padding-left: 20px;
+}
+footer ul {
+  float: left;
+  font-size: 0.9em;
+  min-height: 240px;
+  width: 169px;
+  overflow: hidden;
+}
+footer ul li:last-child {
+  border-left: 1px solid #dadada;
+  margin-top: 1.375em;
+}
+footer ul:first-child :last-child {
+  border-left: none;
+}
+footer ul li {
+  color: #000;
+  padding: 0 0 0 1.438em;
+  overflow: hidden;
+  margin: 0;
+  display: block;
+}
+footer ul li > ul {
+  display: block;
+  font-weight: normal;
+  color: #5d5d5d;
+  border-left: none;
+  height: auto;
+}
+footer ul li > ul li {
+  padding: 0 0 0.750em 0;
+  border-left: none;
+}
+footer ul li > ul li:last-child {
+  margin-top: 0;
+}
+footer ul li > ul :first-child {
+  height: auto;
+}
+footer .icon {
+  display: none;
+}
+footer .desktopNav {
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  background: white;
+  margin-top: 2.5em;
+}
+footer .desktopNav ul {
+  width: 618px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  min-height: 1.313em;
+  overflow: hidden;
+  float: none;
+}
+footer .desktopNav ul li {
+  float: left;
+  margin: 1em 0;
+  font-size: 0.8em;
+  padding: 0 1.5em;
+  border-left: 1px dotted #ccc;
+}
+footer .desktopNav ul li.active a {
+  color: #1970B4;
+}
+footer .desktopNav ul li:first-child {
+  border: 0;
+  padding-left: 0;
+}
+footer .desktopNav ul li:last-child {
+  border-left: 1px dotted #ccc;
+}
+footer div .wrapper {
+  overflow: hidden;
+  margin: auto;
+  width: 624px;
+}
+footer div .row {
+  margin: 1.250em 0 0 0;
+}
+footer .white-row {
+  text-align: center;
+  background-color: #fff;
+}
+footer .white-row .wrapper {
+  height: 600px;
+  padding-top: 1.875em;
+  width: 618px;
+  padding-bottom: 5.125em;
+}
+footer .white-row ul:first-child {
+  min-height: 627px;
+  display: block;
+  border: 0;
+  width: 157px;
+  float: left;
+  padding-left: 0;
+}
+footer .white-row .column:first-of-type ul:last-child {
+  height: 406px;
+}
+footer .white-row .column:first-of-type ul li ul:last-child {
+  height: auto;
+}
+footer .white-row .column {
+  width: 157px;
+  margin-right: 4.063em;
+  float: left;
+}
+footer .white-row .column ul {
+  min-height: 0;
+  border-left: 1px solid #ccc;
+  float: none;
+  padding-bottom: 1.250em;
+  padding-left: 1em;
+}
+footer .white-row .column ul li:first-child {
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+}
+footer .white-row .column ul li ul li:first-child {
+  font-style: normal;
+  font-weight: normal;
+  color: #666;
+}
+footer .white-row .column ul.videopodcast,
+footer .white-row .column ul.iphoneApps,
+footer .white-row .column ul.androidApps,
+footer .white-row .column ul.platforms {
+  display: block;
+}
+footer .white-row ul {
+  text-align: left;
+  width: 157px;
+  padding-left: 0.625em;
+  position: relative;
+  overflow: visible;
+  float: none;
+}
+footer .white-row ul li {
+  border: 0;
+  width: auto;
+  height: auto;
+  padding: 0.30em 0;
+}
+footer .white-row ul li .icon {
+  position: absolute;
+  width: 22px;
+  height: 23px;
+  top: 0;
+  left: -33px;
+  display: block;
+}
+footer .white-row ul li ul:first-child {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+}
+footer .white-row ul ul {
+  float: none;
+  border-left: 1px solid #ccc;
+}
+footer .white-row ul ul li {
+  border-top: 0;
+  border-left: 0;
+}
+footer .white-row ul ul li ul {
+  float: none;
+  margin-bottom: 1.438em;
+  padding: 0;
+}
+footer .white-row ul ul li ul:first-child {
+  border-top: 0;
+  border-left: 0;
+}
+footer span.icon {
+  background: transparent url("../img/footervertical/sprites.png") no-repeat;
+}
+footer .twitter span.icon {
+  background-position: 0 -37px;
+}
+footer .facebook span.icon {
+  background-position: 0 -60px;
+}
+footer .foros span.icon {
+  background-position: -22px -37px;
+}
+footer .blogs span.icon {
+  background-position: -46px -60px;
+}
+footer .apps span.icon,
+footer .iphoneApps span.icon,
+footer .ipadApps span.icon,
+footer .androidApps span.icon,
+footer .platforms span.icon {
+  background-position: -69px -39px;
+}
+footer .podcast span.icon {
+  background-position: -46px -37px;
+}
+footer .videopodcast span.icon {
+  background-position: -22px -60px;
+}
+footer .blue-row {
+  text-align: left;
+  padding: 0.4em 0;
+  border-top: 0.313em solid #204369;
+}
+footer .blue-row a {
+  float: right;
+}
+footer .blue-row a .text {
+  display: block;
+  font-size: 0.8em;
+  color: #f39040;
+  margin: 0;
+  float: left;
+  padding: 0 5px;
+}
+footer .blue-row.expanded {
+  border-top: 0.313em solid #f39040;
+}
+footer .blue-row .wrapper {
+  text-align: left;
+  margin: auto;
+  position: relative;
+}
+footer .blue-row .wrapper > a {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  text-decoration: none;
+}
+footer .blue-row .wrapper > a .more,
+footer .blue-row .wrapper > a .less {
+  display: block;
+  background: transparent url("../img/footervertical/sprites.png") no-repeat 0 0;
+  height: 16px;
+  width: 16px;
+  float: left;
+}
+footer .blue-row .wrapper > a .more {
+  background: transparent url("../img/footervertical/sprites.png") no-repeat 0 0;
+}
+footer .blue-row .wrapper > a .less {
+  background: transparent url("../img/footervertical/sprites.png") no-repeat 0 -18px;
+}
+footer .blue-row .blueSections {
+  width: 100%;
+  min-height: 0;
+}
+footer .blue-row .blueSections > li {
+  width: 9em;
+  float: left;
+}
+footer .blue-row .blueSections > li ul {
+  min-height: 0;
+  display: none;
+}
+footer .blue-row .blueSections > li ul li a {
+  color: #fff;
+  float: left;
+  border: 0;
+}
+footer .blue-row.expanded .blueSections > li ul {
+  display: block;
+}
+footer .blue-row ul li a {
+  padding: 0.225em 0 0.625em 1.9em;
+  border-bottom: none;
+}
+footer .blue-row ul li:last-child {
+  margin: 0;
+}
+footer .expanded {
+  border-top: 0.313em solid #f39040;
+  padding-bottom: 3.125em;
+}
+footer .expanded .hide {
+  display: block;
+}
+footer .expanded .show {
+  display: none;
+}
+footer .notExpanded .hide {
+  display: none;
+}
+footer .notExpanded .show {
+  display: block;
+}
+footer .dark-row a {
+  float: left;
+}
+footer .dark-row a img {
+  border-right: 1px solid #D5D5D5;
+  padding-left: 0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.5em;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+footer .dark-row a.logo {
+  margin-top: 1.3em !important;
+}
+footer nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+footer div .legal {
+  padding-top: 0;
+}
+footer div .legal div .right,
+footer div .legal div .left {
+  padding: 0;
+}
+footer div .legal div.row {
+  width: 85%;
+}
+footer div .legal div.row .right {
+  text-align: right;
+  float: right;
+}
+footer div .legal div.row div.left {
+  width: 25%;
+  float: left;
+}
+footer div .legal div.row nav {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+footer div .legal div.row nav ul {
+  width: auto;
+  float: none;
+  padding: 2px 0 0;
+  min-height: 0;
+}
+footer div .legal div.row nav ul li {
+  border-left: 1px solid #888;
+  float: left;
+  margin: 0 0 0 0.625em;
+  padding: 0 0 0 0.625em;
+}
+footer div .legal div.row nav ul li a {
+  font-size: 1em;
+  line-height: 1.3em;
+  text-decoration: underline;
+  border-top: 0;
+  padding: 0;
+  font-style: normal;
+  color: #666;
+}
+footer div .legal div.row nav ul li:first-child {
+  border: 0;
+}
+/* BEGIN:type2b (Medium)*/
+.type2b {
+  width: 625px;
+}
+.type2b > div:nth-child(2) {
+  width: 625px;
+  float: left;
+}
+.type2b > div:nth-child(2) > ul > li {
+  float: left;
+  padding: 0 10px 0.3em;
+  width: 193px;
+}
+.type2b > div:nth-child(2) > ul > li .img {
+  width: 100%;
+  height: 100px;
+  background-color: #666;
+  margin-bottom: 10px !important;
+}
+.type2b > div:nth-child(2) > ul li:first-child {
+  padding-left: 0;
+  border: 0;
+}
+.type2b > div:nth-child(2) > ul li:last-child {
+  padding-right: 0;
+}
+.type2b > div:nth-child(2) div .img {
+  width: 409px;
+  height: 297px;
+  background-color: #666;
+  float: left;
+}
+.type2b .articleBigModule {
+  width: 625px;
+  height: 24.5em;
+  font-size: 0.75em;
+  position: relative;
+  top: 0;
+}
+.type2b .articleBigModule h2,
+.type2b .articleBigModule h4,
+.type2b .articleBigModule p,
+.type2b .articleBigModule ul {
+  display: block;
+}
+.type2b .articleBigModule h4 {
+  font-size: 1.5em;
+  margin: 0.938em 0 1.438em;
+  padding: 0;
+}
+.type2b .articleBigModule p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.type2b .articleBigModule li:first-child {
+  margin-bottom: 0.625em;
+}
+.type2b .articleBigModule li {
+  color: #666;
+  width: auto;
+}
+.type2b .articleBigModule img {
+  float: left;
+  width: auto;
+  height: auto;
+}
+.type2b .articleBigModule > .galleryCaption {
+  background-color: transparent;
+  width: 29.5%;
+  height: 100%;
+  float: right;
+  padding: 0;
+  position: relative;
+  top: 0;
+}
+.type2b .articleBigModule > .galleryCaption ul:first-child {
+  display: none;
+}
+.type2b .articlesThumbList {
+  display: block;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  font-weight: bold;
+}
+.type2b .articlesThumbList li {
+  overflow: hidden;
+  border: 0;
+  padding: 0 0.8em 0.3em;
+  margin: 1em 0;
+  float: left;
+  width: 29.45%;
+  border-left: 1px solid #ccc;
+  background: transparent;
+}
+.type2b .articlesThumbList li img {
+  display: block;
+}
+.type2b .articlesThumbList li a {
+  padding: 0;
+  color: black;
+}
+.type2b .articlesThumbList li a h4,
+.type2b .articlesThumbList li a p {
+  width: 98%;
+  float: none;
+  padding: 0;
+}
+.type2b .articlesThumbList li a h2 {
+  display: block;
+  font-style: italic;
+  font-size: 0.9em;
+  line-height: 3em;
+}
+.type2b .articlesThumbList li span.icon {
+  display: none;
+}
+.type2b .articlesThumbList li:first-child {
+  padding-left: 0;
+  border: 0;
+  margin-left: 0;
+}
+.type2b .articlesThumbList li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+/* END:type2b (Medium)*//*BEGIN:type2a (Medium)*/
+.type2a {
+  width: 300px;
+}
+.type2a > div:nth-child(2) {
+  overflow: hidden;
+}
+.type2a .articleMedium {
+  height: 18.35em;
+  border: 0;
+  padding: 0;
+  margin-bottom: 1em;
+  position: relative;
+  width: 300px;
+  float: left;
+}
+.type2a .articleMedium img,
+.type2a .articleMedium h2 {
+  display: block;
+}
+.type2a .articleMedium h4 {
+  width: 100%;
+  padding: 0;
+  font-size: 1em;
+  color: #000;
+}
+.type2a .articleMedium div {
+  position: absolute;
+  left: 1.8em;
+  top: 11em;
+  width: 82%;
+  height: 33%;
+  padding: 5% 0 0 10%;
+}
+.type2a .articleMedium h2 {
+  font-size: 0.8em;
+  line-height: 1.8em;
+  color: #9ea31d;
+  font-style: italic;
+}
+.type2a .articlesThumbList {
+  display: block;
+  width: 300px;
+  float: right;
+  text-align: left;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.type2a .articlesThumbList li {
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  min-height: 4.9em;
+  position: relative;
+}
+.type2a .articlesThumbList li:before,
+.type2a .articlesThumbList li:after {
+  content: "";
+  display: table;
+}
+.type2a .articlesThumbList li:after {
+  clear: both;
+}
+.type2a .articlesThumbList li {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.type2a .articlesThumbList li a {
+  padding: 0;
+  color: black;
+}
+.type2a .articlesThumbList li a p {
+  position: absolute;
+  left: 7em;
+  right: 0;
+  top: 0;
+}
+.type2a .articlesThumbList li a img {
+  margin-right: 1em !important;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-right: 0.5em;
+  border-right: 1px solid #ccc;
+}
+.type2a .articlesThumbList li a span.icon {
+  display: none;
+}
+.type2a .articlesThumbList li:last-child {
+  margin-bottom: 0;
+}
+/*END: type2a (Medium)*//* BEGIN: sportsresults (Medium) */
+.sportsResults {
+  padding: 2.188em 0 0;
+  display: none;
+}
+.sportsResults .mobile {
+  display: none;
+}
+.sportsResults > div:first-child {
+  width: 85%;
+  margin: auto;
+  background-color: transparent;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 1em;
+}
+.sportsResults > div:first-child .expanded li,
+.sportsResults > div:first-child .expanded .hide {
+  display: block;
+}
+.sportsResults > div:first-child .expanded .show {
+  display: none;
+}
+.sportsResults > div:first-child .closed > li:first-child,
+.sportsResults > div:first-child .closed .show {
+  display: block;
+}
+.sportsResults > div:first-child .closed li,
+.sportsResults > div:first-child .closed .hide {
+  display: none;
+}
+.sportsResults > div:first-child .show span.icon {
+  background: url("../img/sportsresults/sprites-sports.png") no-repeat 0 0;
+}
+.sportsResults > div:first-child .hide span.icon {
+  background: url("../img/sportsresults/sprites-sports.png") no-repeat 0 -8px;
+}
+.sportsResults > div:first-child > ul:first-child {
+  width: 20%;
+  text-align: left;
+  font-size: 0.8em;
+  float: left;
+}
+.sportsResults > div:first-child > ul:first-child > li:first-child {
+  padding-bottom: 1.5em;
+}
+.sportsResults > div:first-child > ul:first-child > li:last-child {
+  padding: 3.563em 0;
+}
+.sportsResults > div:first-child > ul:first-child li {
+  padding: 0.4em 0;
+}
+.sportsResults > div:first-child > ul:first-child li span {
+  display: none;
+}
+.sportsResults > div:first-child > ul:first-child li span.icon {
+  height: 0.7em;
+  width: 1em;
+  float: left;
+  display: block;
+  margin: 0.3em 0.2em 0.3em 0;
+}
+.sportsResults > div:first-child > ul:first-child li h4 {
+  font-style: italic;
+  font-size: 1.2em;
+}
+.sportsResults > div:first-child > ul:first-child li a {
+  text-decoration: none;
+  color: #fff;
+}
+.sportsResults > div:first-child > ul:first-child li .selected a {
+  color: #d9a861;
+  font-style: italic;
+}
+.sportsResults > div:first-child > ul:first-child li .selected a > span {
+  display: block;
+  float: left;
+  font-size: 2em;
+  line-height: 0.5em;
+  padding-right: 0.3em;
+}
+.sportsResults > div:first-child .boxes {
+  width: 80%;
+  float: left;
+  overflow: hidden;
+  display: none;
+}
+.sportsResults > div:first-child .boxes > div {
+  float: left;
+  margin-right: 1.3em;
+  margin-bottom: 1.3em;
+}
+.sportsResults > div:first-child .closed {
+  height: 8em;
+}
+.sportsResults > div:first-child .expanded {
+  height: auto;
+}
+.sportsResults .sportsPrevNext {
+  width: auto;
+  border-top: 1px solid #ae3539;
+  padding: 0.8em 0;
+  margin-left: 12em;
+  margin-right: 4em;
+}
+.sportsResults .sportsPrevNext a {
+  float: right;
+  text-decoration: none;
+  color: white;
+  display: inline;
+  font-size: 1.5em;
+  line-height: 0.8em;
+  font-weight: 100;
+  padding: 0 0.6em;
+}
+.sportsResults .sportsPrevNext > a:first-child {
+  border-left: 1px dotted #ae3539;
+}
+.sportsResults .closed .sportsPrevNext {
+  display: none;
+}
+.sportsResults > div:first-child .closed.sportsPrevNext {
+  display: none;
+}
+.sportsResults > div:first-child .closed li.boxes {
+  display: none;
+}
+.sportsResults > div:first-child .expanded li.boxes {
+  display: none;
+}
+/* END: sportsresults (Medium) *//* BEGIN: livenow (Medium) */
+.livenow {
+  width: 300px;
+}
+.livenow > div:nth-child(2) {
+  width: 300px;
+}
+.livenow .overlay {
+  width: 300px;
+}
+/* END: livenow (Medium) *//* BEGIN:mostread (Medium)*/
+.mostread {
+  width: 18.644em;
+}
+/* END:mostread (Medium)*//* BEGIN: carouseltype2 (Medium) */
+.carouseltype2 div.title h3 {
+  width: 22em;
+  max-width: 22em;
+}
+.carouseltype2 div:first-child .carrouselType2FormWrap {
+  width: 20em;
+}
+.carouseltype2 div:first-child ul {
+  display: block;
+}
+/* END: carouseltype2 (Medium) *//* BEGIN:type2bhome (Medium)*/
+.type2bhome {
+  width: 300px;
+}
+.type2bhome > div.type2bhomeitems {
+  width: 300px;
+  float: left;
+}
+.type2bhome > div.type2bhomeitems > ul > li {
+  float: left;
+  /* border-left: 1px solid #ccc;*/
+
+  width: 100%;
+}
+.type2bhome > div.type2bhomeitems > ul > li img {
+  width: 6.7em;
+  height: 5.3em;
+}
+.type2bhome > div.type2bhomeitems > ul li:first-child {
+  padding-left: 0;
+  border: 0;
+}
+.type2bhome > div.type2bhomeitems > ul li:last-child {
+  padding-right: 0;
+}
+.type2bhome > div.type2bhomeitems div .img {
+  width: 409px;
+  height: 297px;
+  background-color: #666;
+  float: left;
+}
+.type2bhome .articleBigModule {
+  height: 18.35em;
+  border: 0;
+  padding: 0;
+  margin-bottom: 1em;
+  position: relative;
+  width: 300px;
+  float: left;
+}
+.type2bhome .articleBigModule img,
+.type2bhome .articleBigModule h2 {
+  display: block;
+}
+.type2bhome .articleBigModule h4 {
+  width: 100%;
+  padding: 0;
+  font-size: 1em;
+  color: #000;
+}
+.type2bhome .articleBigModule div:last-child {
+  position: absolute;
+  left: 1.8em;
+  bottom: 0;
+  width: 82%;
+  height: 33%;
+  padding: 5% 0 0 10%;
+  background-color: #fff;
+}
+.type2bhome .articleBigModule h2 {
+  font-size: 0.8em;
+  line-height: 1.8em;
+  color: #9ea31d;
+  font-style: italic;
+}
+.type2bhome .articlesThumbList {
+  display: block;
+  width: 300px;
+  float: right;
+  text-align: left;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.type2bhome .articlesThumbList > li {
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  min-height: 4.9em;
+  position: relative;
+  background-color: transparent;
+}
+.type2bhome .articlesThumbList > li:before,
+.type2bhome .articlesThumbList > li:after {
+  content: "";
+  display: table;
+}
+.type2bhome .articlesThumbList > li:after {
+  clear: both;
+}
+.type2bhome .articlesThumbList > li {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.type2bhome .articlesThumbList > li a {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+.type2bhome .articlesThumbList > li a p {
+  position: absolute;
+  left: 7em;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+.type2bhome .articlesThumbList > li a img {
+  margin-right: 1em !important;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-right: 0.5em;
+  border-right: 1px solid #ccc;
+}
+.type2bhome .articlesThumbList > li a span.icon {
+  display: none;
+}
+.type2bhome .articlesThumbList li:last-child {
+  margin-bottom: 0;
+}
+/* END:type2bhome (Medium)*//* BEGIN: <horarios(medium)> */
+.timetable div:first-child a span.icon {
+  display: none;
+}
+/* END: <horarios(medium)> *//*BEGIN: videogallery (Medium)*/
+.videogallery {
+  width: 625px;
+  min-height: 41.5em;
+  position: relative;
+}
+.videogallery > div.imgContainer {
+  display: block;
+  width: 100%;
+  height: 373px;
+  overflow: hidden;
+}
+.videogallery > div.buttonBox {
+  background-color: #0078bf;
+  width: 1.75em;
+  height: 1.75em;
+  position: absolute;
+  top: 324px;
+  right: 566px;
+  display: block;
+}
+.videogallery > div.overlay {
+  display: block;
+  background-color: #fff;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  /* For IE8 and earlier */
+
+  position: absolute;
+  top: 352px;
+  right: 0;
+  width: 594px;
+  height: 75px;
+}
+.videogallery p {
+  display: block;
+  font-size: 0.8em;
+  position: absolute;
+  top: 373px;
+  right: 0;
+  width: 85.9%;
+  padding-right: 25px;
+}
+.videogallery .thumbsContainer {
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  margin-left: 2em;
+  padding: 23px 51px;
+}
+.videogallery .thumbsContainer > div {
+  overflow: hidden;
+}
+.videogallery .thumbsContainer > a {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  top: 26px;
+  right: 16px;
+  text-decoration: none;
+}
+.videogallery .thumbsContainer > a:first-child {
+  right: auto;
+  left: 17px;
+}
+.videogallery .thumbsContainer > a span.arrow {
+  display: block;
+  font-size: 2em;
+  color: black;
+}
+.videogallery .thumbsContainer ul {
+  overflow: hidden;
+  width: 1000em;
+}
+.videogallery .thumbsContainer ul li {
+  float: left;
+  margin-left: 38px;
+  width: 137px;
+  padding: 0;
+}
+.videogallery .thumbsContainer ul li:nth-child(n+4) {
+  display: block;
+}
+.videogallery .thumbsContainer ul li:first-child {
+  margin-left: 0;
+}
+.videogallery .thumbsContainer ul li a {
+  display: block;
+}
+.videogallery .thumbsContainer ul li a img {
+  display: block;
+  width: 137px;
+  height: 77px;
+  position: static;
+}
+.videogallery .thumbsContainer ul li a div {
+  text-align: left;
+  font-size: 0.8em;
+  padding-top: 5px;
+  margin: 0;
+  border: 0;
+  font-weight: bold;
+}
+.videogallery .smallThumbsContainer {
+  display: block;
+  padding-bottom: 0;
+}
+.videogallery .smallThumbsContainer ul li {
+  margin-left: 16px;
+  width: 68px;
+}
+.videogallery .smallThumbsContainer ul li a img {
+  width: 68px;
+  height: 47px;
+}
+/*END: videogallery (Medium)*//*BEGIN: customdropdown (Medium)*/
+div.customdropdown {
+  width: 300px;
+}
+div.customdropdown > div:nth-child(2) div select.select {
+  width: 65%;
+}
+/* BEGIN: <type3a(medium)> */
+.type3 ul li {
+  display: block;
+  float: left;
+  margin-right: 0.875em;
+  padding-right: 0.875em;
+  height: 300px;
+  /*border-right: 1px solid #CCC;*/
+
+}
+.type3 ul li div:last-child {
+  left: 1.8em;
+  top: 11.2em;
+  width: 78%;
+}
+.type3 ul li:last-child {
+  display: none;
+}
+.type3 ul li:nth-child(2) {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.type3 ul > li:nth-child(2) div:last-child,
+.type3 ul > li:first-child div:last-child {
+  left: 2.25em;
+}
+/* END: <type3a(medium)> *//*BEGIN: verticalhero (Medium)*/
+.verticalHero {
+  width: 625px;
+  overflow: hidden;
+}
+.verticalHero .title > ul ul,
+.verticalHero.showArrows .title ul {
+  display: none;
+}
+.verticalHero .articleBigModule {
+  height: 43.250em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+.verticalHero .articleBigModule img {
+  width: 100%;
+}
+.verticalHero .articleBigModule > .galleryCaption {
+  background-color: white;
+  position: absolute;
+  left: 2.2em;
+  top: 28.2em;
+  width: 28.8em;
+  height: 12.525em;
+  padding: 4% 5% 0;
+  overflow: hidden;
+}
+.verticalHero .articleBigModule > .galleryCaption > ul:first-child {
+  display: none;
+}
+.verticalHero .articleBigModule > .galleryCaption > h3 {
+  display: none;
+}
+.verticalHero .articleBigModule > ul.galleryThumbs {
+  width: 16em;
+  float: right;
+  overflow: hidden;
+  display: block;
+}
+.verticalHero .articleBigModule > ul.galleryThumbs li {
+  float: left;
+  margin: 0.167em 0 0 0.167em;
+  width: 5.167em;
+  height: 5.167em;
+}
+.verticalHero .articleBigModule > ul.galleryThumbs li.active {
+  border: solid 0.167em red;
+  width: 4.833em;
+  height: 4.833em;
+}
+.verticalHero .articleBigModule > ul.galleryThumbs li.active img {
+  display: none;
+}
+.verticalHero .articleBigModule > ul.galleryThumbs li.active img:first-child {
+  display: block;
+}
+.verticalHero .articleBigModule > ul.galleryThumbs li:hover {
+  border: solid 0.167em red;
+  width: 4.833em;
+  height: 4.833em;
+}
+.verticalHero .articleBigModule > ul.galleryThumbs li img {
+  width: 100%;
+  height: 100%;
+}
+.verticalHero .articleBigModule > ul.galleryThumbs li img:first-child {
+  display: none;
+}
+.verticalHero .type2a {
+  width: 625px;
+  margin-top: 1em;
+}
+.verticalHero .type2a img {
+  display: block;
+}
+.verticalHero .type2a .articleMedium {
+  float: right;
+}
+.verticalHero .type2a .articleMedium:first-child {
+  float: left;
+  border-right: 1px solid #ccc;
+  padding-right: 0.8em;
+}
+.verticalHero .type2a .articleMedium {
+  height: 18.35em;
+  border-top: 0;
+}
+.verticalHero .type2a .articleMedium a {
+  font-size: 1em;
+}
+.verticalHero .type2a .articleMedium a p:first-child {
+  display: none;
+}
+.verticalHero .type2a .articleMedium img {
+  display: block;
+}
+.verticalHero .type2a .articleMedium > div.articleMediumCaption {
+  background-color: #fff;
+  position: absolute;
+  left: 1.8em;
+  bottom: 0;
+  width: 15.2em;
+  height: 33%;
+  padding: 5% 0 0 10%;
+  border: 0;
+}
+.verticalHero .type2a .articleMedium span.icon {
+  display: none;
+}
+.verticalHero .type2a .articleMedium div.articleMediumCaption {
+  top: 11em;
+}
+.verticalHero .type2b .articleBigModule li:first-child {
+  margin-bottom: 0;
+}
+.verticalHero .type2b .galleryImages > ul > li {
+  height: 33.417em;
+}
+.verticalHero .galleryImages > ul {
+  overflow: hidden;
+  height: 30em;
+}
+/*END: verticalhero (Medium)*//* BEGIN:deportes (Medium)*/
+#deportes div.main {
+  width: 624px;
+}
+#deportes div.main #bannerTopDeportes {
+  margin-top: 1.5em;
+  text-align: center;
+}
+#deportes div.main #bannerTopDeportes #banner2Deportes {
+  display: block;
+}
+#deportes div.main div.container-one {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-one div.left:before,
+#deportes div.main div.container-one div.left:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-one div.left:after {
+  clear: both;
+}
+#deportes div.main div.container-one div.left {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-one div.right {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-one div.right:before,
+#deportes div.main div.container-one div.right:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-one div.right:after {
+  clear: both;
+}
+#deportes div.main div.container-one div.right {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-one div.right #vivoahora1 {
+  width: 300px;
+  float: left;
+}
+#deportes div.main div.container-one div.right #masleido1 {
+  width: 300px;
+  float: right;
+}
+#deportes div.main div.container-one div.right #masleido1 .mostread ul li:nth-child(n+4) {
+  display: none;
+}
+#deportes div.main div.container-two {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-two:before,
+#deportes div.main div.container-two:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-two:after {
+  clear: both;
+}
+#deportes div.main div.container-two {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-two-banner {
+  margin-top: 1.5em;
+  text-align: center;
+}
+#deportes div.main div.container-two-banner #bannerDeportes2 {
+  display: block;
+}
+#deportes div.main div.container-three {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-three:before,
+#deportes div.main div.container-three:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-three:after {
+  clear: both;
+}
+#deportes div.main div.container-three {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-three div.left {
+  float: left;
+}
+#deportes div.main div.container-three div.right {
+  float: right;
+}
+#deportes div.main div.container-three div.right .timetable {
+  width: 300px;
+}
+#deportes div.main div.container-three div.right .timetable > ul:nth-child(3) {
+  height: 29.8em;
+}
+#deportes div.main div.container-four {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-four:before,
+#deportes div.main div.container-four:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-four:after {
+  clear: both;
+}
+#deportes div.main div.container-four {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-four div.left #videos {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-four div.right {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-four div.right:before,
+#deportes div.main div.container-four div.right:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-four div.right:after {
+  clear: both;
+}
+#deportes div.main div.container-four div.right {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-four div.right #goles {
+  width: 300px;
+  float: left;
+}
+#deportes div.main div.container-four div.right #goles .customdropdown ul {
+  height: 20.85em;
+}
+#deportes div.main div.container-four div.right #agenda {
+  width: 300px;
+  float: right;
+}
+#deportes div.main div.container-four div.right #agenda .timetable > ul {
+  height: 24em;
+}
+#deportes div.main div.container-five {
+  margin-top: 1.5em;
+  text-align: center;
+}
+#deportes div.main div.container-five #bannerDeportes4 {
+  display: block;
+}
+#deportes div.main div.container-six {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.left {
+  width: 625px;
+}
+#deportes div.main div.container-six div.left div.one {
+  width: 625px;
+}
+#deportes div.main div.container-six div.left div.one:before,
+#deportes div.main div.container-six div.left div.one:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-six div.left div.one:after {
+  clear: both;
+}
+#deportes div.main div.container-six div.left div.one {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-six div.left div.one #boxeo {
+  width: 300px;
+  float: left;
+}
+#deportes div.main div.container-six div.left div.one #nfl {
+  width: 300px;
+  float: right;
+}
+#deportes div.main div.container-six div.left div.two {
+  width: 625px;
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.left div.two:before,
+#deportes div.main div.container-six div.left div.two:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-six div.left div.two:after {
+  clear: both;
+}
+#deportes div.main div.container-six div.left div.two {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-six div.left div.two #beisbol {
+  width: 300px;
+  float: left;
+}
+#deportes div.main div.container-six div.left div.two #nba {
+  width: 300px;
+  float: right;
+}
+#deportes div.main div.container-six div.left div.three {
+  width: 625px;
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.left div.three:before,
+#deportes div.main div.container-six div.left div.three:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-six div.left div.three:after {
+  clear: both;
+}
+#deportes div.main div.container-six div.left div.three {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-six div.left div.three #f1 {
+  width: 300px;
+  float: left;
+}
+#deportes div.main div.container-six div.left div.three #masdeportes {
+  width: 300px;
+  float: right;
+}
+#deportes div.main div.container-six div.left div.four {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.right:before,
+#deportes div.main div.container-six div.right:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-six div.right:after {
+  clear: both;
+}
+#deportes div.main div.container-six div.right {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-six div.right div.left2 {
+  width: 300px;
+  float: left;
+}
+#deportes div.main div.container-six div.right div.left2 #opinion {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.right div.left2 #opinion .twitterers2 ul li:nth-child(n+5) {
+  display: none;
+}
+#deportes div.main div.container-six div.right div.left2 #twitter {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.right div.left2 #twitter:before,
+#deportes div.main div.container-six div.right div.left2 #twitter:after {
+  content: "";
+  display: table;
+}
+#deportes div.main div.container-six div.right div.left2 #twitter:after {
+  clear: both;
+}
+#deportes div.main div.container-six div.right div.left2 #twitter {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+#deportes div.main div.container-six div.right div.left2 #twitter .twitterers > ul {
+  height: 10.7em;
+}
+#deportes div.main div.container-six div.right div.right2 {
+  width: 300px;
+  float: right;
+}
+#deportes div.main div.container-six div.right div.right2 #bannerDeportes5,
+#deportes div.main div.container-six div.right div.right2 #especial,
+#deportes div.main div.container-six div.right div.right2 #ninos,
+#deportes div.main div.container-six div.right div.right2 #newsletter {
+  margin-top: 1.5em;
+}
+#deportes div.main div.container-six div.right div.right2 #newsletter {
+  margin-top: 2em;
+}
+#deportes div.main div.container-six div.right div.right2 #bannerDeportes5 {
+  display: block;
+}
+#deportes div.main div.container-six div.right div.right2 #especial img,
+#deportes div.main div.container-six div.right div.right2 #ninos img {
+  width: auto;
+}
+#deportes footer {
+  margin-top: 1.5em;
+}
+#deportes footer div.makeBookmark span a,
+#deportes footer nav.desktopNav ul li.active a {
+  color: #a41d21;
+}
+#deportes footer span.icon,
+#deportes footer div.makeBookmark span {
+  background-image: url("../img/deportes/sports_icons.png");
+}
+/* END:deportes (Medium)*/

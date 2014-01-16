@@ -1,0 +1,23 @@
+@media screen and (min-width: 624px){
+	
+	.wdg_nfl_leaders_01{
+		display:block;
+		height: 560px;
+		margin-bottom: 36px;
+	}
+	
+	.wdg_nfl_leaders_01 .scroll{
+		overflow-x: hidden;
+    	overflow-y: auto;
+		height:595px;
+		width:642px;
+	}
+	.ie7 .wdg_nfl_leaders_01 .shsHeadTable  td .shsPageNav{
+		margin-top: -15px;
+		margin-right: 20px;
+	}
+	
+	.wdg_nfl_leaders_01 #shsBody{
+		width: 623px;
+	}
+}

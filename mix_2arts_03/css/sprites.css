@@ -1,0 +1,224 @@
+.sprite {
+  background: url(../img/global-sprites.png) no-repeat 0 0;
+  display: inline-block;
+  height: 10px;
+  overflow: hidden;
+  text-indent: -99em;
+  width: 10px;
+}
+.sprite.menu {
+  background-position: -271px -1px;
+  height: 33px;
+  width: 41px;
+}
+.sprite.logo {
+  background-position: -270px -40px;
+  height: 20px;
+  width: 120px;
+}
+.sprite.search {
+  background-position: -87px -1px;
+  height: 13px;
+  width: 13px;
+}
+.sprite.twitter-gray {
+  background-position: -105px 0;
+  height: 18px;
+  width: 18px;
+}
+.sprite.twitter {
+  background-position: -126px 0;
+  height: 18px;
+  width: 18px;
+}
+.sprite.facebook {
+  background-position: -146px 0;
+  height: 18px;
+  width: 18px;
+}
+.sprite.dropdown {
+  background-position: -170px -5px;
+  height: 7px;
+  width: 12px;
+}
+.sprite.dropdown-white {
+  background-position: -188px -6px;
+  height: 7px;
+  width: 12px;
+}
+.sprite.like {
+  background-position: -86px -23px;
+  height: 16px;
+  width: 16px;
+}
+.sprite.video-corner {
+  background-position: -131px -40px;
+  height: 43px;
+  width: 43px;
+}
+.sprite.photo-corner {
+  background-position: -85px -40px;
+  height: 40px;
+  width: 40px;
+}
+.sprite.live {
+  background-position: -127px -21px;
+  height: 15px;
+  width: 17px;
+}
+.sprite.schedule {
+  background-position: -147px -22px;
+  height: 15px;
+  width: 16px;
+}
+.sprite.clock {
+  background-position: -187px -61px;
+  height: 15px;
+  width: 16px;
+}
+.sprite.windy {
+  background-position: -443px -270px;
+  height: 20px;
+  width: 20px;
+}
+.sprite.sunny {
+  background-position: -441px -46px;
+  height: 24px;
+  width: 24px;
+}
+.sprite.partially-cloudy {
+  background-position: -440px -70px;
+  height: 27px;
+  width: 27px;
+}
+.sprite.cloudy {
+  background-position: -443px -100px;
+  height: 20px;
+  width: 20px;
+}
+.sprite.thunderstorm {
+  background-position: -443px -123px;
+  height: 20px;
+  width: 22px;
+}
+.sprite.logo-forotv {
+  background-position: -2px -72px;
+  height: 20px;
+  width: 70px;
+}
+.sprite.logo-tdn {
+  background-position: -6px -102px;
+  height: 15px;
+  width: 37px;
+}
+.sprite.logo-tdtv {
+  background-position: -5px -125px;
+  height: 15px;
+  width: 46px;
+}
+.sprite.photo {
+  height: 17px;
+  width: 21px;
+}
+.sprite.video {
+  height: 17px;
+  width: 26px;
+}
+.sprite.rq {
+  height: 12px;
+  width: 9px;
+}
+.sprite.carouselArrowLeft {
+  background-position: -270px -63px;
+  background-color: transparent;
+  color: transparent;
+}
+.sprite.carouselArrowRight {
+  background-position: -286px -63px;
+  background-color: transparent;
+  color: transparent;
+}
+.news .sprite.rq {
+  background-position: -257px -1px;
+}
+.news .sprite.photo {
+  background-position: -205px 0;
+}
+.news .sprite.video {
+  background-position: -227px 0;
+}
+.news .sprite.schedule.color {
+  background-position: -187px -22px;
+}
+.sports .sprite.rq {
+  background-position: -257px -21px;
+}
+.sports .sprite.photo {
+  background-position: -205px -20px;
+}
+.sports .sprite.video {
+  background-position: -227px -20px;
+}
+.entertainment .sprite.rq {
+  background-position: -257px -41px;
+}
+.entertainment .sprite.photo {
+  background-position: -205px -40px;
+}
+.entertainment .sprite.video {
+  background-position: -227px -40px;
+}
+.lifestyle .sprite.rq {
+  background-position: -257px -61px;
+}
+.lifestyle .sprite.photo {
+  background-position: -205px -60px;
+}
+.lifestyle .sprite.video {
+  background-position: -227px -60px;
+}
+.television .sprite.rq {
+  background-position: -257px -81px;
+}
+.television .sprite.photo {
+  background-position: -205px -80px;
+}
+.television .sprite.video {
+  background-position: -227px -80px;
+}
+.television .sprite.schedule.color {
+  background-position: -187px -42px;
+}
+a.active .sprite.live {
+  background-position: -107px -21px;
+  height: 15px;
+  width: 17px;
+}
+a.active .sprite.schedule {
+  background-position: -167px -22px;
+  height: 15px;
+  width: 16px;
+}
+a.active .sprite.dropdown {
+  transform: rotateZ(180deg);
+  -webkit-transform: rotateZ(180deg);
+}
+.show-menu .menu {
+  background-position: -313px -1px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
+  .sprite {
+    background-image: url(../img/global-sprites@2x.png);
+    background-size: 640px 146px;
+  }
+}
+@media screen and (min-width: 624px) {
+  .sprite.logo {
+    background-position: 0 0;
+    height: 70px;
+    width: 85px;
+  }
+}
+
+
+

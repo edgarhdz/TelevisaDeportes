@@ -1,0 +1,274 @@
+@media screen {
+    .wdg_goals_by_player_01 .pleca_superior {
+        width: 100%; 
+        position: relative;
+        margin-bottom: 9px;
+        clear: both;
+        height: 60px;
+    }
+    
+    .wdg_goals_by_player_01 .background-color1 {
+        width: 48%;
+        float: left;
+        height: 31px;
+    }
+  
+    .wdg_goals_by_player_01 .pleca_superior h3 {
+        font-size: 14px;
+        line-height:31px;
+        padding-left:20px;
+    }
+    
+    .wdg_goals_by_player_01 .background-color1 {
+        background-color: #A70A0B !important;
+    }
+
+    .wdg_goals_by_player_01 .wdg_goals_by_player_01_dropdown {
+        background-color: #ECECEC;
+        border-bottom: 1px solid #B9B9B9;
+        box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+        cursor: pointer;
+        float: left;
+        height: 30px;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .wdg_goals_by_player_01 .wdg_goals_by_player_01_dropdown .wdg_goals_by_player_01_dropdowncontent p {
+        color: #232323;
+        display: inline-block;
+        float: left;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 30px;
+        margin-left: 12px;
+        width: 236px;
+    }
+    
+    .wdg_goals_by_player_01 .dropdwon-right {
+        float: right;
+        margin-left: 0;
+        padding:0;
+        position: relative;
+        width: 32px;
+        z-index: 1000;
+        text-align:center;
+        color:#FFF;
+        line-height:30px;
+    }
+    
+    .wdg_goals_by_player_01 .background-color1 {
+        float: left;
+        height: 30px;
+        width: 100%;
+    }
+    
+    .wdg_goals_by_player_01 .wdg_goals_by_player_01_dropdown .wdg_goals_by_player_01_dropdowncontent span {
+        float: right;
+        margin-right: 9px;
+        margin-top: 10px;
+    }
+    
+    .sprite.dropdown-white {
+        background-position: -188px -6px;
+        height: 7px;
+        width: 12px;
+    }
+    
+    .wdg_goals_by_player_01 .wdg_goals_by_player_01_listcontainer {
+        clear: both;
+    }
+    
+    .wdg_goals_by_player_01 .wdg_goals_by_player_01_listcontainer ul {
+        background-color: #F5F5F5;
+        cursor: pointer;
+        position: relative;
+        visibility: hidden;
+        z-index: 1000 !important;
+        font-size: 14px;
+        margin: 0px;
+    }
+    
+    .wdg_goals_by_player_01 .wdg_goals_by_player_01_listcontainer ul li {
+        background-color: rgba(235, 235, 235, 0.6);
+        border-bottom: 1px solid #D3D3D3;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1) inset;
+        height: 25px;
+        width: 100%;
+        float: left;
+        font-weight: bold;
+        margin: 0;
+        padding: 0px 0 6px 5px;
+    }
+    
+    .wdg_goals_by_player_01 .wdg_goals_by_player_01_listcontainer ul li p {
+        font-style: italic;
+        font-weight: bold;
+        line-height: 34px;
+        margin-left: 20px;
+    }
+    
+    .wdg_goals_by_player_01 .titulo {
+        font-size:18px;
+        border-bottom:#CCC 1px solid;
+        padding-bottom: 8px;
+        padding-left: 46px;
+        font-style:italic;
+    }
+
+    .wdg_goals_by_player_01 .pleca_inferior {
+        border-bottom: 1px solid #CCCCCC;
+        clear: both;
+        height: 30px;
+        position: relative;
+        width: 100%;
+        margin-bottom:14px;
+        line-height:30px;
+    }
+    
+    .wdg_goals_by_player_01 .pleca_inferior strong {
+        float: left;
+        font-size: 14px;
+        padding: 0 0 0 297px;
+        position: relative;
+        font-weight:bold;
+    }
+    
+    .wdg_goals_by_player_01 .pleca_inferior  .wdg_goals_by_player_01_dropdown {
+       
+        float: right;
+        height: 30px;
+        position: relative;
+        width: 34%;
+    }
+    
+    .wdg_goals_by_player_01 .pleca_inferior .wdg_goals_by_player_01_dropdown .wdg_goals_by_player_01_dropdowncontent p {
+        width: 164px;
+    }
+    
+    .wdg_goals_by_player_01 .pleca_inferior .wdg_goals_by_player_01_listcontainer ul li {
+        width: 207px;
+    }
+    
+    .wdg_goals_by_player_01 #tableDraftOperation {
+        font-size: 13px;
+        padding: 0;
+        border-spacing: 0;
+        border-collapse: collapse;
+        width: 605px;
+        text-align: left;
+        margin-left: 18px
+    }
+    .wdg_goals_by_player_01 #tableDraftOperation th:nth-child(4),
+    .wdg_goals_by_player_01 #tableDraftOperation th:nth-child(5),
+    .wdg_goals_by_player_01 #tableDraftOperation th:nth-child(6),
+    .wdg_goals_by_player_01 #tableDraftOperation th:nth-child(7),
+    .wdg_goals_by_player_01 #tableDraftOperation th:nth-child(8),
+    .wdg_goals_by_player_01 #tableDraftOperation th:nth-child(9) {
+        text-align: center;
+    }
+
+    
+    .wdg_goals_by_player_01 #tableDraftOperation thead {
+          border-bottom: 1px solid #CCCCCC;
+    }
+    
+    .wdg_goals_by_player_01 #tableDraftOperation th {
+        padding: 0 5px;
+        height: 10px;
+        cursor:pointer;
+    }
+    
+
+    
+    .wdg_goals_by_player_01 #tableDraftOperation thead tr:nth-child(2) th i {
+        display:none;
+    }
+    
+    .wdg_goals_by_player_01 #tableDraftOperation thead tr:nth-child(2) th.sel i {    
+        display:block; 
+    }
+     
+    .wdg_goals_by_player_01 #tableDraftOperation td {
+        vertical-align: middle;
+        height:19px;
+        text-align:center;
+        color:#D9A961;
+        font-size:14px;
+        background:url(../img/dotted-horizontal.png) repeat-x 0 100%;
+        font-weight:bold;
+    }
+    .wdg_goals_by_player_01 #tableDraftOperation .odd:last-of-type td{
+        background: none;
+    }
+    .wdg_goals_by_player_01 #tableDraftOperation .odd:last-of-type td:last-of-type {
+        background: #eaeaea;
+    }
+    
+    .wdg_goals_by_player_01 #tableDraftOperation td div {
+        width: 100%;
+        height: 25px;
+        padding-top: 7px;
+        text-align: center;
+        font-weight:bold;
+    }
+    
+
+    
+
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(1) {
+        color: #A70A0B;
+        width: 26px;
+        font-size: 16px;
+    }
+
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(2),
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(3) {
+        text-align: left;
+        color: #232323;
+        font-size: 13px;
+        padding: 10px;
+    }
+    
+    
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(3) {
+        width: 67px;
+    }
+    
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(4),
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(5),
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(6),
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(7),
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(8),
+    .wdg_goals_by_player_01 #tableDraftOperation tr td:nth-child(9) {
+        width: 55px;
+        padding: 0;
+        font-size: 16px;
+    }
+    
+    .wdg_goals_by_player_01 #tableDraftOperation td.sel {
+        background: #eaeaea none;
+        box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .wdg_goals_by_player_01 div.pleca_inferior .dropdwon-right {
+       color:#000;
+    } 
+    .wdg_goals_by_player_01 .wdg_scroll_dropdown{
+        margin-bottom: 15px;
+    }
+    
+    .wdg_goals_by_player_01 td span {
+        font-size:inherit;
+        
+    }
+}
+@media screen and (max-width: 623px) {
+	.wdg_goals_by_player_01 .pleca_inferior {
+		display:none;
+	}
+	.wdg_goals_by_player_01 table {
+	   margin-top:12px;
+	}
+}

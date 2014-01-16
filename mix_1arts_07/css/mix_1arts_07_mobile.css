@@ -1,0 +1,98 @@
+@media screen {
+    .mix_1arts_07 {
+        background-color: #F5F5F5;
+        margin-bottom: 0px;
+        border-top: 1px solid #CCC;
+        padding-bottom: 6px;
+    }
+    .mix_1arts_07 ul li a h4 {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 800;
+        padding-bottom: 8px;
+        line-height: 19px;
+    }
+    .mix_1arts_07 div.title:before,
+    .mix_1arts_07 div.title:after {
+        content: "";
+        display: table;
+    }
+    .mix_1arts_07 div.title:after {
+        clear: both;
+    }
+    .mix_1arts_07 div.title {
+        zoom: 1;
+    }
+    .mix_1arts_07 div.title ul {
+        width: 55px;
+        margin: 0;
+        float: right;
+        padding-bottom: 8px;
+    }
+    .mix_1arts_07 div.title ul li {
+        border-top: none;
+        width: auto;
+        height: auto;
+        float: left;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .mix_1arts_07 div.title ul li a {
+        width: 015px;
+        height: 9px;
+        display: block;
+        padding: 0;
+    }
+    .mix_1arts_07 div.title ul li:first-child {
+        margin: 10px 10px 0 0;
+    }
+    .mix_1arts_07 div.title ul li:last-child {
+        border-left: 1px dotted #666;
+        padding-left: 12px;
+    }
+    .mix_1arts_07 ul.articles li:first-child {
+        border-top: none;
+    }
+    .mix_1arts_07 ul li a h3 {
+        color: #000000;
+        font-size: 14px;
+        font-weight: bold;
+        width: 72%;
+        margin-left: 20px;
+    }
+    
+    .mix_1arts_07 ul li a img {
+        display: none;
+    }
+    .mix_1arts_07 ul li:before, .mix_1arts_07 ul li:after {
+        content: "";
+        display: table;
+    }
+    .mix_1arts_07 ul li:after {
+        clear: both;
+    }
+    .mix_1arts_07 .sprite {
+        display: none;
+    }
+    .mix_1arts_07 ul li a .icon {
+        background: url(../img/mobile-arrow-sprites.png) no-repeat 0 0;
+        background-size: 12px 20px;
+        height: 32px;
+        width: 35px;
+        position: absolute;
+        margin-top: -8px;
+        top: 50%;
+        right: 8px;
+    }
+    .mix_1arts_07 ul li{
+        height: auto;
+        padding: 20px 0 10px;
+        border-top: 1px solid #ccc;
+        position: relative;
+    }
+    .ie7 .mix_1arts_07 ul li a h3 {
+        width: 100%;
+    }
+}
+
+

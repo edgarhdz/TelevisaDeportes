@@ -1,0 +1,24 @@
+@media screen and (min-width: 948px){  
+	.ie7 .wdg_5podcast_01 .nav_paginator_01 ul {            
+		height: 20px; 
+	}    
+
+	.ie7 .wdg_5podcast_01 .nav_paginator_01 ul li {          
+		line-height: 16px; 
+		vertical-align: middle;        
+	}   
+
+	.ie7 .wdg_5podcast_01 .nav_paginator_01 ul li a {          
+		line-height: 18px; 
+	}
+
+	.ie7 .wdg_5podcast_01 .nav_paginator_01 ul li .selected {          
+		line-height: 16px;   
+		vertical-align: top;   
+	} 
+
+	.ie7 .wdg_5podcast_01 .nav_paginator_01 ul li.suspension_points {
+		line-height: 16px;    
+		vertical-align: top;  
+	}    
+}

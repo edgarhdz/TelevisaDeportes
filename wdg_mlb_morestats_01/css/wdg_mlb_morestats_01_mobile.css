@@ -1,0 +1,152 @@
+@media screen {
+    .wdg_mlb_morestats_01{
+        width: 610px;
+        clear: both;
+        overflow: hidden;
+        display: block;
+        background: none repeat scroll 0 0 #FFFFFF;
+	    box-shadow: 0 2px 14px #E9E9E9 inset;
+	    color: #666666;
+	    font-size: 12px;
+	    font-weight: bold;
+	    height: 235px;
+	    margin-bottom: 24px;
+	    border: 1px solid #ccc;
+    }
+    .wdg_mlb_morestats_01 .wdg_mlb_morestats_01_title{
+    	 background-color: #A70A0B;
+	    height: 25px;
+	    padding-top: 5px;
+	    width: 100%;
+    }
+    .wdg_mlb_morestats_01 .wdg_mlb_morestats_01_title h2{
+    	color: #FFFFFF;
+	    font-size: 16px !important;
+	    font-weight: bold;
+	    text-align: center;
+    }
+    .wdg_mlb_morestats_01_league{
+		float: left;
+    	width: 303px;
+    	margin: 1px;
+    	color: #fff !important;
+	    background: none repeat scroll 0 0 #D9A961;
+	    box-shadow: 0 4px 14px #B6714C inset;
+	    font-size: 10px;
+	    padding-top: 5px;
+	    height: 25px;
+	    list-style-type: none;
+	    text-align: center;
+    }
+    .wdg_mlb_morestats_01_league h2 a{
+    	color: #fff !important;
+    	font-size: 16px; 
+    }
+    .wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern {
+    	float: left;
+    	margin: 0 40px;
+    	padding-top: 15px;
+    }
+
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern div select{
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+		overflow: hidden;
+		-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+	    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+	    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+	    background: #f8f8f8;
+	    color:#888;
+	    border:none;
+	    outline:none;
+	    cursor:pointer;
+	    background: none repeat scroll 0 0 #DEDEDE;
+	    box-shadow: 0 4px 14px #B8B8B8 inset;
+	    color: #A0A0A0;
+	    height: 34px;
+	    padding: 8px 3px 8px;
+	    width: 215px !important;
+	}
+
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern .h2PageTitle{
+		display: none;
+	}
+
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern h2{
+		 padding-top: 0 !important;
+	}
+
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern .shsPageNav strong{
+		display: none;
+	}
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern div {
+		position:relative;
+	}
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern div:after {
+	    content:url(../global/img/arrow_down.png);
+	    font:11px "Consolas", monospace;
+	    right:12px;
+	    top:10px;
+	    padding:0 0 2px;
+	    color:#000;
+	    position:absolute;
+	    pointer-events:none;
+	}
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern div:before {
+	    content:'';
+	    right:0; 
+	    top:0px;
+	    width:34px;
+	    height:34px;
+	    background:#ccc;
+	    position:absolute;
+	    pointer-events:none;
+	    display:block;
+	}	
+	.ie8 .wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern div {
+		position:relative;
+	}
+	.ie8  .wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern div:after {
+	    content:'';
+	    font:11px "Consolas", monospace;
+	    -webkit-transform:rotate(90deg);
+	    -moz-transform:rotate(90deg);
+	    -ms-transform:rotate(90deg);
+	    transform:rotate(90deg);
+	    right:14px;
+	    top:8px;
+	    padding:0 0 2px;
+	    position:absolute;
+	    pointer-events:none;
+	}
+	.ie8 .wdg_mlb_morestats_01 .wdg_mlb_morestats_01_extern div:before {
+	    content:'';
+	    right:0; 
+	    top:0px;
+	    width:34px;
+	    height:34px;
+	    position:absolute;
+	    pointer-events:none;
+	    display:block;
+	    background:transparent;
+	}
+
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_componets{
+		float: left;
+    	margin: 16px 0 0 35px;
+	}
+
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_componets ul li{
+		border-right: 1px solid;
+	    float: left;
+	    font-size: 12px;
+	    padding: 0 10px;
+	}
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_componets ul li:nth-last-child(-n+1) {
+		border-right: 0;
+	} 
+	.wdg_mlb_morestats_01 .wdg_mlb_morestats_01_componets ul li a{
+		color: #D9A961;
+	}
+}

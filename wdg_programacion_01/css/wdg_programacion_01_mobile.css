@@ -1,0 +1,239 @@
+@media screen {
+    .wdg_programacion_01{
+        width: 100%;
+        overflow: hidden;
+		position:relative;
+		margin-bottom:7px;
+    }
+    .wdg_programacion_01 ul.wdg_programacion_01_list{
+        width: 100%;
+        overflow: hidden;
+    }
+    .wdg_programacion_01 ul.wdg_programacion_01_list li{
+        margin: 11px 0;
+        border-bottom: 1px #ccc solid;
+        clear: both;
+        overflow: hidden;
+		width:98%;
+		padding-bottom: 14px;
+    }
+    .wdg_programacion_01 ul.wdg_programacion_01_list li:last-of-type{
+        margin-bottom: 0px;
+    }
+
+    .wdg_programacion_01 ul li .time{
+        display:block;
+		padding-left:10px;
+        width:33px;
+        text-align:center;
+        margin-left: 2px;
+        margin-right: 25px;
+        float:left;
+		font-weight:bold;
+    }
+    .wdg_programacion_01 ul li .icon-time{
+        display:block;
+        width:33px;
+        text-align:center;
+        margin-left: 10px;
+        margin-right: 12px;
+		padding-top: 8px;
+        float:left;
+    }
+    .wdg_programacion_01 ul li .icon-interactive{
+        float: right;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .wdg_programacion_01 ul li .icon-interactive2{
+        border-right: 0;
+        padding-right: 0;
+        margin-left: 0;
+        float: right !important;
+        cursor: pointer;
+    }
+    .wdg_programacion_01 ul li .chronic {
+        border-left: 1px solid #CCCCCC;
+        float: left;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 8px;
+        width: 68%;
+    }
+    .wdg_programacion_01 ul li .chronic .textcolor-title2{
+        font-size: 14px;
+        /*float: left;*/
+        width: 100%;
+		font-style:italic;
+    }
+   
+    .wdg_programacion_01 ul li .tvsa-videocamera:hover,
+    .wdg_programacion_01 ul li .tvsa-camera:hover{
+        color: #A70A0B;
+    }
+    .wdg_programacion_01 .img_stage_01{
+        margin-bottom: 5px;
+        display: none;
+    }
+    .wdg_programacion_01 .vid_player_01{
+        margin-bottom: 0px;
+        margin-top: 52px;
+        display: none;
+    }
+
+    .wdg_programacion_01 .arrow_buttons{
+        border-top: 1px solid #ccc;
+        margin-top: 0px;
+    }
+    .wdg_programacion_01 a.next {
+        background-color: #A41D21;
+    }
+
+    .wdg_programacion_01 > div .prev, 
+    .wdg_programacion_01 > div .next {
+        background: none repeat scroll 0 0 #AAAAAA;
+        display: none;
+        height: 28px;
+        left: 0;
+        float: left;
+        top: 0;
+        width: 29px;
+    }
+
+    .wdg_programacion_01 > div .next {
+        left: 29px;
+        margin-left: 1px;
+    }
+
+    .wdg_programacion_01 > div .full-timetable {
+        background: none repeat scroll 0 0 #E6E6E6;
+        box-shadow: 0 0 7px #C0C0C0 inset;
+        display: none;
+        height: 28px;
+        line-height: 28px;
+        margin-left: 83px;
+        padding-left: 21px;
+    }
+
+    .wdg_programacion_01 > div .full-timetable span {
+        color: #000000;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .wdg_programacion_01 > div .full-timetable {
+        line-height: 28px;
+    }
+
+    .wdg_programacion_01 a.prev, 
+    .wdg_programacion_01 a.next {
+        background-color: #A41D21;
+    }
+    .wdg_programacion_01 > div .tvsa-caret-up{
+        margin: 2px 0 0 8px; 
+        color: #fff
+    }
+    .wdg_programacion_01 > div .tvsa-caret-down{
+        margin: 2px 0 0 12px; 
+        color: #fff
+    }
+	.wdg_programacion_01 .bold{	
+		font-weight:bold;
+	}
+    .wdg_programacion_01 .degraded{
+        top:490px;
+		width:100%;
+    }
+    .wdg_programacion_01 .wdg_programacion_01_verMas{
+        background-color: #CCCCCC;
+        display: block;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+		margin-top:0px;
+    }
+	.wdg_programacion_01  li .vid_player_01{
+		clear: both;
+		height:auto;
+		overflow: hidden;
+	}
+	.wdg_programacion_01 .scroll{
+		height:500px;
+		width:104%;
+		overflow:auto;
+		overflow-x:hidden;
+		position:relative;
+	}
+	.wdg_programacion_01 .mantener{
+		width:99%;	
+	}
+	
+	.wdg_programacion_01 .logoTeam{
+		float: left;
+		width:50px;
+		margin-right:25px;
+		min-height:45px;
+	}
+	
+	.wdg_programacion_01 .wdg_scroll_dropdown{
+		margin-bottom:21px;
+	}
+	
+	.wdg_programacion_01 .carrusel{
+		width:624px;
+		margin-bottom:12px;
+		height:40px;
+		border-bottom:2px solid #D9A961;
+	}
+	
+	.wdg_programacion_01 .carrusel .arrow_left,
+	.wdg_programacion_01 .carrusel .arrow_right,
+	.wdg_programacion_01 .carrusel .scroll{
+		float:left;
+		line-height:40px;
+	}
+	
+	.wdg_programacion_01 .carrusel .scroll{
+		width:576px;
+		margin: 0 14px;
+		overflow:hidden;
+		height: 40px;
+	}
+	
+	.wdg_programacion_01 .carrusel .scroll ul{
+		height:40px;
+		width:1148px;
+	}
+	
+	.wdg_programacion_01 .carrusel .scroll ul li{
+		width:82px;
+		line-height: 17px;
+		text-align:center;
+		height:40px;
+		font-size:13px;
+		font-weight:bold;
+		float:left;
+		padding-top:4px;
+		color:#333;
+    }
+    
+    .wdg_programacion_01 .carrusel .scroll ul li .textcolor-title4{
+        font-style:italic;
+        font-weight:normal;
+        font-size: 11px;
+    }
+	
+	.wdg_programacion_01 .carrusel .scroll ul li.selected,
+	.wdg_programacion_01 .carrusel .scroll ul li.selected a,
+	.wdg_programacion_01 .carrusel .scroll ul li.selected .textcolor-title4{
+		color:#FFF !important;
+		background-color:#D9A961 !important;
+	}
+    .wdg_programacion_01 .inactive{
+        color: #8f8f8e;
+    }
+    .wdg_programacion_01 .active{
+        color: #474a4d;
+    }
+}

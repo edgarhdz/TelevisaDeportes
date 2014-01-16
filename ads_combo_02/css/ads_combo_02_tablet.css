@@ -1,0 +1,29 @@
+@media screen and (min-width: 624px){
+    .ads_combo_02{
+        margin-bottom: 24px;
+        margin-top: 0;
+        clear: both;
+    }
+    .ads_combo_02 .mobile_banner{
+        display: none;
+    }
+    .ads_combo_02 .tablet_banner_portrait{
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+        height: 120px;
+        overflow: hidden;
+    }
+    .ads_combo_02 .mobile_banner{
+        display: none;
+    }
+    .ads_combo_02 .desktop_banner {
+        display: none;
+    }
+    .ads_combo_02 .tablet_banner_landscape{
+        display: none;
+    }
+        .out-of-page-banners{
+        display: none;
+    }
+}

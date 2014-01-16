@@ -1,0 +1,149 @@
+@media screen {
+
+	/*START: carouseltype1a_ (Small)*/
+	.mix_8arts_02{
+		margin-bottom: 10px;
+        overflow: hidden;
+		max-width:100%;;
+	}
+	
+	.mix_8arts_02 .type1a_ {
+	  overflow: hidden;
+	  width: 100%;
+	}
+	.mix_8arts_02 .type1a_ div {
+	  width: 100%;
+	  height: auto;
+	}
+	.mix_8arts_02 .type1a_ .title {
+	  border-bottom: 1px solid #CCC;
+	}
+	.mix_8arts_02 .type1a_ div ul {
+	  width: 55px;
+	  margin: 0;
+	  float: right;
+	}
+	
+	
+	.mix_8arts_02 .type1a_ div ul li {
+	  width: auto;
+	  height: auto;
+	  float: left;
+	  margin: 0;
+	}
+	.mix_8arts_02 .type1a_ div ul li a {
+	  width: 15px;
+	  height: 9px;
+	  display: none;
+	  padding: 0;
+	}	
+	
+	.mix_8arts_02 .type1a_.showArrows .title h1 {
+	  width: 50%;
+	}
+	.mix_8arts_02 .type1a_.showArrows .title h1 a span.icon {
+	  display: none;
+	}
+	.mix_8arts_02 .type1a_.showArrows .title ul li a {
+	  display: block;
+	}
+	.mix_8arts_02 .type1a_ .carrusel {
+	  width: 100%;
+	  overflow: hidden;
+	}
+	.mix_8arts_02 .type1a_ .carrusel ul {
+	  float: none;
+	  margin: 0;
+	  margin-top: 25px;
+	  width: 100%;
+	}
+	.mix_8arts_02 .type1a_ .carrusel ul:before,
+	.mix_8arts_02 .type1a_ .carrusel ul:after {
+	  content: "";
+	  display: table;
+	}
+	.mix_8arts_02 .type1a_ .carrusel ul:after {
+	  clear: both;
+	}
+	
+	.mix_8arts_02 .type1a_ .carrusel ul li {
+	  display: block;
+	  float: none;
+	  width: 100%;
+	  height: auto;
+	  clear:both;
+	  margin-bottom:10px;
+	  overflow:hidden;
+	}
+		
+	.mix_8arts_02 .type1a_ .carrusel ul li span {
+		float:left;
+		font-size:14px;
+		border-left: 1px solid #CCCCCC;
+	  	height: 56px;
+	  	margin-left: 15px;
+    	padding-left: 15px;
+		padding-top:5px;
+		width:60%;
+	}
+	.mix_8arts_02 .type1a_ .carrusel ul li span a {
+	  color: black;
+	  background: none;
+	  width: auto;
+	  height: auto;
+	  font-weight: bold;
+	}
+	.mix_8arts_02 .type1a_ .carrusel ul li p {
+	  font-style: normal;
+	  color: #d6a256;
+	  font-size: 11px;
+	  font-weight:bold;
+	}
+	.mix_8arts_02 .type1a_ .carrusel ul li a {
+	  width: auto;
+	  height: auto;
+	  padding: auto;
+	  background: none;
+	  display: block;
+	}
+	.mix_8arts_02 .type1a_ .carrusel ul li a img {
+	  width: 100px;
+	  float: left;
+	}	
+	
+	/*END: carouseltype1a_ (Small)*/
+	
+	.mix_8arts_02 div.title h3 {
+	  background-color: #A70A0B;
+	}
+	
+	.mix_8arts_02 .type1a_ .title h3 a {
+        text-decoration: none;
+        color: #fff;
+        height: 24px;
+        display: block;
+        padding: 5px 0 5px 22px;        
+		background: none;
+        -webkit-background-size: 12px 12px;
+        -moz-background-size: 12px 20px;
+        -o-background-size: 12px 12px;
+        background-size: 12px 20px;
+    }
+	
+	.mix_8arts_02 .overlay {
+		background-color: #A41D21;
+		color: #FFFFFF;
+		display: block;
+		height: 55px;
+		margin-top: 35px;
+		opacity: 0.75;
+		padding-left: 1px !important;
+		position: absolute;
+		width: 20px !important;
+	}
+	
+	.mix_8arts_02 .horario{
+		display:none;
+	}
+	
+}

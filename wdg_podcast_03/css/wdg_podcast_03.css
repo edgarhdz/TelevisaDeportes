@@ -1,0 +1,68 @@
+/* 
+    Document   : wdg_podcast_03
+    Created on : 16/Jun/2013, 04:02:15 PM
+    Author     : Luis Jesús Ruelas Merino
+    Description:
+*/
+@media screen and (min-width: 948px){ 
+	.wdg_podcast_03 .container{
+		height: 256px;
+		margin-bottom:0;
+	}
+	.wdg_podcast_03 .scroll{
+		height: 256px;
+		overflow: hidden;
+	}
+	.wdg_podcast_03 .see_more{
+		display: block;
+	}
+	.wdg_podcast_03 .degraded{
+		display: none;
+	}
+	.wdg_podcast_03 > div .full-timetable {
+	 	background:#E6E6E6; 	
+	 	height:28px;
+	 	line-height:28px;
+	 	margin-left: 84px;
+	 	padding-left:27px;	 	
+	 }
+	 .wdg_podcast_03 > div .full-timetable span{	 	
+	 	color:#232323;
+	 	font-style: normal;
+	 	font-weight: bold;
+	 	float: left;
+	 }
+	 .wdg_podcast_03 .controls{
+	 	border-top: 0px solid #D1D1D1;
+	 }
+
+	.wdg_podcast_03 .container{
+		border-top: 1px solid #ccc;
+	} 
+	 
+	.ie7 .wdg_podcast_03 .scroll {
+		height: 258px !important;
+		overflow: hidden;
+	}
+	
+	.ie7 .wdg_podcast_03 .container_podcast,
+    .ie8 .wdg_podcast_03 .container_podcast,
+    .ie9 .wdg_podcast_03 .container_podcast,
+    .ie10 .wdg_podcast_03 .container_podcast{
+    	height: 51px;
+
+    }
+	
+	.ie7 .wdg_podcast_03 .container_podcast {
+    	border-bottom: 1px solid #ccc;
+    }
+	
+	.ie7 .wdg_podcast_03 .container,
+	.ie8 .wdg_podcast_03 .container{
+		border-bottom: 1px solid #ccc;
+	}
+
+	.ie .wdg_podcast_03 .container{
+		border-top: 1px solid #ccc;
+	}  
+} 

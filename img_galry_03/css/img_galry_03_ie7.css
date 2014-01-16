@@ -1,0 +1,11 @@
+.ie7 .img_galry_03 #videobtn {
+	top: 36.5%;
+}
+
+.ie7 .img_galry_03 #fullGallery {
+	top: 36.5%;
+}
+.ie7 .img_galry_03 #carrusel2 .selectedGallery{
+	display:none;
+}
+

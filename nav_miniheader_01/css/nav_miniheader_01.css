@@ -1,0 +1,38 @@
+/* Mobile only */
+@media screen and (max-width: 623px){
+    a.televisa.deportes {width:200px; height:75px; }
+    a.televisa.deportes span {}
+}
+/* Tablet and Desktop */
+@media screen and (min-width: 624px){
+    header.nav_header_01 div.topnav {height:1px!important; margin-top:-1px!important; border:0!important; }
+    header.nav_header_01 a.televisa.deportes {width:110px!important; height:76px!important;}
+	div.title {height:53px!important;}
+	header.nav_header_01 div.title strong {left:154px;top:19px;}
+	.ie7 header.nav_header_01 div.title strong {left:154px;top:19px;}
+	.ie8 header.nav_header_01 div.title strong {left:154px;top:19px;}  
+	header.nav_header_01 div.topnav a.televisa span {margin:6px auto 0 auto!important;width:64px;}
+}
+/* Desktop Only */
+@media screen and (min-width: 948px){
+    /* Logo Noticieros */
+    header.nav_header_01 div.topnav a.televisa.noticieros span {
+        background: url(../global/img/sprite_logos_televisa.png) no-repeat -81px
+            0;
+        height: 61px;
+    }
+
+    /* Logo Deportes */
+    header.nav_header_01 div.topnav a.televisa.deportes span {
+        background: url(../global/img/sprite_logos_televisa.png) no-repeat -81px
+            -77px;
+        height: 62px;
+    }
+
+    /* Logo Resto */
+    header.nav_header_01 div.topnav a.televisa span {
+        background: url(../global/img/sprite_logos_televisa.png) no-repeat -81px
+            -155px;
+        height: 52px;
+    }
+}

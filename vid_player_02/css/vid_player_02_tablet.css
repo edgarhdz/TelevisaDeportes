@@ -1,0 +1,127 @@
+@media screen and (min-width: 624px){
+
+	/*Contenedor*/
+    .vid_player_02{
+        position: relative;
+        width: 625px;
+        background-color: transparent;
+        margin-bottom: 36px;
+    }
+	
+	.vid_player_02 .overlay .txt1 .introtxt,
+	.vid_player_02 .overlay .txt2 {
+        display:block;
+    }
+
+    .vid_player_02 .txt1{
+        float: left;
+        width: 225px;
+        height: auto;
+        padding-right: 24px;
+        margin-right: 10px;
+		background: url("../img/dotted-vertical.png") repeat-y right;
+    }
+
+    .vid_player_02 .txt2{
+        margin-bottom:10px;
+        padding-bottom: 25px;
+    }
+
+    .vid_player_02 .overlay {
+        padding: 0px 25px;
+		position: relative;
+		padding-left: 36px;
+    }
+
+    .ie8 .vid_player_02 .txt2{
+        margin-bottom: 0px;
+    }
+
+    .vid_player_02 .txt2,
+    .vid_player_02 .txt3{
+        float:right;
+        width:280px;
+        padding:-15px;
+    }
+
+    .vid_player_02 .txt2 h3{
+        font-size:14px;
+        font-weight:bold;
+        font-style:italic;
+        color:#A41D21;
+    }
+    .vid_player_02 .txt2 h4, 
+    .vid_player_02 .txt3{
+        font-size:13px;
+        font-style:italic;
+        font-weight:normal;
+        color:#999;
+    }
+
+    .vid_player_02 .txt3 li{
+        margin-left:0px !important;
+		padding-top:24px;
+    }
+
+    .vid_player_02 #vid_player_02_txts{
+        position: relative;
+        height: auto;
+        display: inline-block;
+        padding-top: 20px;
+		padding-bottom:10px;
+    }
+    
+    /* Texto del Overlay */
+    .vid_player_02 .vid_player_02_black {
+        display: block;
+        margin-right: 40px;
+        font-weight: bold;
+        font-size: 13px;
+        *font-size: 13px;
+        font-size: 13px\9;
+    }
+
+    .vid_player_02 .vid_player_02_gray {
+        display: block;
+        left: 60px;
+        top: 320px;
+        font-style: italic;
+        margin-right: 40px;
+        color: #666666;
+        font-weight: bold;
+        font-size: 13px;
+        *font-size: 13px;
+        font-size: 13px\9;
+    }
+	
+    .vid_player_02 div.vid_player_02_image{
+         display: block;
+		height: 380px;
+		position: relative;
+		width: 625px;
+    }
+
+    .vid_player_02 div.vid_player_02_image img{
+        width: 624px;
+        height:350px;
+    }
+    
+    .vid_player_02 .vid_player_02_txtdetail.topspace{
+        margin-top: 10px;
+    }
+	
+	.vid_player_02 .dotted{
+		background: none;
+    }
+	
+	.vid_player_02  #videobtn {
+        margin-top: -123px;
+    }
+	
+	.vid_player_02 div.vid_player_02_whtbkg {
+		padding:11px 36px;
+	}
+	.vid_player_02 .txt3{
+		padding-top:14px;
+	}
+}

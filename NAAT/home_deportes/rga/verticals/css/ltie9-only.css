@@ -1,0 +1,183 @@
+.sprite {
+  zoom: 1;
+  *display: inline;
+}
+.type1a {
+  width: 100%;
+  overflow: hidden;
+}
+.type1a ul.photos {
+  width: 2280px !important;
+  overflow: hidden;
+}
+.type1a .title span ul {
+  width: 3.438em !important;
+  height: auto;
+}
+div.title h3 a {
+  background-position: right 0;
+}
+.timetable ul li div {
+  padding-top: 16px;
+}
+#home .type3 ul li.last {
+  display: none;
+}
+.hero-slider .wrapper img {
+  margin-top: 0;
+}
+header.showmenu nav {
+  zoom: 1;
+}
+header.main ul li a span {
+  right: 4px !important;
+  /*background: transparent url("http://54.243.192.45/rga/verticals/img/header-sprites.png") no-repeat -430px -38px;*/
+
+}
+header.main div.television.section div.subsections ul.social li.dropdown ul {
+  width: 21.2em;
+}
+.sprite.dropdown {
+  height: 12px !important;
+  background: transparent url("../img/global-sprites.png") no-repeat -168px 0 !important;
+}
+.sprite.schedule {
+  background: transparent url("../img/global-sprites.png") no-repeat -146px -22px !important;
+}
+.sprite.live {
+  background: transparent url("../img/global-sprites.png") no-repeat -107px -22px !important;
+}
+.sprite.twitter {
+  background: transparent url("../img/global-sprites.png") no-repeat -126px 0 !important;
+}
+.sprite.facebook {
+  background: transparent url("../img/global-sprites.png") no-repeat -146px 0 !important;
+}
+.television .sprite.video {
+  background: transparent url("../img/global-sprites.png") no-repeat -226px -80px !important;
+}
+.television .sprite.photo {
+  background: transparent url("../img/global-sprites.png") no-repeat -204px -80px !important;
+}
+.social {
+  position: relative;
+}
+.social .sprite.dropdown {
+  height: 9px !important;
+}
+.social ul li a span {
+  background: transparent url("../img/global-sprites.png") no-repeat 0 0;
+}
+.social .dropdown ul {
+  height: 32px !important;
+  top: auto !important;
+  bottom: -2px !important;
+  right: 32px !important;
+}
+div.videogallery div.thumbsContainer > ul {
+  width: 85.35%;
+}
+div.videogallery div.thumbsContainer > ul li {
+  width: 27.788%;
+}
+div.videogallery div.thumbsContainer ul li {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .twitterers2 {
+    height: 302px;
+    overflow: hidden;
+  }
+  #home .twitterers2 {
+    height: 603px;
+  }
+  #ultimahora {
+    height: 302px !important;
+    overflow: hidden !important;
+  }
+  .type3 ul li {
+    width: 284px;
+    float: left;
+  }
+  /* #deportes {
+          #masleido1 .mostread ul {
+              height: 10em;
+              overflow: hidden;
+          }
+      }*/
+}
+.footerULBorderLeft {
+  border-left: solid 1px #dadada;
+}
+footer .white-row div > ul {
+  border-left: solid 1px #dadada;
+}
+footer .white-row div > ul.estilo,
+footer .white-row div > ul.television {
+  border-left: solid 1px #dadada;
+}
+footer .white-row div > ul:first-child {
+  border-left: 0 none;
+}
+footer.footerVertical .white-row div div ul {
+  border-left: 1px solid #dadada;
+}
+#news #horarios .timetable > ul {
+  height: 12em;
+}
+#news #opinion .thumbnaillist > ul.articles,
+#news #bloggers .thumbnaillist > ul.articles {
+  height: 16em;
+  overflow: hidden;
+}
+#news #podcasts .thumbnaillist > ul.articlesThumbList {
+  height: 15em;
+  overflow: hidden;
+}
+#news #ultimahora {
+  height: 20.8em !important;
+  overflow: hidden !important;
+}
+#television div.container-six div.right div.left2 div.thumbnaillist ul.articlesThumbList {
+  height: 14em;
+  overflow: hidden;
+}
+#lifestyle #sponsored div.thumbnaillist ul.articlesThumbList {
+  height: 35em;
+  overflow: hidden;
+}
+#lifestyle div.main div.container-one div div.left #masleido div.mostread2 ul {
+  height: 35em;
+  overflow: hidden;
+}
+#entretenimiento div.container-one div.right div.right2 div.mostread ul {
+  height: 36em;
+  overflow: hidden;
+}
+#entretenimiento div.container-four div.right div.playnow ul {
+  height: 28em;
+  overflow: hidden;
+}
+#deportes #masleido1 .mostread ul {
+  height: 36em;
+  overflow: hidden;
+}
+#deportes div.main div.container-three div.right div.timetable ul {
+  height: 29.7em;
+  overflow: hidden;
+}
+#deportes div.customdropdown div div select.select {
+  width: 64%;
+}
+.videogallery .thumbsContainer ul li:nth-child(n+4) {
+  display: block;
+}
+/* fix overflow auto not working in IE7 */
+.carouseltype2 div:last-child,
+#deportes div.main div.container-four div.right #goles .customdropdown ul,
+.videogallery .thumbsContainer > div,
+#deportes div.main div.container-six div.right div.left2 #twitter .twitterers > ul,
+.twitterers ul,
+.thumbnaillist ul {
+  position: relative;
+}

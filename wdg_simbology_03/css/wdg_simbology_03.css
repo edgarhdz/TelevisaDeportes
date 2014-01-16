@@ -1,0 +1,13 @@
+/*  
+    Document   : wdg_simbology_03
+    Created on : 18/09/2013, 10:04:00 am
+    Author     : Luis Jesús Ruelas Merino
+    Description: 
+ */
+@media screen and (min-width: 948px){
+    .ie7 .wdg_simbology_03 .title_simbologia{
+        text-align: left;
+    }
+    .ie7 .wdg_simbology_03 strong{
+        margin-left: 275px;    }
+}

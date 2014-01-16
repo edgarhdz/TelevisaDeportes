@@ -1,0 +1,78 @@
+@media screen and (min-width: 624px) {
+	.str_tdn_01 {
+		width:624px;
+		height:auto;
+		overflow:hidden;
+		position:relative;
+		margin-bottom: 18px
+	}
+	.str_tdn_01 .mex {
+	margin-left: 280px;
+	}
+	.str_tdn_01 .state {
+		width:152px;
+		margin-left: 0px;
+	}
+	.str_tdn_01 .national {
+	
+	}
+	.str_tdn_01 .international {
+	padding-left: 0px;
+	width: 100%;
+	}
+	.str_tdn_01 .national li {
+	float: left;
+    margin-left: 0;
+    margin-right: 10px;
+    width: 23%;
+	}
+	.str_tdn_01 .qualifies {
+	width: 100%;
+	}
+	.str_tdn_01 .qualifies_ext {
+	width: 100%;
+	}
+	.str_tdn_01 li p {
+	}
+	.str_tdn_01 li:nth-child(3n+1) p {
+	background: url("../img/dotted-vertical.png") repeat-y scroll right center transparent;
+	}
+	
+	.str_tdn_01 li:nth-child(4n+1) p {
+	background: none;
+	}
+	.str_tdn_01 .international li {
+	width:23%;
+	margin-left: 0px;
+	margin-right:10px;
+	}
+	.str_tdn_01 .international li p {
+		background: url("../img/dotted-vertical.png") repeat-y scroll right center transparent;
+	}
+	.str_tdn_01 .ext {
+	margin-left: 255px;
+	}
+	.str_tdn_01 .especial {
+	border-right:none !important;
+	background: none !important;
+	}
+	.str_tdn_01 .international li:nth-last-child(-n+3),
+	.str_tdn_01 .national li:nth-last-child(-n+4){
+		background: none !important;
+	}
+	
+	.str_tdn_01 .scroll {
+		width:640px;
+		height:auto;
+		overflow:hidden;
+		position:relative;
+	}
+	.str_tdn_01 .degraded {
+	display:none;
+	}
+	
+	.str_tdn_01 .title {		
+		padding-bottom: 32px;
+		padding-left:0;
+	}
+}

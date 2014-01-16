@@ -1,0 +1,9 @@
+@media screen and (min-width: 624px){
+    .wdg_avgfield_01{
+        width: 300px;
+        margin-bottom: 36px;
+    }
+	.wdg_avgfield_01 div.str_pleca_01_title h3{
+		width:63.7%;
+	}
+}

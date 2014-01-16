@@ -1,0 +1,80 @@
+/*Colors*/
+.background-color1{
+	background-color: #8f8f8f !important;
+}
+.background-color-pleca1 {
+	background-color: #8f8f8f !important;
+}
+.border-bottom2{
+	border-bottom: 2px solid #298300 !important;
+}
+/*BORDE COMPLETO */
+.border-color1,
+ul.galleryThumbs li.active span.border, 
+ul.galleryThumbs li:hover span.border,
+ul.ulcarrusel li a.active span.border, 
+ul.ulcarrusel li a:hover span.border
+{
+	border: 3px solid #8f8f8f !important;
+}
+.textcolor-title1,
+div.img_galry_01 a.album span.description span.td{
+	color: #8f8f8f !important;
+}
+
+.textcolor-title2{
+	color: #298300 !important;
+}
+.mix_1arts_08 div .articleMedium div h2 a{
+	color:#000;
+}
+.border-color1{
+	border: 3px solid #298300 !important;
+}
+
+.back_overlay,
+.selectedGallery,
+a.image span.icon,
+a.album:focus span.overlay,
+a.album.active span.overlay,
+a.album span.icon {
+	background: none repeat scroll 0 0 rgba(143, 143, 143, 0.6) !important;
+}
+.ie7 .back_overlay,
+.ie8 .back_overlay{
+	background-color: rgb(143, 143, 143) !important;
+}
+a.album:hover span.overlay{
+	background: none !important;
+	border: 3px solid #8f8f8f !important;
+}
+.controls .bgactive{
+	background-color: #878787 !important;
+}
+.controls .bgactive span{
+		color:#FFFFFF !important;
+	}
+.controls .bginactive{
+	background-color: #D5D5D5 !important;
+}
+.controls .bginactive span{
+		color:#EFEFEF !important;
+}
+.carousel_nav .bgactive{
+	background-color: #878787 !important;
+}
+.carousel_nav .bgactive i{
+		color:#FFFFFF !important;
+	}
+.carousel_nav .bginactive{
+	background-color: #D5D5D5 !important;
+}
+.carousel_nav .bginactive i{
+		color:#EFEFEF !important;
+}
+@media screen and (max-width: 623px) {	
+	ul.ulcarrusel li a.active span.border,
+	ul.ulcarrusel li a:hover span.border{
+		border:none !important;
+	}
+}

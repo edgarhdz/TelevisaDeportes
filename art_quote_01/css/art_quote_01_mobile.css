@@ -1,0 +1,9 @@
+/* only mobile */
+@media screen and (max-width: 623px) {
+    blockquote.art_quote_01{
+        max-width: 100%;
+        padding:5%;
+        border:0px none;
+        margin:0;
+    }
+}

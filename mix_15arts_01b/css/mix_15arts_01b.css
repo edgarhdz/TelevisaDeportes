@@ -1,0 +1,24 @@
+@media screen and (min-width: 948px){
+	.ie7 .mix_15arts_01b .list_container {
+		display: block;
+		width: 630px;
+		float: left;
+	} 
+
+	.ie8 .mix_15arts_01b .list_container {
+		display: block;
+		width: 650px;
+		float: left;
+	}  
+
+	.ie8 .mix_15arts_01b .filterResultado .lineaResultado {
+		width: 200px; 
+		float: left;
+		border-top: 1px solid #CCC;
+		border-bottom: 1px solid #CCC;
+		height: 30px; 
+	}
+	.ie8 .mix_15arts_01b .filterResultado .lineaResultado:nth-child(2) {
+		margin: 0 24px;
+	}
+}

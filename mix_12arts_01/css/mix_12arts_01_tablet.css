@@ -1,0 +1,76 @@
+@media screen and (min-width: 624px){
+	
+	/* START: carouseltype1a_ (Medium) */
+	.mix_12arts_01{
+		margin-bottom: 25px;
+        overflow: hidden;
+	}
+	
+	.mix_12arts_01 div.str_pleca_01_title h3{
+		font-size: 14px;
+		width:300px;
+	}
+	
+	.mix_12arts_01 .type1a_ {
+	  padding-left: 0;
+	}
+	
+	
+	.mix_12arts_01 .type1a_ ul {
+	  margin: 1.563em 0 auto;
+	}
+	
+
+	.mix_12arts_01 .type1a_ .carrusel ul {
+	  margin-top: 0;
+	}
+	/* END: carouseltype1a_ (Medium) */
+	
+	
+	
+	
+	/* BEGIN: Global (Medium) */
+	.mix_12arts_01 div.title {
+	  margin-bottom: 1.5em;
+	}
+	.mix_12arts_01 div.title:before,
+	.mix_12arts_01 div.title:after {
+	  content: "";
+	  display: table;
+	}
+	.mix_12arts_01 div.title:after {
+	  clear: both;
+	}
+	.mix_12arts_01 div.title {
+	  zoom: 1;
+	  /* For IE 6/7 (trigger hasLayout) */
+	
+	}
+	.mix_12arts_01 div.title h3 {
+	  width: 57%;
+	  max-width: 18.75em;
+	  float: left;
+	}
+	.mix_12arts_01 div.title h3 a {
+	  background-image: none !important;
+	}
+	.mix_12arts_01 div.title h3 a span.icon {
+	  display: none;
+	}
+	
+	
+	
+	.ie7 .mix_12arts_01 .str_pleca_01 .ocultar i, 
+	.ie7 .mix_12arts_01 .str_pleca_01 .mostrar i{
+		color: #515151;
+		font-weight:normal;
+	}
+	
+	.ie7 .mix_12arts_01 .nav_paginator_01 ul{
+		margin-top: 5px;
+	}	
+	.ie7 .mix_12arts_01 .nav_paginator_01 ul li a{           
+	    line-height: 20px;
+	    height: 20px;
+	}	
+}

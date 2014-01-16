@@ -1,0 +1,66 @@
+@media screen and (min-width: 624px){
+    .mix_18arts_01{
+        width: 624px;
+        margin-bottom: 24px;
+    }	
+	.mix_18arts_01 .pleca_superior{
+		height:33px;  	 
+	}
+    .mix_18arts_01 .pleca_superior h3{
+        line-height:30px;
+    } 	
+	.mix_18arts_01 .background-color1 {
+		height: 30px;
+		width: 48%;
+	}
+	.mix_18arts_01 .mix_18arts_01_dropdown {
+		width: 322px;
+		line-height: 30px;
+		height: 30px;	
+	}
+	.mix_18arts_01 .mix_18arts_01_listcontainer ul li {
+		width: 300px;
+	}
+	.mix_18arts_01 .mix_18arts_01_dropdown .mix_18arts_01_dropdowncontent p {
+		line-height: 30px;
+	}
+	/*Fin de pleca*/
+	.mix_18arts_01 .teams_stadistics_title{
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 6px;
+		padding-left: 50px;
+		font-style: italic;
+		margin-bottom:14px;
+	}	
+	.mix_18arts_01  .estadios{
+		padding-left:0px;
+		height: auto;
+		overflow: hidden;
+	}	
+    .mix_18arts_01 .see_more{
+		display: none;
+	}	
+	.mix_18arts_01 .mix_1arts_14{
+		float:left;
+		border-bottom:0;
+		margin-bottom: 8px;
+		padding-bottom: 0;
+		display:block;
+	}
+	.mix_18arts_01 .bordes{
+		display:block;
+		margin-top:0px;
+		padding-bottom:0px;
+		border-bottom: none;
+	}
+    .mix_18arts_01 .bordes .mix_1arts_14{
+    	padding: 0px 11px;
+    	border-right: 1px solid #CCC;
+    	margin-right: 11px;		
+		border-left: 1px solid #CCC;
+    	margin-left: 11px;		
+		border-bottom:0;
+    }
+    
+        
+}

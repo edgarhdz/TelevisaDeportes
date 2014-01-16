@@ -1,0 +1,52 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_ficha_jugador_02 .header1{
+        width:100%;
+        min-height:80px;
+    }
+    /*Wrap*/
+    .td_ficha_jugador_02 .main{
+        width: 100%;
+    }
+	.td_ficha_jugador_02 .main .wdg_social_01 {
+		height: 60px;
+		margin: 0 auto;
+		width: 300px;
+	}
+    /* Banners */ /* Titulo */
+    .td_ficha_jugador_02 .main .topTitle{
+        width:100%;
+        clear:both;
+    }
+    .td_ficha_jugador_02 .main .c1{
+        width:100%;
+        clear:both;
+        min-height:200px;
+    }
+	.td_ficha_jugador_02 .main .c1 .c1_2r {
+    	margin-bottom: 15px;
+		margin-top:11px;
+	}
+	.td_ficha_jugador_02 .main .c1 .c1_3{
+		clear:both;
+    }
+    .td_ficha_jugador_02 .main .c2_1,
+    .td_ficha_jugador_02 .main .c2_2,
+	.td_ficha_jugador_02 .main .c2_3{
+        width: 100%;
+    }
+    .td_ficha_jugador_02 .main .c2_2{
+    	text-align: center;
+    }
+    /*Agregar borde superior a "mix_1arts_04"*/
+    .td_ficha_jugador_02 .main .c1 .c1_6 .mix_1arts_04{
+    	background: url(../../img/dotted-horizontal.png) repeat-x top;
+    }
+    .td_ficha_jugador_02 .main .c1 .c1_6 .mix_1arts_04 .left_div{
+    	margin-top: 24px;
+    }
+    .td_ficha_jugador_02 .main .c1 .c1_6 .mix_1arts_04 .right_div{
+    	margin-top: 24px;
+    }
+    
+}

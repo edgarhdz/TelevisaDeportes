@@ -1,0 +1,21 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_video_detalle_gde_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_video_detalle_gde_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_video_detalle_gde_01 .main > div{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_video_detalle_gde_01 .main .c7_1{
+		width:100%;
+	}
+	
+}

@@ -1,0 +1,7 @@
+@media screen and (min-width: 624px){
+    .wdg_mostrated_02{
+        width: 300px;
+        display: none;
+		margin-bottom: 36px;
+    }
+}

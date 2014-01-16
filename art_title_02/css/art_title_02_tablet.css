@@ -1,0 +1,12 @@
+@media screen and (min-width: 624px){
+    /* BEGIN: Global (Medium) */
+    div.art_title_02 {
+        margin-bottom: 19px;
+        margin-left: 0px;
+		margin-top: -6px;
+    }
+
+    div.art_title_02 h2{
+        font-size: 24px;
+    }
+}

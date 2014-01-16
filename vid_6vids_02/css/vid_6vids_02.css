@@ -1,0 +1,31 @@
+@media screen and (min-width: 948px){
+    /* BEGIN: Global (Large) */
+    .vid_6vids_02{
+        margin-bottom: 24px;
+    }
+    .vid_6vids_02 .bullets{
+        display: none;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa.showArrows .vid_6vids_02_title ul{
+        display: block;
+    }
+    .vid_6vids_02 .wdg_mix_carrousa .general{
+		height: 420px;
+	}
+	/*
+	.vid_6vids_02 .izq:nth-child(6) {
+		margin-left:0px;
+    }
+	*/
+	.vid_6vids_02 .izq1:nth-child(5) {
+		margin-left:0px;
+    }
+    
+    .vid_6vids_02 .izq1:nth-child(7) {
+		margin-left:24px;
+    }
+    .vid_6vids_02 .izq1:nth-child(9) {
+		margin-left:0px;
+    }
+    /* END: Global (Large) */
+}

@@ -1,0 +1,41 @@
+@media screen and (min-width: 948px){
+	
+	.wdg_altasbajas_result_03 > ul {
+      background-image:none;
+    }
+
+	.wdg_altasbajas_result_03 > div .prev, 
+    .wdg_altasbajas_result_03 > div .next {
+        display: block;
+    }
+	.wdg_altasbajas_result_03 .degradado{
+		display:none;
+	}
+
+	.ie7 .wdg_altasbajas_result_03 > ul li div:first-child {
+      left: 0;
+      filter: alpha(opacity=80);
+    }
+    .ie8 .wdg_altasbajas_result_03 > ul li div:first-child {
+      filter: alpha(opacity=80);
+    }
+	.wdg_altasbajas_result_03 .degraded{
+		display:none;
+	}
+	 .wdg_altasbajas_result_03 > div .full-timetable {
+	 	background:#E6E6E6; 	
+	 	height:28px;
+	 	line-height:28px;
+	 	margin-left: 85px;
+	 	padding-left:28px;	 	
+	 }
+	 .wdg_altasbajas_result_03 > div .full-timetable span{	 	
+	 	color:#232323;
+	 	font-style: normal;
+	 	font-weight: bold;
+	 	float: left;
+	 }
+	 .wdg_altasbajas_result_03 .controls {
+		display:block;
+	 }
+}

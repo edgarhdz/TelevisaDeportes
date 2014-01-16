@@ -1,0 +1,45 @@
+/* BEGIN: Global (Large) */
+.topBanner {
+  width: 955px;
+  height: 31px;
+}
+.wideBanner {
+  width: 955px;
+  height: 90px;
+}
+.videoGalleryModule {
+  float: left;
+}
+/* END: Global (Large) *//* BEGIN: <type3d(large)> */
+.type3d {
+  width: 300px;
+}
+.type3d ul li:last-child {
+  display: none;
+}
+/* END: <type3d(large)> *//* BEGIN: <type3e(large)> */
+.type3e {
+  width: 625px;
+}
+.type3e:before,
+.type3e:after {
+  content: "";
+  display: table;
+}
+.type3e:after {
+  clear: both;
+}
+.type3e {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+
+}
+.type3e ul li {
+  width: 300px;
+  float: right;
+  display: block;
+}
+.type3e ul li:first-child {
+  float: left;
+}
+/* END: <type3e(large)> */

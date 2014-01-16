@@ -1,0 +1,32 @@
+@media screen {
+	.mix_2arts_03 {
+		overflow: hidden;
+		clear: both;
+		display:none;
+	}
+	.mix_2arts_03 .str_pleca_01_title h3 {
+		background-color: #A70A0B;
+	}
+	.mix_2arts_03 .str_pleca_01_title h3 a {
+		color: #FFF;
+	}
+	.mix_2arts_03 .type3e ul {
+		list-style: none;
+		margin-top: 1.5em;
+		width: 100%;
+		overflow: hidden;
+		font-weight: bold;
+	}
+	.mix_2arts_03 .type3e_ {
+		position: relative;
+	}
+	.mix_2arts_03 .type3e ul li img {
+		width: 100%;
+	}
+	.mix_2arts_03 .mix_1arts_08 h3{
+		font-size: 13px;
+		font-style: italic;
+		font-weight: bold;
+		margin-bottom: 8px;
+	}
+}
