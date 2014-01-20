@@ -147,7 +147,14 @@ function getHtmlComponente($file,$componentsNeeded="") {
 	if($componentsNeeded==""){
 		$componentsNeeded=array('script','link');
 		}
-    $html = file_get_contents($file);
+    //$html = file_get_contents($file);
+    //$url = 'http://www.adserversite.com/ads.php';
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $file);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curl, CURLOPT_HEADER, false);
+    $html = curl_exec($curl);
+    curl_close($curl);
     $html = strip_only($html, $componentsNeeded);
 	
 			
@@ -160,8 +167,15 @@ function getHtmlComponente($file,$componentsNeeded="") {
 }
 
 function getHtmlComponenteVideo($file) {
-    $html = file_get_contents($file);
-
+    //$html = file_get_contents($file);
+    
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $file);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curl, CURLOPT_HEADER, false);
+    $html = curl_exec($curl);
+    curl_close($curl);
+    
     //$html = strip_only($html, array("script", "link"));
 
     if (preg_match('~<body[^>]*>(.*?)</body>~si', $html, $body)) {
