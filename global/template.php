@@ -49,32 +49,34 @@ function getData($components = array(), $directory = "css") {
             if($directory == "css")
             {
                 $ordercss =array();
-                foreach ($css as $_css)
+                if (is_array($css))
                 {
-					if(!is_array($_css)){
-					
-						if ($_css == $component . "_" . "mobile.css") 
-								$ordercss[0] = $_css;
-	
-						if ($_css == $component . "_" . "tablet.css") 
-								$ordercss[1] = $_css;
-	
-						if ($_css == $component. ".css") 
-								$ordercss[2] = $_css;
-	
-					   /* if ($_css == $component. "_ie7.css") 
-								$ordercss[3] = $_css;
-	
-						if ($_css == $component. "_ie8.css") 
-								$ordercss[4] = $_css;
-	
-						if ($_css == $component. "_ie9.css") 
-								$ordercss[5] = $_css;*/
-								
-						ksort($ordercss);
-					}
-                }
+                    foreach ($css as $_css)
+                    {
+                                            if(!is_array($_css)){
 
+                                                    if ($_css == $component . "_" . "mobile.css") 
+                                                                    $ordercss[0] = $_css;
+
+                                                    if ($_css == $component . "_" . "tablet.css") 
+                                                                    $ordercss[1] = $_css;
+
+                                                    if ($_css == $component. ".css") 
+                                                                    $ordercss[2] = $_css;
+
+                                               /* if ($_css == $component. "_ie7.css") 
+                                                                    $ordercss[3] = $_css;
+
+                                                    if ($_css == $component. "_ie8.css") 
+                                                                    $ordercss[4] = $_css;
+
+                                                    if ($_css == $component. "_ie9.css") 
+                                                                    $ordercss[5] = $_css;*/
+
+                                                    ksort($ordercss);
+                                            }
+                    }
+                }
                 
             }else
                 $ordercss = $css;
