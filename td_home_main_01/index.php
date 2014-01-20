@@ -1,5 +1,5 @@
 <?php
-define("COMPONENT", basename(__DIR__));
+define("COMPONENT", basename(__FILE__));
 define("JS", TRUE);
 $javascript = array("respond", "orientationfix", "modernizr");
 require_once("../global/template.php");
