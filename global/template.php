@@ -127,11 +127,11 @@ function getData($components = array(), $directory = "css") {
         }
     }
 
-    //file_put_contents("file." . $directory, $data);
+    file_put_contents("file." . $directory, $data);
     
-    $fp_ = fopen('file.'.$directory, 'w');
-    fwrite($fp_, $data);
-    fclose($fp_);
+//    $fp_ = fopen('file.'.$directory, 'w');
+//    fwrite($fp_, $data);
+//    fclose($fp_);
 }
 
 function strip_only($str, $tags, $stripContent = false) {
